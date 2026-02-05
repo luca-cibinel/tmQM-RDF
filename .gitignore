@@ -1,0 +1,65 @@
+#  PROJECT
+**/temp
+**/.Rhistory
+# -- DATA
+# --- Raw
+# ---- tmQMseries
+data/raw/tmQMseries/data/*
+!data/raw/tmQMseries/data/misc
+data/raw/pubChem/data/*
+# --- Derivative
+# ---- tmQM-RDF
+data/derivative/tmQM-RDF/intermediate/**/uNatQ_graphs
+data/derivative/tmQM-RDF/data/*
+!data/derivative/tmQM-RDF/data/archive
+# -- COMPUTATIONAL
+# --- Pattern mining
+computational/pattern_mining/results/**/patterns-*
+
+
+# -- MISC
+wandb
+**/.DS_store
+**/__pycache__/
+**/temp_*
+# -- EXPERIMENTS
+experiments/Gilmer-MPNN/
+experiments/hetero_graph/
+# -- COMPUTATIONAL
+# -- Substructures
+computational/substructures/pattern_mining/results/**/patterns-*/**
+computational/substructures/pattern_mining/results/**/triplepatterns.yml
+computational/substructures/processed_pattern_data/**/clusters
+computational/substructures/processed_pattern_data/**/patterns
+!computational/substructures/processed_pattern_data/**/*.yml
+!computational/substructures/processed_pattern_data/**/*.zip
+# ---- Bayes
+# ------ Structure learning
+computational/substructures/bayes/structure_learning/graphs/old
+computational/substructures/bayes/structure_learning/workspaces/old
+# ------ Inference
+computational/substructures/bayes/inference/ligand_blocks
+computational/substructures/bayes/inference/pruned
+# -- PathBoost
+computational/pathboost/local_data
+# -- DATA
+# ---- Pattern Matches
+data/pattern_matches/**/clusters/
+data/pattern_matches/**/results/
+data/pattern_matches/**/patterns/
+# ---- tmQM
+data/temp/*
+data/preprocessing/tmQM/*
+data/preprocessing/tmQMg/*
+data/preprocessing/tmQMg-L/*
+!data/preprocessing/tmQM/processed/
+!data/preprocessing/tmQMg/processed/
+!data/preprocessing/tmQMg-L/processed/
+!data/preprocessing/tmQM/processed/**
+!data/preprocessing/tmQMg/processed/**
+!data/preprocessing/tmQMg-L/processed/**
+data/**/uNatQ_graphs
+data/preprocessing/tmQMg-L/processed/step_1_ii_checkpoint.txt
+data/preprocessing/misc/*
+!data/preprocessing/misc/processed
+data/tmQM-RDF
