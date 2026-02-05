@@ -1,0 +1,5 @@
+
+TMCs: avg = 10917.974003429958, sum = 522032009
+TBox + Elements + Ligands: avg = 2329050.6, sum = 11645253
+Total: avg = 11160.360149731277, sum = 533677262
+        
