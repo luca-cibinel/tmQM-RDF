@@ -1,0 +1,161 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/complex/TMC/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns2:PCESMO ns2:hasLigand ns6:PCESMO_ligand783-0_0,
+        ns6:PCESMO_ligand783-0_1 ;
+    ns2:hasMetalCentre ns7:PCESMO_metalCentre_Mo .
+
+ns4:PCESMO_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_C_11>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_S_2> .
+
+ns4:PCESMO_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_1_N_0> .
+
+ns4:PCESMO_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_C_11>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_11_S_0> .
+
+ns4:PCESMO_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_12_N_3> .
+
+ns4:PCESMO_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_C_4>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_S_3> .
+
+ns4:PCESMO_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_3_N_1> .
+
+ns4:PCESMO_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_C_4>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_4_S_1> .
+
+ns4:PCESMO_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_C_5_N_2> .
+
+ns4:PCESMO_Mo_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_0>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_1>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_2>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_3> .
+
+ns4:PCESMO_N_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_1_N_0> .
+
+ns4:PCESMO_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_3_N_1> .
+
+ns4:PCESMO_N_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_5_N_2> .
+
+ns4:PCESMO_N_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_12_N_3> .
+
+ns7:PCESMO_metalCentre_Mo ns7:hasAtom ns4:PCESMO_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns3:bLc ns5:PCESMO_bondL_ligand783-0_0_0,
+        ns5:PCESMO_bondL_ligand783-0_0_1,
+        ns5:PCESMO_bondL_ligand783-0_1_0,
+        ns5:PCESMO_bondL_ligand783-0_1_1 .
+
+ns6:PCESMO_ligand783-0_0 ns6:hasAtom ns4:PCESMO_C_0,
+        ns4:PCESMO_C_1,
+        ns4:PCESMO_C_11,
+        ns4:PCESMO_C_12,
+        ns4:PCESMO_N_0,
+        ns4:PCESMO_N_3,
+        ns4:PCESMO_S_0,
+        ns4:PCESMO_S_2 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand783-0> ;
+    ns3:bLl ns5:PCESMO_bondL_ligand783-0_0_0,
+        ns5:PCESMO_bondL_ligand783-0_0_1 .
+
+ns6:PCESMO_ligand783-0_1 ns6:hasAtom ns4:PCESMO_C_2,
+        ns4:PCESMO_C_3,
+        ns4:PCESMO_C_4,
+        ns4:PCESMO_C_5,
+        ns4:PCESMO_N_1,
+        ns4:PCESMO_N_2,
+        ns4:PCESMO_S_1,
+        ns4:PCESMO_S_3 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand783-0> ;
+    ns3:bLl ns5:PCESMO_bondL_ligand783-0_1_0,
+        ns5:PCESMO_bondL_ligand783-0_1_1 .
+
+ns4:PCESMO_S_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_11_S_0>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_0> .
+
+ns4:PCESMO_S_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_4_S_1>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_1> .
+
+ns4:PCESMO_S_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_S_2>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_2> .
+
+ns4:PCESMO_S_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_S_3>,
+        <resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_3> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_0_S_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_11_S_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_12_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_1_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_2_S_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_3_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_4_S_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_C_5_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PCESMO_bond_Mo_0_S_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:PCESMO_bondL_ligand783-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:PCESMO_S_2 .
+
+ns5:PCESMO_bondL_ligand783-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:PCESMO_S_0 .
+
+ns5:PCESMO_bondL_ligand783-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:PCESMO_S_3 .
+
+ns5:PCESMO_bondL_ligand783-0_1_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:PCESMO_S_1 .
+

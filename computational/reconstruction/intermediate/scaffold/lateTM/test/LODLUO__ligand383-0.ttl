@@ -1,0 +1,362 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/atomic/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns4:LODLUO ns4:hasLigand ns1:LODLUO_ligand105-0_0,
+        ns1:LODLUO_ligand358-0_0,
+        ns1:LODLUO_ligand383-0_0 ;
+    ns4:hasMetalCentre ns6:LODLUO_metalCentre_Ni .
+
+ns3:LODLUO_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_1_H_0>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_1> .
+
+ns3:LODLUO_C_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_F_0_C_19> .
+
+ns3:LODLUO_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_2_H_1>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_2> .
+
+ns3:LODLUO_C_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_F_1_C_20> .
+
+ns3:LODLUO_C_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_F_2_C_21> .
+
+ns3:LODLUO_C_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_F_3_C_22> .
+
+ns3:LODLUO_C_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_F_4_C_23> .
+
+ns3:LODLUO_C_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_34>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_35>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_36> .
+
+ns3:LODLUO_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_C_5>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_C_6>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_H_2>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_3> .
+
+ns3:LODLUO_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_C_7>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_C_8>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_H_3>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_4> .
+
+ns3:LODLUO_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_C_5>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_4>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_5>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_6> .
+
+ns3:LODLUO_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_C_6>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_7>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_8>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_9> .
+
+ns3:LODLUO_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_C_7>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_10>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_11>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_12> .
+
+ns3:LODLUO_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_C_8>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_13>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_14>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_15> .
+
+ns3:LODLUO_F_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_F_0_C_19> .
+
+ns3:LODLUO_F_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_F_1_C_20> .
+
+ns3:LODLUO_F_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_F_2_C_21> .
+
+ns3:LODLUO_F_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_F_3_C_22> .
+
+ns3:LODLUO_F_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_F_4_C_23> .
+
+ns3:LODLUO_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_1_H_0> .
+
+ns3:LODLUO_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_2_H_1> .
+
+ns3:LODLUO_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_10> .
+
+ns3:LODLUO_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_11> .
+
+ns3:LODLUO_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_12> .
+
+ns3:LODLUO_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_13> .
+
+ns3:LODLUO_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_14> .
+
+ns3:LODLUO_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_15> .
+
+ns3:LODLUO_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_H_2> .
+
+ns3:LODLUO_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_H_3> .
+
+ns3:LODLUO_H_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_H_32> .
+
+ns3:LODLUO_H_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_H_33> .
+
+ns3:LODLUO_H_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_34> .
+
+ns3:LODLUO_H_35 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_35> .
+
+ns3:LODLUO_H_36 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_36> .
+
+ns3:LODLUO_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_4> .
+
+ns3:LODLUO_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_5> .
+
+ns3:LODLUO_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_6> .
+
+ns3:LODLUO_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_7> .
+
+ns3:LODLUO_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_8> .
+
+ns3:LODLUO_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_9> .
+
+ns3:LODLUO_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_1>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_4> .
+
+ns3:LODLUO_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_0>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_2>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_3> .
+
+ns3:LODLUO_Ni_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_0>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_18>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_24> .
+
+ns6:LODLUO_metalCentre_Ni ns6:hasAtom ns3:LODLUO_Ni_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns2:bLc ns7:LODLUO_bondL_ligand105-0_0_0,
+        ns7:LODLUO_bondL_ligand358-0_0_0,
+        ns7:LODLUO_bondL_ligand383-0_0_0 .
+
+ns1:LODLUO_ligand105-0_0 ns1:hasAtom ns3:LODLUO_C_18,
+        ns3:LODLUO_C_19,
+        ns3:LODLUO_C_20,
+        ns3:LODLUO_C_21,
+        ns3:LODLUO_C_22,
+        ns3:LODLUO_C_23,
+        ns3:LODLUO_F_0,
+        ns3:LODLUO_F_1,
+        ns3:LODLUO_F_2,
+        ns3:LODLUO_F_3,
+        ns3:LODLUO_F_4 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand105-0> ;
+    ns2:bLl ns7:LODLUO_bondL_ligand105-0_0_0 .
+
+ns1:LODLUO_ligand358-0_0 ns1:hasAtom ns3:LODLUO_C_24,
+        ns3:LODLUO_C_25,
+        ns3:LODLUO_H_32,
+        ns3:LODLUO_H_33,
+        ns3:LODLUO_H_34,
+        ns3:LODLUO_H_35,
+        ns3:LODLUO_H_36 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand358-0> ;
+    ns2:bLl ns7:LODLUO_bondL_ligand358-0_0_0 .
+
+ns1:LODLUO_ligand383-0_0 ns1:hasAtom ns3:LODLUO_C_0,
+        ns3:LODLUO_C_1,
+        ns3:LODLUO_C_2,
+        ns3:LODLUO_C_3,
+        ns3:LODLUO_C_4,
+        ns3:LODLUO_C_5,
+        ns3:LODLUO_C_6,
+        ns3:LODLUO_C_7,
+        ns3:LODLUO_C_8,
+        ns3:LODLUO_H_0,
+        ns3:LODLUO_H_1,
+        ns3:LODLUO_H_10,
+        ns3:LODLUO_H_11,
+        ns3:LODLUO_H_12,
+        ns3:LODLUO_H_13,
+        ns3:LODLUO_H_14,
+        ns3:LODLUO_H_15,
+        ns3:LODLUO_H_2,
+        ns3:LODLUO_H_3,
+        ns3:LODLUO_H_4,
+        ns3:LODLUO_H_5,
+        ns3:LODLUO_H_6,
+        ns3:LODLUO_H_7,
+        ns3:LODLUO_H_8,
+        ns3:LODLUO_H_9,
+        ns3:LODLUO_N_0,
+        ns3:LODLUO_N_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand383-0> ;
+    ns2:bLl ns7:LODLUO_bondL_ligand383-0_0_0 .
+
+ns3:LODLUO_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_0>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_0> .
+
+ns3:LODLUO_C_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_18> .
+
+ns3:LODLUO_C_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns5:b <resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_H_32>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_H_33>,
+        <resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_24> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_18_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_24_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_25_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_5_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_6_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_7_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_C_8_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_F_0_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_F_1_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_F_2_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_F_3_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_F_4_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_N_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_N_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LODLUO_bond_Ni_0_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:LODLUO_bondL_ligand105-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:LODLUO_C_18 .
+
+ns7:LODLUO_bondL_ligand358-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:LODLUO_C_24 .
+
+ns7:LODLUO_bondL_ligand383-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:LODLUO_C_0 .
+

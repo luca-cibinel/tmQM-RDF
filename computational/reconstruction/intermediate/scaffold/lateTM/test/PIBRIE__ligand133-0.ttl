@@ -1,0 +1,155 @@
+@prefix ns1: <resource://integreat/p5/ligand/bond/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns6:PIBRIE ns6:hasLigand ns5:PIBRIE_ligand1-0_0,
+        ns5:PIBRIE_ligand1-0_1,
+        ns5:PIBRIE_ligand1493-0_0 ;
+    ns6:hasMetalCentre ns4:PIBRIE_metalCentre_Pt .
+
+ns3:PIBRIE_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_C_0> .
+
+ns3:PIBRIE_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_1_H_2> .
+
+ns3:PIBRIE_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_2_H_3> .
+
+ns3:PIBRIE_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_3_H_4> .
+
+ns3:PIBRIE_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_4_H_5> .
+
+ns3:PIBRIE_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_5_H_6> .
+
+ns3:PIBRIE_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_H_0> .
+
+ns3:PIBRIE_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_H_1> .
+
+ns3:PIBRIE_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_1_H_2> .
+
+ns3:PIBRIE_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_2_H_3> .
+
+ns3:PIBRIE_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_3_H_4> .
+
+ns3:PIBRIE_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_4_H_5> .
+
+ns3:PIBRIE_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_C_5_H_6> .
+
+ns3:PIBRIE_Pt_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_N_0> .
+
+ns4:PIBRIE_metalCentre_Pt ns4:hasAtom ns3:PIBRIE_Pt_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns7:bLc ns1:PIBRIE_bondL_ligand1-0_0_0,
+        ns1:PIBRIE_bondL_ligand1-0_1_0,
+        ns1:PIBRIE_bondL_ligand1493-0_0_0 .
+
+ns5:PIBRIE_ligand1-0_0 ns5:hasAtom ns3:PIBRIE_Cl_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns7:bLl ns1:PIBRIE_bondL_ligand1-0_0_0 .
+
+ns5:PIBRIE_ligand1-0_1 ns5:hasAtom ns3:PIBRIE_Cl_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns7:bLl ns1:PIBRIE_bondL_ligand1-0_1_0 .
+
+ns5:PIBRIE_ligand1493-0_0 ns5:hasAtom ns3:PIBRIE_C_0,
+        ns3:PIBRIE_C_1,
+        ns3:PIBRIE_C_2,
+        ns3:PIBRIE_C_3,
+        ns3:PIBRIE_C_4,
+        ns3:PIBRIE_C_5,
+        ns3:PIBRIE_H_0,
+        ns3:PIBRIE_H_1,
+        ns3:PIBRIE_H_2,
+        ns3:PIBRIE_H_3,
+        ns3:PIBRIE_H_4,
+        ns3:PIBRIE_H_5,
+        ns3:PIBRIE_H_6,
+        ns3:PIBRIE_N_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1493-0> ;
+    ns7:bLl ns1:PIBRIE_bondL_ligand1493-0_0_0 .
+
+ns3:PIBRIE_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_Cl_0> .
+
+ns3:PIBRIE_Cl_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_Cl_1> .
+
+ns3:PIBRIE_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_H_0>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_H_1>,
+        <resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_N_0> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_2_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_3_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_4_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_C_5_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_N_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PIBRIE_bond_Pt_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns1:PIBRIE_bondL_ligand1-0_0_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns3:PIBRIE_Cl_0 .
+
+ns1:PIBRIE_bondL_ligand1-0_1_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns3:PIBRIE_Cl_1 .
+
+ns1:PIBRIE_bondL_ligand1493-0_0_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns3:PIBRIE_N_0 .
+

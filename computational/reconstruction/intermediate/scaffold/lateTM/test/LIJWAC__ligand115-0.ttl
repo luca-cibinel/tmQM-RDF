@@ -1,0 +1,238 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns6:LIJWAC ns6:hasLigand ns2:LIJWAC_ligand115-0_1,
+        ns2:LIJWAC_ligand196-0_0,
+        ns2:LIJWAC_ligand196-0_1 ;
+    ns6:hasMetalCentre ns5:LIJWAC_metalCentre_Ni .
+
+ns4:LIJWAC_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_10_H_8>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_3_C_10> .
+
+ns4:LIJWAC_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_11_H_9> .
+
+ns4:LIJWAC_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_12_H_10> .
+
+ns4:LIJWAC_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_13_H_11> .
+
+ns4:LIJWAC_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_3_C_14> .
+
+ns4:LIJWAC_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_4_C_15> .
+
+ns4:LIJWAC_C_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_16_H_12> .
+
+ns4:LIJWAC_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_17_H_13> .
+
+ns4:LIJWAC_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_18_H_14> .
+
+ns4:LIJWAC_C_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_19_H_15>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_4_C_19> .
+
+ns4:LIJWAC_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_12_H_10> .
+
+ns4:LIJWAC_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_13_H_11> .
+
+ns4:LIJWAC_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_16_H_12> .
+
+ns4:LIJWAC_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_17_H_13> .
+
+ns4:LIJWAC_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_18_H_14> .
+
+ns4:LIJWAC_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_19_H_15> .
+
+ns4:LIJWAC_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_10_H_8> .
+
+ns4:LIJWAC_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_C_11_H_9> .
+
+ns4:LIJWAC_N_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_2_N_6>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_6_N_7> .
+
+ns4:LIJWAC_N_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_6_N_7> .
+
+ns4:LIJWAC_N_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_5_N_8>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_8_N_9> .
+
+ns4:LIJWAC_N_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_8_N_9> .
+
+ns4:LIJWAC_Ni_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_2>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_3>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_4>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_5> .
+
+ns5:LIJWAC_metalCentre_Ni ns5:hasAtom ns4:LIJWAC_Ni_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns7:bLc ns3:LIJWAC_bondL_ligand115-0_1_0,
+        ns3:LIJWAC_bondL_ligand115-0_1_1,
+        ns3:LIJWAC_bondL_ligand196-0_0_0,
+        ns3:LIJWAC_bondL_ligand196-0_1_0 .
+
+ns2:LIJWAC_ligand115-0_1 ns2:hasAtom ns4:LIJWAC_C_10,
+        ns4:LIJWAC_C_11,
+        ns4:LIJWAC_C_12,
+        ns4:LIJWAC_C_13,
+        ns4:LIJWAC_C_14,
+        ns4:LIJWAC_C_15,
+        ns4:LIJWAC_C_16,
+        ns4:LIJWAC_C_17,
+        ns4:LIJWAC_C_18,
+        ns4:LIJWAC_C_19,
+        ns4:LIJWAC_H_10,
+        ns4:LIJWAC_H_11,
+        ns4:LIJWAC_H_12,
+        ns4:LIJWAC_H_13,
+        ns4:LIJWAC_H_14,
+        ns4:LIJWAC_H_15,
+        ns4:LIJWAC_H_8,
+        ns4:LIJWAC_H_9,
+        ns4:LIJWAC_N_3,
+        ns4:LIJWAC_N_4 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand115-0> ;
+    ns7:bLl ns3:LIJWAC_bondL_ligand115-0_1_0,
+        ns3:LIJWAC_bondL_ligand115-0_1_1 .
+
+ns2:LIJWAC_ligand196-0_0 ns2:hasAtom ns4:LIJWAC_N_2,
+        ns4:LIJWAC_N_6,
+        ns4:LIJWAC_N_7 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand196-0> ;
+    ns7:bLl ns3:LIJWAC_bondL_ligand196-0_0_0 .
+
+ns2:LIJWAC_ligand196-0_1 ns2:hasAtom ns4:LIJWAC_N_5,
+        ns4:LIJWAC_N_8,
+        ns4:LIJWAC_N_9 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand196-0> ;
+    ns7:bLl ns3:LIJWAC_bondL_ligand196-0_1_0 .
+
+ns4:LIJWAC_N_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_2_N_6>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_2> .
+
+ns4:LIJWAC_N_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_3_C_10>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_3_C_14>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_3> .
+
+ns4:LIJWAC_N_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_4_C_15>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_4_C_19>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_4> .
+
+ns4:LIJWAC_N_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/LIJWAC_bond_N_5_N_8>,
+        <resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_5> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_10_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_11_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_12_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_13_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_16_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_17_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_18_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_C_19_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_2_N_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_3_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_3_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_4_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_4_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_5_N_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_6_N_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_N_8_N_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LIJWAC_bond_Ni_0_N_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:LIJWAC_bondL_ligand115-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:LIJWAC_N_3 .
+
+ns3:LIJWAC_bondL_ligand115-0_1_1 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:LIJWAC_N_4 .
+
+ns3:LIJWAC_bondL_ligand196-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:LIJWAC_N_2 .
+
+ns3:LIJWAC_bondL_ligand196-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:LIJWAC_N_5 .
+

@@ -1,0 +1,350 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:VEQCAV ns6:hasLigand ns1:VEQCAV_ligand66-0_1,
+        ns1:VEQCAV_ligand7150-0_0,
+        ns1:VEQCAV_ligand7150-0_1 ;
+    ns6:hasMetalCentre ns7:VEQCAV_metalCentre_Mo .
+
+ns4:VEQCAV_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_2_C_10> .
+
+ns4:VEQCAV_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_1_C_11> .
+
+ns4:VEQCAV_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_12_H_20> .
+
+ns4:VEQCAV_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_13_H_21> .
+
+ns4:VEQCAV_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_14_H_22> .
+
+ns4:VEQCAV_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_0_C_15> .
+
+ns4:VEQCAV_C_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_3_C_16> .
+
+ns4:VEQCAV_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_3_C_17> .
+
+ns4:VEQCAV_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_18_H_23> .
+
+ns4:VEQCAV_C_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_19_H_24> .
+
+ns4:VEQCAV_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_20_H_25> .
+
+ns4:VEQCAV_C_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_2_C_21> .
+
+ns4:VEQCAV_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_5>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_S_2_C_5>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_S_3_C_5> .
+
+ns4:VEQCAV_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_H_10>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_H_11>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_6> .
+
+ns4:VEQCAV_C_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_12>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_13>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_14> .
+
+ns4:VEQCAV_C_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_H_15>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_H_16>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_8> .
+
+ns4:VEQCAV_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_17>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_18>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_19> .
+
+ns4:VEQCAV_Cl_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_0_C_15> .
+
+ns4:VEQCAV_Cl_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_1_C_11> .
+
+ns4:VEQCAV_Cl_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_2_C_21> .
+
+ns4:VEQCAV_Cl_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_3_C_17> .
+
+ns4:VEQCAV_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_H_10> .
+
+ns4:VEQCAV_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_H_11> .
+
+ns4:VEQCAV_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_12> .
+
+ns4:VEQCAV_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_13> .
+
+ns4:VEQCAV_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_14> .
+
+ns4:VEQCAV_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_H_15> .
+
+ns4:VEQCAV_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_H_16> .
+
+ns4:VEQCAV_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_17> .
+
+ns4:VEQCAV_H_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_18> .
+
+ns4:VEQCAV_H_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_19> .
+
+ns4:VEQCAV_H_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_12_H_20> .
+
+ns4:VEQCAV_H_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_13_H_21> .
+
+ns4:VEQCAV_H_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_14_H_22> .
+
+ns4:VEQCAV_H_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_18_H_23> .
+
+ns4:VEQCAV_H_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_19_H_24> .
+
+ns4:VEQCAV_H_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_C_20_H_25> .
+
+ns4:VEQCAV_Mo_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_N_2>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_N_3>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_S_2>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_S_3> .
+
+ns4:VEQCAV_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_5>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_6>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_8> .
+
+ns7:VEQCAV_metalCentre_Mo ns7:hasAtom ns4:VEQCAV_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns5:bLc ns3:VEQCAV_bondL_ligand66-0_1_0,
+        ns3:VEQCAV_bondL_ligand66-0_1_1,
+        ns3:VEQCAV_bondL_ligand7150-0_0_0,
+        ns3:VEQCAV_bondL_ligand7150-0_1_0 .
+
+ns1:VEQCAV_ligand66-0_1 ns1:hasAtom ns4:VEQCAV_C_5,
+        ns4:VEQCAV_C_6,
+        ns4:VEQCAV_C_7,
+        ns4:VEQCAV_C_8,
+        ns4:VEQCAV_C_9,
+        ns4:VEQCAV_H_10,
+        ns4:VEQCAV_H_11,
+        ns4:VEQCAV_H_12,
+        ns4:VEQCAV_H_13,
+        ns4:VEQCAV_H_14,
+        ns4:VEQCAV_H_15,
+        ns4:VEQCAV_H_16,
+        ns4:VEQCAV_H_17,
+        ns4:VEQCAV_H_18,
+        ns4:VEQCAV_H_19,
+        ns4:VEQCAV_N_1,
+        ns4:VEQCAV_S_2,
+        ns4:VEQCAV_S_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand66-0> ;
+    ns5:bLl ns3:VEQCAV_bondL_ligand66-0_1_0,
+        ns3:VEQCAV_bondL_ligand66-0_1_1 .
+
+ns1:VEQCAV_ligand7150-0_0 ns1:hasAtom ns4:VEQCAV_C_10,
+        ns4:VEQCAV_C_11,
+        ns4:VEQCAV_C_12,
+        ns4:VEQCAV_C_13,
+        ns4:VEQCAV_C_14,
+        ns4:VEQCAV_C_15,
+        ns4:VEQCAV_Cl_0,
+        ns4:VEQCAV_Cl_1,
+        ns4:VEQCAV_H_20,
+        ns4:VEQCAV_H_21,
+        ns4:VEQCAV_H_22,
+        ns4:VEQCAV_N_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand7150-0> ;
+    ns5:bLl ns3:VEQCAV_bondL_ligand7150-0_0_0 .
+
+ns1:VEQCAV_ligand7150-0_1 ns1:hasAtom ns4:VEQCAV_C_16,
+        ns4:VEQCAV_C_17,
+        ns4:VEQCAV_C_18,
+        ns4:VEQCAV_C_19,
+        ns4:VEQCAV_C_20,
+        ns4:VEQCAV_C_21,
+        ns4:VEQCAV_Cl_2,
+        ns4:VEQCAV_Cl_3,
+        ns4:VEQCAV_H_23,
+        ns4:VEQCAV_H_24,
+        ns4:VEQCAV_H_25,
+        ns4:VEQCAV_N_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand7150-0> ;
+    ns5:bLl ns3:VEQCAV_bondL_ligand7150-0_1_0 .
+
+ns4:VEQCAV_N_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_N_2>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_2_C_10> .
+
+ns4:VEQCAV_N_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_N_3>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_N_3_C_16> .
+
+ns4:VEQCAV_S_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_S_2>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_S_2_C_5> .
+
+ns4:VEQCAV_S_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns2:b <resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_S_3>,
+        <resource://integreat/p5/atomic/bond/VEQCAV_bond_S_3_C_5> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_10_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_12_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_13_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_14_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_16_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_18_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_19_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_20_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_6_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_7_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_8_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_C_9_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_1_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_2_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Cl_3_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_S_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_Mo_0_S_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_N_1_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_N_2_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_N_3_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_S_2_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VEQCAV_bond_S_3_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:VEQCAV_bondL_ligand66-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VEQCAV_S_2 .
+
+ns3:VEQCAV_bondL_ligand66-0_1_1 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VEQCAV_S_3 .
+
+ns3:VEQCAV_bondL_ligand7150-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VEQCAV_N_2 .
+
+ns3:VEQCAV_bondL_ligand7150-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VEQCAV_N_3 .
+

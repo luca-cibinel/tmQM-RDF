@@ -1,0 +1,388 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:YORHIY ns5:hasLigand ns3:YORHIY_ligand23483-0_0,
+        ns3:YORHIY_ligand4-0_0,
+        ns3:YORHIY_ligand4-0_1,
+        ns3:YORHIY_ligand4-0_2,
+        ns3:YORHIY_ligand4-0_3 ;
+    ns5:hasMetalCentre ns7:YORHIY_metalCentre_W .
+
+ns4:YORHIY_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_P_0> .
+
+ns4:YORHIY_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_H_2>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_O_0> .
+
+ns4:YORHIY_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_Cl_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_H_3>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_H_4> .
+
+ns4:YORHIY_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_H_5>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_P_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_Si_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_Si_1> .
+
+ns4:YORHIY_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_6>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_7>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_8>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_Si_0> .
+
+ns4:YORHIY_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_10>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_11>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_9>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_Si_0> .
+
+ns4:YORHIY_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_12>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_13>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_14>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_Si_0> .
+
+ns4:YORHIY_C_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_15>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_16>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_17>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_Si_1> .
+
+ns4:YORHIY_C_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_18>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_19>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_20>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_Si_1> .
+
+ns4:YORHIY_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_21>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_22>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_23>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_Si_1> .
+
+ns4:YORHIY_Cl_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_Cl_0> .
+
+ns4:YORHIY_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_H_0> .
+
+ns4:YORHIY_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_H_1> .
+
+ns4:YORHIY_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_10> .
+
+ns4:YORHIY_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_11> .
+
+ns4:YORHIY_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_12> .
+
+ns4:YORHIY_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_13> .
+
+ns4:YORHIY_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_14> .
+
+ns4:YORHIY_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_15> .
+
+ns4:YORHIY_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_16> .
+
+ns4:YORHIY_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_17> .
+
+ns4:YORHIY_H_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_18> .
+
+ns4:YORHIY_H_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_19> .
+
+ns4:YORHIY_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_H_2> .
+
+ns4:YORHIY_H_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_20> .
+
+ns4:YORHIY_H_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_21> .
+
+ns4:YORHIY_H_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_22> .
+
+ns4:YORHIY_H_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_23> .
+
+ns4:YORHIY_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_H_3> .
+
+ns4:YORHIY_H_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_H_4> .
+
+ns4:YORHIY_H_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_H_5> .
+
+ns4:YORHIY_H_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_6> .
+
+ns4:YORHIY_H_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_7> .
+
+ns4:YORHIY_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_8> .
+
+ns4:YORHIY_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_9> .
+
+ns4:YORHIY_O_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_O_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_O_0_P_0> .
+
+ns4:YORHIY_O_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_10_O_1> .
+
+ns4:YORHIY_O_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_11_O_2> .
+
+ns4:YORHIY_O_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_12_O_3> .
+
+ns4:YORHIY_O_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_14_O_5> .
+
+ns4:YORHIY_Si_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_Si_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_Si_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_Si_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_Si_0> .
+
+ns4:YORHIY_Si_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_Si_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_Si_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_Si_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_Si_1> .
+
+ns4:YORHIY_W_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_10_W_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_11_W_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_12_W_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_14_W_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_P_0_W_0> .
+
+ns7:YORHIY_metalCentre_W ns7:hasAtom ns4:YORHIY_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns2:bLc ns6:YORHIY_bondL_ligand23483-0_0_0,
+        ns6:YORHIY_bondL_ligand4-0_0_0,
+        ns6:YORHIY_bondL_ligand4-0_1_0,
+        ns6:YORHIY_bondL_ligand4-0_2_0,
+        ns6:YORHIY_bondL_ligand4-0_3_0 .
+
+ns3:YORHIY_ligand23483-0_0 ns3:hasAtom ns4:YORHIY_C_0,
+        ns4:YORHIY_C_1,
+        ns4:YORHIY_C_2,
+        ns4:YORHIY_C_3,
+        ns4:YORHIY_C_4,
+        ns4:YORHIY_C_5,
+        ns4:YORHIY_C_6,
+        ns4:YORHIY_C_7,
+        ns4:YORHIY_C_8,
+        ns4:YORHIY_C_9,
+        ns4:YORHIY_Cl_0,
+        ns4:YORHIY_H_0,
+        ns4:YORHIY_H_1,
+        ns4:YORHIY_H_10,
+        ns4:YORHIY_H_11,
+        ns4:YORHIY_H_12,
+        ns4:YORHIY_H_13,
+        ns4:YORHIY_H_14,
+        ns4:YORHIY_H_15,
+        ns4:YORHIY_H_16,
+        ns4:YORHIY_H_17,
+        ns4:YORHIY_H_18,
+        ns4:YORHIY_H_19,
+        ns4:YORHIY_H_2,
+        ns4:YORHIY_H_20,
+        ns4:YORHIY_H_21,
+        ns4:YORHIY_H_22,
+        ns4:YORHIY_H_23,
+        ns4:YORHIY_H_3,
+        ns4:YORHIY_H_4,
+        ns4:YORHIY_H_5,
+        ns4:YORHIY_H_6,
+        ns4:YORHIY_H_7,
+        ns4:YORHIY_H_8,
+        ns4:YORHIY_H_9,
+        ns4:YORHIY_O_0,
+        ns4:YORHIY_P_0,
+        ns4:YORHIY_Si_0,
+        ns4:YORHIY_Si_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand23483-0> ;
+    ns2:bLl ns6:YORHIY_bondL_ligand23483-0_0_0 .
+
+ns3:YORHIY_ligand4-0_0 ns3:hasAtom ns4:YORHIY_C_10,
+        ns4:YORHIY_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns2:bLl ns6:YORHIY_bondL_ligand4-0_0_0 .
+
+ns3:YORHIY_ligand4-0_1 ns3:hasAtom ns4:YORHIY_C_11,
+        ns4:YORHIY_O_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns2:bLl ns6:YORHIY_bondL_ligand4-0_1_0 .
+
+ns3:YORHIY_ligand4-0_2 ns3:hasAtom ns4:YORHIY_C_12,
+        ns4:YORHIY_O_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns2:bLl ns6:YORHIY_bondL_ligand4-0_2_0 .
+
+ns3:YORHIY_ligand4-0_3 ns3:hasAtom ns4:YORHIY_C_14,
+        ns4:YORHIY_O_5 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns2:bLl ns6:YORHIY_bondL_ligand4-0_3_0 .
+
+ns4:YORHIY_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_10_O_1>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_10_W_0> .
+
+ns4:YORHIY_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_11_O_2>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_11_W_0> .
+
+ns4:YORHIY_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_12_O_3>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_12_W_0> .
+
+ns4:YORHIY_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_14_O_5>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_14_W_0> .
+
+ns4:YORHIY_P_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_P_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_P_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_O_0_P_0>,
+        <resource://integreat/p5/atomic/bond/YORHIY_bond_P_0_W_0> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_10_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_10_W_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_11_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_11_W_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_12_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_12_W_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_14_O_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_14_W_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_1_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_2_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_3_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_4_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_5_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_6_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_7_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_8_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_C_9_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_O_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YORHIY_bond_P_0_W_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:YORHIY_bondL_ligand23483-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:YORHIY_P_0 .
+
+ns6:YORHIY_bondL_ligand4-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:YORHIY_C_10 .
+
+ns6:YORHIY_bondL_ligand4-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:YORHIY_C_11 .
+
+ns6:YORHIY_bondL_ligand4-0_2_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:YORHIY_C_12 .
+
+ns6:YORHIY_bondL_ligand4-0_3_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:YORHIY_C_14 .
+

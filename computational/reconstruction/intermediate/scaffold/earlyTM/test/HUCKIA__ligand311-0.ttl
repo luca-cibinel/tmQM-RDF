@@ -1,0 +1,75 @@
+@prefix ns1: <resource://integreat/p5/ligand/structure/> .
+@prefix ns2: <resource://integreat/p5/complex/TMC/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/atomic/structure/> .
+@prefix ns6: <resource://integreat/p5/atomic/atom/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns2:HUCKIA ns2:hasLigand ns3:HUCKIA_ligand24-0_0,
+        ns3:HUCKIA_ligand24-0_1,
+        ns3:HUCKIA_ligand55-0_0,
+        ns3:HUCKIA_ligand55-0_1 ;
+    ns2:hasMetalCentre ns4:HUCKIA_metalCentre_Mo .
+
+ns6:HUCKIA_Mo_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns5:b <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_F_0>,
+        <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_F_1>,
+        <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_O_0>,
+        <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_O_1> .
+
+ns4:HUCKIA_metalCentre_Mo ns4:hasAtom ns6:HUCKIA_Mo_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns1:bLc ns7:HUCKIA_bondL_ligand24-0_0_0,
+        ns7:HUCKIA_bondL_ligand24-0_1_0,
+        ns7:HUCKIA_bondL_ligand55-0_0_0,
+        ns7:HUCKIA_bondL_ligand55-0_1_0 .
+
+ns3:HUCKIA_ligand24-0_0 ns3:hasAtom ns6:HUCKIA_O_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand24-0> ;
+    ns1:bLl ns7:HUCKIA_bondL_ligand24-0_0_0 .
+
+ns3:HUCKIA_ligand24-0_1 ns3:hasAtom ns6:HUCKIA_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand24-0> ;
+    ns1:bLl ns7:HUCKIA_bondL_ligand24-0_1_0 .
+
+ns3:HUCKIA_ligand55-0_0 ns3:hasAtom ns6:HUCKIA_F_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand55-0> ;
+    ns1:bLl ns7:HUCKIA_bondL_ligand55-0_0_0 .
+
+ns3:HUCKIA_ligand55-0_1 ns3:hasAtom ns6:HUCKIA_F_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand55-0> ;
+    ns1:bLl ns7:HUCKIA_bondL_ligand55-0_1_0 .
+
+ns6:HUCKIA_F_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_F_0> .
+
+ns6:HUCKIA_F_1 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns5:b <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_F_1> .
+
+ns6:HUCKIA_O_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns5:b <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_O_0> .
+
+ns6:HUCKIA_O_1 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns5:b <resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_O_1> .
+
+<resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_F_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_F_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HUCKIA_bond_Mo_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:HUCKIA_bondL_ligand24-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:HUCKIA_O_0 .
+
+ns7:HUCKIA_bondL_ligand24-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:HUCKIA_O_1 .
+
+ns7:HUCKIA_bondL_ligand55-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:HUCKIA_F_0 .
+
+ns7:HUCKIA_bondL_ligand55-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:HUCKIA_F_1 .
+

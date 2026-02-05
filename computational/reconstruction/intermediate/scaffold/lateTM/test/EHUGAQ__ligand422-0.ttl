@@ -1,0 +1,75 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:EHUGAQ ns5:hasLigand ns6:EHUGAQ_ligand40-0_0,
+        ns6:EHUGAQ_ligand40-0_1,
+        ns6:EHUGAQ_ligand40-0_2,
+        ns6:EHUGAQ_ligand40-0_3 ;
+    ns5:hasMetalCentre ns7:EHUGAQ_metalCentre_Pt .
+
+ns4:EHUGAQ_Pt_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_0>,
+        <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_1>,
+        <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_2>,
+        <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_3> .
+
+ns7:EHUGAQ_metalCentre_Pt ns7:hasAtom ns4:EHUGAQ_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns2:bLc ns3:EHUGAQ_bondL_ligand40-0_0_0,
+        ns3:EHUGAQ_bondL_ligand40-0_1_0,
+        ns3:EHUGAQ_bondL_ligand40-0_2_0,
+        ns3:EHUGAQ_bondL_ligand40-0_3_0 .
+
+ns6:EHUGAQ_ligand40-0_0 ns6:hasAtom ns4:EHUGAQ_I_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns2:bLl ns3:EHUGAQ_bondL_ligand40-0_0_0 .
+
+ns6:EHUGAQ_ligand40-0_1 ns6:hasAtom ns4:EHUGAQ_I_1 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns2:bLl ns3:EHUGAQ_bondL_ligand40-0_1_0 .
+
+ns6:EHUGAQ_ligand40-0_2 ns6:hasAtom ns4:EHUGAQ_I_2 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns2:bLl ns3:EHUGAQ_bondL_ligand40-0_2_0 .
+
+ns6:EHUGAQ_ligand40-0_3 ns6:hasAtom ns4:EHUGAQ_I_3 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns2:bLl ns3:EHUGAQ_bondL_ligand40-0_3_0 .
+
+ns4:EHUGAQ_I_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_0> .
+
+ns4:EHUGAQ_I_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_1> .
+
+ns4:EHUGAQ_I_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_2> .
+
+ns4:EHUGAQ_I_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_3> .
+
+<resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EHUGAQ_bond_Pt_0_I_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:EHUGAQ_bondL_ligand40-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:EHUGAQ_I_0 .
+
+ns3:EHUGAQ_bondL_ligand40-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:EHUGAQ_I_1 .
+
+ns3:EHUGAQ_bondL_ligand40-0_2_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:EHUGAQ_I_2 .
+
+ns3:EHUGAQ_bondL_ligand40-0_3_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:EHUGAQ_I_3 .
+

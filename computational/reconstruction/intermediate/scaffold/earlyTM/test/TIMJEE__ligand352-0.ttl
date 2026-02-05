@@ -1,0 +1,132 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:TIMJEE ns6:hasLigand ns4:TIMJEE_ligand1-0_0,
+        ns4:TIMJEE_ligand45-0_0 ;
+    ns6:hasMetalCentre ns7:TIMJEE_metalCentre_Mo .
+
+ns1:TIMJEE_H_33 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_H_33> .
+
+ns1:TIMJEE_H_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_35_H_34> .
+
+ns1:TIMJEE_H_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_36_H_35> .
+
+ns1:TIMJEE_H_36 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_37_H_36> .
+
+ns1:TIMJEE_H_37 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_38_H_37> .
+
+ns1:TIMJEE_Mo_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_34>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_35>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_36>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_37>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_38>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_Cl_0> .
+
+ns7:TIMJEE_metalCentre_Mo ns7:hasAtom ns1:TIMJEE_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns2:bLc ns5:TIMJEE_bondL_ligand1-0_0_0,
+        ns5:TIMJEE_bondL_ligand45-0_0_0 .
+
+ns4:TIMJEE_ligand1-0_0 ns4:hasAtom ns1:TIMJEE_Cl_0 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns2:bLl ns5:TIMJEE_bondL_ligand1-0_0_0 .
+
+ns4:TIMJEE_ligand45-0_0 ns4:hasAtom ns1:TIMJEE_C_34,
+        ns1:TIMJEE_C_35,
+        ns1:TIMJEE_C_36,
+        ns1:TIMJEE_C_37,
+        ns1:TIMJEE_C_38,
+        ns1:TIMJEE_H_33,
+        ns1:TIMJEE_H_34,
+        ns1:TIMJEE_H_35,
+        ns1:TIMJEE_H_36,
+        ns1:TIMJEE_H_37 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand45-0> ;
+    ns2:bLl ns5:TIMJEE_bondL_ligand45-0_0_0 .
+
+ns1:TIMJEE_C_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_C_35>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_C_38>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_H_33>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_34> .
+
+ns1:TIMJEE_C_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_C_35>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_35_C_36>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_35_H_34>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_35> .
+
+ns1:TIMJEE_C_36 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_35_C_36>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_36_C_37>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_36_H_35>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_36> .
+
+ns1:TIMJEE_C_37 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_36_C_37>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_37_C_38>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_37_H_36>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_37> .
+
+ns1:TIMJEE_C_38 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_C_38>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_37_C_38>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_C_38_H_37>,
+        <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_38> .
+
+ns1:TIMJEE_Cl_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_Cl_0> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_C_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_34_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_35_C_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_35_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_36_C_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_36_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_37_C_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_37_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_C_38_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_C_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TIMJEE_bond_Mo_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:TIMJEE_bondL_ligand1-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:TIMJEE_Cl_0 .
+
+ns5:TIMJEE_bondL_ligand45-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:TIMJEE_C_34,
+        ns1:TIMJEE_C_35,
+        ns1:TIMJEE_C_36,
+        ns1:TIMJEE_C_37,
+        ns1:TIMJEE_C_38 .
+

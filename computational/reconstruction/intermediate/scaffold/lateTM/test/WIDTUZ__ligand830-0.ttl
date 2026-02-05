@@ -1,0 +1,236 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:WIDTUZ ns5:hasLigand ns1:WIDTUZ_ligand1104-0_0 ;
+    ns5:hasMetalCentre ns7:WIDTUZ_metalCentre_Ni .
+
+ns3:WIDTUZ_C_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_26_C_29>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_O_0_C_26> .
+
+ns3:WIDTUZ_C_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_27_H_24> .
+
+ns3:WIDTUZ_C_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_28_C_35>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_O_1_C_28> .
+
+ns3:WIDTUZ_C_29 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_26_C_29>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_29_C_30>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_29_C_34> .
+
+ns3:WIDTUZ_C_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_29_C_30>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_30_H_25> .
+
+ns3:WIDTUZ_C_31 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_31_H_26> .
+
+ns3:WIDTUZ_C_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_32_H_27> .
+
+ns3:WIDTUZ_C_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_33_C_34>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_33_H_28> .
+
+ns3:WIDTUZ_C_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_29_C_34>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_33_C_34>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_34_H_29> .
+
+ns3:WIDTUZ_C_35 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_28_C_35>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_35_C_36>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_35_C_40> .
+
+ns3:WIDTUZ_C_36 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_35_C_36>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_36_C_37>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_36_H_30> .
+
+ns3:WIDTUZ_C_37 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_36_C_37>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_37_C_38>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_37_H_31> .
+
+ns3:WIDTUZ_C_38 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_37_C_38>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_38_C_39>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_38_H_32> .
+
+ns3:WIDTUZ_C_39 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_38_C_39>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_39_C_40>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_39_H_33> .
+
+ns3:WIDTUZ_C_40 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_35_C_40>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_39_C_40>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_40_H_34> .
+
+ns3:WIDTUZ_H_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_27_H_24> .
+
+ns3:WIDTUZ_H_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_30_H_25> .
+
+ns3:WIDTUZ_H_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_31_H_26> .
+
+ns3:WIDTUZ_H_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_32_H_27> .
+
+ns3:WIDTUZ_H_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_33_H_28> .
+
+ns3:WIDTUZ_H_29 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_34_H_29> .
+
+ns3:WIDTUZ_H_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_36_H_30> .
+
+ns3:WIDTUZ_H_31 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_37_H_31> .
+
+ns3:WIDTUZ_H_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_38_H_32> .
+
+ns3:WIDTUZ_H_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_39_H_33> .
+
+ns3:WIDTUZ_H_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_40_H_34> .
+
+ns3:WIDTUZ_Ni_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_Ni_0_O_0>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_Ni_0_O_1> .
+
+ns7:WIDTUZ_metalCentre_Ni ns7:hasAtom ns3:WIDTUZ_Ni_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns4:bLc ns6:WIDTUZ_bondL_ligand1104-0_0_0,
+        ns6:WIDTUZ_bondL_ligand1104-0_0_1 .
+
+ns1:WIDTUZ_ligand1104-0_0 ns1:hasAtom ns3:WIDTUZ_C_26,
+        ns3:WIDTUZ_C_27,
+        ns3:WIDTUZ_C_28,
+        ns3:WIDTUZ_C_29,
+        ns3:WIDTUZ_C_30,
+        ns3:WIDTUZ_C_31,
+        ns3:WIDTUZ_C_32,
+        ns3:WIDTUZ_C_33,
+        ns3:WIDTUZ_C_34,
+        ns3:WIDTUZ_C_35,
+        ns3:WIDTUZ_C_36,
+        ns3:WIDTUZ_C_37,
+        ns3:WIDTUZ_C_38,
+        ns3:WIDTUZ_C_39,
+        ns3:WIDTUZ_C_40,
+        ns3:WIDTUZ_H_24,
+        ns3:WIDTUZ_H_25,
+        ns3:WIDTUZ_H_26,
+        ns3:WIDTUZ_H_27,
+        ns3:WIDTUZ_H_28,
+        ns3:WIDTUZ_H_29,
+        ns3:WIDTUZ_H_30,
+        ns3:WIDTUZ_H_31,
+        ns3:WIDTUZ_H_32,
+        ns3:WIDTUZ_H_33,
+        ns3:WIDTUZ_H_34,
+        ns3:WIDTUZ_O_0,
+        ns3:WIDTUZ_O_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1104-0> ;
+    ns4:bLl ns6:WIDTUZ_bondL_ligand1104-0_0_0,
+        ns6:WIDTUZ_bondL_ligand1104-0_0_1 .
+
+ns3:WIDTUZ_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_Ni_0_O_0>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_O_0_C_26> .
+
+ns3:WIDTUZ_O_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIDTUZ_bond_Ni_0_O_1>,
+        <resource://integreat/p5/atomic/bond/WIDTUZ_bond_O_1_C_28> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_26_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_26_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_27_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_27_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_28_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_29_C_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_29_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_30_C_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_30_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_31_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_31_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_32_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_32_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_33_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_33_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_34_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_35_C_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_35_C_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_36_C_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_36_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_37_C_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_37_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_38_C_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_38_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_39_C_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_39_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_C_40_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_Ni_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_Ni_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_O_0_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIDTUZ_bond_O_1_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:WIDTUZ_bondL_ligand1104-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:WIDTUZ_O_0 .
+
+ns6:WIDTUZ_bondL_ligand1104-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:WIDTUZ_O_1 .
+

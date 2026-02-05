@@ -1,0 +1,186 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/bond/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns4:OJECOX ns4:hasLigand ns5:OJECOX_ligand1712-0_0,
+        ns5:OJECOX_ligand1712-0_1,
+        ns5:OJECOX_ligand40-0_1 ;
+    ns4:hasMetalCentre ns7:OJECOX_metalCentre_Pt .
+
+ns3:OJECOX_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_0_C_2>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_O_0_C_0> .
+
+ns3:OJECOX_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_0>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_1>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_2> .
+
+ns3:OJECOX_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_0_C_2>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_3>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_4>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_5> .
+
+ns3:OJECOX_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_3_C_5>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_O_1_C_3> .
+
+ns3:OJECOX_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_6>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_7>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_8> .
+
+ns3:OJECOX_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_3_C_5>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_10>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_11>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_9> .
+
+ns3:OJECOX_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_0> .
+
+ns3:OJECOX_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_1> .
+
+ns3:OJECOX_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_10> .
+
+ns3:OJECOX_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_11> .
+
+ns3:OJECOX_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_2> .
+
+ns3:OJECOX_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_3> .
+
+ns3:OJECOX_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_4> .
+
+ns3:OJECOX_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_5> .
+
+ns3:OJECOX_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_6> .
+
+ns3:OJECOX_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_7> .
+
+ns3:OJECOX_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_8> .
+
+ns3:OJECOX_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_9> .
+
+ns3:OJECOX_Pt_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_I_1>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_O_0>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_O_1> .
+
+ns7:OJECOX_metalCentre_Pt ns7:hasAtom ns3:OJECOX_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns6:bLc ns2:OJECOX_bondL_ligand1712-0_0_0,
+        ns2:OJECOX_bondL_ligand1712-0_1_0,
+        ns2:OJECOX_bondL_ligand40-0_1_0 .
+
+ns5:OJECOX_ligand1712-0_0 ns5:hasAtom ns3:OJECOX_C_0,
+        ns3:OJECOX_C_1,
+        ns3:OJECOX_C_2,
+        ns3:OJECOX_H_0,
+        ns3:OJECOX_H_1,
+        ns3:OJECOX_H_2,
+        ns3:OJECOX_H_3,
+        ns3:OJECOX_H_4,
+        ns3:OJECOX_H_5,
+        ns3:OJECOX_O_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1712-0> ;
+    ns6:bLl ns2:OJECOX_bondL_ligand1712-0_0_0 .
+
+ns5:OJECOX_ligand1712-0_1 ns5:hasAtom ns3:OJECOX_C_3,
+        ns3:OJECOX_C_4,
+        ns3:OJECOX_C_5,
+        ns3:OJECOX_H_10,
+        ns3:OJECOX_H_11,
+        ns3:OJECOX_H_6,
+        ns3:OJECOX_H_7,
+        ns3:OJECOX_H_8,
+        ns3:OJECOX_H_9,
+        ns3:OJECOX_O_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1712-0> ;
+    ns6:bLl ns2:OJECOX_bondL_ligand1712-0_1_0 .
+
+ns5:OJECOX_ligand40-0_1 ns5:hasAtom ns3:OJECOX_I_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns6:bLl ns2:OJECOX_bondL_ligand40-0_1_0 .
+
+ns3:OJECOX_I_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_I_1> .
+
+ns3:OJECOX_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_O_0> .
+
+ns3:OJECOX_O_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OJECOX_bond_O_1_C_3>,
+        <resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_O_1> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_2_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_3_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_4_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_C_5_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_O_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_I_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OJECOX_bond_Pt_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns2:OJECOX_bondL_ligand1712-0_0_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns3:OJECOX_O_0 .
+
+ns2:OJECOX_bondL_ligand1712-0_1_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns3:OJECOX_O_1 .
+
+ns2:OJECOX_bondL_ligand40-0_1_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns3:OJECOX_I_1 .
+

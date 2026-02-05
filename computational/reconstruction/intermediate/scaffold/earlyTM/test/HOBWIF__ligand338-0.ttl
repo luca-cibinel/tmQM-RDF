@@ -1,0 +1,125 @@
+@prefix ns1: <resource://integreat/p5/ligand/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/atomic/atom/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:HOBWIF ns3:hasLigand ns5:HOBWIF_ligand1-0_0,
+        ns5:HOBWIF_ligand1-0_1,
+        ns5:HOBWIF_ligand1-0_2,
+        ns5:HOBWIF_ligand1-0_3,
+        ns5:HOBWIF_ligand49-0_0 ;
+    ns3:hasMetalCentre ns7:HOBWIF_metalCentre_W .
+
+ns6:HOBWIF_C_13 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_17>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_18>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_19>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_8_C_13> .
+
+ns6:HOBWIF_C_8 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_8_C_13>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_N_0_C_8> .
+
+ns6:HOBWIF_H_17 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_17> .
+
+ns6:HOBWIF_H_18 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_18> .
+
+ns6:HOBWIF_H_19 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_19> .
+
+ns6:HOBWIF_W_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_N_0_W_0>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_2>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_3> .
+
+ns7:HOBWIF_metalCentre_W ns7:hasAtom ns6:HOBWIF_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns1:bLc ns4:HOBWIF_bondL_ligand1-0_0_0,
+        ns4:HOBWIF_bondL_ligand1-0_1_0,
+        ns4:HOBWIF_bondL_ligand1-0_2_0,
+        ns4:HOBWIF_bondL_ligand1-0_3_0,
+        ns4:HOBWIF_bondL_ligand49-0_0_0 .
+
+ns5:HOBWIF_ligand1-0_0 ns5:hasAtom ns6:HOBWIF_Cl_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns1:bLl ns4:HOBWIF_bondL_ligand1-0_0_0 .
+
+ns5:HOBWIF_ligand1-0_1 ns5:hasAtom ns6:HOBWIF_Cl_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns1:bLl ns4:HOBWIF_bondL_ligand1-0_1_0 .
+
+ns5:HOBWIF_ligand1-0_2 ns5:hasAtom ns6:HOBWIF_Cl_2 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns1:bLl ns4:HOBWIF_bondL_ligand1-0_2_0 .
+
+ns5:HOBWIF_ligand1-0_3 ns5:hasAtom ns6:HOBWIF_Cl_3 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns1:bLl ns4:HOBWIF_bondL_ligand1-0_3_0 .
+
+ns5:HOBWIF_ligand49-0_0 ns5:hasAtom ns6:HOBWIF_C_13,
+        ns6:HOBWIF_C_8,
+        ns6:HOBWIF_H_17,
+        ns6:HOBWIF_H_18,
+        ns6:HOBWIF_H_19,
+        ns6:HOBWIF_N_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand49-0> ;
+    ns1:bLl ns4:HOBWIF_bondL_ligand49-0_0_0 .
+
+ns6:HOBWIF_Cl_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_0> .
+
+ns6:HOBWIF_Cl_1 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_1> .
+
+ns6:HOBWIF_Cl_2 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_2> .
+
+ns6:HOBWIF_Cl_3 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_3> .
+
+ns6:HOBWIF_N_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HOBWIF_bond_N_0_C_8>,
+        <resource://integreat/p5/atomic/bond/HOBWIF_bond_N_0_W_0> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_C_13_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_C_8_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_N_0_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_N_0_W_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HOBWIF_bond_W_0_Cl_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:HOBWIF_bondL_ligand1-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:HOBWIF_Cl_0 .
+
+ns4:HOBWIF_bondL_ligand1-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:HOBWIF_Cl_1 .
+
+ns4:HOBWIF_bondL_ligand1-0_2_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:HOBWIF_Cl_2 .
+
+ns4:HOBWIF_bondL_ligand1-0_3_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:HOBWIF_Cl_3 .
+
+ns4:HOBWIF_bondL_ligand49-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:HOBWIF_N_0 .
+

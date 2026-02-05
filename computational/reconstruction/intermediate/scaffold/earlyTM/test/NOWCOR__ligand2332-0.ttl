@@ -1,0 +1,434 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns4:NOWCOR ns4:hasLigand ns3:NOWCOR_ligand2332-0_1,
+        ns3:NOWCOR_ligand2332-0_2,
+        ns3:NOWCOR_ligand48-0_0 ;
+    ns4:hasMetalCentre ns7:NOWCOR_metalCentre_Mo .
+
+ns1:NOWCOR_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_16>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_17>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_S_1_C_14> .
+
+ns1:NOWCOR_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_24>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_25>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_26> .
+
+ns1:NOWCOR_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_16>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_27>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_28>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_29> .
+
+ns1:NOWCOR_C_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_17>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_30>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_31>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_32> .
+
+ns1:NOWCOR_C_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_20>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_21>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_S_2_C_18> .
+
+ns1:NOWCOR_C_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_33>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_34>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_35> .
+
+ns1:NOWCOR_C_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_20>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_36>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_37>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_38> .
+
+ns1:NOWCOR_C_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_21>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_39>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_40>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_41> .
+
+ns1:NOWCOR_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_0>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_1>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_2> .
+
+ns1:NOWCOR_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_1_C_6>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_3>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_4>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_5> .
+
+ns1:NOWCOR_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_2_C_7>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_7>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_8> .
+
+ns1:NOWCOR_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_3_C_8>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_10>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_11>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_9> .
+
+ns1:NOWCOR_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_4_C_9>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_12>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_13>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_14> .
+
+ns1:NOWCOR_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_0> .
+
+ns1:NOWCOR_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_1> .
+
+ns1:NOWCOR_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_10> .
+
+ns1:NOWCOR_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_11> .
+
+ns1:NOWCOR_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_12> .
+
+ns1:NOWCOR_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_13> .
+
+ns1:NOWCOR_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_14> .
+
+ns1:NOWCOR_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_2> .
+
+ns1:NOWCOR_H_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_24> .
+
+ns1:NOWCOR_H_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_25> .
+
+ns1:NOWCOR_H_26 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_26> .
+
+ns1:NOWCOR_H_27 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_27> .
+
+ns1:NOWCOR_H_28 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_28> .
+
+ns1:NOWCOR_H_29 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_29> .
+
+ns1:NOWCOR_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_3> .
+
+ns1:NOWCOR_H_30 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_30> .
+
+ns1:NOWCOR_H_31 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_31> .
+
+ns1:NOWCOR_H_32 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_32> .
+
+ns1:NOWCOR_H_33 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_33> .
+
+ns1:NOWCOR_H_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_34> .
+
+ns1:NOWCOR_H_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_35> .
+
+ns1:NOWCOR_H_36 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_36> .
+
+ns1:NOWCOR_H_37 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_37> .
+
+ns1:NOWCOR_H_38 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_38> .
+
+ns1:NOWCOR_H_39 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_39> .
+
+ns1:NOWCOR_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_4> .
+
+ns1:NOWCOR_H_40 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_40> .
+
+ns1:NOWCOR_H_41 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_41> .
+
+ns1:NOWCOR_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_5> .
+
+ns1:NOWCOR_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_6> .
+
+ns1:NOWCOR_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_7> .
+
+ns1:NOWCOR_H_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_8> .
+
+ns1:NOWCOR_H_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_9> .
+
+ns1:NOWCOR_Mo_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_0>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_1>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_2>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_3>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_4>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_S_1>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_S_2> .
+
+ns7:NOWCOR_metalCentre_Mo ns7:hasAtom ns1:NOWCOR_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns6:bLc ns5:NOWCOR_bondL_ligand2332-0_1_0,
+        ns5:NOWCOR_bondL_ligand2332-0_2_0,
+        ns5:NOWCOR_bondL_ligand48-0_0_0 .
+
+ns3:NOWCOR_ligand2332-0_1 ns3:hasAtom ns1:NOWCOR_C_14,
+        ns1:NOWCOR_C_15,
+        ns1:NOWCOR_C_16,
+        ns1:NOWCOR_C_17,
+        ns1:NOWCOR_H_24,
+        ns1:NOWCOR_H_25,
+        ns1:NOWCOR_H_26,
+        ns1:NOWCOR_H_27,
+        ns1:NOWCOR_H_28,
+        ns1:NOWCOR_H_29,
+        ns1:NOWCOR_H_30,
+        ns1:NOWCOR_H_31,
+        ns1:NOWCOR_H_32,
+        ns1:NOWCOR_S_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2332-0> ;
+    ns6:bLl ns5:NOWCOR_bondL_ligand2332-0_1_0 .
+
+ns3:NOWCOR_ligand2332-0_2 ns3:hasAtom ns1:NOWCOR_C_18,
+        ns1:NOWCOR_C_19,
+        ns1:NOWCOR_C_20,
+        ns1:NOWCOR_C_21,
+        ns1:NOWCOR_H_33,
+        ns1:NOWCOR_H_34,
+        ns1:NOWCOR_H_35,
+        ns1:NOWCOR_H_36,
+        ns1:NOWCOR_H_37,
+        ns1:NOWCOR_H_38,
+        ns1:NOWCOR_H_39,
+        ns1:NOWCOR_H_40,
+        ns1:NOWCOR_H_41,
+        ns1:NOWCOR_S_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2332-0> ;
+    ns6:bLl ns5:NOWCOR_bondL_ligand2332-0_2_0 .
+
+ns3:NOWCOR_ligand48-0_0 ns3:hasAtom ns1:NOWCOR_C_0,
+        ns1:NOWCOR_C_1,
+        ns1:NOWCOR_C_2,
+        ns1:NOWCOR_C_3,
+        ns1:NOWCOR_C_4,
+        ns1:NOWCOR_C_5,
+        ns1:NOWCOR_C_6,
+        ns1:NOWCOR_C_7,
+        ns1:NOWCOR_C_8,
+        ns1:NOWCOR_C_9,
+        ns1:NOWCOR_H_0,
+        ns1:NOWCOR_H_1,
+        ns1:NOWCOR_H_10,
+        ns1:NOWCOR_H_11,
+        ns1:NOWCOR_H_12,
+        ns1:NOWCOR_H_13,
+        ns1:NOWCOR_H_14,
+        ns1:NOWCOR_H_2,
+        ns1:NOWCOR_H_3,
+        ns1:NOWCOR_H_4,
+        ns1:NOWCOR_H_5,
+        ns1:NOWCOR_H_6,
+        ns1:NOWCOR_H_7,
+        ns1:NOWCOR_H_8,
+        ns1:NOWCOR_H_9 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand48-0> ;
+    ns6:bLl ns5:NOWCOR_bondL_ligand48-0_0_0 .
+
+ns1:NOWCOR_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_0> .
+
+ns1:NOWCOR_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_1_C_6>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_1> .
+
+ns1:NOWCOR_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_2_C_7>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_2> .
+
+ns1:NOWCOR_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_3_C_8>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_3> .
+
+ns1:NOWCOR_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_C_4_C_9>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_4> .
+
+ns1:NOWCOR_S_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_S_1>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_S_1_C_14> .
+
+ns1:NOWCOR_S_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_S_2>,
+        <resource://integreat/p5/atomic/bond/NOWCOR_bond_S_2_C_18> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_14_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_15_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_16_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_17_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_18_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_19_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_20_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_21_H_41> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_2_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_3_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_4_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_5_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_6_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_7_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_8_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_C_9_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_S_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_Mo_0_S_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_S_1_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NOWCOR_bond_S_2_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:NOWCOR_bondL_ligand2332-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:NOWCOR_S_1 .
+
+ns5:NOWCOR_bondL_ligand2332-0_2_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:NOWCOR_S_2 .
+
+ns5:NOWCOR_bondL_ligand48-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:NOWCOR_C_0,
+        ns1:NOWCOR_C_1,
+        ns1:NOWCOR_C_2,
+        ns1:NOWCOR_C_3,
+        ns1:NOWCOR_C_4 .
+

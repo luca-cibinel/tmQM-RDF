@@ -1,0 +1,285 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:BUPPUX ns6:hasLigand ns3:BUPPUX_ligand250-0_0,
+        ns3:BUPPUX_ligand278-0_0 ;
+    ns6:hasMetalCentre ns7:BUPPUX_metalCentre_Pt .
+
+ns2:BUPPUX_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_C_2>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_0> .
+
+ns2:BUPPUX_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_3>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_4>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_5> .
+
+ns2:BUPPUX_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_C_2>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_6>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_7>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_8> .
+
+ns2:BUPPUX_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_C_5>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_H_1>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_3> .
+
+ns2:BUPPUX_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_10>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_11>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_9> .
+
+ns2:BUPPUX_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_C_5>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_12>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_13>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_14> .
+
+ns2:BUPPUX_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_H_2>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_6> .
+
+ns2:BUPPUX_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_15>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_16>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_17> .
+
+ns2:BUPPUX_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_18>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_19>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_20> .
+
+ns2:BUPPUX_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_0>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_1>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_2> .
+
+ns2:BUPPUX_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_H_0> .
+
+ns2:BUPPUX_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_H_1> .
+
+ns2:BUPPUX_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_10> .
+
+ns2:BUPPUX_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_11> .
+
+ns2:BUPPUX_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_12> .
+
+ns2:BUPPUX_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_13> .
+
+ns2:BUPPUX_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_14> .
+
+ns2:BUPPUX_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_15> .
+
+ns2:BUPPUX_H_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_16> .
+
+ns2:BUPPUX_H_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_17> .
+
+ns2:BUPPUX_H_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_18> .
+
+ns2:BUPPUX_H_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_19> .
+
+ns2:BUPPUX_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_H_2> .
+
+ns2:BUPPUX_H_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_20> .
+
+ns2:BUPPUX_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_3> .
+
+ns2:BUPPUX_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_4> .
+
+ns2:BUPPUX_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_5> .
+
+ns2:BUPPUX_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_6> .
+
+ns2:BUPPUX_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_7> .
+
+ns2:BUPPUX_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_8> .
+
+ns2:BUPPUX_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_9> .
+
+ns2:BUPPUX_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_1> .
+
+ns2:BUPPUX_Pt_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_O_0>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_O_2>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_P_0> .
+
+ns7:BUPPUX_metalCentre_Pt ns7:hasAtom ns2:BUPPUX_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns4:bLc ns5:BUPPUX_bondL_ligand250-0_0_0,
+        ns5:BUPPUX_bondL_ligand278-0_0_0,
+        ns5:BUPPUX_bondL_ligand278-0_0_1 .
+
+ns3:BUPPUX_ligand250-0_0 ns3:hasAtom ns2:BUPPUX_C_0,
+        ns2:BUPPUX_C_1,
+        ns2:BUPPUX_C_2,
+        ns2:BUPPUX_C_3,
+        ns2:BUPPUX_C_4,
+        ns2:BUPPUX_C_5,
+        ns2:BUPPUX_C_6,
+        ns2:BUPPUX_C_7,
+        ns2:BUPPUX_C_8,
+        ns2:BUPPUX_H_0,
+        ns2:BUPPUX_H_1,
+        ns2:BUPPUX_H_10,
+        ns2:BUPPUX_H_11,
+        ns2:BUPPUX_H_12,
+        ns2:BUPPUX_H_13,
+        ns2:BUPPUX_H_14,
+        ns2:BUPPUX_H_15,
+        ns2:BUPPUX_H_16,
+        ns2:BUPPUX_H_17,
+        ns2:BUPPUX_H_18,
+        ns2:BUPPUX_H_19,
+        ns2:BUPPUX_H_2,
+        ns2:BUPPUX_H_20,
+        ns2:BUPPUX_H_3,
+        ns2:BUPPUX_H_4,
+        ns2:BUPPUX_H_5,
+        ns2:BUPPUX_H_6,
+        ns2:BUPPUX_H_7,
+        ns2:BUPPUX_H_8,
+        ns2:BUPPUX_H_9,
+        ns2:BUPPUX_P_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand250-0> ;
+    ns4:bLl ns5:BUPPUX_bondL_ligand250-0_0_0 .
+
+ns3:BUPPUX_ligand278-0_0 ns3:hasAtom ns2:BUPPUX_C_9,
+        ns2:BUPPUX_O_0,
+        ns2:BUPPUX_O_1,
+        ns2:BUPPUX_O_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand278-0> ;
+    ns4:bLl ns5:BUPPUX_bondL_ligand278-0_0_0,
+        ns5:BUPPUX_bondL_ligand278-0_0_1 .
+
+ns2:BUPPUX_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_0>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_O_0> .
+
+ns2:BUPPUX_O_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_2>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_O_2> .
+
+ns2:BUPPUX_P_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_0>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_3>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_6>,
+        <resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_1_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_2_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_3_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_4_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_5_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_6_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_7_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_8_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_C_9_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_P_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BUPPUX_bond_Pt_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:BUPPUX_bondL_ligand250-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:BUPPUX_P_0 .
+
+ns5:BUPPUX_bondL_ligand278-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:BUPPUX_O_0 .
+
+ns5:BUPPUX_bondL_ligand278-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:BUPPUX_O_2 .
+

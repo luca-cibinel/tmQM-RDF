@@ -1,0 +1,377 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:INIDEO ns5:hasLigand ns2:INIDEO_ligand140-0_0,
+        ns2:INIDEO_ligand51-0_1,
+        ns2:INIDEO_ligand55-0_0 ;
+    ns5:hasMetalCentre ns6:INIDEO_metalCentre_Pt .
+
+ns3:INIDEO_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_1_H_0> .
+
+ns3:INIDEO_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_2_H_1> .
+
+ns3:INIDEO_C_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_24_C_29>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_24> .
+
+ns3:INIDEO_C_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_25_H_20> .
+
+ns3:INIDEO_C_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_26_H_21> .
+
+ns3:INIDEO_C_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_27_H_22> .
+
+ns3:INIDEO_C_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_28_H_23> .
+
+ns3:INIDEO_C_29 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_24_C_29>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_29_H_24> .
+
+ns3:INIDEO_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_3_H_2> .
+
+ns3:INIDEO_C_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_30_C_35>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_30> .
+
+ns3:INIDEO_C_31 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_31_H_25> .
+
+ns3:INIDEO_C_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_32_H_26> .
+
+ns3:INIDEO_C_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_33_C_34>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_33_H_27> .
+
+ns3:INIDEO_C_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_33_C_34>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_34_C_35>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_34_H_28> .
+
+ns3:INIDEO_C_35 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_30_C_35>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_34_C_35>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_35_H_29> .
+
+ns3:INIDEO_C_36 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_36_C_37>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_36_C_41>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_36> .
+
+ns3:INIDEO_C_37 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_36_C_37>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_37_C_38>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_37_H_30> .
+
+ns3:INIDEO_C_38 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_37_C_38>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_38_C_39>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_38_H_31> .
+
+ns3:INIDEO_C_39 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_38_C_39>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_39_C_40>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_39_H_32> .
+
+ns3:INIDEO_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_4_H_3> .
+
+ns3:INIDEO_C_40 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_39_C_40>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_40_C_41>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_40_H_33> .
+
+ns3:INIDEO_C_41 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_36_C_41>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_40_C_41>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_41_H_34> .
+
+ns3:INIDEO_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_5_H_4> .
+
+ns3:INIDEO_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_1_H_0> .
+
+ns3:INIDEO_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_2_H_1> .
+
+ns3:INIDEO_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_3_H_2> .
+
+ns3:INIDEO_H_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_25_H_20> .
+
+ns3:INIDEO_H_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_26_H_21> .
+
+ns3:INIDEO_H_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_27_H_22> .
+
+ns3:INIDEO_H_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_28_H_23> .
+
+ns3:INIDEO_H_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_29_H_24> .
+
+ns3:INIDEO_H_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_31_H_25> .
+
+ns3:INIDEO_H_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_32_H_26> .
+
+ns3:INIDEO_H_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_33_H_27> .
+
+ns3:INIDEO_H_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_34_H_28> .
+
+ns3:INIDEO_H_29 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_35_H_29> .
+
+ns3:INIDEO_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_4_H_3> .
+
+ns3:INIDEO_H_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_37_H_30> .
+
+ns3:INIDEO_H_31 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_38_H_31> .
+
+ns3:INIDEO_H_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_39_H_32> .
+
+ns3:INIDEO_H_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_40_H_33> .
+
+ns3:INIDEO_H_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_41_H_34> .
+
+ns3:INIDEO_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_5_H_4> .
+
+ns3:INIDEO_Pt_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_C_0>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_F_0>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_P_1> .
+
+ns6:INIDEO_metalCentre_Pt ns6:hasAtom ns3:INIDEO_Pt_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns4:bLc ns7:INIDEO_bondL_ligand140-0_0_0,
+        ns7:INIDEO_bondL_ligand51-0_1_0,
+        ns7:INIDEO_bondL_ligand55-0_0_0 .
+
+ns2:INIDEO_ligand140-0_0 ns2:hasAtom ns3:INIDEO_C_0,
+        ns3:INIDEO_C_1,
+        ns3:INIDEO_C_2,
+        ns3:INIDEO_C_3,
+        ns3:INIDEO_C_4,
+        ns3:INIDEO_C_5,
+        ns3:INIDEO_H_0,
+        ns3:INIDEO_H_1,
+        ns3:INIDEO_H_2,
+        ns3:INIDEO_H_3,
+        ns3:INIDEO_H_4 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand140-0> ;
+    ns4:bLl ns7:INIDEO_bondL_ligand140-0_0_0 .
+
+ns2:INIDEO_ligand51-0_1 ns2:hasAtom ns3:INIDEO_C_24,
+        ns3:INIDEO_C_25,
+        ns3:INIDEO_C_26,
+        ns3:INIDEO_C_27,
+        ns3:INIDEO_C_28,
+        ns3:INIDEO_C_29,
+        ns3:INIDEO_C_30,
+        ns3:INIDEO_C_31,
+        ns3:INIDEO_C_32,
+        ns3:INIDEO_C_33,
+        ns3:INIDEO_C_34,
+        ns3:INIDEO_C_35,
+        ns3:INIDEO_C_36,
+        ns3:INIDEO_C_37,
+        ns3:INIDEO_C_38,
+        ns3:INIDEO_C_39,
+        ns3:INIDEO_C_40,
+        ns3:INIDEO_C_41,
+        ns3:INIDEO_H_20,
+        ns3:INIDEO_H_21,
+        ns3:INIDEO_H_22,
+        ns3:INIDEO_H_23,
+        ns3:INIDEO_H_24,
+        ns3:INIDEO_H_25,
+        ns3:INIDEO_H_26,
+        ns3:INIDEO_H_27,
+        ns3:INIDEO_H_28,
+        ns3:INIDEO_H_29,
+        ns3:INIDEO_H_30,
+        ns3:INIDEO_H_31,
+        ns3:INIDEO_H_32,
+        ns3:INIDEO_H_33,
+        ns3:INIDEO_H_34,
+        ns3:INIDEO_P_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand51-0> ;
+    ns4:bLl ns7:INIDEO_bondL_ligand51-0_1_0 .
+
+ns2:INIDEO_ligand55-0_0 ns2:hasAtom ns3:INIDEO_F_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand55-0> ;
+    ns4:bLl ns7:INIDEO_bondL_ligand55-0_0_0 .
+
+ns3:INIDEO_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_C_0> .
+
+ns3:INIDEO_F_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_F_0> .
+
+ns3:INIDEO_P_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_24>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_30>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_36>,
+        <resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_P_1> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_24_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_25_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_26_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_26_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_27_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_27_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_28_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_28_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_29_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_30_C_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_30_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_31_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_31_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_32_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_32_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_33_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_33_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_34_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_34_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_35_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_36_C_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_36_C_41> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_37_C_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_37_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_38_C_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_38_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_39_C_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_39_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_40_C_41> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_40_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_41_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_P_1_C_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_F_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/INIDEO_bond_Pt_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:INIDEO_bondL_ligand140-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:INIDEO_C_0 .
+
+ns7:INIDEO_bondL_ligand51-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:INIDEO_P_1 .
+
+ns7:INIDEO_bondL_ligand55-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:INIDEO_F_0 .
+

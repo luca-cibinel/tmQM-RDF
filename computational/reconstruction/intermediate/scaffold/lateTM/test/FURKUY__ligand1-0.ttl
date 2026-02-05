@@ -1,0 +1,361 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns4:FURKUY ns4:hasLigand ns1:FURKUY_ligand1-0_0,
+        ns1:FURKUY_ligand2285-0_0 ;
+    ns4:hasMetalCentre ns7:FURKUY_metalCentre_Pd .
+
+ns3:FURKUY_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_N_0_C_0> .
+
+ns3:FURKUY_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_1_H_1> .
+
+ns3:FURKUY_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_6_C_10>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_N_1_C_10> .
+
+ns3:FURKUY_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_3_C_11>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_N_0_C_11> .
+
+ns3:FURKUY_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_2_C_12> .
+
+ns3:FURKUY_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_13_H_6> .
+
+ns3:FURKUY_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_14_H_7> .
+
+ns3:FURKUY_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_15_H_8> .
+
+ns3:FURKUY_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_16_H_9> .
+
+ns3:FURKUY_C_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_17_H_10> .
+
+ns3:FURKUY_C_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_7_C_18> .
+
+ns3:FURKUY_C_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_19_H_11> .
+
+ns3:FURKUY_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_2_C_12>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_2_C_3> .
+
+ns3:FURKUY_C_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_20_H_12> .
+
+ns3:FURKUY_C_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_21_H_13> .
+
+ns3:FURKUY_C_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_22_H_14> .
+
+ns3:FURKUY_C_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_23_H_15> .
+
+ns3:FURKUY_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_3_C_11>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_3_C_4> .
+
+ns3:FURKUY_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_4_H_2> .
+
+ns3:FURKUY_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_5_H_3> .
+
+ns3:FURKUY_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_6_C_10>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_6_C_7> .
+
+ns3:FURKUY_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_7_C_18>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_7_C_8> .
+
+ns3:FURKUY_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_8_H_4> .
+
+ns3:FURKUY_C_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_C_9_H_5>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_N_1_C_9> .
+
+ns3:FURKUY_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_0_H_0> .
+
+ns3:FURKUY_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_1_H_1> .
+
+ns3:FURKUY_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_17_H_10> .
+
+ns3:FURKUY_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_19_H_11> .
+
+ns3:FURKUY_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_20_H_12> .
+
+ns3:FURKUY_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_21_H_13> .
+
+ns3:FURKUY_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_22_H_14> .
+
+ns3:FURKUY_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_23_H_15> .
+
+ns3:FURKUY_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_4_H_2> .
+
+ns3:FURKUY_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_5_H_3> .
+
+ns3:FURKUY_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_8_H_4> .
+
+ns3:FURKUY_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_9_H_5> .
+
+ns3:FURKUY_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_13_H_6> .
+
+ns3:FURKUY_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_14_H_7> .
+
+ns3:FURKUY_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_15_H_8> .
+
+ns3:FURKUY_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_C_16_H_9> .
+
+ns3:FURKUY_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_N_0>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_N_1> .
+
+ns7:FURKUY_metalCentre_Pd ns7:hasAtom ns3:FURKUY_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns5:FURKUY_bondL_ligand1-0_0_0,
+        ns5:FURKUY_bondL_ligand2285-0_0_0,
+        ns5:FURKUY_bondL_ligand2285-0_0_1 .
+
+ns1:FURKUY_ligand1-0_0 ns1:hasAtom ns3:FURKUY_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns5:FURKUY_bondL_ligand1-0_0_0 .
+
+ns1:FURKUY_ligand2285-0_0 ns1:hasAtom ns3:FURKUY_C_0,
+        ns3:FURKUY_C_1,
+        ns3:FURKUY_C_10,
+        ns3:FURKUY_C_11,
+        ns3:FURKUY_C_12,
+        ns3:FURKUY_C_13,
+        ns3:FURKUY_C_14,
+        ns3:FURKUY_C_15,
+        ns3:FURKUY_C_16,
+        ns3:FURKUY_C_17,
+        ns3:FURKUY_C_18,
+        ns3:FURKUY_C_19,
+        ns3:FURKUY_C_2,
+        ns3:FURKUY_C_20,
+        ns3:FURKUY_C_21,
+        ns3:FURKUY_C_22,
+        ns3:FURKUY_C_23,
+        ns3:FURKUY_C_3,
+        ns3:FURKUY_C_4,
+        ns3:FURKUY_C_5,
+        ns3:FURKUY_C_6,
+        ns3:FURKUY_C_7,
+        ns3:FURKUY_C_8,
+        ns3:FURKUY_C_9,
+        ns3:FURKUY_H_0,
+        ns3:FURKUY_H_1,
+        ns3:FURKUY_H_10,
+        ns3:FURKUY_H_11,
+        ns3:FURKUY_H_12,
+        ns3:FURKUY_H_13,
+        ns3:FURKUY_H_14,
+        ns3:FURKUY_H_15,
+        ns3:FURKUY_H_2,
+        ns3:FURKUY_H_3,
+        ns3:FURKUY_H_4,
+        ns3:FURKUY_H_5,
+        ns3:FURKUY_H_6,
+        ns3:FURKUY_H_7,
+        ns3:FURKUY_H_8,
+        ns3:FURKUY_H_9,
+        ns3:FURKUY_N_0,
+        ns3:FURKUY_N_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2285-0> ;
+    ns6:bLl ns5:FURKUY_bondL_ligand2285-0_0_0,
+        ns5:FURKUY_bondL_ligand2285-0_0_1 .
+
+ns3:FURKUY_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_Cl_0> .
+
+ns3:FURKUY_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_N_0_C_11>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_N_0> .
+
+ns3:FURKUY_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FURKUY_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_N_1_C_9>,
+        <resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_13_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_14_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_15_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_16_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_17_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_18_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_19_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_20_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_21_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_22_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_23_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_2_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_3_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_4_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_5_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_6_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_7_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_8_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_C_9_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_N_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_N_1_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_N_1_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FURKUY_bond_Pd_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:FURKUY_bondL_ligand1-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:FURKUY_Cl_0 .
+
+ns5:FURKUY_bondL_ligand2285-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:FURKUY_N_0 .
+
+ns5:FURKUY_bondL_ligand2285-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:FURKUY_N_1 .
+

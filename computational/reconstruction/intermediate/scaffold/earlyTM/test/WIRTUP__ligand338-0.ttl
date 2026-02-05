@@ -1,0 +1,366 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:WIRTUP ns5:hasLigand ns3:WIRTUP_ligand1-0_0,
+        ns3:WIRTUP_ligand1-0_1,
+        ns3:WIRTUP_ligand338-0_1,
+        ns3:WIRTUP_ligand38-0_0 ;
+    ns5:hasMetalCentre ns7:WIRTUP_metalCentre_W .
+
+ns1:WIRTUP_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_N_1_C_12> .
+
+ns1:WIRTUP_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_13_C_18> .
+
+ns1:WIRTUP_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_14_H_17> .
+
+ns1:WIRTUP_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_15_H_18> .
+
+ns1:WIRTUP_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_16_H_19> .
+
+ns1:WIRTUP_C_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_17_C_21> .
+
+ns1:WIRTUP_C_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_13_C_18>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_C_20>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_H_20> .
+
+ns1:WIRTUP_C_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_21>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_22>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_23> .
+
+ns1:WIRTUP_C_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_C_20>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_24>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_25>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_26> .
+
+ns1:WIRTUP_C_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_17_C_21>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_C_23>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_H_27> .
+
+ns1:WIRTUP_C_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_28>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_29>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_30> .
+
+ns1:WIRTUP_C_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_C_23>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_31>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_32>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_33> .
+
+ns1:WIRTUP_C_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_34>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_35>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_36>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_24> .
+
+ns1:WIRTUP_C_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_37>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_38>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_39>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_25> .
+
+ns1:WIRTUP_C_26 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_40>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_41>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_42>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_26> .
+
+ns1:WIRTUP_H_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_14_H_17> .
+
+ns1:WIRTUP_H_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_15_H_18> .
+
+ns1:WIRTUP_H_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_16_H_19> .
+
+ns1:WIRTUP_H_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_H_20> .
+
+ns1:WIRTUP_H_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_21> .
+
+ns1:WIRTUP_H_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_22> .
+
+ns1:WIRTUP_H_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_23> .
+
+ns1:WIRTUP_H_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_24> .
+
+ns1:WIRTUP_H_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_25> .
+
+ns1:WIRTUP_H_26 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_26> .
+
+ns1:WIRTUP_H_27 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_H_27> .
+
+ns1:WIRTUP_H_28 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_28> .
+
+ns1:WIRTUP_H_29 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_29> .
+
+ns1:WIRTUP_H_30 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_30> .
+
+ns1:WIRTUP_H_31 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_31> .
+
+ns1:WIRTUP_H_32 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_32> .
+
+ns1:WIRTUP_H_33 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_33> .
+
+ns1:WIRTUP_H_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_34> .
+
+ns1:WIRTUP_H_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_35> .
+
+ns1:WIRTUP_H_36 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_36> .
+
+ns1:WIRTUP_H_37 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_37> .
+
+ns1:WIRTUP_H_38 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_38> .
+
+ns1:WIRTUP_H_39 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_39> .
+
+ns1:WIRTUP_H_40 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_40> .
+
+ns1:WIRTUP_H_41 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_41> .
+
+ns1:WIRTUP_H_42 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_42> .
+
+ns1:WIRTUP_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_N_1>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_P_0> .
+
+ns7:WIRTUP_metalCentre_W ns7:hasAtom ns1:WIRTUP_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns6:bLc ns4:WIRTUP_bondL_ligand1-0_0_0,
+        ns4:WIRTUP_bondL_ligand1-0_1_0,
+        ns4:WIRTUP_bondL_ligand338-0_1_0,
+        ns4:WIRTUP_bondL_ligand38-0_0_0 .
+
+ns3:WIRTUP_ligand1-0_0 ns3:hasAtom ns1:WIRTUP_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:WIRTUP_bondL_ligand1-0_0_0 .
+
+ns3:WIRTUP_ligand1-0_1 ns3:hasAtom ns1:WIRTUP_Cl_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:WIRTUP_bondL_ligand1-0_1_0 .
+
+ns3:WIRTUP_ligand338-0_1 ns3:hasAtom ns1:WIRTUP_C_12,
+        ns1:WIRTUP_C_13,
+        ns1:WIRTUP_C_14,
+        ns1:WIRTUP_C_15,
+        ns1:WIRTUP_C_16,
+        ns1:WIRTUP_C_17,
+        ns1:WIRTUP_C_18,
+        ns1:WIRTUP_C_19,
+        ns1:WIRTUP_C_20,
+        ns1:WIRTUP_C_21,
+        ns1:WIRTUP_C_22,
+        ns1:WIRTUP_C_23,
+        ns1:WIRTUP_H_17,
+        ns1:WIRTUP_H_18,
+        ns1:WIRTUP_H_19,
+        ns1:WIRTUP_H_20,
+        ns1:WIRTUP_H_21,
+        ns1:WIRTUP_H_22,
+        ns1:WIRTUP_H_23,
+        ns1:WIRTUP_H_24,
+        ns1:WIRTUP_H_25,
+        ns1:WIRTUP_H_26,
+        ns1:WIRTUP_H_27,
+        ns1:WIRTUP_H_28,
+        ns1:WIRTUP_H_29,
+        ns1:WIRTUP_H_30,
+        ns1:WIRTUP_H_31,
+        ns1:WIRTUP_H_32,
+        ns1:WIRTUP_H_33,
+        ns1:WIRTUP_N_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand338-0> ;
+    ns6:bLl ns4:WIRTUP_bondL_ligand338-0_1_0 .
+
+ns3:WIRTUP_ligand38-0_0 ns3:hasAtom ns1:WIRTUP_C_24,
+        ns1:WIRTUP_C_25,
+        ns1:WIRTUP_C_26,
+        ns1:WIRTUP_H_34,
+        ns1:WIRTUP_H_35,
+        ns1:WIRTUP_H_36,
+        ns1:WIRTUP_H_37,
+        ns1:WIRTUP_H_38,
+        ns1:WIRTUP_H_39,
+        ns1:WIRTUP_H_40,
+        ns1:WIRTUP_H_41,
+        ns1:WIRTUP_H_42,
+        ns1:WIRTUP_P_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns6:bLl ns4:WIRTUP_bondL_ligand38-0_0_0 .
+
+ns1:WIRTUP_Cl_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_Cl_0> .
+
+ns1:WIRTUP_Cl_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_Cl_1> .
+
+ns1:WIRTUP_N_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_N_1_C_12>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_N_1> .
+
+ns1:WIRTUP_P_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_24>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_25>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_26>,
+        <resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_13_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_14_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_15_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_16_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_17_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_18_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_19_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_20_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_21_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_22_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_23_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_24_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_25_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_41> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_C_26_H_42> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_N_1_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_P_0_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WIRTUP_bond_W_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:WIRTUP_bondL_ligand1-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:WIRTUP_Cl_0 .
+
+ns4:WIRTUP_bondL_ligand1-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:WIRTUP_Cl_1 .
+
+ns4:WIRTUP_bondL_ligand338-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:WIRTUP_N_1 .
+
+ns4:WIRTUP_bondL_ligand38-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:WIRTUP_P_0 .
+

@@ -1,0 +1,111 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/ligand/centre/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/atomic/atom/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:ZESJEP ns7:hasLigand ns2:ZESJEP_ligand3051-0_0 ;
+    ns7:hasMetalCentre ns3:ZESJEP_metalCentre_Ni .
+
+ns5:ZESJEP_C_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_1_C_5>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_1_C_6>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_Cl_0_C_1> .
+
+ns5:ZESJEP_C_2 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_C_6>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_H_0> .
+
+ns5:ZESJEP_C_3 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_3_C_8>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_S_1_C_3> .
+
+ns5:ZESJEP_C_5 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_1_C_5>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_5_C_8>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_5_H_3> .
+
+ns5:ZESJEP_C_6 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_1_C_6>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_C_6>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_6_H_4> .
+
+ns5:ZESJEP_C_8 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_3_C_8>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_5_C_8>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_8_H_5> .
+
+ns5:ZESJEP_Cl_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_Cl_0_C_1> .
+
+ns5:ZESJEP_H_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_H_0> .
+
+ns5:ZESJEP_H_3 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_5_H_3> .
+
+ns5:ZESJEP_H_4 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_6_H_4> .
+
+ns5:ZESJEP_H_5 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_C_8_H_5> .
+
+ns5:ZESJEP_Ni_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_Ni_0_S_1> .
+
+ns3:ZESJEP_metalCentre_Ni ns3:hasAtom ns5:ZESJEP_Ni_0 ;
+    ns3:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns4:bLc ns6:ZESJEP_bondL_ligand3051-0_0_0 .
+
+ns2:ZESJEP_ligand3051-0_0 ns2:hasAtom ns5:ZESJEP_C_1,
+        ns5:ZESJEP_C_2,
+        ns5:ZESJEP_C_3,
+        ns5:ZESJEP_C_5,
+        ns5:ZESJEP_C_6,
+        ns5:ZESJEP_C_8,
+        ns5:ZESJEP_Cl_0,
+        ns5:ZESJEP_H_0,
+        ns5:ZESJEP_H_3,
+        ns5:ZESJEP_H_4,
+        ns5:ZESJEP_H_5,
+        ns5:ZESJEP_S_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3051-0> ;
+    ns4:bLl ns6:ZESJEP_bondL_ligand3051-0_0_0 .
+
+ns5:ZESJEP_S_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESJEP_bond_Ni_0_S_1>,
+        <resource://integreat/p5/atomic/bond/ZESJEP_bond_S_1_C_3> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_2_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_3_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_5_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_5_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_C_8_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_Cl_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_Ni_0_S_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESJEP_bond_S_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:ZESJEP_bondL_ligand3051-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:ZESJEP_S_1 .
+

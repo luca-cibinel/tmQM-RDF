@@ -1,0 +1,119 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:KULFUS ns6:hasLigand ns3:KULFUS_ligand1-0_0,
+        ns3:KULFUS_ligand188-0_0 ;
+    ns6:hasMetalCentre ns7:KULFUS_metalCentre_Pd .
+
+ns4:KULFUS_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_10_H_7>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_9_C_10> .
+
+ns4:KULFUS_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_11_H_8> .
+
+ns4:KULFUS_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_12_H_9>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_N_1_C_12> .
+
+ns4:KULFUS_C_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_8_H_5>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_N_1_C_8> .
+
+ns4:KULFUS_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_C_9_H_6> .
+
+ns4:KULFUS_H_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_8_H_5> .
+
+ns4:KULFUS_H_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_9_H_6> .
+
+ns4:KULFUS_H_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_10_H_7> .
+
+ns4:KULFUS_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_11_H_8> .
+
+ns4:KULFUS_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_C_12_H_9> .
+
+ns4:KULFUS_Pd_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_Pd_0_N_1> .
+
+ns7:KULFUS_metalCentre_Pd ns7:hasAtom ns4:KULFUS_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns2:bLc ns5:KULFUS_bondL_ligand1-0_0_0,
+        ns5:KULFUS_bondL_ligand188-0_0_0 .
+
+ns3:KULFUS_ligand1-0_0 ns3:hasAtom ns4:KULFUS_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns2:bLl ns5:KULFUS_bondL_ligand1-0_0_0 .
+
+ns3:KULFUS_ligand188-0_0 ns3:hasAtom ns4:KULFUS_C_10,
+        ns4:KULFUS_C_11,
+        ns4:KULFUS_C_12,
+        ns4:KULFUS_C_8,
+        ns4:KULFUS_C_9,
+        ns4:KULFUS_H_5,
+        ns4:KULFUS_H_6,
+        ns4:KULFUS_H_7,
+        ns4:KULFUS_H_8,
+        ns4:KULFUS_H_9,
+        ns4:KULFUS_N_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand188-0> ;
+    ns2:bLl ns5:KULFUS_bondL_ligand188-0_0_0 .
+
+ns4:KULFUS_Cl_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_Pd_0_Cl_0> .
+
+ns4:KULFUS_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/KULFUS_bond_N_1_C_12>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_N_1_C_8>,
+        <resource://integreat/p5/atomic/bond/KULFUS_bond_Pd_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_10_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_11_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_12_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_8_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_C_9_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_N_1_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_N_1_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KULFUS_bond_Pd_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:KULFUS_bondL_ligand1-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:KULFUS_Cl_0 .
+
+ns5:KULFUS_bondL_ligand188-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:KULFUS_N_1 .
+

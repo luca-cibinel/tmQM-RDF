@@ -1,0 +1,208 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:MAQHAN ns6:hasLigand ns1:MAQHAN_ligand166-0_1,
+        ns1:MAQHAN_ligand196-0_0,
+        ns1:MAQHAN_ligand196-0_1 ;
+    ns6:hasMetalCentre ns7:MAQHAN_metalCentre_Pd .
+
+ns3:MAQHAN_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_10_H_8>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_9_C_10> .
+
+ns3:MAQHAN_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_11_H_9> .
+
+ns3:MAQHAN_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_12_C_17> .
+
+ns3:MAQHAN_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_13_H_10> .
+
+ns3:MAQHAN_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_14_H_11> .
+
+ns3:MAQHAN_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_15_H_12> .
+
+ns3:MAQHAN_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_16_H_13> .
+
+ns3:MAQHAN_C_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_7_C_17> .
+
+ns3:MAQHAN_C_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_9_H_7>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_7_C_9> .
+
+ns3:MAQHAN_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_13_H_10> .
+
+ns3:MAQHAN_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_14_H_11> .
+
+ns3:MAQHAN_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_15_H_12> .
+
+ns3:MAQHAN_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_16_H_13> .
+
+ns3:MAQHAN_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_9_H_7> .
+
+ns3:MAQHAN_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_10_H_8> .
+
+ns3:MAQHAN_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_C_11_H_9> .
+
+ns3:MAQHAN_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_1_N_2> .
+
+ns3:MAQHAN_N_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_1_N_2> .
+
+ns3:MAQHAN_N_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_4_N_5>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_5_N_6> .
+
+ns3:MAQHAN_N_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_5_N_6> .
+
+ns3:MAQHAN_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_0_Pd_0>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_Pd_0_N_4>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_Pd_0_N_7> .
+
+ns7:MAQHAN_metalCentre_Pd ns7:hasAtom ns3:MAQHAN_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns5:bLc ns4:MAQHAN_bondL_ligand166-0_1_0,
+        ns4:MAQHAN_bondL_ligand196-0_0_0,
+        ns4:MAQHAN_bondL_ligand196-0_1_0 .
+
+ns1:MAQHAN_ligand166-0_1 ns1:hasAtom ns3:MAQHAN_C_10,
+        ns3:MAQHAN_C_11,
+        ns3:MAQHAN_C_12,
+        ns3:MAQHAN_C_13,
+        ns3:MAQHAN_C_14,
+        ns3:MAQHAN_C_15,
+        ns3:MAQHAN_C_16,
+        ns3:MAQHAN_C_17,
+        ns3:MAQHAN_C_9,
+        ns3:MAQHAN_H_10,
+        ns3:MAQHAN_H_11,
+        ns3:MAQHAN_H_12,
+        ns3:MAQHAN_H_13,
+        ns3:MAQHAN_H_7,
+        ns3:MAQHAN_H_8,
+        ns3:MAQHAN_H_9,
+        ns3:MAQHAN_N_7 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand166-0> ;
+    ns5:bLl ns4:MAQHAN_bondL_ligand166-0_1_0 .
+
+ns1:MAQHAN_ligand196-0_0 ns1:hasAtom ns3:MAQHAN_N_0,
+        ns3:MAQHAN_N_1,
+        ns3:MAQHAN_N_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand196-0> ;
+    ns5:bLl ns4:MAQHAN_bondL_ligand196-0_0_0 .
+
+ns1:MAQHAN_ligand196-0_1 ns1:hasAtom ns3:MAQHAN_N_4,
+        ns3:MAQHAN_N_5,
+        ns3:MAQHAN_N_6 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand196-0> ;
+    ns5:bLl ns4:MAQHAN_bondL_ligand196-0_1_0 .
+
+ns3:MAQHAN_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_0_Pd_0> .
+
+ns3:MAQHAN_N_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_4_N_5>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_Pd_0_N_4> .
+
+ns3:MAQHAN_N_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_7_C_17>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_N_7_C_9>,
+        <resource://integreat/p5/atomic/bond/MAQHAN_bond_Pd_0_N_7> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_10_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_11_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_13_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_14_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_15_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_16_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_C_9_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_0_Pd_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_1_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_4_N_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_5_N_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_7_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_N_7_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_Pd_0_N_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MAQHAN_bond_Pd_0_N_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:MAQHAN_bondL_ligand166-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:MAQHAN_N_7 .
+
+ns4:MAQHAN_bondL_ligand196-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:MAQHAN_N_0 .
+
+ns4:MAQHAN_bondL_ligand196-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:MAQHAN_N_4 .
+

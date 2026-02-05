@@ -1,0 +1,190 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:VUPMEA ns5:hasLigand ns2:VUPMEA_ligand1-0_1,
+        ns2:VUPMEA_ligand1727-0_0,
+        ns2:VUPMEA_ligand7550-0_0 ;
+    ns5:hasMetalCentre ns7:VUPMEA_metalCentre_Pt .
+
+ns3:VUPMEA_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_C_3>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_H_3> .
+
+ns3:VUPMEA_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_1_N_1>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_1_N_2> .
+
+ns3:VUPMEA_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_2_N_3>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_2_O_0>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_2_C_2> .
+
+ns3:VUPMEA_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_C_3>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_3_H_6>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_3_C_3> .
+
+ns3:VUPMEA_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_7>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_8>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_9>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_3_C_4> .
+
+ns3:VUPMEA_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_0> .
+
+ns3:VUPMEA_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_1> .
+
+ns3:VUPMEA_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_2> .
+
+ns3:VUPMEA_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_H_3> .
+
+ns3:VUPMEA_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_1_H_4> .
+
+ns3:VUPMEA_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_1_H_5> .
+
+ns3:VUPMEA_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_3_H_6> .
+
+ns3:VUPMEA_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_7> .
+
+ns3:VUPMEA_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_8> .
+
+ns3:VUPMEA_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_9> .
+
+ns3:VUPMEA_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_1_N_1>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_1_H_4>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_1_H_5> .
+
+ns3:VUPMEA_N_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_2_N_3>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_3_C_3>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_3_C_4> .
+
+ns3:VUPMEA_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_2_O_0> .
+
+ns3:VUPMEA_Pt_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_N_0>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_N_2> .
+
+ns7:VUPMEA_metalCentre_Pt ns7:hasAtom ns3:VUPMEA_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns4:bLc ns6:VUPMEA_bondL_ligand1-0_1_0,
+        ns6:VUPMEA_bondL_ligand1727-0_0_0,
+        ns6:VUPMEA_bondL_ligand7550-0_0_0 .
+
+ns2:VUPMEA_ligand1-0_1 ns2:hasAtom ns3:VUPMEA_Cl_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns6:VUPMEA_bondL_ligand1-0_1_0 .
+
+ns2:VUPMEA_ligand1727-0_0 ns2:hasAtom ns3:VUPMEA_H_0,
+        ns3:VUPMEA_H_1,
+        ns3:VUPMEA_H_2,
+        ns3:VUPMEA_N_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1727-0> ;
+    ns4:bLl ns6:VUPMEA_bondL_ligand1727-0_0_0 .
+
+ns2:VUPMEA_ligand7550-0_0 ns2:hasAtom ns3:VUPMEA_C_0,
+        ns3:VUPMEA_C_1,
+        ns3:VUPMEA_C_2,
+        ns3:VUPMEA_C_3,
+        ns3:VUPMEA_C_4,
+        ns3:VUPMEA_H_3,
+        ns3:VUPMEA_H_4,
+        ns3:VUPMEA_H_5,
+        ns3:VUPMEA_H_6,
+        ns3:VUPMEA_H_7,
+        ns3:VUPMEA_H_8,
+        ns3:VUPMEA_H_9,
+        ns3:VUPMEA_N_1,
+        ns3:VUPMEA_N_2,
+        ns3:VUPMEA_N_3,
+        ns3:VUPMEA_O_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand7550-0> ;
+    ns4:bLl ns6:VUPMEA_bondL_ligand7550-0_0_0 .
+
+ns3:VUPMEA_Cl_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_Cl_1> .
+
+ns3:VUPMEA_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_0>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_1>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_2>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_N_0> .
+
+ns3:VUPMEA_N_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VUPMEA_bond_C_1_N_2>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_N_2_C_2>,
+        <resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_N_2> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_0_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_1_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_1_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_2_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_2_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_3_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_C_4_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_0_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_1_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_1_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_2_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_3_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_N_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUPMEA_bond_Pt_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:VUPMEA_bondL_ligand1-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:VUPMEA_Cl_1 .
+
+ns6:VUPMEA_bondL_ligand1727-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:VUPMEA_N_0 .
+
+ns6:VUPMEA_bondL_ligand7550-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:VUPMEA_N_2 .
+

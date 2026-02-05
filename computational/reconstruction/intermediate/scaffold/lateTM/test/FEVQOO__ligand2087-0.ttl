@@ -1,0 +1,352 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:FEVQOO ns7:hasLigand ns3:FEVQOO_ligand2087-0_1,
+        ns3:FEVQOO_ligand430-0_0 ;
+    ns7:hasMetalCentre ns4:FEVQOO_metalCentre_Pd .
+
+ns2:FEVQOO_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_2>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_0> .
+
+ns2:FEVQOO_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_3>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_4>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_5>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_1> .
+
+ns2:FEVQOO_C_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_16_C_21> .
+
+ns2:FEVQOO_C_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_17_H_27> .
+
+ns2:FEVQOO_C_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_18_C_22> .
+
+ns2:FEVQOO_C_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_19_H_28> .
+
+ns2:FEVQOO_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_H_6>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_H_7>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_2> .
+
+ns2:FEVQOO_C_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_20_C_23> .
+
+ns2:FEVQOO_C_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_29>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_30>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_31> .
+
+ns2:FEVQOO_C_22 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_18_C_22>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_32>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_33>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_34> .
+
+ns2:FEVQOO_C_23 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_20_C_23>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_35>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_36>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_37> .
+
+ns2:FEVQOO_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_3_H_8>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_3_H_9>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_3> .
+
+ns2:FEVQOO_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_10>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_11>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_12>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_4> .
+
+ns2:FEVQOO_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_13>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_14>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_15>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_5> .
+
+ns2:FEVQOO_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_0> .
+
+ns2:FEVQOO_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_1> .
+
+ns2:FEVQOO_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_10> .
+
+ns2:FEVQOO_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_11> .
+
+ns2:FEVQOO_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_12> .
+
+ns2:FEVQOO_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_13> .
+
+ns2:FEVQOO_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_14> .
+
+ns2:FEVQOO_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_15> .
+
+ns2:FEVQOO_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_2> .
+
+ns2:FEVQOO_H_27 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_17_H_27> .
+
+ns2:FEVQOO_H_28 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_19_H_28> .
+
+ns2:FEVQOO_H_29 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_29> .
+
+ns2:FEVQOO_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_3> .
+
+ns2:FEVQOO_H_30 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_30> .
+
+ns2:FEVQOO_H_31 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_31> .
+
+ns2:FEVQOO_H_32 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_32> .
+
+ns2:FEVQOO_H_33 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_33> .
+
+ns2:FEVQOO_H_34 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_34> .
+
+ns2:FEVQOO_H_35 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_35> .
+
+ns2:FEVQOO_H_36 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_36> .
+
+ns2:FEVQOO_H_37 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_37> .
+
+ns2:FEVQOO_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_4> .
+
+ns2:FEVQOO_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_5> .
+
+ns2:FEVQOO_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_H_6> .
+
+ns2:FEVQOO_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_H_7> .
+
+ns2:FEVQOO_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_3_H_8> .
+
+ns2:FEVQOO_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_3_H_9> .
+
+ns2:FEVQOO_Pd_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_C_15>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_N_0>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_N_1> .
+
+ns4:FEVQOO_metalCentre_Pd ns4:hasAtom ns2:FEVQOO_Pd_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns5:bLc ns6:FEVQOO_bondL_ligand2087-0_1_0,
+        ns6:FEVQOO_bondL_ligand430-0_0_0,
+        ns6:FEVQOO_bondL_ligand430-0_0_1 .
+
+ns3:FEVQOO_ligand2087-0_1 ns3:hasAtom ns2:FEVQOO_C_15,
+        ns2:FEVQOO_C_16,
+        ns2:FEVQOO_C_17,
+        ns2:FEVQOO_C_18,
+        ns2:FEVQOO_C_19,
+        ns2:FEVQOO_C_20,
+        ns2:FEVQOO_C_21,
+        ns2:FEVQOO_C_22,
+        ns2:FEVQOO_C_23,
+        ns2:FEVQOO_H_27,
+        ns2:FEVQOO_H_28,
+        ns2:FEVQOO_H_29,
+        ns2:FEVQOO_H_30,
+        ns2:FEVQOO_H_31,
+        ns2:FEVQOO_H_32,
+        ns2:FEVQOO_H_33,
+        ns2:FEVQOO_H_34,
+        ns2:FEVQOO_H_35,
+        ns2:FEVQOO_H_36,
+        ns2:FEVQOO_H_37 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2087-0> ;
+    ns5:bLl ns6:FEVQOO_bondL_ligand2087-0_1_0 .
+
+ns3:FEVQOO_ligand430-0_0 ns3:hasAtom ns2:FEVQOO_C_0,
+        ns2:FEVQOO_C_1,
+        ns2:FEVQOO_C_2,
+        ns2:FEVQOO_C_3,
+        ns2:FEVQOO_C_4,
+        ns2:FEVQOO_C_5,
+        ns2:FEVQOO_H_0,
+        ns2:FEVQOO_H_1,
+        ns2:FEVQOO_H_10,
+        ns2:FEVQOO_H_11,
+        ns2:FEVQOO_H_12,
+        ns2:FEVQOO_H_13,
+        ns2:FEVQOO_H_14,
+        ns2:FEVQOO_H_15,
+        ns2:FEVQOO_H_2,
+        ns2:FEVQOO_H_3,
+        ns2:FEVQOO_H_4,
+        ns2:FEVQOO_H_5,
+        ns2:FEVQOO_H_6,
+        ns2:FEVQOO_H_7,
+        ns2:FEVQOO_H_8,
+        ns2:FEVQOO_H_9,
+        ns2:FEVQOO_N_0,
+        ns2:FEVQOO_N_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand430-0> ;
+    ns5:bLl ns6:FEVQOO_bondL_ligand430-0_0_0,
+        ns6:FEVQOO_bondL_ligand430-0_0_1 .
+
+ns2:FEVQOO_C_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_C_15> .
+
+ns2:FEVQOO_N_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_1>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_2>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_N_0> .
+
+ns2:FEVQOO_N_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_3>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_4>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_5>,
+        <resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_0_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_15_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_16_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_17_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_18_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_19_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_1_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_20_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_21_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_22_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_23_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_2_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_3_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_3_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_4_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_C_5_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_N_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_N_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FEVQOO_bond_Pd_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:FEVQOO_bondL_ligand2087-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:FEVQOO_C_15 .
+
+ns6:FEVQOO_bondL_ligand430-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:FEVQOO_N_0 .
+
+ns6:FEVQOO_bondL_ligand430-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:FEVQOO_N_1 .
+

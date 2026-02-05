@@ -1,0 +1,101 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:DIVVOW ns3:hasLigand ns1:DIVVOW_ligand16-0_0,
+        ns1:DIVVOW_ligand416-0_0 ;
+    ns3:hasMetalCentre ns7:DIVVOW_metalCentre_W .
+
+ns4:DIVVOW_C_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_27>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_28>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_29>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_N_3_C_32> .
+
+ns4:DIVVOW_C_33 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_30>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_31>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_32>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_N_3_C_33> .
+
+ns4:DIVVOW_H_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_27> .
+
+ns4:DIVVOW_H_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_28> .
+
+ns4:DIVVOW_H_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_29> .
+
+ns4:DIVVOW_H_30 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_30> .
+
+ns4:DIVVOW_H_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_31> .
+
+ns4:DIVVOW_H_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_32> .
+
+ns4:DIVVOW_W_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_W_0_N_2>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_W_0_N_3> .
+
+ns7:DIVVOW_metalCentre_W ns7:hasAtom ns4:DIVVOW_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns6:bLc ns5:DIVVOW_bondL_ligand16-0_0_0,
+        ns5:DIVVOW_bondL_ligand416-0_0_0 .
+
+ns1:DIVVOW_ligand16-0_0 ns1:hasAtom ns4:DIVVOW_N_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand16-0> ;
+    ns6:bLl ns5:DIVVOW_bondL_ligand16-0_0_0 .
+
+ns1:DIVVOW_ligand416-0_0 ns1:hasAtom ns4:DIVVOW_C_32,
+        ns4:DIVVOW_C_33,
+        ns4:DIVVOW_H_27,
+        ns4:DIVVOW_H_28,
+        ns4:DIVVOW_H_29,
+        ns4:DIVVOW_H_30,
+        ns4:DIVVOW_H_31,
+        ns4:DIVVOW_H_32,
+        ns4:DIVVOW_N_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand416-0> ;
+    ns6:bLl ns5:DIVVOW_bondL_ligand416-0_0_0 .
+
+ns4:DIVVOW_N_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_W_0_N_2> .
+
+ns4:DIVVOW_N_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DIVVOW_bond_N_3_C_32>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_N_3_C_33>,
+        <resource://integreat/p5/atomic/bond/DIVVOW_bond_W_0_N_3> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_C_32_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_C_33_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_N_3_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_N_3_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_W_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DIVVOW_bond_W_0_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:DIVVOW_bondL_ligand16-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:DIVVOW_N_2 .
+
+ns5:DIVVOW_bondL_ligand416-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:DIVVOW_N_3 .
+

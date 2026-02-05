@@ -1,0 +1,456 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/complex/TMC/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns2:VUNVEF ns2:hasLigand ns1:VUNVEF_ligand421-0_1,
+        ns1:VUNVEF_ligand421-0_2,
+        ns1:VUNVEF_ligand421-0_3,
+        ns1:VUNVEF_ligand45-0_0 ;
+    ns2:hasMetalCentre ns7:VUNVEF_metalCentre_Cr .
+
+ns4:VUNVEF_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_13>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_14>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_N_1> .
+
+ns4:VUNVEF_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_14>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_15>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_16> .
+
+ns4:VUNVEF_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_13>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_17>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_18>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_19> .
+
+ns4:VUNVEF_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_14>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_20>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_21>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_22> .
+
+ns4:VUNVEF_C_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_18>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_19>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_N_2> .
+
+ns4:VUNVEF_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_23>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_24>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_25> .
+
+ns4:VUNVEF_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_18>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_26>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_27>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_28> .
+
+ns4:VUNVEF_C_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_19>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_29>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_30>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_31> .
+
+ns4:VUNVEF_C_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_23>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_24>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_N_3> .
+
+ns4:VUNVEF_C_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_32>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_33>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_34> .
+
+ns4:VUNVEF_C_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_23>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_35>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_36>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_37> .
+
+ns4:VUNVEF_C_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_24>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_38>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_39>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_40> .
+
+ns4:VUNVEF_Cr_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cr> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_0>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_1>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_10>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_15>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_2>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_20>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_3>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_4> .
+
+ns4:VUNVEF_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_H_0> .
+
+ns4:VUNVEF_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_1_H_1> .
+
+ns4:VUNVEF_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_14> .
+
+ns4:VUNVEF_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_15> .
+
+ns4:VUNVEF_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_16> .
+
+ns4:VUNVEF_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_17> .
+
+ns4:VUNVEF_H_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_18> .
+
+ns4:VUNVEF_H_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_19> .
+
+ns4:VUNVEF_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_2_H_2> .
+
+ns4:VUNVEF_H_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_20> .
+
+ns4:VUNVEF_H_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_21> .
+
+ns4:VUNVEF_H_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_22> .
+
+ns4:VUNVEF_H_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_23> .
+
+ns4:VUNVEF_H_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_24> .
+
+ns4:VUNVEF_H_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_25> .
+
+ns4:VUNVEF_H_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_26> .
+
+ns4:VUNVEF_H_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_27> .
+
+ns4:VUNVEF_H_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_28> .
+
+ns4:VUNVEF_H_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_29> .
+
+ns4:VUNVEF_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_3_H_3> .
+
+ns4:VUNVEF_H_30 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_30> .
+
+ns4:VUNVEF_H_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_31> .
+
+ns4:VUNVEF_H_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_32> .
+
+ns4:VUNVEF_H_33 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_33> .
+
+ns4:VUNVEF_H_34 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_34> .
+
+ns4:VUNVEF_H_35 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_35> .
+
+ns4:VUNVEF_H_36 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_36> .
+
+ns4:VUNVEF_H_37 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_37> .
+
+ns4:VUNVEF_H_38 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_38> .
+
+ns4:VUNVEF_H_39 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_39> .
+
+ns4:VUNVEF_H_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_4_H_4> .
+
+ns4:VUNVEF_H_40 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_40> .
+
+ns4:VUNVEF_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_10_N_1>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_N_1> .
+
+ns4:VUNVEF_N_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_15_N_2>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_N_2> .
+
+ns4:VUNVEF_N_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_20_N_3>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_N_3> .
+
+ns7:VUNVEF_metalCentre_Cr ns7:hasAtom ns4:VUNVEF_Cr_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Cr> ;
+    ns6:bLc ns5:VUNVEF_bondL_ligand421-0_1_0,
+        ns5:VUNVEF_bondL_ligand421-0_2_0,
+        ns5:VUNVEF_bondL_ligand421-0_3_0,
+        ns5:VUNVEF_bondL_ligand45-0_0_0 .
+
+ns1:VUNVEF_ligand421-0_1 ns1:hasAtom ns4:VUNVEF_C_10,
+        ns4:VUNVEF_C_11,
+        ns4:VUNVEF_C_12,
+        ns4:VUNVEF_C_13,
+        ns4:VUNVEF_C_14,
+        ns4:VUNVEF_H_14,
+        ns4:VUNVEF_H_15,
+        ns4:VUNVEF_H_16,
+        ns4:VUNVEF_H_17,
+        ns4:VUNVEF_H_18,
+        ns4:VUNVEF_H_19,
+        ns4:VUNVEF_H_20,
+        ns4:VUNVEF_H_21,
+        ns4:VUNVEF_H_22,
+        ns4:VUNVEF_N_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand421-0> ;
+    ns6:bLl ns5:VUNVEF_bondL_ligand421-0_1_0 .
+
+ns1:VUNVEF_ligand421-0_2 ns1:hasAtom ns4:VUNVEF_C_15,
+        ns4:VUNVEF_C_16,
+        ns4:VUNVEF_C_17,
+        ns4:VUNVEF_C_18,
+        ns4:VUNVEF_C_19,
+        ns4:VUNVEF_H_23,
+        ns4:VUNVEF_H_24,
+        ns4:VUNVEF_H_25,
+        ns4:VUNVEF_H_26,
+        ns4:VUNVEF_H_27,
+        ns4:VUNVEF_H_28,
+        ns4:VUNVEF_H_29,
+        ns4:VUNVEF_H_30,
+        ns4:VUNVEF_H_31,
+        ns4:VUNVEF_N_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand421-0> ;
+    ns6:bLl ns5:VUNVEF_bondL_ligand421-0_2_0 .
+
+ns1:VUNVEF_ligand421-0_3 ns1:hasAtom ns4:VUNVEF_C_20,
+        ns4:VUNVEF_C_21,
+        ns4:VUNVEF_C_22,
+        ns4:VUNVEF_C_23,
+        ns4:VUNVEF_C_24,
+        ns4:VUNVEF_H_32,
+        ns4:VUNVEF_H_33,
+        ns4:VUNVEF_H_34,
+        ns4:VUNVEF_H_35,
+        ns4:VUNVEF_H_36,
+        ns4:VUNVEF_H_37,
+        ns4:VUNVEF_H_38,
+        ns4:VUNVEF_H_39,
+        ns4:VUNVEF_H_40,
+        ns4:VUNVEF_N_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand421-0> ;
+    ns6:bLl ns5:VUNVEF_bondL_ligand421-0_3_0 .
+
+ns1:VUNVEF_ligand45-0_0 ns1:hasAtom ns4:VUNVEF_C_0,
+        ns4:VUNVEF_C_1,
+        ns4:VUNVEF_C_2,
+        ns4:VUNVEF_C_3,
+        ns4:VUNVEF_C_4,
+        ns4:VUNVEF_H_0,
+        ns4:VUNVEF_H_1,
+        ns4:VUNVEF_H_2,
+        ns4:VUNVEF_H_3,
+        ns4:VUNVEF_H_4 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand45-0> ;
+    ns6:bLl ns5:VUNVEF_bondL_ligand45-0_0_0 .
+
+ns4:VUNVEF_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_0> .
+
+ns4:VUNVEF_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_1_H_1>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_1> .
+
+ns4:VUNVEF_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_10_N_1>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_10> .
+
+ns4:VUNVEF_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_15_N_2>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_15> .
+
+ns4:VUNVEF_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_2_H_2>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_2> .
+
+ns4:VUNVEF_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_20_N_3>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_20> .
+
+ns4:VUNVEF_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_3_H_3>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_3> .
+
+ns4:VUNVEF_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_C_4_H_4>,
+        <resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_4> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_10_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_11_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_12_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_13_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_14_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_15_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_16_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_17_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_18_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_19_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_20_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_21_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_22_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_23_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_24_H_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_3_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_C_4_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VUNVEF_bond_Cr_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:VUNVEF_bondL_ligand421-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:VUNVEF_C_10 .
+
+ns5:VUNVEF_bondL_ligand421-0_2_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:VUNVEF_C_15 .
+
+ns5:VUNVEF_bondL_ligand421-0_3_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:VUNVEF_C_20 .
+
+ns5:VUNVEF_bondL_ligand45-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:VUNVEF_C_0,
+        ns4:VUNVEF_C_1,
+        ns4:VUNVEF_C_2,
+        ns4:VUNVEF_C_3,
+        ns4:VUNVEF_C_4 .
+

@@ -1,0 +1,396 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:TABLEP ns5:hasLigand ns2:TABLEP_ligand1-0_0,
+        ns2:TABLEP_ligand1-0_1,
+        ns2:TABLEP_ligand185-0_0,
+        ns2:TABLEP_ligand338-0_1 ;
+    ns5:hasMetalCentre ns7:TABLEP_metalCentre_W .
+
+ns3:TABLEP_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_2>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_O_0_C_0> .
+
+ns3:TABLEP_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_H_3>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_H_4>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_O_0_C_1> .
+
+ns3:TABLEP_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_N_1_C_10> .
+
+ns3:TABLEP_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_11_C_22> .
+
+ns3:TABLEP_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_12_H_13> .
+
+ns3:TABLEP_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_13_H_14> .
+
+ns3:TABLEP_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_14_H_15> .
+
+ns3:TABLEP_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_15_C_25> .
+
+ns3:TABLEP_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_2_H_5>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_2_H_6>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_O_1_C_2> .
+
+ns3:TABLEP_C_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_11_C_22>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_C_24>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_H_30> .
+
+ns3:TABLEP_C_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_31>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_32>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_33> .
+
+ns3:TABLEP_C_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_C_24>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_34>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_35>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_36> .
+
+ns3:TABLEP_C_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_15_C_25>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_C_27>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_H_37> .
+
+ns3:TABLEP_C_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_38>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_39>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_40> .
+
+ns3:TABLEP_C_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_C_27>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_41>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_42>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_43> .
+
+ns3:TABLEP_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_7>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_8>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_9>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_O_1_C_3> .
+
+ns3:TABLEP_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_0> .
+
+ns3:TABLEP_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_1> .
+
+ns3:TABLEP_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_12_H_13> .
+
+ns3:TABLEP_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_13_H_14> .
+
+ns3:TABLEP_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_14_H_15> .
+
+ns3:TABLEP_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_2> .
+
+ns3:TABLEP_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_H_3> .
+
+ns3:TABLEP_H_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_H_30> .
+
+ns3:TABLEP_H_31 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_31> .
+
+ns3:TABLEP_H_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_32> .
+
+ns3:TABLEP_H_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_33> .
+
+ns3:TABLEP_H_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_34> .
+
+ns3:TABLEP_H_35 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_35> .
+
+ns3:TABLEP_H_36 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_36> .
+
+ns3:TABLEP_H_37 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_H_37> .
+
+ns3:TABLEP_H_38 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_38> .
+
+ns3:TABLEP_H_39 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_39> .
+
+ns3:TABLEP_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_H_4> .
+
+ns3:TABLEP_H_40 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_40> .
+
+ns3:TABLEP_H_41 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_41> .
+
+ns3:TABLEP_H_42 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_42> .
+
+ns3:TABLEP_H_43 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_43> .
+
+ns3:TABLEP_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_2_H_5> .
+
+ns3:TABLEP_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_2_H_6> .
+
+ns3:TABLEP_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_7> .
+
+ns3:TABLEP_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_8> .
+
+ns3:TABLEP_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_9> .
+
+ns3:TABLEP_W_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_N_1>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_O_0>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_O_1> .
+
+ns7:TABLEP_metalCentre_W ns7:hasAtom ns3:TABLEP_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns4:bLc ns6:TABLEP_bondL_ligand1-0_0_0,
+        ns6:TABLEP_bondL_ligand1-0_1_0,
+        ns6:TABLEP_bondL_ligand185-0_0_0,
+        ns6:TABLEP_bondL_ligand185-0_0_1,
+        ns6:TABLEP_bondL_ligand338-0_1_0 .
+
+ns2:TABLEP_ligand1-0_0 ns2:hasAtom ns3:TABLEP_Cl_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns6:TABLEP_bondL_ligand1-0_0_0 .
+
+ns2:TABLEP_ligand1-0_1 ns2:hasAtom ns3:TABLEP_Cl_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns6:TABLEP_bondL_ligand1-0_1_0 .
+
+ns2:TABLEP_ligand185-0_0 ns2:hasAtom ns3:TABLEP_C_0,
+        ns3:TABLEP_C_1,
+        ns3:TABLEP_C_2,
+        ns3:TABLEP_C_3,
+        ns3:TABLEP_H_0,
+        ns3:TABLEP_H_1,
+        ns3:TABLEP_H_2,
+        ns3:TABLEP_H_3,
+        ns3:TABLEP_H_4,
+        ns3:TABLEP_H_5,
+        ns3:TABLEP_H_6,
+        ns3:TABLEP_H_7,
+        ns3:TABLEP_H_8,
+        ns3:TABLEP_H_9,
+        ns3:TABLEP_O_0,
+        ns3:TABLEP_O_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand185-0> ;
+    ns4:bLl ns6:TABLEP_bondL_ligand185-0_0_0,
+        ns6:TABLEP_bondL_ligand185-0_0_1 .
+
+ns2:TABLEP_ligand338-0_1 ns2:hasAtom ns3:TABLEP_C_10,
+        ns3:TABLEP_C_11,
+        ns3:TABLEP_C_12,
+        ns3:TABLEP_C_13,
+        ns3:TABLEP_C_14,
+        ns3:TABLEP_C_15,
+        ns3:TABLEP_C_22,
+        ns3:TABLEP_C_23,
+        ns3:TABLEP_C_24,
+        ns3:TABLEP_C_25,
+        ns3:TABLEP_C_26,
+        ns3:TABLEP_C_27,
+        ns3:TABLEP_H_13,
+        ns3:TABLEP_H_14,
+        ns3:TABLEP_H_15,
+        ns3:TABLEP_H_30,
+        ns3:TABLEP_H_31,
+        ns3:TABLEP_H_32,
+        ns3:TABLEP_H_33,
+        ns3:TABLEP_H_34,
+        ns3:TABLEP_H_35,
+        ns3:TABLEP_H_36,
+        ns3:TABLEP_H_37,
+        ns3:TABLEP_H_38,
+        ns3:TABLEP_H_39,
+        ns3:TABLEP_H_40,
+        ns3:TABLEP_H_41,
+        ns3:TABLEP_H_42,
+        ns3:TABLEP_H_43,
+        ns3:TABLEP_N_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand338-0> ;
+    ns4:bLl ns6:TABLEP_bondL_ligand338-0_1_0 .
+
+ns3:TABLEP_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_Cl_0> .
+
+ns3:TABLEP_Cl_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_Cl_1> .
+
+ns3:TABLEP_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_N_1> .
+
+ns3:TABLEP_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_O_0_C_1>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_O_0> .
+
+ns3:TABLEP_O_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TABLEP_bond_O_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_O_1_C_3>,
+        <resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_O_1> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_0_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_10_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_11_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_12_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_13_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_14_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_15_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_1_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_22_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_23_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_24_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_25_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_26_H_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_41> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_42> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_27_H_43> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_2_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_2_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_C_3_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_N_1_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_O_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_O_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_O_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TABLEP_bond_W_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:TABLEP_bondL_ligand1-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:TABLEP_Cl_0 .
+
+ns6:TABLEP_bondL_ligand1-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:TABLEP_Cl_1 .
+
+ns6:TABLEP_bondL_ligand185-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:TABLEP_O_0 .
+
+ns6:TABLEP_bondL_ligand185-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:TABLEP_O_1 .
+
+ns6:TABLEP_bondL_ligand338-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:TABLEP_N_1 .
+

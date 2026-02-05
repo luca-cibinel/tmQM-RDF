@@ -1,0 +1,459 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:TONWOI ns5:hasLigand ns2:TONWOI_ligand1-0_0,
+        ns2:TONWOI_ligand1-0_1,
+        ns2:TONWOI_ligand28311-0_0,
+        ns2:TONWOI_ligand67-0_0,
+        ns2:TONWOI_ligand67-0_2 ;
+    ns5:hasMetalCentre ns7:TONWOI_metalCentre_W .
+
+ns4:TONWOI_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_0> .
+
+ns4:TONWOI_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_1_H_1> .
+
+ns4:TONWOI_C_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_16> .
+
+ns4:TONWOI_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_17_H_23> .
+
+ns4:TONWOI_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_18_H_24> .
+
+ns4:TONWOI_C_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_19_H_25> .
+
+ns4:TONWOI_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_2_H_2> .
+
+ns4:TONWOI_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_20_H_26> .
+
+ns4:TONWOI_C_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_21_H_27> .
+
+ns4:TONWOI_C_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_28>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_29>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_30>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_22> .
+
+ns4:TONWOI_C_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_31>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_32>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_33>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_23> .
+
+ns4:TONWOI_C_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_24_C_29>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_N_1_C_24> .
+
+ns4:TONWOI_C_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_25_H_34> .
+
+ns4:TONWOI_C_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_26_H_35> .
+
+ns4:TONWOI_C_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_27_H_36> .
+
+ns4:TONWOI_C_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_28_H_37> .
+
+ns4:TONWOI_C_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_24_C_29>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_29_H_38> .
+
+ns4:TONWOI_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_3_H_3> .
+
+ns4:TONWOI_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_4_H_4> .
+
+ns4:TONWOI_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_5_H_5> .
+
+ns4:TONWOI_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_6>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_7>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_8>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_6> .
+
+ns4:TONWOI_C_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_10>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_11>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_9>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_7> .
+
+ns4:TONWOI_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_N_1_H_0> .
+
+ns4:TONWOI_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_1_H_1> .
+
+ns4:TONWOI_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_10> .
+
+ns4:TONWOI_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_11> .
+
+ns4:TONWOI_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_2_H_2> .
+
+ns4:TONWOI_H_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_17_H_23> .
+
+ns4:TONWOI_H_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_18_H_24> .
+
+ns4:TONWOI_H_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_19_H_25> .
+
+ns4:TONWOI_H_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_20_H_26> .
+
+ns4:TONWOI_H_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_21_H_27> .
+
+ns4:TONWOI_H_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_28> .
+
+ns4:TONWOI_H_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_29> .
+
+ns4:TONWOI_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_3_H_3> .
+
+ns4:TONWOI_H_30 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_30> .
+
+ns4:TONWOI_H_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_31> .
+
+ns4:TONWOI_H_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_32> .
+
+ns4:TONWOI_H_33 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_33> .
+
+ns4:TONWOI_H_34 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_25_H_34> .
+
+ns4:TONWOI_H_35 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_26_H_35> .
+
+ns4:TONWOI_H_36 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_27_H_36> .
+
+ns4:TONWOI_H_37 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_28_H_37> .
+
+ns4:TONWOI_H_38 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_29_H_38> .
+
+ns4:TONWOI_H_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_4_H_4> .
+
+ns4:TONWOI_H_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_5_H_5> .
+
+ns4:TONWOI_H_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_6> .
+
+ns4:TONWOI_H_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_7> .
+
+ns4:TONWOI_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_8> .
+
+ns4:TONWOI_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_9> .
+
+ns4:TONWOI_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_N_1_C_24>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_N_1_H_0> .
+
+ns4:TONWOI_W_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_N_0>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_P_0>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_P_2> .
+
+ns7:TONWOI_metalCentre_W ns7:hasAtom ns4:TONWOI_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns3:bLc ns6:TONWOI_bondL_ligand1-0_0_0,
+        ns6:TONWOI_bondL_ligand1-0_1_0,
+        ns6:TONWOI_bondL_ligand28311-0_0_0,
+        ns6:TONWOI_bondL_ligand67-0_0_0,
+        ns6:TONWOI_bondL_ligand67-0_2_0 .
+
+ns2:TONWOI_ligand1-0_0 ns2:hasAtom ns4:TONWOI_Cl_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns3:bLl ns6:TONWOI_bondL_ligand1-0_0_0 .
+
+ns2:TONWOI_ligand1-0_1 ns2:hasAtom ns4:TONWOI_Cl_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns3:bLl ns6:TONWOI_bondL_ligand1-0_1_0 .
+
+ns2:TONWOI_ligand28311-0_0 ns2:hasAtom ns4:TONWOI_C_24,
+        ns4:TONWOI_C_25,
+        ns4:TONWOI_C_26,
+        ns4:TONWOI_C_27,
+        ns4:TONWOI_C_28,
+        ns4:TONWOI_C_29,
+        ns4:TONWOI_H_0,
+        ns4:TONWOI_H_34,
+        ns4:TONWOI_H_35,
+        ns4:TONWOI_H_36,
+        ns4:TONWOI_H_37,
+        ns4:TONWOI_H_38,
+        ns4:TONWOI_N_0,
+        ns4:TONWOI_N_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand28311-0> ;
+    ns3:bLl ns6:TONWOI_bondL_ligand28311-0_0_0 .
+
+ns2:TONWOI_ligand67-0_0 ns2:hasAtom ns4:TONWOI_C_0,
+        ns4:TONWOI_C_1,
+        ns4:TONWOI_C_2,
+        ns4:TONWOI_C_3,
+        ns4:TONWOI_C_4,
+        ns4:TONWOI_C_5,
+        ns4:TONWOI_C_6,
+        ns4:TONWOI_C_7,
+        ns4:TONWOI_H_1,
+        ns4:TONWOI_H_10,
+        ns4:TONWOI_H_11,
+        ns4:TONWOI_H_2,
+        ns4:TONWOI_H_3,
+        ns4:TONWOI_H_4,
+        ns4:TONWOI_H_5,
+        ns4:TONWOI_H_6,
+        ns4:TONWOI_H_7,
+        ns4:TONWOI_H_8,
+        ns4:TONWOI_H_9,
+        ns4:TONWOI_P_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand67-0> ;
+    ns3:bLl ns6:TONWOI_bondL_ligand67-0_0_0 .
+
+ns2:TONWOI_ligand67-0_2 ns2:hasAtom ns4:TONWOI_C_16,
+        ns4:TONWOI_C_17,
+        ns4:TONWOI_C_18,
+        ns4:TONWOI_C_19,
+        ns4:TONWOI_C_20,
+        ns4:TONWOI_C_21,
+        ns4:TONWOI_C_22,
+        ns4:TONWOI_C_23,
+        ns4:TONWOI_H_23,
+        ns4:TONWOI_H_24,
+        ns4:TONWOI_H_25,
+        ns4:TONWOI_H_26,
+        ns4:TONWOI_H_27,
+        ns4:TONWOI_H_28,
+        ns4:TONWOI_H_29,
+        ns4:TONWOI_H_30,
+        ns4:TONWOI_H_31,
+        ns4:TONWOI_H_32,
+        ns4:TONWOI_H_33,
+        ns4:TONWOI_P_2 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand67-0> ;
+    ns3:bLl ns6:TONWOI_bondL_ligand67-0_2_0 .
+
+ns4:TONWOI_Cl_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_Cl_0> .
+
+ns4:TONWOI_Cl_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_Cl_1> .
+
+ns4:TONWOI_N_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_N_0> .
+
+ns4:TONWOI_P_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_0>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_6>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_7>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_P_0> .
+
+ns4:TONWOI_P_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_16>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_22>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_23>,
+        <resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_P_2> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_16_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_17_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_18_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_19_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_20_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_21_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_22_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_23_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_24_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_25_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_26_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_26_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_27_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_27_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_28_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_28_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_29_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_3_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_4_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_5_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_6_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_C_7_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_N_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_N_1_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_N_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_P_0_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_P_2_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TONWOI_bond_W_0_P_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:TONWOI_bondL_ligand1-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:TONWOI_Cl_0 .
+
+ns6:TONWOI_bondL_ligand1-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:TONWOI_Cl_1 .
+
+ns6:TONWOI_bondL_ligand28311-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:TONWOI_N_0 .
+
+ns6:TONWOI_bondL_ligand67-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:TONWOI_P_0 .
+
+ns6:TONWOI_bondL_ligand67-0_2_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:TONWOI_P_2 .
+

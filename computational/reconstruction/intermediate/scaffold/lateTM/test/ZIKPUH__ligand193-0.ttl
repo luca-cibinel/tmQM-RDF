@@ -1,0 +1,454 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:ZIKPUH ns7:hasLigand ns3:ZIKPUH_ligand2599-0_0 ;
+    ns7:hasMetalCentre ns6:ZIKPUH_metalCentre_Ni .
+
+ns1:ZIKPUH_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_C_13>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_C_35>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_H_0> .
+
+ns1:ZIKPUH_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_11_C_21>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_11_H_10>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_4_C_11> .
+
+ns1:ZIKPUH_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_C_13>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_13_C_16>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_13_H_13> .
+
+ns1:ZIKPUH_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_C_27>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_C_28>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_H_14>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_H_15> .
+
+ns1:ZIKPUH_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_13_C_16>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_16_H_18> .
+
+ns1:ZIKPUH_C_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_17_C_31>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_17_H_19> .
+
+ns1:ZIKPUH_C_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_18_C_33>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_18_H_20>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_4_C_18> .
+
+ns1:ZIKPUH_C_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_C_30>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_H_21> .
+
+ns1:ZIKPUH_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_2_C_24>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_2_C_29>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_2> .
+
+ns1:ZIKPUH_C_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_20_H_22>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_8_C_20> .
+
+ns1:ZIKPUH_C_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_11_C_21>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_21_C_32>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_21_H_23> .
+
+ns1:ZIKPUH_C_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_C_28>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_H_24>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_H_25>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_22> .
+
+ns1:ZIKPUH_C_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_C_26>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_C_29>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_H_26> .
+
+ns1:ZIKPUH_C_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_24_H_27>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_2_C_24> .
+
+ns1:ZIKPUH_C_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_25_H_28> .
+
+ns1:ZIKPUH_C_26 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_C_26>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_26_H_29> .
+
+ns1:ZIKPUH_C_27 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_C_27>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_27_H_30>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_27_H_31>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_27> .
+
+ns1:ZIKPUH_C_28 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_C_28>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_C_28>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_28_H_32>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_28_H_33> .
+
+ns1:ZIKPUH_C_29 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_C_29>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_29_H_34>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_2_C_29> .
+
+ns1:ZIKPUH_C_30 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_C_30>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_30_C_34>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_30_H_35> .
+
+ns1:ZIKPUH_C_31 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_17_C_31>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_31_C_35>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_31_H_36> .
+
+ns1:ZIKPUH_C_32 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_21_C_32>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_32_H_37> .
+
+ns1:ZIKPUH_C_33 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_18_C_33>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_33_H_38> .
+
+ns1:ZIKPUH_C_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_30_C_34>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_34_H_39>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_6_C_34> .
+
+ns1:ZIKPUH_C_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_C_35>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_31_C_35>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_35> .
+
+ns1:ZIKPUH_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_4_C_11>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_4_C_18>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_4> .
+
+ns1:ZIKPUH_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_6_C_34>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_6> .
+
+ns1:ZIKPUH_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_8_C_20>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_8_H_6> .
+
+ns1:ZIKPUH_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_H_0> .
+
+ns1:ZIKPUH_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_11_H_10> .
+
+ns1:ZIKPUH_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_13_H_13> .
+
+ns1:ZIKPUH_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_H_14> .
+
+ns1:ZIKPUH_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_H_15> .
+
+ns1:ZIKPUH_H_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_16_H_18> .
+
+ns1:ZIKPUH_H_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_17_H_19> .
+
+ns1:ZIKPUH_H_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_18_H_20> .
+
+ns1:ZIKPUH_H_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_H_21> .
+
+ns1:ZIKPUH_H_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_20_H_22> .
+
+ns1:ZIKPUH_H_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_21_H_23> .
+
+ns1:ZIKPUH_H_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_H_24> .
+
+ns1:ZIKPUH_H_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_H_25> .
+
+ns1:ZIKPUH_H_26 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_H_26> .
+
+ns1:ZIKPUH_H_27 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_24_H_27> .
+
+ns1:ZIKPUH_H_28 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_25_H_28> .
+
+ns1:ZIKPUH_H_29 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_26_H_29> .
+
+ns1:ZIKPUH_H_30 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_27_H_30> .
+
+ns1:ZIKPUH_H_31 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_27_H_31> .
+
+ns1:ZIKPUH_H_32 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_28_H_32> .
+
+ns1:ZIKPUH_H_33 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_28_H_33> .
+
+ns1:ZIKPUH_H_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_29_H_34> .
+
+ns1:ZIKPUH_H_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_30_H_35> .
+
+ns1:ZIKPUH_H_36 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_31_H_36> .
+
+ns1:ZIKPUH_H_37 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_32_H_37> .
+
+ns1:ZIKPUH_H_38 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_33_H_38> .
+
+ns1:ZIKPUH_H_39 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_34_H_39> .
+
+ns1:ZIKPUH_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_8_H_6> .
+
+ns1:ZIKPUH_Ni_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_Ni_0_P_1> .
+
+ns6:ZIKPUH_metalCentre_Ni ns6:hasAtom ns1:ZIKPUH_Ni_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns4:bLc ns5:ZIKPUH_bondL_ligand2599-0_0_0,
+        ns5:ZIKPUH_bondL_ligand2599-0_0_1 .
+
+ns3:ZIKPUH_ligand2599-0_0 ns3:hasAtom ns1:ZIKPUH_C_0,
+        ns1:ZIKPUH_C_11,
+        ns1:ZIKPUH_C_13,
+        ns1:ZIKPUH_C_14,
+        ns1:ZIKPUH_C_16,
+        ns1:ZIKPUH_C_17,
+        ns1:ZIKPUH_C_18,
+        ns1:ZIKPUH_C_19,
+        ns1:ZIKPUH_C_2,
+        ns1:ZIKPUH_C_20,
+        ns1:ZIKPUH_C_21,
+        ns1:ZIKPUH_C_22,
+        ns1:ZIKPUH_C_23,
+        ns1:ZIKPUH_C_24,
+        ns1:ZIKPUH_C_25,
+        ns1:ZIKPUH_C_26,
+        ns1:ZIKPUH_C_27,
+        ns1:ZIKPUH_C_28,
+        ns1:ZIKPUH_C_29,
+        ns1:ZIKPUH_C_30,
+        ns1:ZIKPUH_C_31,
+        ns1:ZIKPUH_C_32,
+        ns1:ZIKPUH_C_33,
+        ns1:ZIKPUH_C_34,
+        ns1:ZIKPUH_C_35,
+        ns1:ZIKPUH_C_4,
+        ns1:ZIKPUH_C_6,
+        ns1:ZIKPUH_C_8,
+        ns1:ZIKPUH_H_0,
+        ns1:ZIKPUH_H_10,
+        ns1:ZIKPUH_H_13,
+        ns1:ZIKPUH_H_14,
+        ns1:ZIKPUH_H_15,
+        ns1:ZIKPUH_H_18,
+        ns1:ZIKPUH_H_19,
+        ns1:ZIKPUH_H_20,
+        ns1:ZIKPUH_H_21,
+        ns1:ZIKPUH_H_22,
+        ns1:ZIKPUH_H_23,
+        ns1:ZIKPUH_H_24,
+        ns1:ZIKPUH_H_25,
+        ns1:ZIKPUH_H_26,
+        ns1:ZIKPUH_H_27,
+        ns1:ZIKPUH_H_28,
+        ns1:ZIKPUH_H_29,
+        ns1:ZIKPUH_H_30,
+        ns1:ZIKPUH_H_31,
+        ns1:ZIKPUH_H_32,
+        ns1:ZIKPUH_H_33,
+        ns1:ZIKPUH_H_34,
+        ns1:ZIKPUH_H_35,
+        ns1:ZIKPUH_H_36,
+        ns1:ZIKPUH_H_37,
+        ns1:ZIKPUH_H_38,
+        ns1:ZIKPUH_H_39,
+        ns1:ZIKPUH_H_6,
+        ns1:ZIKPUH_P_0,
+        ns1:ZIKPUH_P_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2599-0> ;
+    ns4:bLl ns5:ZIKPUH_bondL_ligand2599-0_0_0,
+        ns5:ZIKPUH_bondL_ligand2599-0_0_1 .
+
+ns1:ZIKPUH_P_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_2>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_22>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_6> .
+
+ns1:ZIKPUH_P_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/ZIKPUH_bond_Ni_0_P_1>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_27>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_35>,
+        <resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_4> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_11_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_11_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_13_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_13_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_14_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_16_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_17_C_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_17_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_18_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_18_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_C_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_19_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_20_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_21_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_21_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_22_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_23_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_24_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_25_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_26_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_27_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_27_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_28_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_28_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_29_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_2_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_2_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_30_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_30_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_31_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_31_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_32_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_32_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_33_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_34_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_4_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_4_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_6_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_6_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_8_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_C_8_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_Ni_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_Ni_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZIKPUH_bond_P_1_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:ZIKPUH_bondL_ligand2599-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:ZIKPUH_P_0 .
+
+ns5:ZIKPUH_bondL_ligand2599-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:ZIKPUH_P_1 .
+

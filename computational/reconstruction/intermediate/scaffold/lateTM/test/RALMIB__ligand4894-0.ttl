@@ -1,0 +1,455 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:RALMIB ns5:hasLigand ns1:RALMIB_ligand2389-0_0,
+        ns1:RALMIB_ligand4894-0_1 ;
+    ns5:hasMetalCentre ns7:RALMIB_metalCentre_Pd .
+
+ns3:RALMIB_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_0> .
+
+ns3:RALMIB_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_1_C_6> .
+
+ns3:RALMIB_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_10_H_12>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_9_C_10> .
+
+ns3:RALMIB_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_11_H_13> .
+
+ns3:RALMIB_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_12_H_14> .
+
+ns3:RALMIB_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_13_H_15> .
+
+ns3:RALMIB_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_14_H_16>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_9_C_14> .
+
+ns3:RALMIB_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_15> .
+
+ns3:RALMIB_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_16_H_17> .
+
+ns3:RALMIB_C_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_17_H_18> .
+
+ns3:RALMIB_C_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_18_H_19> .
+
+ns3:RALMIB_C_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_19_H_20> .
+
+ns3:RALMIB_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_2_H_0> .
+
+ns3:RALMIB_C_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_20_H_21> .
+
+ns3:RALMIB_C_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_27_C_32>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_S_1_C_27> .
+
+ns3:RALMIB_C_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_F_4_C_28> .
+
+ns3:RALMIB_C_29 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_29_C_30>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_F_5_C_29> .
+
+ns3:RALMIB_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_3_H_1> .
+
+ns3:RALMIB_C_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_29_C_30>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_30_H_23> .
+
+ns3:RALMIB_C_31 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_F_6_C_31> .
+
+ns3:RALMIB_C_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_27_C_32>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_F_7_C_32> .
+
+ns3:RALMIB_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_4_H_2> .
+
+ns3:RALMIB_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_5_H_3> .
+
+ns3:RALMIB_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_1_C_6>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_6_H_4>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_6_H_5>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_6> .
+
+ns3:RALMIB_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_7>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_8>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_7> .
+
+ns3:RALMIB_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_10>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_11>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_9>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_8> .
+
+ns3:RALMIB_C_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_C_9_C_14>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_9> .
+
+ns3:RALMIB_F_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_F_4_C_28> .
+
+ns3:RALMIB_F_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_F_5_C_29> .
+
+ns3:RALMIB_F_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_F_6_C_31> .
+
+ns3:RALMIB_F_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_F_7_C_32> .
+
+ns3:RALMIB_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_2_H_0> .
+
+ns3:RALMIB_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_3_H_1> .
+
+ns3:RALMIB_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_10> .
+
+ns3:RALMIB_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_11> .
+
+ns3:RALMIB_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_10_H_12> .
+
+ns3:RALMIB_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_11_H_13> .
+
+ns3:RALMIB_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_12_H_14> .
+
+ns3:RALMIB_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_13_H_15> .
+
+ns3:RALMIB_H_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_14_H_16> .
+
+ns3:RALMIB_H_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_16_H_17> .
+
+ns3:RALMIB_H_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_17_H_18> .
+
+ns3:RALMIB_H_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_18_H_19> .
+
+ns3:RALMIB_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_4_H_2> .
+
+ns3:RALMIB_H_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_19_H_20> .
+
+ns3:RALMIB_H_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_20_H_21> .
+
+ns3:RALMIB_H_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_30_H_23> .
+
+ns3:RALMIB_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_5_H_3> .
+
+ns3:RALMIB_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_6_H_4> .
+
+ns3:RALMIB_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_6_H_5> .
+
+ns3:RALMIB_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_6> .
+
+ns3:RALMIB_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_7> .
+
+ns3:RALMIB_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_8> .
+
+ns3:RALMIB_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_9> .
+
+ns3:RALMIB_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_N_0>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_P_0>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_S_1> .
+
+ns7:RALMIB_metalCentre_Pd ns7:hasAtom ns3:RALMIB_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns4:bLc ns6:RALMIB_bondL_ligand2389-0_0_0,
+        ns6:RALMIB_bondL_ligand2389-0_0_1,
+        ns6:RALMIB_bondL_ligand4894-0_1_0 .
+
+ns1:RALMIB_ligand2389-0_0 ns1:hasAtom ns3:RALMIB_C_0,
+        ns3:RALMIB_C_1,
+        ns3:RALMIB_C_10,
+        ns3:RALMIB_C_11,
+        ns3:RALMIB_C_12,
+        ns3:RALMIB_C_13,
+        ns3:RALMIB_C_14,
+        ns3:RALMIB_C_15,
+        ns3:RALMIB_C_16,
+        ns3:RALMIB_C_17,
+        ns3:RALMIB_C_18,
+        ns3:RALMIB_C_19,
+        ns3:RALMIB_C_2,
+        ns3:RALMIB_C_20,
+        ns3:RALMIB_C_3,
+        ns3:RALMIB_C_4,
+        ns3:RALMIB_C_5,
+        ns3:RALMIB_C_6,
+        ns3:RALMIB_C_7,
+        ns3:RALMIB_C_8,
+        ns3:RALMIB_C_9,
+        ns3:RALMIB_H_0,
+        ns3:RALMIB_H_1,
+        ns3:RALMIB_H_10,
+        ns3:RALMIB_H_11,
+        ns3:RALMIB_H_12,
+        ns3:RALMIB_H_13,
+        ns3:RALMIB_H_14,
+        ns3:RALMIB_H_15,
+        ns3:RALMIB_H_16,
+        ns3:RALMIB_H_17,
+        ns3:RALMIB_H_18,
+        ns3:RALMIB_H_19,
+        ns3:RALMIB_H_2,
+        ns3:RALMIB_H_20,
+        ns3:RALMIB_H_21,
+        ns3:RALMIB_H_3,
+        ns3:RALMIB_H_4,
+        ns3:RALMIB_H_5,
+        ns3:RALMIB_H_6,
+        ns3:RALMIB_H_7,
+        ns3:RALMIB_H_8,
+        ns3:RALMIB_H_9,
+        ns3:RALMIB_N_0,
+        ns3:RALMIB_P_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2389-0> ;
+    ns4:bLl ns6:RALMIB_bondL_ligand2389-0_0_0,
+        ns6:RALMIB_bondL_ligand2389-0_0_1 .
+
+ns1:RALMIB_ligand4894-0_1 ns1:hasAtom ns3:RALMIB_C_27,
+        ns3:RALMIB_C_28,
+        ns3:RALMIB_C_29,
+        ns3:RALMIB_C_30,
+        ns3:RALMIB_C_31,
+        ns3:RALMIB_C_32,
+        ns3:RALMIB_F_4,
+        ns3:RALMIB_F_5,
+        ns3:RALMIB_F_6,
+        ns3:RALMIB_F_7,
+        ns3:RALMIB_H_23,
+        ns3:RALMIB_S_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4894-0> ;
+    ns4:bLl ns6:RALMIB_bondL_ligand4894-0_1_0 .
+
+ns3:RALMIB_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_6>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_7>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_8>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_N_0> .
+
+ns3:RALMIB_P_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_0>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_15>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_9>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_P_0> .
+
+ns3:RALMIB_S_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns2:b <resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_S_1>,
+        <resource://integreat/p5/atomic/bond/RALMIB_bond_S_1_C_27> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_10_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_11_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_12_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_13_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_14_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_15_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_16_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_17_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_18_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_19_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_20_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_27_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_27_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_28_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_29_C_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_2_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_30_C_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_30_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_31_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_3_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_4_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_5_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_6_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_7_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_8_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_C_9_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_F_4_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_F_5_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_F_6_C_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_F_7_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_N_0_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_P_0_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_Pd_0_S_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RALMIB_bond_S_1_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:RALMIB_bondL_ligand2389-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:RALMIB_P_0 .
+
+ns6:RALMIB_bondL_ligand2389-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:RALMIB_N_0 .
+
+ns6:RALMIB_bondL_ligand4894-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:RALMIB_S_1 .
+

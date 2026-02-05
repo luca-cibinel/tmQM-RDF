@@ -1,0 +1,286 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/ligand/bond/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:WABPIA ns3:hasLigand ns5:WABPIA_ligand162-0_0,
+        ns5:WABPIA_ligand361-0_0 ;
+    ns3:hasMetalCentre ns7:WABPIA_metalCentre_Pd .
+
+ns1:WABPIA_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_6> .
+
+ns1:WABPIA_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_10_H_13>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_10_N_2>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_C_10> .
+
+ns1:WABPIA_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_H_14>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_N_0>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_N_2> .
+
+ns1:WABPIA_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_15>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_16>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_17>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_N_2> .
+
+ns1:WABPIA_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_2_H_0> .
+
+ns1:WABPIA_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_3_H_1> .
+
+ns1:WABPIA_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_4_H_2> .
+
+ns1:WABPIA_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_5_H_3> .
+
+ns1:WABPIA_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_6>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_H_4>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_H_5>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_N_1> .
+
+ns1:WABPIA_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_7>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_8>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_N_1> .
+
+ns1:WABPIA_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_10>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_11>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_9>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_N_1> .
+
+ns1:WABPIA_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_H_12>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_N_0> .
+
+ns1:WABPIA_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_2_H_0> .
+
+ns1:WABPIA_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_3_H_1> .
+
+ns1:WABPIA_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_10> .
+
+ns1:WABPIA_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_11> .
+
+ns1:WABPIA_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_H_12> .
+
+ns1:WABPIA_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_10_H_13> .
+
+ns1:WABPIA_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_H_14> .
+
+ns1:WABPIA_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_15> .
+
+ns1:WABPIA_H_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_16> .
+
+ns1:WABPIA_H_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_17> .
+
+ns1:WABPIA_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_4_H_2> .
+
+ns1:WABPIA_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_5_H_3> .
+
+ns1:WABPIA_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_H_4> .
+
+ns1:WABPIA_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_H_5> .
+
+ns1:WABPIA_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_6> .
+
+ns1:WABPIA_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_7> .
+
+ns1:WABPIA_H_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_8> .
+
+ns1:WABPIA_H_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_9> .
+
+ns1:WABPIA_N_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_10_N_2>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_N_2>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_N_2> .
+
+ns1:WABPIA_Pd_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_C_1>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_N_0>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_N_1> .
+
+ns7:WABPIA_metalCentre_Pd ns7:hasAtom ns1:WABPIA_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns2:WABPIA_bondL_ligand162-0_0_0,
+        ns2:WABPIA_bondL_ligand162-0_0_1,
+        ns2:WABPIA_bondL_ligand361-0_0_0 .
+
+ns5:WABPIA_ligand162-0_0 ns5:hasAtom ns1:WABPIA_C_0,
+        ns1:WABPIA_C_1,
+        ns1:WABPIA_C_2,
+        ns1:WABPIA_C_3,
+        ns1:WABPIA_C_4,
+        ns1:WABPIA_C_5,
+        ns1:WABPIA_C_6,
+        ns1:WABPIA_C_7,
+        ns1:WABPIA_C_8,
+        ns1:WABPIA_H_0,
+        ns1:WABPIA_H_1,
+        ns1:WABPIA_H_10,
+        ns1:WABPIA_H_11,
+        ns1:WABPIA_H_2,
+        ns1:WABPIA_H_3,
+        ns1:WABPIA_H_4,
+        ns1:WABPIA_H_5,
+        ns1:WABPIA_H_6,
+        ns1:WABPIA_H_7,
+        ns1:WABPIA_H_8,
+        ns1:WABPIA_H_9,
+        ns1:WABPIA_N_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand162-0> ;
+    ns6:bLl ns2:WABPIA_bondL_ligand162-0_0_0,
+        ns2:WABPIA_bondL_ligand162-0_0_1 .
+
+ns5:WABPIA_ligand361-0_0 ns5:hasAtom ns1:WABPIA_C_10,
+        ns1:WABPIA_C_11,
+        ns1:WABPIA_C_12,
+        ns1:WABPIA_C_9,
+        ns1:WABPIA_H_12,
+        ns1:WABPIA_H_13,
+        ns1:WABPIA_H_14,
+        ns1:WABPIA_H_15,
+        ns1:WABPIA_H_16,
+        ns1:WABPIA_H_17,
+        ns1:WABPIA_N_0,
+        ns1:WABPIA_N_2 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand361-0> ;
+    ns6:bLl ns2:WABPIA_bondL_ligand361-0_0_0 .
+
+ns1:WABPIA_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_C_1> .
+
+ns1:WABPIA_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_N_0>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_N_0>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_N_0> .
+
+ns1:WABPIA_N_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns4:b <resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_N_1>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_N_1>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_N_1>,
+        <resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_10_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_10_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_11_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_12_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_2_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_3_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_4_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_5_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_6_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_7_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_8_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_C_9_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WABPIA_bond_Pd_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns2:WABPIA_bondL_ligand162-0_0_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns1:WABPIA_C_1 .
+
+ns2:WABPIA_bondL_ligand162-0_0_1 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns1:WABPIA_N_1 .
+
+ns2:WABPIA_bondL_ligand361-0_0_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns1:WABPIA_N_0 .
+

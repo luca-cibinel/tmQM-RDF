@@ -1,0 +1,215 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:OBOKOF ns7:hasLigand ns3:OBOKOF_ligand1-0_1,
+        ns3:OBOKOF_ligand391-0_0 ;
+    ns7:hasMetalCentre ns5:OBOKOF_metalCentre_Ni .
+
+ns2:OBOKOF_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_0> .
+
+ns2:OBOKOF_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_1_H_2>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_1_H_3>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_1> .
+
+ns2:OBOKOF_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_4>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_5>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_6>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_2> .
+
+ns2:OBOKOF_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_7>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_8>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_9>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_3> .
+
+ns2:OBOKOF_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_10>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_11>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_12>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_4> .
+
+ns2:OBOKOF_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_13>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_14>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_15>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_5> .
+
+ns2:OBOKOF_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_H_0> .
+
+ns2:OBOKOF_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_H_1> .
+
+ns2:OBOKOF_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_10> .
+
+ns2:OBOKOF_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_11> .
+
+ns2:OBOKOF_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_12> .
+
+ns2:OBOKOF_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_13> .
+
+ns2:OBOKOF_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_14> .
+
+ns2:OBOKOF_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_15> .
+
+ns2:OBOKOF_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_1_H_2> .
+
+ns2:OBOKOF_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_1_H_3> .
+
+ns2:OBOKOF_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_4> .
+
+ns2:OBOKOF_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_5> .
+
+ns2:OBOKOF_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_6> .
+
+ns2:OBOKOF_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_7> .
+
+ns2:OBOKOF_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_8> .
+
+ns2:OBOKOF_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_9> .
+
+ns2:OBOKOF_Ni_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_P_1> .
+
+ns5:OBOKOF_metalCentre_Ni ns5:hasAtom ns2:OBOKOF_Ni_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns4:bLc ns6:OBOKOF_bondL_ligand1-0_1_0,
+        ns6:OBOKOF_bondL_ligand391-0_0_0,
+        ns6:OBOKOF_bondL_ligand391-0_0_1 .
+
+ns3:OBOKOF_ligand1-0_1 ns3:hasAtom ns2:OBOKOF_Cl_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns6:OBOKOF_bondL_ligand1-0_1_0 .
+
+ns3:OBOKOF_ligand391-0_0 ns3:hasAtom ns2:OBOKOF_C_0,
+        ns2:OBOKOF_C_1,
+        ns2:OBOKOF_C_2,
+        ns2:OBOKOF_C_3,
+        ns2:OBOKOF_C_4,
+        ns2:OBOKOF_C_5,
+        ns2:OBOKOF_H_0,
+        ns2:OBOKOF_H_1,
+        ns2:OBOKOF_H_10,
+        ns2:OBOKOF_H_11,
+        ns2:OBOKOF_H_12,
+        ns2:OBOKOF_H_13,
+        ns2:OBOKOF_H_14,
+        ns2:OBOKOF_H_15,
+        ns2:OBOKOF_H_2,
+        ns2:OBOKOF_H_3,
+        ns2:OBOKOF_H_4,
+        ns2:OBOKOF_H_5,
+        ns2:OBOKOF_H_6,
+        ns2:OBOKOF_H_7,
+        ns2:OBOKOF_H_8,
+        ns2:OBOKOF_H_9,
+        ns2:OBOKOF_P_0,
+        ns2:OBOKOF_P_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand391-0> ;
+    ns4:bLl ns6:OBOKOF_bondL_ligand391-0_0_0,
+        ns6:OBOKOF_bondL_ligand391-0_0_1 .
+
+ns2:OBOKOF_Cl_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_Cl_1> .
+
+ns2:OBOKOF_P_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_0>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_2>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_3> .
+
+ns2:OBOKOF_P_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_P_1>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_1>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_4>,
+        <resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_5> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_1_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_2_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_3_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_4_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_C_5_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_Ni_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_P_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OBOKOF_bond_P_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:OBOKOF_bondL_ligand1-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:OBOKOF_Cl_1 .
+
+ns6:OBOKOF_bondL_ligand391-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:OBOKOF_P_0 .
+
+ns6:OBOKOF_bondL_ligand391-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:OBOKOF_P_1 .
+

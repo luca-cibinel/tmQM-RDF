@@ -1,0 +1,123 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:IYOVUN ns5:hasLigand ns1:IYOVUN_ligand918-0_0,
+        ns1:IYOVUN_ligand918-0_1,
+        ns1:IYOVUN_ligand918-0_2 ;
+    ns5:hasMetalCentre ns6:IYOVUN_metalCentre_Pd .
+
+ns4:IYOVUN_F_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_0_C_11> .
+
+ns4:IYOVUN_F_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_1_C_0> .
+
+ns4:IYOVUN_F_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_2_C_11> .
+
+ns4:IYOVUN_F_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_3_C_0> .
+
+ns4:IYOVUN_F_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_4_C_0> .
+
+ns4:IYOVUN_F_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_5> .
+
+ns4:IYOVUN_F_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_6> .
+
+ns4:IYOVUN_F_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_7> .
+
+ns4:IYOVUN_F_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_11_F_8> .
+
+ns4:IYOVUN_Pd_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_0>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_11>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_20> .
+
+ns6:IYOVUN_metalCentre_Pd ns6:hasAtom ns4:IYOVUN_Pd_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns3:bLc ns7:IYOVUN_bondL_ligand918-0_0_0,
+        ns7:IYOVUN_bondL_ligand918-0_1_0,
+        ns7:IYOVUN_bondL_ligand918-0_2_0 .
+
+ns1:IYOVUN_ligand918-0_0 ns1:hasAtom ns4:IYOVUN_C_11,
+        ns4:IYOVUN_F_0,
+        ns4:IYOVUN_F_2,
+        ns4:IYOVUN_F_8 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand918-0> ;
+    ns3:bLl ns7:IYOVUN_bondL_ligand918-0_0_0 .
+
+ns1:IYOVUN_ligand918-0_1 ns1:hasAtom ns4:IYOVUN_C_0,
+        ns4:IYOVUN_F_1,
+        ns4:IYOVUN_F_3,
+        ns4:IYOVUN_F_4 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand918-0> ;
+    ns3:bLl ns7:IYOVUN_bondL_ligand918-0_1_0 .
+
+ns1:IYOVUN_ligand918-0_2 ns1:hasAtom ns4:IYOVUN_C_20,
+        ns4:IYOVUN_F_5,
+        ns4:IYOVUN_F_6,
+        ns4:IYOVUN_F_7 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand918-0> ;
+    ns3:bLl ns7:IYOVUN_bondL_ligand918-0_2_0 .
+
+ns4:IYOVUN_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_1_C_0>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_3_C_0>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_4_C_0>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_0> .
+
+ns4:IYOVUN_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_11_F_8>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_0_C_11>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_F_2_C_11>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_11> .
+
+ns4:IYOVUN_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_5>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_6>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_7>,
+        <resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_20> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_C_11_F_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_C_20_F_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_F_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_F_1_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_F_2_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_F_3_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_F_4_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IYOVUN_bond_Pd_0_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:IYOVUN_bondL_ligand918-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:IYOVUN_C_11 .
+
+ns7:IYOVUN_bondL_ligand918-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:IYOVUN_C_0 .
+
+ns7:IYOVUN_bondL_ligand918-0_2_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:IYOVUN_C_20 .
+

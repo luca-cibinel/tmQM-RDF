@@ -1,0 +1,389 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/centre/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/atomic/atom/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:YAMDEV ns7:hasLigand ns3:YAMDEV_ligand17128-0_0,
+        ns3:YAMDEV_ligand4-0_0,
+        ns3:YAMDEV_ligand4-0_1,
+        ns3:YAMDEV_ligand4-0_2,
+        ns3:YAMDEV_ligand4-0_4 ;
+    ns7:hasMetalCentre ns2:YAMDEV_metalCentre_W .
+
+ns5:YAMDEV_C_10 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_5>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_6>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_7>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_C_10> .
+
+ns5:YAMDEV_C_11 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_11_C_18>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_5_C_11>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_8_C_11> .
+
+ns5:YAMDEV_C_12 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_12_C_17> .
+
+ns5:YAMDEV_C_13 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_13_H_8> .
+
+ns5:YAMDEV_C_14 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_14_H_9> .
+
+ns5:YAMDEV_C_15 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_15_H_10> .
+
+ns5:YAMDEV_C_16 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_16_H_11> .
+
+ns5:YAMDEV_C_17 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_17_H_12> .
+
+ns5:YAMDEV_C_18 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_11_C_18>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_18_C_23> .
+
+ns5:YAMDEV_C_19 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_19_H_13> .
+
+ns5:YAMDEV_C_20 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_20_H_14> .
+
+ns5:YAMDEV_C_21 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_21_H_15> .
+
+ns5:YAMDEV_C_22 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_22_H_16> .
+
+ns5:YAMDEV_C_23 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_23_H_17> .
+
+ns5:YAMDEV_C_6 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_6_C_8> .
+
+ns5:YAMDEV_C_7 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_0>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_1>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_2> .
+
+ns5:YAMDEV_C_8 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_8_C_11>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_8_O_5> .
+
+ns5:YAMDEV_C_9 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_H_3>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_H_4>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_O_5_C_9> .
+
+ns5:YAMDEV_H_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_0> .
+
+ns5:YAMDEV_H_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_1> .
+
+ns5:YAMDEV_H_10 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_15_H_10> .
+
+ns5:YAMDEV_H_11 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_16_H_11> .
+
+ns5:YAMDEV_H_12 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_17_H_12> .
+
+ns5:YAMDEV_H_13 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_19_H_13> .
+
+ns5:YAMDEV_H_14 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_20_H_14> .
+
+ns5:YAMDEV_H_15 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_21_H_15> .
+
+ns5:YAMDEV_H_16 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_22_H_16> .
+
+ns5:YAMDEV_H_17 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_23_H_17> .
+
+ns5:YAMDEV_H_2 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_2> .
+
+ns5:YAMDEV_H_3 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_H_3> .
+
+ns5:YAMDEV_H_4 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_H_4> .
+
+ns5:YAMDEV_H_5 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_5> .
+
+ns5:YAMDEV_H_6 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_6> .
+
+ns5:YAMDEV_H_7 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_7> .
+
+ns5:YAMDEV_H_8 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_13_H_8> .
+
+ns5:YAMDEV_H_9 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_14_H_9> .
+
+ns5:YAMDEV_O_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_0_O_0> .
+
+ns5:YAMDEV_O_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_1_O_1> .
+
+ns5:YAMDEV_O_2 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_2_O_2> .
+
+ns5:YAMDEV_O_4 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_4_O_4> .
+
+ns5:YAMDEV_O_5 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_8_O_5>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_O_5_C_9> .
+
+ns5:YAMDEV_W_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_2>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_4>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_5> .
+
+ns2:YAMDEV_metalCentre_W ns2:hasAtom ns5:YAMDEV_W_0 ;
+    ns2:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns4:bLc ns6:YAMDEV_bondL_ligand17128-0_0_0,
+        ns6:YAMDEV_bondL_ligand4-0_0_0,
+        ns6:YAMDEV_bondL_ligand4-0_1_0,
+        ns6:YAMDEV_bondL_ligand4-0_2_0,
+        ns6:YAMDEV_bondL_ligand4-0_4_0 .
+
+ns3:YAMDEV_ligand17128-0_0 ns3:hasAtom ns5:YAMDEV_C_10,
+        ns5:YAMDEV_C_11,
+        ns5:YAMDEV_C_12,
+        ns5:YAMDEV_C_13,
+        ns5:YAMDEV_C_14,
+        ns5:YAMDEV_C_15,
+        ns5:YAMDEV_C_16,
+        ns5:YAMDEV_C_17,
+        ns5:YAMDEV_C_18,
+        ns5:YAMDEV_C_19,
+        ns5:YAMDEV_C_20,
+        ns5:YAMDEV_C_21,
+        ns5:YAMDEV_C_22,
+        ns5:YAMDEV_C_23,
+        ns5:YAMDEV_C_5,
+        ns5:YAMDEV_C_6,
+        ns5:YAMDEV_C_7,
+        ns5:YAMDEV_C_8,
+        ns5:YAMDEV_C_9,
+        ns5:YAMDEV_H_0,
+        ns5:YAMDEV_H_1,
+        ns5:YAMDEV_H_10,
+        ns5:YAMDEV_H_11,
+        ns5:YAMDEV_H_12,
+        ns5:YAMDEV_H_13,
+        ns5:YAMDEV_H_14,
+        ns5:YAMDEV_H_15,
+        ns5:YAMDEV_H_16,
+        ns5:YAMDEV_H_17,
+        ns5:YAMDEV_H_2,
+        ns5:YAMDEV_H_3,
+        ns5:YAMDEV_H_4,
+        ns5:YAMDEV_H_5,
+        ns5:YAMDEV_H_6,
+        ns5:YAMDEV_H_7,
+        ns5:YAMDEV_H_8,
+        ns5:YAMDEV_H_9,
+        ns5:YAMDEV_O_5 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand17128-0> ;
+    ns4:bLl ns6:YAMDEV_bondL_ligand17128-0_0_0 .
+
+ns3:YAMDEV_ligand4-0_0 ns3:hasAtom ns5:YAMDEV_C_0,
+        ns5:YAMDEV_O_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:YAMDEV_bondL_ligand4-0_0_0 .
+
+ns3:YAMDEV_ligand4-0_1 ns3:hasAtom ns5:YAMDEV_C_1,
+        ns5:YAMDEV_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:YAMDEV_bondL_ligand4-0_1_0 .
+
+ns3:YAMDEV_ligand4-0_2 ns3:hasAtom ns5:YAMDEV_C_2,
+        ns5:YAMDEV_O_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:YAMDEV_bondL_ligand4-0_2_0 .
+
+ns3:YAMDEV_ligand4-0_4 ns3:hasAtom ns5:YAMDEV_C_4,
+        ns5:YAMDEV_O_4 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:YAMDEV_bondL_ligand4-0_4_0 .
+
+ns5:YAMDEV_C_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_0_O_0>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_0> .
+
+ns5:YAMDEV_C_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_1_O_1>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_1> .
+
+ns5:YAMDEV_C_2 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_2_O_2>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_2> .
+
+ns5:YAMDEV_C_4 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_4_O_4>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_4> .
+
+ns5:YAMDEV_C_5 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_5_C_11>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_5> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_10_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_11_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_13_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_14_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_15_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_16_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_17_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_18_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_19_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_1_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_20_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_21_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_22_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_23_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_2_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_4_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_5_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_6_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_7_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_8_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_8_O_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_C_9_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_O_5_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YAMDEV_bond_W_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:YAMDEV_bondL_ligand17128-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:YAMDEV_C_5 .
+
+ns6:YAMDEV_bondL_ligand4-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:YAMDEV_C_0 .
+
+ns6:YAMDEV_bondL_ligand4-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:YAMDEV_C_1 .
+
+ns6:YAMDEV_bondL_ligand4-0_2_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:YAMDEV_C_2 .
+
+ns6:YAMDEV_bondL_ligand4-0_4_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:YAMDEV_C_4 .
+

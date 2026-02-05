@@ -1,0 +1,500 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns4:QAHCOR ns4:hasLigand ns3:QAHCOR_ligand31851-0_0,
+        ns3:QAHCOR_ligand4-0_0,
+        ns3:QAHCOR_ligand4-0_1,
+        ns3:QAHCOR_ligand4-0_3,
+        ns3:QAHCOR_ligand4-0_4 ;
+    ns4:hasMetalCentre ns7:QAHCOR_metalCentre_W .
+
+ns1:QAHCOR_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_13>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_14>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_15>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_10> .
+
+ns1:QAHCOR_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_16>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_17>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_18>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_11> .
+
+ns1:QAHCOR_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_12_C_15>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_12> .
+
+ns1:QAHCOR_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_5_C_13>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_6_C_13> .
+
+ns1:QAHCOR_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_19>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_20>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_21>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_5_C_14> .
+
+ns1:QAHCOR_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_12_C_15>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_15> .
+
+ns1:QAHCOR_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_H_22>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_H_23>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_16> .
+
+ns1:QAHCOR_C_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_24>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_25>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_26> .
+
+ns1:QAHCOR_C_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_H_27>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_H_28>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_18> .
+
+ns1:QAHCOR_C_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_29>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_30>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_31> .
+
+ns1:QAHCOR_C_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_7_C_20>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_20> .
+
+ns1:QAHCOR_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_5_H_0>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_5>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_5>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_5> .
+
+ns1:QAHCOR_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_1>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_2>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_3>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_6> .
+
+ns1:QAHCOR_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_4>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_5>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_7> .
+
+ns1:QAHCOR_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_7>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_8>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_9>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_8> .
+
+ns1:QAHCOR_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_10>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_11>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_12>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_9> .
+
+ns1:QAHCOR_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_5_H_0> .
+
+ns1:QAHCOR_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_1> .
+
+ns1:QAHCOR_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_10> .
+
+ns1:QAHCOR_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_11> .
+
+ns1:QAHCOR_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_12> .
+
+ns1:QAHCOR_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_13> .
+
+ns1:QAHCOR_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_14> .
+
+ns1:QAHCOR_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_15> .
+
+ns1:QAHCOR_H_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_16> .
+
+ns1:QAHCOR_H_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_17> .
+
+ns1:QAHCOR_H_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_18> .
+
+ns1:QAHCOR_H_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_19> .
+
+ns1:QAHCOR_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_2> .
+
+ns1:QAHCOR_H_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_20> .
+
+ns1:QAHCOR_H_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_21> .
+
+ns1:QAHCOR_H_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_H_22> .
+
+ns1:QAHCOR_H_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_H_23> .
+
+ns1:QAHCOR_H_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_24> .
+
+ns1:QAHCOR_H_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_25> .
+
+ns1:QAHCOR_H_26 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_26> .
+
+ns1:QAHCOR_H_27 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_H_27> .
+
+ns1:QAHCOR_H_28 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_H_28> .
+
+ns1:QAHCOR_H_29 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_29> .
+
+ns1:QAHCOR_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_3> .
+
+ns1:QAHCOR_H_30 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_30> .
+
+ns1:QAHCOR_H_31 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_31> .
+
+ns1:QAHCOR_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_4> .
+
+ns1:QAHCOR_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_5> .
+
+ns1:QAHCOR_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_6> .
+
+ns1:QAHCOR_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_7> .
+
+ns1:QAHCOR_H_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_8> .
+
+ns1:QAHCOR_H_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_9> .
+
+ns1:QAHCOR_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_15>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_16>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_18> .
+
+ns1:QAHCOR_O_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_0_C_0> .
+
+ns1:QAHCOR_O_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_1_C_1> .
+
+ns1:QAHCOR_O_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_3_C_3> .
+
+ns1:QAHCOR_O_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_4_C_4> .
+
+ns1:QAHCOR_O_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_5_C_13>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_5_C_14> .
+
+ns1:QAHCOR_O_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_6_C_13> .
+
+ns1:QAHCOR_O_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_7_C_20> .
+
+ns1:QAHCOR_Si_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_10>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_11>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_5>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_9> .
+
+ns1:QAHCOR_Si_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_5>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_6>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_7>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_8> .
+
+ns1:QAHCOR_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_3>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_4>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_P_0> .
+
+ns7:QAHCOR_metalCentre_W ns7:hasAtom ns1:QAHCOR_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns5:bLc ns6:QAHCOR_bondL_ligand31851-0_0_0,
+        ns6:QAHCOR_bondL_ligand4-0_0_0,
+        ns6:QAHCOR_bondL_ligand4-0_1_0,
+        ns6:QAHCOR_bondL_ligand4-0_3_0,
+        ns6:QAHCOR_bondL_ligand4-0_4_0 .
+
+ns3:QAHCOR_ligand31851-0_0 ns3:hasAtom ns1:QAHCOR_C_10,
+        ns1:QAHCOR_C_11,
+        ns1:QAHCOR_C_12,
+        ns1:QAHCOR_C_13,
+        ns1:QAHCOR_C_14,
+        ns1:QAHCOR_C_15,
+        ns1:QAHCOR_C_16,
+        ns1:QAHCOR_C_17,
+        ns1:QAHCOR_C_18,
+        ns1:QAHCOR_C_19,
+        ns1:QAHCOR_C_20,
+        ns1:QAHCOR_C_5,
+        ns1:QAHCOR_C_6,
+        ns1:QAHCOR_C_7,
+        ns1:QAHCOR_C_8,
+        ns1:QAHCOR_C_9,
+        ns1:QAHCOR_H_0,
+        ns1:QAHCOR_H_1,
+        ns1:QAHCOR_H_10,
+        ns1:QAHCOR_H_11,
+        ns1:QAHCOR_H_12,
+        ns1:QAHCOR_H_13,
+        ns1:QAHCOR_H_14,
+        ns1:QAHCOR_H_15,
+        ns1:QAHCOR_H_16,
+        ns1:QAHCOR_H_17,
+        ns1:QAHCOR_H_18,
+        ns1:QAHCOR_H_19,
+        ns1:QAHCOR_H_2,
+        ns1:QAHCOR_H_20,
+        ns1:QAHCOR_H_21,
+        ns1:QAHCOR_H_22,
+        ns1:QAHCOR_H_23,
+        ns1:QAHCOR_H_24,
+        ns1:QAHCOR_H_25,
+        ns1:QAHCOR_H_26,
+        ns1:QAHCOR_H_27,
+        ns1:QAHCOR_H_28,
+        ns1:QAHCOR_H_29,
+        ns1:QAHCOR_H_3,
+        ns1:QAHCOR_H_30,
+        ns1:QAHCOR_H_31,
+        ns1:QAHCOR_H_4,
+        ns1:QAHCOR_H_5,
+        ns1:QAHCOR_H_6,
+        ns1:QAHCOR_H_7,
+        ns1:QAHCOR_H_8,
+        ns1:QAHCOR_H_9,
+        ns1:QAHCOR_N_0,
+        ns1:QAHCOR_O_5,
+        ns1:QAHCOR_O_6,
+        ns1:QAHCOR_O_7,
+        ns1:QAHCOR_P_0,
+        ns1:QAHCOR_Si_0,
+        ns1:QAHCOR_Si_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand31851-0> ;
+    ns5:bLl ns6:QAHCOR_bondL_ligand31851-0_0_0 .
+
+ns3:QAHCOR_ligand4-0_0 ns3:hasAtom ns1:QAHCOR_C_0,
+        ns1:QAHCOR_O_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns6:QAHCOR_bondL_ligand4-0_0_0 .
+
+ns3:QAHCOR_ligand4-0_1 ns3:hasAtom ns1:QAHCOR_C_1,
+        ns1:QAHCOR_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns6:QAHCOR_bondL_ligand4-0_1_0 .
+
+ns3:QAHCOR_ligand4-0_3 ns3:hasAtom ns1:QAHCOR_C_4,
+        ns1:QAHCOR_O_4 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns6:QAHCOR_bondL_ligand4-0_3_0 .
+
+ns3:QAHCOR_ligand4-0_4 ns3:hasAtom ns1:QAHCOR_C_3,
+        ns1:QAHCOR_O_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns6:QAHCOR_bondL_ligand4-0_4_0 .
+
+ns1:QAHCOR_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_0> .
+
+ns1:QAHCOR_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_1_C_1>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_1> .
+
+ns1:QAHCOR_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_3_C_3>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_3> .
+
+ns1:QAHCOR_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_O_4_C_4>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_4> .
+
+ns1:QAHCOR_P_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_12>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_20>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_5>,
+        <resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_10_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_11_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_12_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_14_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_15_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_16_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_17_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_18_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_19_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_5_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_6_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_8_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_C_9_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_N_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_3_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_4_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_5_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_5_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_6_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_O_7_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_P_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_0_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_Si_1_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAHCOR_bond_W_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:QAHCOR_bondL_ligand31851-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:QAHCOR_P_0 .
+
+ns6:QAHCOR_bondL_ligand4-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:QAHCOR_C_0 .
+
+ns6:QAHCOR_bondL_ligand4-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:QAHCOR_C_1 .
+
+ns6:QAHCOR_bondL_ligand4-0_3_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:QAHCOR_C_4 .
+
+ns6:QAHCOR_bondL_ligand4-0_4_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:QAHCOR_C_3 .
+

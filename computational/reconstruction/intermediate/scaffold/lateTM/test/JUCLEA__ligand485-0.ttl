@@ -1,0 +1,132 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:JUCLEA ns6:hasLigand ns1:JUCLEA_ligand2880-0_0 ;
+    ns6:hasMetalCentre ns7:JUCLEA_metalCentre_Ni .
+
+ns3:JUCLEA_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_11_H_17> .
+
+ns3:JUCLEA_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_12_C_17> .
+
+ns3:JUCLEA_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_13_H_18> .
+
+ns3:JUCLEA_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_14_H_19> .
+
+ns3:JUCLEA_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_15_H_20> .
+
+ns3:JUCLEA_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_16_H_21> .
+
+ns3:JUCLEA_C_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_17_H_22> .
+
+ns3:JUCLEA_H_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_10_H_16> .
+
+ns3:JUCLEA_H_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_11_H_17> .
+
+ns3:JUCLEA_H_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_13_H_18> .
+
+ns3:JUCLEA_H_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_14_H_19> .
+
+ns3:JUCLEA_H_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_15_H_20> .
+
+ns3:JUCLEA_H_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_16_H_21> .
+
+ns3:JUCLEA_H_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_17_H_22> .
+
+ns3:JUCLEA_Ni_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_Ni_0_C_10> .
+
+ns7:JUCLEA_metalCentre_Ni ns7:hasAtom ns3:JUCLEA_Ni_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns5:bLc ns4:JUCLEA_bondL_ligand2880-0_0_0 .
+
+ns1:JUCLEA_ligand2880-0_0 ns1:hasAtom ns3:JUCLEA_C_10,
+        ns3:JUCLEA_C_11,
+        ns3:JUCLEA_C_12,
+        ns3:JUCLEA_C_13,
+        ns3:JUCLEA_C_14,
+        ns3:JUCLEA_C_15,
+        ns3:JUCLEA_C_16,
+        ns3:JUCLEA_C_17,
+        ns3:JUCLEA_H_16,
+        ns3:JUCLEA_H_17,
+        ns3:JUCLEA_H_18,
+        ns3:JUCLEA_H_19,
+        ns3:JUCLEA_H_20,
+        ns3:JUCLEA_H_21,
+        ns3:JUCLEA_H_22 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2880-0> ;
+    ns5:bLl ns4:JUCLEA_bondL_ligand2880-0_0_0 .
+
+ns3:JUCLEA_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_C_10_H_16>,
+        <resource://integreat/p5/atomic/bond/JUCLEA_bond_Ni_0_C_10> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_10_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_11_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_13_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_14_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_15_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_16_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_C_17_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JUCLEA_bond_Ni_0_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:JUCLEA_bondL_ligand2880-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:JUCLEA_C_10 .
+

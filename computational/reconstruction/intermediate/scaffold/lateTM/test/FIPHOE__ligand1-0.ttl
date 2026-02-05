@@ -1,0 +1,250 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:FIPHOE ns5:hasLigand ns3:FIPHOE_ligand1-0_0,
+        ns3:FIPHOE_ligand4381-0_0,
+        ns3:FIPHOE_ligand4381-0_1 ;
+    ns5:hasMetalCentre ns7:FIPHOE_metalCentre_Pd .
+
+ns1:FIPHOE_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_0_C_0> .
+
+ns1:FIPHOE_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_1_H_2>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_0_C_1> .
+
+ns1:FIPHOE_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_8_C_10>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_9_C_10> .
+
+ns1:FIPHOE_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_11_H_9>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_6_C_11> .
+
+ns1:FIPHOE_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_2_C_4>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_2_H_3> .
+
+ns1:FIPHOE_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_0_C_3>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_1_C_3> .
+
+ns1:FIPHOE_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_2_C_4>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_4_C_5> .
+
+ns1:FIPHOE_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_5_H_4> .
+
+ns1:FIPHOE_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_6_C_11>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_6_H_6>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_1_C_6> .
+
+ns1:FIPHOE_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_7_H_7>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_1_C_7> .
+
+ns1:FIPHOE_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_8_C_10>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_8_H_8> .
+
+ns1:FIPHOE_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_2_C_9>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_3_C_9> .
+
+ns1:FIPHOE_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_1_H_0> .
+
+ns1:FIPHOE_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_0_H_1> .
+
+ns1:FIPHOE_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_1_H_2> .
+
+ns1:FIPHOE_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_2_H_3> .
+
+ns1:FIPHOE_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_5_H_4> .
+
+ns1:FIPHOE_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_3_H_5> .
+
+ns1:FIPHOE_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_6_H_6> .
+
+ns1:FIPHOE_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_7_H_7> .
+
+ns1:FIPHOE_H_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_8_H_8> .
+
+ns1:FIPHOE_H_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_C_11_H_9> .
+
+ns1:FIPHOE_O_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_0_C_3> .
+
+ns1:FIPHOE_O_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_1_C_3>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_1_H_0> .
+
+ns1:FIPHOE_O_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_2_C_9> .
+
+ns1:FIPHOE_O_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_3_C_9>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_O_3_H_5> .
+
+ns1:FIPHOE_Pd_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_N_0>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_N_1> .
+
+ns7:FIPHOE_metalCentre_Pd ns7:hasAtom ns1:FIPHOE_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns4:FIPHOE_bondL_ligand1-0_0_0,
+        ns4:FIPHOE_bondL_ligand4381-0_0_0,
+        ns4:FIPHOE_bondL_ligand4381-0_1_0 .
+
+ns3:FIPHOE_ligand1-0_0 ns3:hasAtom ns1:FIPHOE_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:FIPHOE_bondL_ligand1-0_0_0 .
+
+ns3:FIPHOE_ligand4381-0_0 ns3:hasAtom ns1:FIPHOE_C_0,
+        ns1:FIPHOE_C_1,
+        ns1:FIPHOE_C_2,
+        ns1:FIPHOE_C_3,
+        ns1:FIPHOE_C_4,
+        ns1:FIPHOE_C_5,
+        ns1:FIPHOE_H_0,
+        ns1:FIPHOE_H_1,
+        ns1:FIPHOE_H_2,
+        ns1:FIPHOE_H_3,
+        ns1:FIPHOE_H_4,
+        ns1:FIPHOE_N_0,
+        ns1:FIPHOE_O_0,
+        ns1:FIPHOE_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4381-0> ;
+    ns6:bLl ns4:FIPHOE_bondL_ligand4381-0_0_0 .
+
+ns3:FIPHOE_ligand4381-0_1 ns3:hasAtom ns1:FIPHOE_C_10,
+        ns1:FIPHOE_C_11,
+        ns1:FIPHOE_C_6,
+        ns1:FIPHOE_C_7,
+        ns1:FIPHOE_C_8,
+        ns1:FIPHOE_C_9,
+        ns1:FIPHOE_H_5,
+        ns1:FIPHOE_H_6,
+        ns1:FIPHOE_H_7,
+        ns1:FIPHOE_H_8,
+        ns1:FIPHOE_H_9,
+        ns1:FIPHOE_N_1,
+        ns1:FIPHOE_O_2,
+        ns1:FIPHOE_O_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4381-0> ;
+    ns6:bLl ns4:FIPHOE_bondL_ligand4381-0_1_0 .
+
+ns1:FIPHOE_Cl_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_Cl_0> .
+
+ns1:FIPHOE_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_0_C_1>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_N_0> .
+
+ns1:FIPHOE_N_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_1_C_6>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_N_1_C_7>,
+        <resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_11_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_2_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_2_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_6_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_6_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_7_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_8_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_8_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_N_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_N_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_N_1_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_O_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_O_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_O_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_O_2_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_O_3_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_O_3_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FIPHOE_bond_Pd_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:FIPHOE_bondL_ligand1-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:FIPHOE_Cl_0 .
+
+ns4:FIPHOE_bondL_ligand4381-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:FIPHOE_N_0 .
+
+ns4:FIPHOE_bondL_ligand4381-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:FIPHOE_N_1 .
+

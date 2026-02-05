@@ -1,0 +1,45 @@
+@prefix ns1: <resource://integreat/p5/ligand/bond/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/atomic/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:FAPBIH ns3:hasLigand ns5:FAPBIH_ligand3-0_0,
+        ns5:FAPBIH_ligand3-0_1 ;
+    ns3:hasMetalCentre ns7:FAPBIH_metalCentre_Pd .
+
+ns4:FAPBIH_Pd_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns6:b <resource://integreat/p5/atomic/bond/FAPBIH_bond_Pd_0_Br_0>,
+        <resource://integreat/p5/atomic/bond/FAPBIH_bond_Pd_0_Br_1> .
+
+ns7:FAPBIH_metalCentre_Pd ns7:hasAtom ns4:FAPBIH_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns2:bLc ns1:FAPBIH_bondL_ligand3-0_0_0,
+        ns1:FAPBIH_bondL_ligand3-0_1_0 .
+
+ns5:FAPBIH_ligand3-0_0 ns5:hasAtom ns4:FAPBIH_Br_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns2:bLl ns1:FAPBIH_bondL_ligand3-0_0_0 .
+
+ns5:FAPBIH_ligand3-0_1 ns5:hasAtom ns4:FAPBIH_Br_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns2:bLl ns1:FAPBIH_bondL_ligand3-0_1_0 .
+
+ns4:FAPBIH_Br_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns6:b <resource://integreat/p5/atomic/bond/FAPBIH_bond_Pd_0_Br_0> .
+
+ns4:FAPBIH_Br_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns6:b <resource://integreat/p5/atomic/bond/FAPBIH_bond_Pd_0_Br_1> .
+
+<resource://integreat/p5/atomic/bond/FAPBIH_bond_Pd_0_Br_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAPBIH_bond_Pd_0_Br_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns1:FAPBIH_bondL_ligand3-0_0_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns4:FAPBIH_Br_0 .
+
+ns1:FAPBIH_bondL_ligand3-0_1_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns4:FAPBIH_Br_1 .
+

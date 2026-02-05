@@ -1,0 +1,360 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:CBUMOB ns5:hasLigand ns2:CBUMOB_ligand3-0_0,
+        ns2:CBUMOB_ligand4-0_0,
+        ns2:CBUMOB_ligand4-0_1,
+        ns2:CBUMOB_ligand6202-0_0 ;
+    ns5:hasMetalCentre ns7:CBUMOB_metalCentre_Mo .
+
+ns4:CBUMOB_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_15>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_15_C_20> .
+
+ns4:CBUMOB_C_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_16_H_18> .
+
+ns4:CBUMOB_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_17_H_19> .
+
+ns4:CBUMOB_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_18_H_20> .
+
+ns4:CBUMOB_C_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_19_H_21> .
+
+ns4:CBUMOB_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_15_C_20>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_20_H_22> .
+
+ns4:CBUMOB_C_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_13_C_21>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_21_C_26> .
+
+ns4:CBUMOB_C_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_22_H_8> .
+
+ns4:CBUMOB_C_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_23_H_9> .
+
+ns4:CBUMOB_C_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_24_H_10> .
+
+ns4:CBUMOB_C_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_25_H_11> .
+
+ns4:CBUMOB_C_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_21_C_26>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_26_H_12> .
+
+ns4:CBUMOB_C_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_14_C_27>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_27_C_32> .
+
+ns4:CBUMOB_C_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_28_H_13> .
+
+ns4:CBUMOB_C_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_28_C_29>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_29_C_30>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_29_H_14> .
+
+ns4:CBUMOB_C_30 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_29_C_30>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_30_H_15> .
+
+ns4:CBUMOB_C_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_30_C_31>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_31_H_16> .
+
+ns4:CBUMOB_C_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_27_C_32>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_31_C_32>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_32_H_17> .
+
+ns4:CBUMOB_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_24_H_10> .
+
+ns4:CBUMOB_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_25_H_11> .
+
+ns4:CBUMOB_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_26_H_12> .
+
+ns4:CBUMOB_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_28_H_13> .
+
+ns4:CBUMOB_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_29_H_14> .
+
+ns4:CBUMOB_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_30_H_15> .
+
+ns4:CBUMOB_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_31_H_16> .
+
+ns4:CBUMOB_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_32_H_17> .
+
+ns4:CBUMOB_H_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_16_H_18> .
+
+ns4:CBUMOB_H_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_17_H_19> .
+
+ns4:CBUMOB_H_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_18_H_20> .
+
+ns4:CBUMOB_H_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_19_H_21> .
+
+ns4:CBUMOB_H_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_20_H_22> .
+
+ns4:CBUMOB_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_22_H_8> .
+
+ns4:CBUMOB_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_23_H_9> .
+
+ns4:CBUMOB_Mo_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_Br_0>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_0>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_1>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_12>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_13>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_14> .
+
+ns4:CBUMOB_O_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_0_O_0> .
+
+ns4:CBUMOB_O_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_1_O_1> .
+
+ns7:CBUMOB_metalCentre_Mo ns7:hasAtom ns4:CBUMOB_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns3:bLc ns6:CBUMOB_bondL_ligand3-0_0_0,
+        ns6:CBUMOB_bondL_ligand4-0_0_0,
+        ns6:CBUMOB_bondL_ligand4-0_1_0,
+        ns6:CBUMOB_bondL_ligand6202-0_0_0 .
+
+ns2:CBUMOB_ligand3-0_0 ns2:hasAtom ns4:CBUMOB_Br_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns3:bLl ns6:CBUMOB_bondL_ligand3-0_0_0 .
+
+ns2:CBUMOB_ligand4-0_0 ns2:hasAtom ns4:CBUMOB_C_0,
+        ns4:CBUMOB_O_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:CBUMOB_bondL_ligand4-0_0_0 .
+
+ns2:CBUMOB_ligand4-0_1 ns2:hasAtom ns4:CBUMOB_C_1,
+        ns4:CBUMOB_O_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:CBUMOB_bondL_ligand4-0_1_0 .
+
+ns2:CBUMOB_ligand6202-0_0 ns2:hasAtom ns4:CBUMOB_C_12,
+        ns4:CBUMOB_C_13,
+        ns4:CBUMOB_C_14,
+        ns4:CBUMOB_C_15,
+        ns4:CBUMOB_C_16,
+        ns4:CBUMOB_C_17,
+        ns4:CBUMOB_C_18,
+        ns4:CBUMOB_C_19,
+        ns4:CBUMOB_C_20,
+        ns4:CBUMOB_C_21,
+        ns4:CBUMOB_C_22,
+        ns4:CBUMOB_C_23,
+        ns4:CBUMOB_C_24,
+        ns4:CBUMOB_C_25,
+        ns4:CBUMOB_C_26,
+        ns4:CBUMOB_C_27,
+        ns4:CBUMOB_C_28,
+        ns4:CBUMOB_C_29,
+        ns4:CBUMOB_C_30,
+        ns4:CBUMOB_C_31,
+        ns4:CBUMOB_C_32,
+        ns4:CBUMOB_H_10,
+        ns4:CBUMOB_H_11,
+        ns4:CBUMOB_H_12,
+        ns4:CBUMOB_H_13,
+        ns4:CBUMOB_H_14,
+        ns4:CBUMOB_H_15,
+        ns4:CBUMOB_H_16,
+        ns4:CBUMOB_H_17,
+        ns4:CBUMOB_H_18,
+        ns4:CBUMOB_H_19,
+        ns4:CBUMOB_H_20,
+        ns4:CBUMOB_H_21,
+        ns4:CBUMOB_H_22,
+        ns4:CBUMOB_H_8,
+        ns4:CBUMOB_H_9 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand6202-0> ;
+    ns3:bLl ns6:CBUMOB_bondL_ligand6202-0_0_0 .
+
+ns4:CBUMOB_Br_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_Br_0> .
+
+ns4:CBUMOB_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_0_O_0>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_0> .
+
+ns4:CBUMOB_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_1_O_1>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_1> .
+
+ns4:CBUMOB_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_14>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_15>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_12> .
+
+ns4:CBUMOB_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_13_C_21>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_13> .
+
+ns4:CBUMOB_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_14>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_C_14_C_27>,
+        <resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_14> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_12_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_13_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_14_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_15_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_16_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_17_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_18_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_19_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_1_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_20_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_21_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_22_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_23_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_23_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_24_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_25_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_26_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_27_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_27_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_28_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_28_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_29_C_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_29_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_30_C_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_30_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_31_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_31_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_C_32_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_Br_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CBUMOB_bond_Mo_0_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:CBUMOB_bondL_ligand3-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:CBUMOB_Br_0 .
+
+ns6:CBUMOB_bondL_ligand4-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:CBUMOB_C_0 .
+
+ns6:CBUMOB_bondL_ligand4-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:CBUMOB_C_1 .
+
+ns6:CBUMOB_bondL_ligand6202-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:CBUMOB_C_12,
+        ns4:CBUMOB_C_13,
+        ns4:CBUMOB_C_14 .
+

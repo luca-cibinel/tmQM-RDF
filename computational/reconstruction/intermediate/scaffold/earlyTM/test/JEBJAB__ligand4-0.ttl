@@ -1,0 +1,397 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:JEBJAB ns5:hasLigand ns2:JEBJAB_ligand24605-0_0,
+        ns2:JEBJAB_ligand4-0_1,
+        ns2:JEBJAB_ligand4-0_2,
+        ns2:JEBJAB_ligand4-0_3 ;
+    ns5:hasMetalCentre ns7:JEBJAB_metalCentre_Mo .
+
+ns3:JEBJAB_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_2> .
+
+ns3:JEBJAB_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_0_C_1> .
+
+ns3:JEBJAB_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_10_H_14>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_C_10> .
+
+ns3:JEBJAB_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_11_C_16> .
+
+ns3:JEBJAB_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_12_H_15> .
+
+ns3:JEBJAB_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_13_H_16> .
+
+ns3:JEBJAB_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_14_H_17> .
+
+ns3:JEBJAB_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_15_H_18> .
+
+ns3:JEBJAB_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_11_C_16>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_16_H_19> .
+
+ns3:JEBJAB_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_2_H_3> .
+
+ns3:JEBJAB_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_1_C_3> .
+
+ns3:JEBJAB_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_4>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_5>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_6> .
+
+ns3:JEBJAB_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_7>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_8>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_9> .
+
+ns3:JEBJAB_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_3_C_6> .
+
+ns3:JEBJAB_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_7_H_10> .
+
+ns3:JEBJAB_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_C_8> .
+
+ns3:JEBJAB_C_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_11>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_12>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_13> .
+
+ns3:JEBJAB_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_0> .
+
+ns3:JEBJAB_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_1> .
+
+ns3:JEBJAB_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_7_H_10> .
+
+ns3:JEBJAB_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_11> .
+
+ns3:JEBJAB_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_12> .
+
+ns3:JEBJAB_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_13> .
+
+ns3:JEBJAB_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_10_H_14> .
+
+ns3:JEBJAB_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_12_H_15> .
+
+ns3:JEBJAB_H_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_13_H_16> .
+
+ns3:JEBJAB_H_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_14_H_17> .
+
+ns3:JEBJAB_H_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_15_H_18> .
+
+ns3:JEBJAB_H_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_16_H_19> .
+
+ns3:JEBJAB_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_2> .
+
+ns3:JEBJAB_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_2_H_3> .
+
+ns3:JEBJAB_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_4> .
+
+ns3:JEBJAB_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_5> .
+
+ns3:JEBJAB_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_6> .
+
+ns3:JEBJAB_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_7> .
+
+ns3:JEBJAB_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_8> .
+
+ns3:JEBJAB_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_9> .
+
+ns3:JEBJAB_Mo_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_18>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_19>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_20>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_N_3> .
+
+ns3:JEBJAB_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_1_C_3> .
+
+ns3:JEBJAB_N_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_C_10>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_C_8>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_N_3> .
+
+ns3:JEBJAB_O_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_18_O_1> .
+
+ns3:JEBJAB_O_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_19_O_2> .
+
+ns3:JEBJAB_O_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_20_O_3> .
+
+ns7:JEBJAB_metalCentre_Mo ns7:hasAtom ns3:JEBJAB_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns4:bLc ns6:JEBJAB_bondL_ligand24605-0_0_0,
+        ns6:JEBJAB_bondL_ligand24605-0_0_1,
+        ns6:JEBJAB_bondL_ligand4-0_1_0,
+        ns6:JEBJAB_bondL_ligand4-0_2_0,
+        ns6:JEBJAB_bondL_ligand4-0_3_0 .
+
+ns2:JEBJAB_ligand24605-0_0 ns2:hasAtom ns3:JEBJAB_C_0,
+        ns3:JEBJAB_C_1,
+        ns3:JEBJAB_C_10,
+        ns3:JEBJAB_C_11,
+        ns3:JEBJAB_C_12,
+        ns3:JEBJAB_C_13,
+        ns3:JEBJAB_C_14,
+        ns3:JEBJAB_C_15,
+        ns3:JEBJAB_C_16,
+        ns3:JEBJAB_C_2,
+        ns3:JEBJAB_C_3,
+        ns3:JEBJAB_C_4,
+        ns3:JEBJAB_C_5,
+        ns3:JEBJAB_C_6,
+        ns3:JEBJAB_C_7,
+        ns3:JEBJAB_C_8,
+        ns3:JEBJAB_C_9,
+        ns3:JEBJAB_H_0,
+        ns3:JEBJAB_H_1,
+        ns3:JEBJAB_H_10,
+        ns3:JEBJAB_H_11,
+        ns3:JEBJAB_H_12,
+        ns3:JEBJAB_H_13,
+        ns3:JEBJAB_H_14,
+        ns3:JEBJAB_H_15,
+        ns3:JEBJAB_H_16,
+        ns3:JEBJAB_H_17,
+        ns3:JEBJAB_H_18,
+        ns3:JEBJAB_H_19,
+        ns3:JEBJAB_H_2,
+        ns3:JEBJAB_H_3,
+        ns3:JEBJAB_H_4,
+        ns3:JEBJAB_H_5,
+        ns3:JEBJAB_H_6,
+        ns3:JEBJAB_H_7,
+        ns3:JEBJAB_H_8,
+        ns3:JEBJAB_H_9,
+        ns3:JEBJAB_N_0,
+        ns3:JEBJAB_N_1,
+        ns3:JEBJAB_N_2,
+        ns3:JEBJAB_N_3 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand24605-0> ;
+    ns4:bLl ns6:JEBJAB_bondL_ligand24605-0_0_0,
+        ns6:JEBJAB_bondL_ligand24605-0_0_1 .
+
+ns2:JEBJAB_ligand4-0_1 ns2:hasAtom ns3:JEBJAB_C_18,
+        ns3:JEBJAB_O_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:JEBJAB_bondL_ligand4-0_1_0 .
+
+ns2:JEBJAB_ligand4-0_2 ns2:hasAtom ns3:JEBJAB_C_19,
+        ns3:JEBJAB_O_2 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:JEBJAB_bondL_ligand4-0_2_0 .
+
+ns2:JEBJAB_ligand4-0_3 ns2:hasAtom ns3:JEBJAB_C_20,
+        ns3:JEBJAB_O_3 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns6:JEBJAB_bondL_ligand4-0_3_0 .
+
+ns3:JEBJAB_C_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_18_O_1>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_18> .
+
+ns3:JEBJAB_C_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_19_O_2>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_19> .
+
+ns3:JEBJAB_C_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_C_20_O_3>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_20> .
+
+ns3:JEBJAB_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_0_C_1>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_0_N_1> .
+
+ns3:JEBJAB_N_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_N_3>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_N_3>,
+        <resource://integreat/p5/atomic/bond/JEBJAB_bond_N_3_C_6> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_0_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_10_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_11_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_12_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_13_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_14_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_15_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_16_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_18_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_19_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_20_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_2_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_4_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_5_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_7_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_C_9_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_Mo_0_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_1_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_2_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JEBJAB_bond_N_3_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:JEBJAB_bondL_ligand24605-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:JEBJAB_N_0 .
+
+ns6:JEBJAB_bondL_ligand24605-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:JEBJAB_N_3 .
+
+ns6:JEBJAB_bondL_ligand4-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:JEBJAB_C_18 .
+
+ns6:JEBJAB_bondL_ligand4-0_2_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:JEBJAB_C_19 .
+
+ns6:JEBJAB_bondL_ligand4-0_3_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns3:JEBJAB_C_20 .
+

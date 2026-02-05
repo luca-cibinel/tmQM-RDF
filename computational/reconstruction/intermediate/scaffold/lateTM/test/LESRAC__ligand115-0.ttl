@@ -1,0 +1,45 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:LESRAC ns6:hasLigand ns4:LESRAC_ligand40-0_0,
+        ns4:LESRAC_ligand40-0_1 ;
+    ns6:hasMetalCentre ns7:LESRAC_metalCentre_Pt .
+
+ns1:LESRAC_Pt_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns2:b <resource://integreat/p5/atomic/bond/LESRAC_bond_Pt_0_I_0>,
+        <resource://integreat/p5/atomic/bond/LESRAC_bond_Pt_0_I_1> .
+
+ns7:LESRAC_metalCentre_Pt ns7:hasAtom ns1:LESRAC_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns5:bLc ns3:LESRAC_bondL_ligand40-0_0_0,
+        ns3:LESRAC_bondL_ligand40-0_1_0 .
+
+ns4:LESRAC_ligand40-0_0 ns4:hasAtom ns1:LESRAC_I_0 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns5:bLl ns3:LESRAC_bondL_ligand40-0_0_0 .
+
+ns4:LESRAC_ligand40-0_1 ns4:hasAtom ns1:LESRAC_I_1 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns5:bLl ns3:LESRAC_bondL_ligand40-0_1_0 .
+
+ns1:LESRAC_I_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns2:b <resource://integreat/p5/atomic/bond/LESRAC_bond_Pt_0_I_0> .
+
+ns1:LESRAC_I_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns2:b <resource://integreat/p5/atomic/bond/LESRAC_bond_Pt_0_I_1> .
+
+<resource://integreat/p5/atomic/bond/LESRAC_bond_Pt_0_I_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/LESRAC_bond_Pt_0_I_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:LESRAC_bondL_ligand40-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns1:LESRAC_I_0 .
+
+ns3:LESRAC_bondL_ligand40-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns1:LESRAC_I_1 .
+

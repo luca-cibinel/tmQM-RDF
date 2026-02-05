@@ -1,0 +1,51 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/atomic/atom/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns4:JIJVOQ ns4:hasLigand ns3:JIJVOQ_ligand29-0_0 ;
+    ns4:hasMetalCentre ns7:JIJVOQ_metalCentre_Ni .
+
+ns5:JIJVOQ_N_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_0_N_1>,
+        <resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_1_N_1>,
+        <resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_2_N_1> .
+
+ns5:JIJVOQ_Ni_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JIJVOQ_bond_Ni_0_O_0> .
+
+ns5:JIJVOQ_O_1 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_1_N_1> .
+
+ns5:JIJVOQ_O_2 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_2_N_1> .
+
+ns7:JIJVOQ_metalCentre_Ni ns7:hasAtom ns5:JIJVOQ_Ni_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns2:bLc ns6:JIJVOQ_bondL_ligand29-0_0_0 .
+
+ns3:JIJVOQ_ligand29-0_0 ns3:hasAtom ns5:JIJVOQ_N_1,
+        ns5:JIJVOQ_O_0,
+        ns5:JIJVOQ_O_1,
+        ns5:JIJVOQ_O_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand29-0> ;
+    ns2:bLl ns6:JIJVOQ_bondL_ligand29-0_0_0 .
+
+ns5:JIJVOQ_O_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/JIJVOQ_bond_Ni_0_O_0>,
+        <resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/JIJVOQ_bond_Ni_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_1_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/JIJVOQ_bond_O_2_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:JIJVOQ_bondL_ligand29-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:JIJVOQ_O_0 .
+

@@ -1,0 +1,562 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:VOLYIG ns7:hasLigand ns5:VOLYIG_ligand10497-0_0,
+        ns5:VOLYIG_ligand10497-0_1,
+        ns5:VOLYIG_ligand38-0_1,
+        ns5:VOLYIG_ligand38-0_2,
+        ns5:VOLYIG_ligand38-0_3,
+        ns5:VOLYIG_ligand89-0_0,
+        ns5:VOLYIG_ligand89-0_1 ;
+    ns7:hasMetalCentre ns6:VOLYIG_metalCentre_Mo .
+
+ns4:VOLYIG_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_34>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_35>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_36>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_10> .
+
+ns4:VOLYIG_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_37>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_38>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_39>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_11> .
+
+ns4:VOLYIG_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_C_12> .
+
+ns4:VOLYIG_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_13_H_40> .
+
+ns4:VOLYIG_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_14_H_41> .
+
+ns4:VOLYIG_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_15_H_42> .
+
+ns4:VOLYIG_C_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_16_H_43> .
+
+ns4:VOLYIG_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_17_H_44> .
+
+ns4:VOLYIG_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_C_18> .
+
+ns4:VOLYIG_C_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_19_H_45> .
+
+ns4:VOLYIG_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_20_H_46> .
+
+ns4:VOLYIG_C_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_21_H_47> .
+
+ns4:VOLYIG_C_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_22_H_48> .
+
+ns4:VOLYIG_C_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_23_H_49> .
+
+ns4:VOLYIG_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_13>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_14>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_15>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_3> .
+
+ns4:VOLYIG_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_16>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_17>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_18>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_4> .
+
+ns4:VOLYIG_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_19>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_20>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_21>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_5> .
+
+ns4:VOLYIG_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_22>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_23>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_24>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_6> .
+
+ns4:VOLYIG_C_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_25>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_26>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_27>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_7> .
+
+ns4:VOLYIG_C_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_28>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_29>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_30>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_8> .
+
+ns4:VOLYIG_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_31>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_32>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_33>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_9> .
+
+ns4:VOLYIG_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_H_0> .
+
+ns4:VOLYIG_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_H_1> .
+
+ns4:VOLYIG_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_13> .
+
+ns4:VOLYIG_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_14> .
+
+ns4:VOLYIG_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_15> .
+
+ns4:VOLYIG_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_16> .
+
+ns4:VOLYIG_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_17> .
+
+ns4:VOLYIG_H_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_18> .
+
+ns4:VOLYIG_H_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_19> .
+
+ns4:VOLYIG_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_H_2> .
+
+ns4:VOLYIG_H_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_20> .
+
+ns4:VOLYIG_H_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_21> .
+
+ns4:VOLYIG_H_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_22> .
+
+ns4:VOLYIG_H_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_23> .
+
+ns4:VOLYIG_H_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_24> .
+
+ns4:VOLYIG_H_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_25> .
+
+ns4:VOLYIG_H_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_26> .
+
+ns4:VOLYIG_H_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_27> .
+
+ns4:VOLYIG_H_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_28> .
+
+ns4:VOLYIG_H_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_29> .
+
+ns4:VOLYIG_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_H_3> .
+
+ns4:VOLYIG_H_30 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_30> .
+
+ns4:VOLYIG_H_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_31> .
+
+ns4:VOLYIG_H_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_32> .
+
+ns4:VOLYIG_H_33 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_33> .
+
+ns4:VOLYIG_H_34 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_34> .
+
+ns4:VOLYIG_H_35 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_35> .
+
+ns4:VOLYIG_H_36 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_36> .
+
+ns4:VOLYIG_H_37 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_37> .
+
+ns4:VOLYIG_H_38 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_38> .
+
+ns4:VOLYIG_H_39 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_39> .
+
+ns4:VOLYIG_H_40 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_13_H_40> .
+
+ns4:VOLYIG_H_41 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_14_H_41> .
+
+ns4:VOLYIG_H_42 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_15_H_42> .
+
+ns4:VOLYIG_H_43 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_16_H_43> .
+
+ns4:VOLYIG_H_44 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_17_H_44> .
+
+ns4:VOLYIG_H_45 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_19_H_45> .
+
+ns4:VOLYIG_H_46 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_20_H_46> .
+
+ns4:VOLYIG_H_47 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_21_H_47> .
+
+ns4:VOLYIG_H_48 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_22_H_48> .
+
+ns4:VOLYIG_H_49 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_C_23_H_49> .
+
+ns4:VOLYIG_Mo_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_H_50>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_H_51>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_1>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_2>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_3>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_Si_0>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_Si_1> .
+
+ns6:VOLYIG_metalCentre_Mo ns6:hasAtom ns4:VOLYIG_Mo_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns2:bLc ns3:VOLYIG_bondL_ligand10497-0_0_0,
+        ns3:VOLYIG_bondL_ligand10497-0_1_0,
+        ns3:VOLYIG_bondL_ligand38-0_1_0,
+        ns3:VOLYIG_bondL_ligand38-0_2_0,
+        ns3:VOLYIG_bondL_ligand38-0_3_0,
+        ns3:VOLYIG_bondL_ligand89-0_0_0,
+        ns3:VOLYIG_bondL_ligand89-0_1_0 .
+
+ns5:VOLYIG_ligand10497-0_0 ns5:hasAtom ns4:VOLYIG_C_12,
+        ns4:VOLYIG_C_13,
+        ns4:VOLYIG_C_14,
+        ns4:VOLYIG_C_15,
+        ns4:VOLYIG_C_16,
+        ns4:VOLYIG_C_17,
+        ns4:VOLYIG_H_0,
+        ns4:VOLYIG_H_1,
+        ns4:VOLYIG_H_40,
+        ns4:VOLYIG_H_41,
+        ns4:VOLYIG_H_42,
+        ns4:VOLYIG_H_43,
+        ns4:VOLYIG_H_44,
+        ns4:VOLYIG_Si_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand10497-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand10497-0_0_0 .
+
+ns5:VOLYIG_ligand10497-0_1 ns5:hasAtom ns4:VOLYIG_C_18,
+        ns4:VOLYIG_C_19,
+        ns4:VOLYIG_C_20,
+        ns4:VOLYIG_C_21,
+        ns4:VOLYIG_C_22,
+        ns4:VOLYIG_C_23,
+        ns4:VOLYIG_H_2,
+        ns4:VOLYIG_H_3,
+        ns4:VOLYIG_H_45,
+        ns4:VOLYIG_H_46,
+        ns4:VOLYIG_H_47,
+        ns4:VOLYIG_H_48,
+        ns4:VOLYIG_H_49,
+        ns4:VOLYIG_Si_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand10497-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand10497-0_1_0 .
+
+ns5:VOLYIG_ligand38-0_1 ns5:hasAtom ns4:VOLYIG_C_3,
+        ns4:VOLYIG_C_4,
+        ns4:VOLYIG_C_5,
+        ns4:VOLYIG_H_13,
+        ns4:VOLYIG_H_14,
+        ns4:VOLYIG_H_15,
+        ns4:VOLYIG_H_16,
+        ns4:VOLYIG_H_17,
+        ns4:VOLYIG_H_18,
+        ns4:VOLYIG_H_19,
+        ns4:VOLYIG_H_20,
+        ns4:VOLYIG_H_21,
+        ns4:VOLYIG_P_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand38-0_1_0 .
+
+ns5:VOLYIG_ligand38-0_2 ns5:hasAtom ns4:VOLYIG_C_6,
+        ns4:VOLYIG_C_7,
+        ns4:VOLYIG_C_8,
+        ns4:VOLYIG_H_22,
+        ns4:VOLYIG_H_23,
+        ns4:VOLYIG_H_24,
+        ns4:VOLYIG_H_25,
+        ns4:VOLYIG_H_26,
+        ns4:VOLYIG_H_27,
+        ns4:VOLYIG_H_28,
+        ns4:VOLYIG_H_29,
+        ns4:VOLYIG_H_30,
+        ns4:VOLYIG_P_2 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand38-0_2_0 .
+
+ns5:VOLYIG_ligand38-0_3 ns5:hasAtom ns4:VOLYIG_C_10,
+        ns4:VOLYIG_C_11,
+        ns4:VOLYIG_C_9,
+        ns4:VOLYIG_H_31,
+        ns4:VOLYIG_H_32,
+        ns4:VOLYIG_H_33,
+        ns4:VOLYIG_H_34,
+        ns4:VOLYIG_H_35,
+        ns4:VOLYIG_H_36,
+        ns4:VOLYIG_H_37,
+        ns4:VOLYIG_H_38,
+        ns4:VOLYIG_H_39,
+        ns4:VOLYIG_P_3 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand38-0_3_0 .
+
+ns5:VOLYIG_ligand89-0_0 ns5:hasAtom ns4:VOLYIG_H_50 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand89-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand89-0_0_0 .
+
+ns5:VOLYIG_ligand89-0_1 ns5:hasAtom ns4:VOLYIG_H_51 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand89-0> ;
+    ns2:bLl ns3:VOLYIG_bondL_ligand89-0_1_0 .
+
+ns4:VOLYIG_H_50 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_H_50> .
+
+ns4:VOLYIG_H_51 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_H_51> .
+
+ns4:VOLYIG_P_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_1>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_3>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_4>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_5> .
+
+ns4:VOLYIG_P_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_2>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_6>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_7>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_8> .
+
+ns4:VOLYIG_P_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_3>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_10>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_11>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_9> .
+
+ns4:VOLYIG_Si_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_Si_0>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_C_12>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_H_0>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_H_1> .
+
+ns4:VOLYIG_Si_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_Si_1>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_C_18>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_H_2>,
+        <resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_H_3> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_10_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_11_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_13_H_40> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_14_H_41> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_15_H_42> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_16_H_43> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_17_H_44> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_18_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_19_H_45> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_20_H_46> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_21_H_47> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_22_H_48> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_23_H_49> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_3_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_4_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_5_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_6_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_7_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_8_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_C_9_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_H_50> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_H_51> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_P_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Mo_0_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_2_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_P_3_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VOLYIG_bond_Si_1_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:VOLYIG_bondL_ligand10497-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_Si_0 .
+
+ns3:VOLYIG_bondL_ligand10497-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_Si_1 .
+
+ns3:VOLYIG_bondL_ligand38-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_P_1 .
+
+ns3:VOLYIG_bondL_ligand38-0_2_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_P_2 .
+
+ns3:VOLYIG_bondL_ligand38-0_3_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_P_3 .
+
+ns3:VOLYIG_bondL_ligand89-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_H_50 .
+
+ns3:VOLYIG_bondL_ligand89-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns4:VOLYIG_H_51 .
+

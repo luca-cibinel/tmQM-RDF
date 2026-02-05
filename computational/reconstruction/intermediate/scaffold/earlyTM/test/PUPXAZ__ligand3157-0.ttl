@@ -1,0 +1,381 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:PUPXAZ ns5:hasLigand ns3:PUPXAZ_ligand1-0_0,
+        ns3:PUPXAZ_ligand3157-0_1,
+        ns3:PUPXAZ_ligand409-0_0 ;
+    ns5:hasMetalCentre ns6:PUPXAZ_metalCentre_Mo .
+
+ns2:PUPXAZ_B_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/B> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_B_0_H_0>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_B_0_N_9>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_3_B_0>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_5_B_0> .
+
+ns2:PUPXAZ_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_10_H_9>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_5_C_10> .
+
+ns2:PUPXAZ_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_11_H_10> .
+
+ns2:PUPXAZ_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_12_H_11>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_4_C_12> .
+
+ns2:PUPXAZ_C_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_13_C_18>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_7_C_13> .
+
+ns2:PUPXAZ_C_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_14_H_19> .
+
+ns2:PUPXAZ_C_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_15_H_18> .
+
+ns2:PUPXAZ_C_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_16_H_17> .
+
+ns2:PUPXAZ_C_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_17_H_16> .
+
+ns2:PUPXAZ_C_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_13_C_18>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_18_H_15> .
+
+ns2:PUPXAZ_C_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_20>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_21>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_22>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_7_C_19> .
+
+ns2:PUPXAZ_C_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_20_H_25>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_9_C_20> .
+
+ns2:PUPXAZ_C_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_21_H_24> .
+
+ns2:PUPXAZ_C_22 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_22_H_23>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_8_C_22> .
+
+ns2:PUPXAZ_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_2_C_7> .
+
+ns2:PUPXAZ_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_8_H_7> .
+
+ns2:PUPXAZ_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_9_H_8>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_3_C_9> .
+
+ns2:PUPXAZ_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_B_0_H_0> .
+
+ns2:PUPXAZ_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_11_H_10> .
+
+ns2:PUPXAZ_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_12_H_11> .
+
+ns2:PUPXAZ_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_18_H_15> .
+
+ns2:PUPXAZ_H_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_17_H_16> .
+
+ns2:PUPXAZ_H_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_16_H_17> .
+
+ns2:PUPXAZ_H_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_15_H_18> .
+
+ns2:PUPXAZ_H_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_14_H_19> .
+
+ns2:PUPXAZ_H_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_20> .
+
+ns2:PUPXAZ_H_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_21> .
+
+ns2:PUPXAZ_H_22 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_22> .
+
+ns2:PUPXAZ_H_23 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_22_H_23> .
+
+ns2:PUPXAZ_H_24 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_21_H_24> .
+
+ns2:PUPXAZ_H_25 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_20_H_25> .
+
+ns2:PUPXAZ_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_7_H_6> .
+
+ns2:PUPXAZ_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_8_H_7> .
+
+ns2:PUPXAZ_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_9_H_8> .
+
+ns2:PUPXAZ_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_10_H_9> .
+
+ns2:PUPXAZ_Mo_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_2>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_4>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_6>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_8> .
+
+ns2:PUPXAZ_N_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_2_N_3>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_3_B_0>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_3_C_9> .
+
+ns2:PUPXAZ_N_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_4_N_5>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_5_B_0>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_5_C_10> .
+
+ns2:PUPXAZ_N_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_6_N_7>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_7_C_13>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_7_C_19> .
+
+ns2:PUPXAZ_N_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_B_0_N_9>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_8_N_9>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_9_C_20> .
+
+ns6:PUPXAZ_metalCentre_Mo ns6:hasAtom ns2:PUPXAZ_Mo_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns4:bLc ns7:PUPXAZ_bondL_ligand1-0_0_0,
+        ns7:PUPXAZ_bondL_ligand3157-0_1_0,
+        ns7:PUPXAZ_bondL_ligand409-0_0_0,
+        ns7:PUPXAZ_bondL_ligand409-0_0_1,
+        ns7:PUPXAZ_bondL_ligand409-0_0_2 .
+
+ns3:PUPXAZ_ligand1-0_0 ns3:hasAtom ns2:PUPXAZ_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns7:PUPXAZ_bondL_ligand1-0_0_0 .
+
+ns3:PUPXAZ_ligand3157-0_1 ns3:hasAtom ns2:PUPXAZ_C_13,
+        ns2:PUPXAZ_C_14,
+        ns2:PUPXAZ_C_15,
+        ns2:PUPXAZ_C_16,
+        ns2:PUPXAZ_C_17,
+        ns2:PUPXAZ_C_18,
+        ns2:PUPXAZ_C_19,
+        ns2:PUPXAZ_H_15,
+        ns2:PUPXAZ_H_16,
+        ns2:PUPXAZ_H_17,
+        ns2:PUPXAZ_H_18,
+        ns2:PUPXAZ_H_19,
+        ns2:PUPXAZ_H_20,
+        ns2:PUPXAZ_H_21,
+        ns2:PUPXAZ_H_22,
+        ns2:PUPXAZ_N_6,
+        ns2:PUPXAZ_N_7 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3157-0> ;
+    ns4:bLl ns7:PUPXAZ_bondL_ligand3157-0_1_0 .
+
+ns3:PUPXAZ_ligand409-0_0 ns3:hasAtom ns2:PUPXAZ_B_0,
+        ns2:PUPXAZ_C_10,
+        ns2:PUPXAZ_C_11,
+        ns2:PUPXAZ_C_12,
+        ns2:PUPXAZ_C_20,
+        ns2:PUPXAZ_C_21,
+        ns2:PUPXAZ_C_22,
+        ns2:PUPXAZ_C_7,
+        ns2:PUPXAZ_C_8,
+        ns2:PUPXAZ_C_9,
+        ns2:PUPXAZ_H_0,
+        ns2:PUPXAZ_H_10,
+        ns2:PUPXAZ_H_11,
+        ns2:PUPXAZ_H_23,
+        ns2:PUPXAZ_H_24,
+        ns2:PUPXAZ_H_25,
+        ns2:PUPXAZ_H_6,
+        ns2:PUPXAZ_H_7,
+        ns2:PUPXAZ_H_8,
+        ns2:PUPXAZ_H_9,
+        ns2:PUPXAZ_N_2,
+        ns2:PUPXAZ_N_3,
+        ns2:PUPXAZ_N_4,
+        ns2:PUPXAZ_N_5,
+        ns2:PUPXAZ_N_8,
+        ns2:PUPXAZ_N_9 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand409-0> ;
+    ns4:bLl ns7:PUPXAZ_bondL_ligand409-0_0_0,
+        ns7:PUPXAZ_bondL_ligand409-0_0_1,
+        ns7:PUPXAZ_bondL_ligand409-0_0_2 .
+
+ns2:PUPXAZ_Cl_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_Cl_0> .
+
+ns2:PUPXAZ_N_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_2>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_2_C_7>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_2_N_3> .
+
+ns2:PUPXAZ_N_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_4>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_4_C_12>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_4_N_5> .
+
+ns2:PUPXAZ_N_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_6>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_6_N_7> .
+
+ns2:PUPXAZ_N_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_8>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_8_C_22>,
+        <resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_8_N_9> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_B_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_B_0_N_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_10_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_11_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_12_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_13_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_14_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_15_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_16_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_17_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_18_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_19_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_20_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_21_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_22_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_8_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_C_9_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_Mo_0_N_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_2_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_2_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_3_B_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_3_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_4_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_4_N_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_5_B_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_5_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_6_N_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_7_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_7_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_8_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_8_N_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PUPXAZ_bond_N_9_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:PUPXAZ_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:PUPXAZ_Cl_0 .
+
+ns7:PUPXAZ_bondL_ligand3157-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:PUPXAZ_N_6 .
+
+ns7:PUPXAZ_bondL_ligand409-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:PUPXAZ_N_2 .
+
+ns7:PUPXAZ_bondL_ligand409-0_0_1 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:PUPXAZ_N_8 .
+
+ns7:PUPXAZ_bondL_ligand409-0_0_2 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:PUPXAZ_N_4 .
+

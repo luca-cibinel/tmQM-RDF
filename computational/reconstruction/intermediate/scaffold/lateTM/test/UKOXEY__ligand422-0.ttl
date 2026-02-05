@@ -1,0 +1,127 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:UKOXEY ns5:hasLigand ns3:UKOXEY_ligand422-0_1 ;
+    ns5:hasMetalCentre ns6:UKOXEY_metalCentre_Ni .
+
+ns1:UKOXEY_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_10_H_6>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_9_C_10> .
+
+ns1:UKOXEY_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_11_H_7>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_C_11> .
+
+ns1:UKOXEY_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_C_11>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_H_4>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_N_1> .
+
+ns1:UKOXEY_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_O_2_C_7>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_O_3_C_7> .
+
+ns1:UKOXEY_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_N_1_C_8> .
+
+ns1:UKOXEY_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_9_H_5> .
+
+ns1:UKOXEY_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_H_4> .
+
+ns1:UKOXEY_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_9_H_5> .
+
+ns1:UKOXEY_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_10_H_6> .
+
+ns1:UKOXEY_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_11_H_7> .
+
+ns1:UKOXEY_Ni_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_Ni_0_N_1>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_Ni_0_O_2> .
+
+ns1:UKOXEY_O_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_O_3_C_7> .
+
+ns6:UKOXEY_metalCentre_Ni ns6:hasAtom ns1:UKOXEY_Ni_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns4:bLc ns7:UKOXEY_bondL_ligand422-0_1_0,
+        ns7:UKOXEY_bondL_ligand422-0_1_1 .
+
+ns3:UKOXEY_ligand422-0_1 ns3:hasAtom ns1:UKOXEY_C_10,
+        ns1:UKOXEY_C_11,
+        ns1:UKOXEY_C_6,
+        ns1:UKOXEY_C_7,
+        ns1:UKOXEY_C_8,
+        ns1:UKOXEY_C_9,
+        ns1:UKOXEY_H_4,
+        ns1:UKOXEY_H_5,
+        ns1:UKOXEY_H_6,
+        ns1:UKOXEY_H_7,
+        ns1:UKOXEY_N_1,
+        ns1:UKOXEY_O_2,
+        ns1:UKOXEY_O_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand422-0> ;
+    ns4:bLl ns7:UKOXEY_bondL_ligand422-0_1_0,
+        ns7:UKOXEY_bondL_ligand422-0_1_1 .
+
+ns1:UKOXEY_N_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_N_1>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_N_1_C_8>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_Ni_0_N_1> .
+
+ns1:UKOXEY_O_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/UKOXEY_bond_Ni_0_O_2>,
+        <resource://integreat/p5/atomic/bond/UKOXEY_bond_O_2_C_7> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_10_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_11_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_6_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_C_9_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_N_1_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_Ni_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_Ni_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_O_2_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UKOXEY_bond_O_3_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:UKOXEY_bondL_ligand422-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns1:UKOXEY_O_2 .
+
+ns7:UKOXEY_bondL_ligand422-0_1_1 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns1:UKOXEY_N_1 .
+

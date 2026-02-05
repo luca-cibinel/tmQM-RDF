@@ -1,0 +1,44 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns5:WAYFOT ns5:hasLigand ns3:WAYFOT_ligand196-0_0 ;
+    ns5:hasMetalCentre ns4:WAYFOT_metalCentre_Ni .
+
+ns2:WAYFOT_N_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/WAYFOT_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/WAYFOT_bond_N_1_N_2> .
+
+ns2:WAYFOT_N_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/WAYFOT_bond_N_1_N_2> .
+
+ns2:WAYFOT_Ni_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/WAYFOT_bond_Ni_0_N_0> .
+
+ns4:WAYFOT_metalCentre_Ni ns4:hasAtom ns2:WAYFOT_Ni_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns7:bLc ns6:WAYFOT_bondL_ligand196-0_0_0 .
+
+ns3:WAYFOT_ligand196-0_0 ns3:hasAtom ns2:WAYFOT_N_0,
+        ns2:WAYFOT_N_1,
+        ns2:WAYFOT_N_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand196-0> ;
+    ns7:bLl ns6:WAYFOT_bondL_ligand196-0_0_0 .
+
+ns2:WAYFOT_N_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/WAYFOT_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/WAYFOT_bond_Ni_0_N_0> .
+
+<resource://integreat/p5/atomic/bond/WAYFOT_bond_N_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WAYFOT_bond_N_1_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WAYFOT_bond_Ni_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:WAYFOT_bondL_ligand196-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:WAYFOT_N_0 .
+

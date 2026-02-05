@@ -1,0 +1,312 @@
+@prefix ns1: <resource://integreat/p5/ligand/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns4:TAWHIJ ns4:hasLigand ns6:TAWHIJ_ligand267-0_0,
+        ns6:TAWHIJ_ligand4-0_0,
+        ns6:TAWHIJ_ligand4-0_1,
+        ns6:TAWHIJ_ligand4-0_2,
+        ns6:TAWHIJ_ligand4-0_4 ;
+    ns4:hasMetalCentre ns5:TAWHIJ_metalCentre_Cr .
+
+ns2:TAWHIJ_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_10>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_11>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_9>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_Si_1> .
+
+ns2:TAWHIJ_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_12>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_13>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_14>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_Si_1> .
+
+ns2:TAWHIJ_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_15>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_16>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_17>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_Si_1> .
+
+ns2:TAWHIJ_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_1>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_2>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_Si_0> .
+
+ns2:TAWHIJ_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_3>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_4>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_5>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_Si_0> .
+
+ns2:TAWHIJ_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_6>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_7>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_8>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_Si_0> .
+
+ns2:TAWHIJ_Cr_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Cr> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_0_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_1_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_2_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_4_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_6_Cr_0> .
+
+ns2:TAWHIJ_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_0> .
+
+ns2:TAWHIJ_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_1> .
+
+ns2:TAWHIJ_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_10> .
+
+ns2:TAWHIJ_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_11> .
+
+ns2:TAWHIJ_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_12> .
+
+ns2:TAWHIJ_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_13> .
+
+ns2:TAWHIJ_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_14> .
+
+ns2:TAWHIJ_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_15> .
+
+ns2:TAWHIJ_H_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_16> .
+
+ns2:TAWHIJ_H_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_17> .
+
+ns2:TAWHIJ_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_2> .
+
+ns2:TAWHIJ_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_3> .
+
+ns2:TAWHIJ_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_4> .
+
+ns2:TAWHIJ_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_5> .
+
+ns2:TAWHIJ_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_6> .
+
+ns2:TAWHIJ_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_7> .
+
+ns2:TAWHIJ_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_8> .
+
+ns2:TAWHIJ_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_9> .
+
+ns2:TAWHIJ_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_0_O_0> .
+
+ns2:TAWHIJ_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_1_O_1> .
+
+ns2:TAWHIJ_O_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_2_O_2> .
+
+ns2:TAWHIJ_O_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_4_O_4> .
+
+ns2:TAWHIJ_Si_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_Si_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_Si_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_Si_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_Si_0> .
+
+ns2:TAWHIJ_Si_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Si> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_Si_1>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_Si_1>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_Si_1>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_6_Si_1> .
+
+ns5:TAWHIJ_metalCentre_Cr ns5:hasAtom ns2:TAWHIJ_Cr_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Cr> ;
+    ns1:bLc ns7:TAWHIJ_bondL_ligand267-0_0_0,
+        ns7:TAWHIJ_bondL_ligand4-0_0_0,
+        ns7:TAWHIJ_bondL_ligand4-0_1_0,
+        ns7:TAWHIJ_bondL_ligand4-0_2_0,
+        ns7:TAWHIJ_bondL_ligand4-0_4_0 .
+
+ns6:TAWHIJ_ligand267-0_0 ns6:hasAtom ns2:TAWHIJ_C_10,
+        ns2:TAWHIJ_C_11,
+        ns2:TAWHIJ_C_12,
+        ns2:TAWHIJ_C_5,
+        ns2:TAWHIJ_C_6,
+        ns2:TAWHIJ_C_7,
+        ns2:TAWHIJ_C_8,
+        ns2:TAWHIJ_C_9,
+        ns2:TAWHIJ_H_0,
+        ns2:TAWHIJ_H_1,
+        ns2:TAWHIJ_H_10,
+        ns2:TAWHIJ_H_11,
+        ns2:TAWHIJ_H_12,
+        ns2:TAWHIJ_H_13,
+        ns2:TAWHIJ_H_14,
+        ns2:TAWHIJ_H_15,
+        ns2:TAWHIJ_H_16,
+        ns2:TAWHIJ_H_17,
+        ns2:TAWHIJ_H_2,
+        ns2:TAWHIJ_H_3,
+        ns2:TAWHIJ_H_4,
+        ns2:TAWHIJ_H_5,
+        ns2:TAWHIJ_H_6,
+        ns2:TAWHIJ_H_7,
+        ns2:TAWHIJ_H_8,
+        ns2:TAWHIJ_H_9,
+        ns2:TAWHIJ_Si_0,
+        ns2:TAWHIJ_Si_1 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand267-0> ;
+    ns1:bLl ns7:TAWHIJ_bondL_ligand267-0_0_0 .
+
+ns6:TAWHIJ_ligand4-0_0 ns6:hasAtom ns2:TAWHIJ_C_0,
+        ns2:TAWHIJ_O_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns1:bLl ns7:TAWHIJ_bondL_ligand4-0_0_0 .
+
+ns6:TAWHIJ_ligand4-0_1 ns6:hasAtom ns2:TAWHIJ_C_1,
+        ns2:TAWHIJ_O_1 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns1:bLl ns7:TAWHIJ_bondL_ligand4-0_1_0 .
+
+ns6:TAWHIJ_ligand4-0_2 ns6:hasAtom ns2:TAWHIJ_C_2,
+        ns2:TAWHIJ_O_2 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns1:bLl ns7:TAWHIJ_bondL_ligand4-0_2_0 .
+
+ns6:TAWHIJ_ligand4-0_4 ns6:hasAtom ns2:TAWHIJ_C_4,
+        ns2:TAWHIJ_O_4 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns1:bLl ns7:TAWHIJ_bondL_ligand4-0_4_0 .
+
+ns2:TAWHIJ_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_0_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_0_O_0> .
+
+ns2:TAWHIJ_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_1_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_1_O_1> .
+
+ns2:TAWHIJ_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_2_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_2_O_2> .
+
+ns2:TAWHIJ_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_4_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_4_O_4> .
+
+ns2:TAWHIJ_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_Si_0> .
+
+ns2:TAWHIJ_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_6_Cr_0>,
+        <resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_6_Si_1> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_0_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_10_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_11_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_12_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_1_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_1_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_2_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_2_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_4_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_4_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_5_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_6_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_6_Si_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_7_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_8_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TAWHIJ_bond_C_9_Si_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:TAWHIJ_bondL_ligand267-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:TAWHIJ_C_5,
+        ns2:TAWHIJ_C_6 .
+
+ns7:TAWHIJ_bondL_ligand4-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:TAWHIJ_C_0 .
+
+ns7:TAWHIJ_bondL_ligand4-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:TAWHIJ_C_1 .
+
+ns7:TAWHIJ_bondL_ligand4-0_2_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:TAWHIJ_C_2 .
+
+ns7:TAWHIJ_bondL_ligand4-0_4_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:TAWHIJ_C_4 .
+

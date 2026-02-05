@@ -1,0 +1,171 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:QAXBAV ns5:hasLigand ns3:QAXBAV_ligand1-0_0,
+        ns3:QAXBAV_ligand1-0_1,
+        ns3:QAXBAV_ligand1-0_2,
+        ns3:QAXBAV_ligand1-0_3,
+        ns3:QAXBAV_ligand618-0_0 ;
+    ns5:hasMetalCentre ns7:QAXBAV_metalCentre_W .
+
+ns1:QAXBAV_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_N_0_C_0> .
+
+ns1:QAXBAV_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_1_H_0> .
+
+ns1:QAXBAV_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_2_H_1> .
+
+ns1:QAXBAV_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_3_H_2> .
+
+ns1:QAXBAV_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_4_H_3> .
+
+ns1:QAXBAV_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_5_H_4> .
+
+ns1:QAXBAV_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_1_H_0> .
+
+ns1:QAXBAV_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_2_H_1> .
+
+ns1:QAXBAV_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_3_H_2> .
+
+ns1:QAXBAV_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_4_H_3> .
+
+ns1:QAXBAV_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_C_5_H_4> .
+
+ns1:QAXBAV_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_2>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_3>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_N_0> .
+
+ns7:QAXBAV_metalCentre_W ns7:hasAtom ns1:QAXBAV_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns6:bLc ns4:QAXBAV_bondL_ligand1-0_0_0,
+        ns4:QAXBAV_bondL_ligand1-0_1_0,
+        ns4:QAXBAV_bondL_ligand1-0_2_0,
+        ns4:QAXBAV_bondL_ligand1-0_3_0,
+        ns4:QAXBAV_bondL_ligand618-0_0_0 .
+
+ns3:QAXBAV_ligand1-0_0 ns3:hasAtom ns1:QAXBAV_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:QAXBAV_bondL_ligand1-0_0_0 .
+
+ns3:QAXBAV_ligand1-0_1 ns3:hasAtom ns1:QAXBAV_Cl_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:QAXBAV_bondL_ligand1-0_1_0 .
+
+ns3:QAXBAV_ligand1-0_2 ns3:hasAtom ns1:QAXBAV_Cl_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:QAXBAV_bondL_ligand1-0_2_0 .
+
+ns3:QAXBAV_ligand1-0_3 ns3:hasAtom ns1:QAXBAV_Cl_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:QAXBAV_bondL_ligand1-0_3_0 .
+
+ns3:QAXBAV_ligand618-0_0 ns3:hasAtom ns1:QAXBAV_C_0,
+        ns1:QAXBAV_C_1,
+        ns1:QAXBAV_C_2,
+        ns1:QAXBAV_C_3,
+        ns1:QAXBAV_C_4,
+        ns1:QAXBAV_C_5,
+        ns1:QAXBAV_H_0,
+        ns1:QAXBAV_H_1,
+        ns1:QAXBAV_H_2,
+        ns1:QAXBAV_H_3,
+        ns1:QAXBAV_H_4,
+        ns1:QAXBAV_N_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand618-0> ;
+    ns6:bLl ns4:QAXBAV_bondL_ligand618-0_0_0 .
+
+ns1:QAXBAV_Cl_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_0> .
+
+ns1:QAXBAV_Cl_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_1> .
+
+ns1:QAXBAV_Cl_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_2> .
+
+ns1:QAXBAV_Cl_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_3> .
+
+ns1:QAXBAV_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QAXBAV_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_N_0> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_Cl_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAXBAV_bond_W_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:QAXBAV_bondL_ligand1-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:QAXBAV_Cl_0 .
+
+ns4:QAXBAV_bondL_ligand1-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:QAXBAV_Cl_1 .
+
+ns4:QAXBAV_bondL_ligand1-0_2_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:QAXBAV_Cl_2 .
+
+ns4:QAXBAV_bondL_ligand1-0_3_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:QAXBAV_Cl_3 .
+
+ns4:QAXBAV_bondL_ligand618-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:QAXBAV_N_0 .
+

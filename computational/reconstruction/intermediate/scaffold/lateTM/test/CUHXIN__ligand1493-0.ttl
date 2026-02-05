@@ -1,0 +1,60 @@
+@prefix ns1: <resource://integreat/p5/complex/TMC/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/atomic/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns1:CUHXIN ns1:hasLigand ns5:CUHXIN_ligand3-0_0,
+        ns5:CUHXIN_ligand3-0_1,
+        ns5:CUHXIN_ligand3-0_2 ;
+    ns1:hasMetalCentre ns7:CUHXIN_metalCentre_Pt .
+
+ns2:CUHXIN_Pt_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns6:b <resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_0>,
+        <resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_1>,
+        <resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_2> .
+
+ns7:CUHXIN_metalCentre_Pt ns7:hasAtom ns2:CUHXIN_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns4:bLc ns3:CUHXIN_bondL_ligand3-0_0_0,
+        ns3:CUHXIN_bondL_ligand3-0_1_0,
+        ns3:CUHXIN_bondL_ligand3-0_2_0 .
+
+ns5:CUHXIN_ligand3-0_0 ns5:hasAtom ns2:CUHXIN_Br_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns4:bLl ns3:CUHXIN_bondL_ligand3-0_0_0 .
+
+ns5:CUHXIN_ligand3-0_1 ns5:hasAtom ns2:CUHXIN_Br_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns4:bLl ns3:CUHXIN_bondL_ligand3-0_1_0 .
+
+ns5:CUHXIN_ligand3-0_2 ns5:hasAtom ns2:CUHXIN_Br_2 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns4:bLl ns3:CUHXIN_bondL_ligand3-0_2_0 .
+
+ns2:CUHXIN_Br_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns6:b <resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_0> .
+
+ns2:CUHXIN_Br_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns6:b <resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_1> .
+
+ns2:CUHXIN_Br_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns6:b <resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_2> .
+
+<resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CUHXIN_bond_Pt_0_Br_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:CUHXIN_bondL_ligand3-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns2:CUHXIN_Br_0 .
+
+ns3:CUHXIN_bondL_ligand3-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns2:CUHXIN_Br_1 .
+
+ns3:CUHXIN_bondL_ligand3-0_2_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns2:CUHXIN_Br_2 .
+

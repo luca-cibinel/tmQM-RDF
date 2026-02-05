@@ -1,0 +1,132 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:EJIFUA ns7:hasLigand ns1:EJIFUA_ligand3-0_0,
+        ns1:EJIFUA_ligand45-0_0 ;
+    ns7:hasMetalCentre ns6:EJIFUA_metalCentre_Ni .
+
+ns3:EJIFUA_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_H_12> .
+
+ns3:EJIFUA_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_12_H_13> .
+
+ns3:EJIFUA_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_13_H_14> .
+
+ns3:EJIFUA_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_14_H_15> .
+
+ns3:EJIFUA_H_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_15_H_16> .
+
+ns3:EJIFUA_Ni_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_Br_0_Ni_0>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_11>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_12>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_13>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_14>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_15> .
+
+ns6:EJIFUA_metalCentre_Ni ns6:hasAtom ns3:EJIFUA_Ni_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns4:bLc ns5:EJIFUA_bondL_ligand3-0_0_0,
+        ns5:EJIFUA_bondL_ligand45-0_0_0 .
+
+ns1:EJIFUA_ligand3-0_0 ns1:hasAtom ns3:EJIFUA_Br_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns4:bLl ns5:EJIFUA_bondL_ligand3-0_0_0 .
+
+ns1:EJIFUA_ligand45-0_0 ns1:hasAtom ns3:EJIFUA_C_11,
+        ns3:EJIFUA_C_12,
+        ns3:EJIFUA_C_13,
+        ns3:EJIFUA_C_14,
+        ns3:EJIFUA_C_15,
+        ns3:EJIFUA_H_12,
+        ns3:EJIFUA_H_13,
+        ns3:EJIFUA_H_14,
+        ns3:EJIFUA_H_15,
+        ns3:EJIFUA_H_16 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand45-0> ;
+    ns4:bLl ns5:EJIFUA_bondL_ligand45-0_0_0 .
+
+ns3:EJIFUA_Br_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_Br_0_Ni_0> .
+
+ns3:EJIFUA_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_C_13>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_H_12>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_11> .
+
+ns3:EJIFUA_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_12_C_15>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_12_H_13>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_12> .
+
+ns3:EJIFUA_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_C_13>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_13_H_14>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_13> .
+
+ns3:EJIFUA_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_14_H_15>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_14> .
+
+ns3:EJIFUA_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_12_C_15>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_C_15_H_16>,
+        <resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_15> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_Br_0_Ni_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_11_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_12_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_12_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_13_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_14_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_C_15_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EJIFUA_bond_Ni_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:EJIFUA_bondL_ligand3-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:EJIFUA_Br_0 .
+
+ns5:EJIFUA_bondL_ligand45-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:EJIFUA_C_11,
+        ns3:EJIFUA_C_12,
+        ns3:EJIFUA_C_13,
+        ns3:EJIFUA_C_14,
+        ns3:EJIFUA_C_15 .
+

@@ -1,0 +1,375 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:ZESWOJ ns6:hasLigand ns5:ZESWOJ_ligand1767-0_0,
+        ns5:ZESWOJ_ligand4-0_1,
+        ns5:ZESWOJ_ligand4-0_2,
+        ns5:ZESWOJ_ligand4-0_3,
+        ns5:ZESWOJ_ligand4-0_4 ;
+    ns6:hasMetalCentre ns7:ZESWOJ_metalCentre_W .
+
+ns2:ZESWOJ_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_10_H_3>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_9_C_10> .
+
+ns2:ZESWOJ_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_11_H_4>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_6_C_11> .
+
+ns2:ZESWOJ_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_12> .
+
+ns2:ZESWOJ_C_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_13_H_5> .
+
+ns2:ZESWOJ_C_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_14_H_6> .
+
+ns2:ZESWOJ_C_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_15_H_7> .
+
+ns2:ZESWOJ_C_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_16_H_8> .
+
+ns2:ZESWOJ_C_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_17_H_9> .
+
+ns2:ZESWOJ_C_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_18> .
+
+ns2:ZESWOJ_C_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_19_H_10> .
+
+ns2:ZESWOJ_C_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_20_H_11> .
+
+ns2:ZESWOJ_C_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_21_H_12> .
+
+ns2:ZESWOJ_C_22 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_22_H_13> .
+
+ns2:ZESWOJ_C_23 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_23_H_14> .
+
+ns2:ZESWOJ_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_5_C_7>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_5_H_0>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_5_C_5> .
+
+ns2:ZESWOJ_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_6_C_11>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_6> .
+
+ns2:ZESWOJ_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_5_C_7>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_7_C_8> .
+
+ns2:ZESWOJ_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_8_H_1> .
+
+ns2:ZESWOJ_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_9_H_2> .
+
+ns2:ZESWOJ_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_5_H_0> .
+
+ns2:ZESWOJ_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_8_H_1> .
+
+ns2:ZESWOJ_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_19_H_10> .
+
+ns2:ZESWOJ_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_20_H_11> .
+
+ns2:ZESWOJ_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_21_H_12> .
+
+ns2:ZESWOJ_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_22_H_13> .
+
+ns2:ZESWOJ_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_23_H_14> .
+
+ns2:ZESWOJ_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_9_H_2> .
+
+ns2:ZESWOJ_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_10_H_3> .
+
+ns2:ZESWOJ_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_11_H_4> .
+
+ns2:ZESWOJ_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_13_H_5> .
+
+ns2:ZESWOJ_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_14_H_6> .
+
+ns2:ZESWOJ_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_15_H_7> .
+
+ns2:ZESWOJ_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_16_H_8> .
+
+ns2:ZESWOJ_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_17_H_9> .
+
+ns2:ZESWOJ_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_1_C_1> .
+
+ns2:ZESWOJ_O_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_2_C_2> .
+
+ns2:ZESWOJ_O_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_3_C_3> .
+
+ns2:ZESWOJ_O_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_4_C_4> .
+
+ns2:ZESWOJ_O_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_5_C_5> .
+
+ns2:ZESWOJ_W_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_2>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_3>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_4>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_P_0> .
+
+ns7:ZESWOJ_metalCentre_W ns7:hasAtom ns2:ZESWOJ_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns3:bLc ns4:ZESWOJ_bondL_ligand1767-0_0_0,
+        ns4:ZESWOJ_bondL_ligand4-0_1_0,
+        ns4:ZESWOJ_bondL_ligand4-0_2_0,
+        ns4:ZESWOJ_bondL_ligand4-0_3_0,
+        ns4:ZESWOJ_bondL_ligand4-0_4_0 .
+
+ns5:ZESWOJ_ligand1767-0_0 ns5:hasAtom ns2:ZESWOJ_C_10,
+        ns2:ZESWOJ_C_11,
+        ns2:ZESWOJ_C_12,
+        ns2:ZESWOJ_C_13,
+        ns2:ZESWOJ_C_14,
+        ns2:ZESWOJ_C_15,
+        ns2:ZESWOJ_C_16,
+        ns2:ZESWOJ_C_17,
+        ns2:ZESWOJ_C_18,
+        ns2:ZESWOJ_C_19,
+        ns2:ZESWOJ_C_20,
+        ns2:ZESWOJ_C_21,
+        ns2:ZESWOJ_C_22,
+        ns2:ZESWOJ_C_23,
+        ns2:ZESWOJ_C_5,
+        ns2:ZESWOJ_C_6,
+        ns2:ZESWOJ_C_7,
+        ns2:ZESWOJ_C_8,
+        ns2:ZESWOJ_C_9,
+        ns2:ZESWOJ_H_0,
+        ns2:ZESWOJ_H_1,
+        ns2:ZESWOJ_H_10,
+        ns2:ZESWOJ_H_11,
+        ns2:ZESWOJ_H_12,
+        ns2:ZESWOJ_H_13,
+        ns2:ZESWOJ_H_14,
+        ns2:ZESWOJ_H_2,
+        ns2:ZESWOJ_H_3,
+        ns2:ZESWOJ_H_4,
+        ns2:ZESWOJ_H_5,
+        ns2:ZESWOJ_H_6,
+        ns2:ZESWOJ_H_7,
+        ns2:ZESWOJ_H_8,
+        ns2:ZESWOJ_H_9,
+        ns2:ZESWOJ_O_5,
+        ns2:ZESWOJ_P_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1767-0> ;
+    ns3:bLl ns4:ZESWOJ_bondL_ligand1767-0_0_0 .
+
+ns5:ZESWOJ_ligand4-0_1 ns5:hasAtom ns2:ZESWOJ_C_1,
+        ns2:ZESWOJ_O_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns4:ZESWOJ_bondL_ligand4-0_1_0 .
+
+ns5:ZESWOJ_ligand4-0_2 ns5:hasAtom ns2:ZESWOJ_C_2,
+        ns2:ZESWOJ_O_2 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns4:ZESWOJ_bondL_ligand4-0_2_0 .
+
+ns5:ZESWOJ_ligand4-0_3 ns5:hasAtom ns2:ZESWOJ_C_3,
+        ns2:ZESWOJ_O_3 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns4:ZESWOJ_bondL_ligand4-0_3_0 .
+
+ns5:ZESWOJ_ligand4-0_4 ns5:hasAtom ns2:ZESWOJ_C_4,
+        ns2:ZESWOJ_O_4 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns4:ZESWOJ_bondL_ligand4-0_4_0 .
+
+ns2:ZESWOJ_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_1_C_1>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_1> .
+
+ns2:ZESWOJ_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_2_C_2>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_2> .
+
+ns2:ZESWOJ_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_3_C_3>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_3> .
+
+ns2:ZESWOJ_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_4_C_4>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_4> .
+
+ns2:ZESWOJ_P_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_12>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_18>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_6>,
+        <resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_10_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_11_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_13_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_14_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_15_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_16_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_17_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_18_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_19_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_20_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_21_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_22_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_23_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_5_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_5_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_6_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_8_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_C_9_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_2_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_3_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_4_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_O_5_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_P_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ZESWOJ_bond_W_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:ZESWOJ_bondL_ligand1767-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:ZESWOJ_P_0 .
+
+ns4:ZESWOJ_bondL_ligand4-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:ZESWOJ_C_1 .
+
+ns4:ZESWOJ_bondL_ligand4-0_2_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:ZESWOJ_C_2 .
+
+ns4:ZESWOJ_bondL_ligand4-0_3_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:ZESWOJ_C_3 .
+
+ns4:ZESWOJ_bondL_ligand4-0_4_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:ZESWOJ_C_4 .
+

@@ -1,0 +1,45 @@
+@prefix ns1: <resource://integreat/p5/ligand/centre/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/ligand/> .
+
+ns4:MACGON ns4:hasLigand ns7:MACGON_ligand3-0_0,
+        ns7:MACGON_ligand3-0_1 ;
+    ns4:hasMetalCentre ns1:MACGON_metalCentre_Pd .
+
+ns3:MACGON_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MACGON_bond_Pd_0_Br_0>,
+        <resource://integreat/p5/atomic/bond/MACGON_bond_Pd_0_Br_1> .
+
+ns1:MACGON_metalCentre_Pd ns1:hasAtom ns3:MACGON_Pd_0 ;
+    ns1:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns5:MACGON_bondL_ligand3-0_0_0,
+        ns5:MACGON_bondL_ligand3-0_1_0 .
+
+ns7:MACGON_ligand3-0_0 ns7:hasAtom ns3:MACGON_Br_0 ;
+    ns7:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns6:bLl ns5:MACGON_bondL_ligand3-0_0_0 .
+
+ns7:MACGON_ligand3-0_1 ns7:hasAtom ns3:MACGON_Br_1 ;
+    ns7:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns6:bLl ns5:MACGON_bondL_ligand3-0_1_0 .
+
+ns3:MACGON_Br_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MACGON_bond_Pd_0_Br_0> .
+
+ns3:MACGON_Br_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MACGON_bond_Pd_0_Br_1> .
+
+<resource://integreat/p5/atomic/bond/MACGON_bond_Pd_0_Br_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MACGON_bond_Pd_0_Br_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:MACGON_bondL_ligand3-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:MACGON_Br_0 .
+
+ns5:MACGON_bondL_ligand3-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:MACGON_Br_1 .
+

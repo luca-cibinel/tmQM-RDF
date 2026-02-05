@@ -1,0 +1,125 @@
+@prefix ns1: <resource://integreat/p5/ligand/bond/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/atomic/structure/> .
+
+ns5:FAVWUV ns5:hasLigand ns4:FAVWUV_ligand4-0_0,
+        ns4:FAVWUV_ligand4-0_1,
+        ns4:FAVWUV_ligand4-0_2,
+        ns4:FAVWUV_ligand4-0_3,
+        ns4:FAVWUV_ligand4-0_4 ;
+    ns5:hasMetalCentre ns6:FAVWUV_metalCentre_Mo .
+
+ns2:FAVWUV_Mo_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_1>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_2>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_3>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_4> .
+
+ns2:FAVWUV_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_0_O_0> .
+
+ns2:FAVWUV_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_1_O_1> .
+
+ns2:FAVWUV_O_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_2_O_2> .
+
+ns2:FAVWUV_O_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_3_O_3> .
+
+ns2:FAVWUV_O_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_4_O_4> .
+
+ns6:FAVWUV_metalCentre_Mo ns6:hasAtom ns2:FAVWUV_Mo_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns3:bLc ns1:FAVWUV_bondL_ligand4-0_0_0,
+        ns1:FAVWUV_bondL_ligand4-0_1_0,
+        ns1:FAVWUV_bondL_ligand4-0_2_0,
+        ns1:FAVWUV_bondL_ligand4-0_3_0,
+        ns1:FAVWUV_bondL_ligand4-0_4_0 .
+
+ns4:FAVWUV_ligand4-0_0 ns4:hasAtom ns2:FAVWUV_C_0,
+        ns2:FAVWUV_O_0 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns1:FAVWUV_bondL_ligand4-0_0_0 .
+
+ns4:FAVWUV_ligand4-0_1 ns4:hasAtom ns2:FAVWUV_C_1,
+        ns2:FAVWUV_O_1 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns1:FAVWUV_bondL_ligand4-0_1_0 .
+
+ns4:FAVWUV_ligand4-0_2 ns4:hasAtom ns2:FAVWUV_C_2,
+        ns2:FAVWUV_O_2 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns1:FAVWUV_bondL_ligand4-0_2_0 .
+
+ns4:FAVWUV_ligand4-0_3 ns4:hasAtom ns2:FAVWUV_C_3,
+        ns2:FAVWUV_O_3 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns1:FAVWUV_bondL_ligand4-0_3_0 .
+
+ns4:FAVWUV_ligand4-0_4 ns4:hasAtom ns2:FAVWUV_C_4,
+        ns2:FAVWUV_O_4 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns1:FAVWUV_bondL_ligand4-0_4_0 .
+
+ns2:FAVWUV_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_0_O_0>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_0> .
+
+ns2:FAVWUV_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_1_O_1>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_1> .
+
+ns2:FAVWUV_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_2_O_2>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_2> .
+
+ns2:FAVWUV_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_3_O_3>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_3> .
+
+ns2:FAVWUV_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns7:b <resource://integreat/p5/atomic/bond/FAVWUV_bond_C_4_O_4>,
+        <resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_4> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_C_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_C_1_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_C_2_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_C_3_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_C_4_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAVWUV_bond_Mo_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns1:FAVWUV_bondL_ligand4-0_0_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:FAVWUV_C_0 .
+
+ns1:FAVWUV_bondL_ligand4-0_1_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:FAVWUV_C_1 .
+
+ns1:FAVWUV_bondL_ligand4-0_2_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:FAVWUV_C_2 .
+
+ns1:FAVWUV_bondL_ligand4-0_3_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:FAVWUV_C_3 .
+
+ns1:FAVWUV_bondL_ligand4-0_4_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:FAVWUV_C_4 .
+

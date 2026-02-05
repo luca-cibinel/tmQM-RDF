@@ -1,0 +1,104 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/bond/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:ILUYOD ns6:hasLigand ns3:ILUYOD_ligand3-0_0,
+        ns3:ILUYOD_ligand384-0_0 ;
+    ns6:hasMetalCentre ns7:ILUYOD_metalCentre_Ni .
+
+ns4:ILUYOD_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_H_0> .
+
+ns4:ILUYOD_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_H_1> .
+
+ns4:ILUYOD_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_1_H_2> .
+
+ns4:ILUYOD_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_2_H_3> .
+
+ns4:ILUYOD_H_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_2_H_4> .
+
+ns4:ILUYOD_Ni_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_Br_0>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_0>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_1>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_2> .
+
+ns7:ILUYOD_metalCentre_Ni ns7:hasAtom ns4:ILUYOD_Ni_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns5:bLc ns2:ILUYOD_bondL_ligand3-0_0_0,
+        ns2:ILUYOD_bondL_ligand384-0_0_0 .
+
+ns3:ILUYOD_ligand3-0_0 ns3:hasAtom ns4:ILUYOD_Br_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns5:bLl ns2:ILUYOD_bondL_ligand3-0_0_0 .
+
+ns3:ILUYOD_ligand384-0_0 ns3:hasAtom ns4:ILUYOD_C_0,
+        ns4:ILUYOD_C_1,
+        ns4:ILUYOD_C_2,
+        ns4:ILUYOD_H_0,
+        ns4:ILUYOD_H_1,
+        ns4:ILUYOD_H_2,
+        ns4:ILUYOD_H_3,
+        ns4:ILUYOD_H_4 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand384-0> ;
+    ns5:bLl ns2:ILUYOD_bondL_ligand384-0_0_0 .
+
+ns4:ILUYOD_Br_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_Br_0> .
+
+ns4:ILUYOD_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_0> .
+
+ns4:ILUYOD_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_1_H_2>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_1> .
+
+ns4:ILUYOD_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_2_H_3>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_C_2_H_4>,
+        <resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_2> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_2_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_C_2_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_Br_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ILUYOD_bond_Ni_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns2:ILUYOD_bondL_ligand3-0_0_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns4:ILUYOD_Br_0 .
+
+ns2:ILUYOD_bondL_ligand384-0_0_0 a ns2:LigandBond ;
+    ns2:hasBindingAtom ns4:ILUYOD_C_0,
+        ns4:ILUYOD_C_1,
+        ns4:ILUYOD_C_2 .
+

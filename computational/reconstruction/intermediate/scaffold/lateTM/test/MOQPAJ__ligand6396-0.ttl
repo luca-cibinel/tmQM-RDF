@@ -1,0 +1,93 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:MOQPAJ ns7:hasLigand ns1:MOQPAJ_ligand1598-0_0 ;
+    ns7:hasMetalCentre ns6:MOQPAJ_metalCentre_Pt .
+
+ns3:MOQPAJ_C_33 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_C_33_C_34>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_2_C_33>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_3_C_33> .
+
+ns3:MOQPAJ_C_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_C_33_C_34>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_4_C_34>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_5_C_34>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_6_C_34> .
+
+ns3:MOQPAJ_F_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_0_C_32> .
+
+ns3:MOQPAJ_F_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_1_C_32> .
+
+ns3:MOQPAJ_F_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_2_C_33> .
+
+ns3:MOQPAJ_F_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_3_C_33> .
+
+ns3:MOQPAJ_F_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_4_C_34> .
+
+ns3:MOQPAJ_F_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_5_C_34> .
+
+ns3:MOQPAJ_F_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_6_C_34> .
+
+ns3:MOQPAJ_Pt_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_Pt_0_C_32> .
+
+ns6:MOQPAJ_metalCentre_Pt ns6:hasAtom ns3:MOQPAJ_Pt_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns5:bLc ns4:MOQPAJ_bondL_ligand1598-0_0_0 .
+
+ns1:MOQPAJ_ligand1598-0_0 ns1:hasAtom ns3:MOQPAJ_C_32,
+        ns3:MOQPAJ_C_33,
+        ns3:MOQPAJ_C_34,
+        ns3:MOQPAJ_F_0,
+        ns3:MOQPAJ_F_1,
+        ns3:MOQPAJ_F_2,
+        ns3:MOQPAJ_F_3,
+        ns3:MOQPAJ_F_4,
+        ns3:MOQPAJ_F_5,
+        ns3:MOQPAJ_F_6 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1598-0> ;
+    ns5:bLl ns4:MOQPAJ_bondL_ligand1598-0_0_0 .
+
+ns3:MOQPAJ_C_32 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/MOQPAJ_bond_C_32_C_33>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_0_C_32>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_1_C_32>,
+        <resource://integreat/p5/atomic/bond/MOQPAJ_bond_Pt_0_C_32> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_C_32_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_C_33_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_0_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_1_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_2_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_3_C_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_4_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_5_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_F_6_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MOQPAJ_bond_Pt_0_C_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:MOQPAJ_bondL_ligand1598-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:MOQPAJ_C_32 .
+

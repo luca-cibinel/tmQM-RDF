@@ -1,0 +1,270 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:XEPVAP ns3:hasLigand ns5:XEPVAP_ligand1-0_1,
+        ns5:XEPVAP_ligand24-0_0,
+        ns5:XEPVAP_ligand24-0_1,
+        ns5:XEPVAP_ligand9424-0_0 ;
+    ns3:hasMetalCentre ns7:XEPVAP_metalCentre_Mo .
+
+ns4:XEPVAP_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_2>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_3> .
+
+ns4:XEPVAP_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_O_0_C_1> .
+
+ns4:XEPVAP_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_10>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_11>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_12>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_9_C_10> .
+
+ns4:XEPVAP_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_H_4>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_H_5> .
+
+ns4:XEPVAP_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_C_3>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_O_1_C_3> .
+
+ns4:XEPVAP_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_4_C_9>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_C_4> .
+
+ns4:XEPVAP_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_5_H_6> .
+
+ns4:XEPVAP_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_6_H_7> .
+
+ns4:XEPVAP_C_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_7_H_8> .
+
+ns4:XEPVAP_C_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_8_H_9> .
+
+ns4:XEPVAP_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_4_C_9>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_9_C_10> .
+
+ns4:XEPVAP_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_H_0> .
+
+ns4:XEPVAP_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_1> .
+
+ns4:XEPVAP_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_10> .
+
+ns4:XEPVAP_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_11> .
+
+ns4:XEPVAP_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_12> .
+
+ns4:XEPVAP_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_2> .
+
+ns4:XEPVAP_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_3> .
+
+ns4:XEPVAP_H_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_H_4> .
+
+ns4:XEPVAP_H_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_H_5> .
+
+ns4:XEPVAP_H_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_5_H_6> .
+
+ns4:XEPVAP_H_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_6_H_7> .
+
+ns4:XEPVAP_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_7_H_8> .
+
+ns4:XEPVAP_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_C_8_H_9> .
+
+ns4:XEPVAP_Mo_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_0>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_1>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_2>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_3> .
+
+ns4:XEPVAP_N_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_C_3>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_C_4>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_H_0> .
+
+ns7:XEPVAP_metalCentre_Mo ns7:hasAtom ns4:XEPVAP_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns2:bLc ns6:XEPVAP_bondL_ligand1-0_1_0,
+        ns6:XEPVAP_bondL_ligand24-0_0_0,
+        ns6:XEPVAP_bondL_ligand24-0_1_0,
+        ns6:XEPVAP_bondL_ligand9424-0_0_0,
+        ns6:XEPVAP_bondL_ligand9424-0_0_1 .
+
+ns5:XEPVAP_ligand1-0_1 ns5:hasAtom ns4:XEPVAP_Cl_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns2:bLl ns6:XEPVAP_bondL_ligand1-0_1_0 .
+
+ns5:XEPVAP_ligand24-0_0 ns5:hasAtom ns4:XEPVAP_O_2 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand24-0> ;
+    ns2:bLl ns6:XEPVAP_bondL_ligand24-0_0_0 .
+
+ns5:XEPVAP_ligand24-0_1 ns5:hasAtom ns4:XEPVAP_O_3 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand24-0> ;
+    ns2:bLl ns6:XEPVAP_bondL_ligand24-0_1_0 .
+
+ns5:XEPVAP_ligand9424-0_0 ns5:hasAtom ns4:XEPVAP_C_0,
+        ns4:XEPVAP_C_1,
+        ns4:XEPVAP_C_10,
+        ns4:XEPVAP_C_2,
+        ns4:XEPVAP_C_3,
+        ns4:XEPVAP_C_4,
+        ns4:XEPVAP_C_5,
+        ns4:XEPVAP_C_6,
+        ns4:XEPVAP_C_7,
+        ns4:XEPVAP_C_8,
+        ns4:XEPVAP_C_9,
+        ns4:XEPVAP_H_0,
+        ns4:XEPVAP_H_1,
+        ns4:XEPVAP_H_10,
+        ns4:XEPVAP_H_11,
+        ns4:XEPVAP_H_12,
+        ns4:XEPVAP_H_2,
+        ns4:XEPVAP_H_3,
+        ns4:XEPVAP_H_4,
+        ns4:XEPVAP_H_5,
+        ns4:XEPVAP_H_6,
+        ns4:XEPVAP_H_7,
+        ns4:XEPVAP_H_8,
+        ns4:XEPVAP_H_9,
+        ns4:XEPVAP_N_0,
+        ns4:XEPVAP_O_0,
+        ns4:XEPVAP_O_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand9424-0> ;
+    ns2:bLl ns6:XEPVAP_bondL_ligand9424-0_0_0,
+        ns6:XEPVAP_bondL_ligand9424-0_0_1 .
+
+ns4:XEPVAP_Cl_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_Cl_1> .
+
+ns4:XEPVAP_O_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_0>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_O_0_C_1> .
+
+ns4:XEPVAP_O_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_1>,
+        <resource://integreat/p5/atomic/bond/XEPVAP_bond_O_1_C_3> .
+
+ns4:XEPVAP_O_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_2> .
+
+ns4:XEPVAP_O_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_3> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_0_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_10_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_2_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_4_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_5_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_6_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_7_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_8_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_Mo_0_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_N_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_O_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XEPVAP_bond_O_1_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:XEPVAP_bondL_ligand1-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:XEPVAP_Cl_1 .
+
+ns6:XEPVAP_bondL_ligand24-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:XEPVAP_O_2 .
+
+ns6:XEPVAP_bondL_ligand24-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:XEPVAP_O_3 .
+
+ns6:XEPVAP_bondL_ligand9424-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:XEPVAP_O_0 .
+
+ns6:XEPVAP_bondL_ligand9424-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:XEPVAP_O_1 .
+

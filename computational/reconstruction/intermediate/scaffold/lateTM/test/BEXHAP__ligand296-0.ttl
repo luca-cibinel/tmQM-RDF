@@ -1,0 +1,339 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:BEXHAP ns6:hasLigand ns3:BEXHAP_ligand18-0_0,
+        ns3:BEXHAP_ligand296-0_1 ;
+    ns6:hasMetalCentre ns7:BEXHAP_metalCentre_Pd .
+
+ns4:BEXHAP_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_15>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_23>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_24>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_1> .
+
+ns4:BEXHAP_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_15>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_16>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_10> .
+
+ns4:BEXHAP_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_24>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_25>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_26>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_13> .
+
+ns4:BEXHAP_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_27>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_28>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_29> .
+
+ns4:BEXHAP_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_30>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_31>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_32>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_15> .
+
+ns4:BEXHAP_C_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_17> .
+
+ns4:BEXHAP_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_0>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_1>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_2> .
+
+ns4:BEXHAP_C_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_45>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_46>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_47>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_21> .
+
+ns4:BEXHAP_C_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_23>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_51>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_52>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_53> .
+
+ns4:BEXHAP_C_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_24>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_54>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_55>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_56> .
+
+ns4:BEXHAP_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_10>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_13>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_21>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_5> .
+
+ns4:BEXHAP_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_12>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_13>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_14> .
+
+ns4:BEXHAP_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_0> .
+
+ns4:BEXHAP_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_1> .
+
+ns4:BEXHAP_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_12> .
+
+ns4:BEXHAP_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_13> .
+
+ns4:BEXHAP_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_14> .
+
+ns4:BEXHAP_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_15> .
+
+ns4:BEXHAP_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_16> .
+
+ns4:BEXHAP_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_17> .
+
+ns4:BEXHAP_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_2> .
+
+ns4:BEXHAP_H_24 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_24> .
+
+ns4:BEXHAP_H_25 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_25> .
+
+ns4:BEXHAP_H_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_26> .
+
+ns4:BEXHAP_H_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_27> .
+
+ns4:BEXHAP_H_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_28> .
+
+ns4:BEXHAP_H_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_29> .
+
+ns4:BEXHAP_H_30 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_30> .
+
+ns4:BEXHAP_H_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_31> .
+
+ns4:BEXHAP_H_32 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_32> .
+
+ns4:BEXHAP_H_42 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_42> .
+
+ns4:BEXHAP_H_43 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_43> .
+
+ns4:BEXHAP_H_44 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_44> .
+
+ns4:BEXHAP_H_45 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_45> .
+
+ns4:BEXHAP_H_46 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_46> .
+
+ns4:BEXHAP_H_47 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_47> .
+
+ns4:BEXHAP_H_51 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_51> .
+
+ns4:BEXHAP_H_52 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_52> .
+
+ns4:BEXHAP_H_53 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_53> .
+
+ns4:BEXHAP_H_54 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_54> .
+
+ns4:BEXHAP_H_55 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_55> .
+
+ns4:BEXHAP_H_56 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_56> .
+
+ns4:BEXHAP_Pd_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_Pd_0_C_20>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_Pd_0_P_1> .
+
+ns7:BEXHAP_metalCentre_Pd ns7:hasAtom ns4:BEXHAP_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns2:bLc ns5:BEXHAP_bondL_ligand18-0_0_0,
+        ns5:BEXHAP_bondL_ligand296-0_1_0 .
+
+ns3:BEXHAP_ligand18-0_0 ns3:hasAtom ns4:BEXHAP_C_20,
+        ns4:BEXHAP_H_42,
+        ns4:BEXHAP_H_43,
+        ns4:BEXHAP_H_44 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand18-0> ;
+    ns2:bLl ns5:BEXHAP_bondL_ligand18-0_0_0 .
+
+ns3:BEXHAP_ligand296-0_1 ns3:hasAtom ns4:BEXHAP_C_1,
+        ns4:BEXHAP_C_10,
+        ns4:BEXHAP_C_13,
+        ns4:BEXHAP_C_14,
+        ns4:BEXHAP_C_15,
+        ns4:BEXHAP_C_17,
+        ns4:BEXHAP_C_2,
+        ns4:BEXHAP_C_21,
+        ns4:BEXHAP_C_23,
+        ns4:BEXHAP_C_24,
+        ns4:BEXHAP_C_5,
+        ns4:BEXHAP_C_9,
+        ns4:BEXHAP_H_0,
+        ns4:BEXHAP_H_1,
+        ns4:BEXHAP_H_12,
+        ns4:BEXHAP_H_13,
+        ns4:BEXHAP_H_14,
+        ns4:BEXHAP_H_15,
+        ns4:BEXHAP_H_16,
+        ns4:BEXHAP_H_17,
+        ns4:BEXHAP_H_2,
+        ns4:BEXHAP_H_24,
+        ns4:BEXHAP_H_25,
+        ns4:BEXHAP_H_26,
+        ns4:BEXHAP_H_27,
+        ns4:BEXHAP_H_28,
+        ns4:BEXHAP_H_29,
+        ns4:BEXHAP_H_30,
+        ns4:BEXHAP_H_31,
+        ns4:BEXHAP_H_32,
+        ns4:BEXHAP_H_45,
+        ns4:BEXHAP_H_46,
+        ns4:BEXHAP_H_47,
+        ns4:BEXHAP_H_51,
+        ns4:BEXHAP_H_52,
+        ns4:BEXHAP_H_53,
+        ns4:BEXHAP_H_54,
+        ns4:BEXHAP_H_55,
+        ns4:BEXHAP_H_56,
+        ns4:BEXHAP_P_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand296-0> ;
+    ns2:bLl ns5:BEXHAP_bondL_ligand296-0_1_0 .
+
+ns4:BEXHAP_C_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_42>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_43>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_44>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_Pd_0_C_20> .
+
+ns4:BEXHAP_P_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_1>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_17>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_5>,
+        <resource://integreat/p5/atomic/bond/BEXHAP_bond_Pd_0_P_1> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_10_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_13_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_14_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_15_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_1_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_42> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_43> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_20_H_44> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_45> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_46> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_21_H_47> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_51> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_52> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_23_H_53> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_54> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_55> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_24_H_56> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_5_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_C_9_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_P_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_Pd_0_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BEXHAP_bond_Pd_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:BEXHAP_bondL_ligand18-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:BEXHAP_C_20 .
+
+ns5:BEXHAP_bondL_ligand296-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:BEXHAP_P_1 .
+

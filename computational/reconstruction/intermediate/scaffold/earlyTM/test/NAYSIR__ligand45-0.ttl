@@ -1,0 +1,294 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:NAYSIR ns5:hasLigand ns3:NAYSIR_ligand40-0_0,
+        ns3:NAYSIR_ligand4338-1_0 ;
+    ns5:hasMetalCentre ns6:NAYSIR_metalCentre_Cr .
+
+ns1:NAYSIR_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_N_0> .
+
+ns1:NAYSIR_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_1_H_1> .
+
+ns1:NAYSIR_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_10_H_6>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_9_C_10> .
+
+ns1:NAYSIR_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_C_11> .
+
+ns1:NAYSIR_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_7>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_8>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_9> .
+
+ns1:NAYSIR_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_10>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_11>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_12>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_9_C_13> .
+
+ns1:NAYSIR_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_13>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_14>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_15>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_7_C_14> .
+
+ns1:NAYSIR_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_2_H_2> .
+
+ns1:NAYSIR_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_3_H_3> .
+
+ns1:NAYSIR_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_Cr_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_N_0> .
+
+ns1:NAYSIR_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_Cr_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_H_4>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_N_1> .
+
+ns1:NAYSIR_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_C_11>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_N_1> .
+
+ns1:NAYSIR_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_7_C_14>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_7_C_8> .
+
+ns1:NAYSIR_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_8_H_5> .
+
+ns1:NAYSIR_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_9_C_13> .
+
+ns1:NAYSIR_Cr_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cr> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_Cr_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_Cr_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_Cr_0_I_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_N_0_Cr_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_N_1_Cr_0> .
+
+ns1:NAYSIR_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_H_0> .
+
+ns1:NAYSIR_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_1_H_1> .
+
+ns1:NAYSIR_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_10> .
+
+ns1:NAYSIR_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_11> .
+
+ns1:NAYSIR_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_12> .
+
+ns1:NAYSIR_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_13> .
+
+ns1:NAYSIR_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_14> .
+
+ns1:NAYSIR_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_15> .
+
+ns1:NAYSIR_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_2_H_2> .
+
+ns1:NAYSIR_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_3_H_3> .
+
+ns1:NAYSIR_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_H_4> .
+
+ns1:NAYSIR_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_8_H_5> .
+
+ns1:NAYSIR_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_10_H_6> .
+
+ns1:NAYSIR_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_7> .
+
+ns1:NAYSIR_H_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_8> .
+
+ns1:NAYSIR_H_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_9> .
+
+ns6:NAYSIR_metalCentre_Cr ns6:hasAtom ns1:NAYSIR_Cr_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Cr> ;
+    ns4:bLc ns7:NAYSIR_bondL_ligand40-0_0_0,
+        ns7:NAYSIR_bondL_ligand4338-1_0_0,
+        ns7:NAYSIR_bondL_ligand4338-1_0_1 .
+
+ns3:NAYSIR_ligand40-0_0 ns3:hasAtom ns1:NAYSIR_I_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns4:bLl ns7:NAYSIR_bondL_ligand40-0_0_0 .
+
+ns3:NAYSIR_ligand4338-1_0 ns3:hasAtom ns1:NAYSIR_C_0,
+        ns1:NAYSIR_C_1,
+        ns1:NAYSIR_C_10,
+        ns1:NAYSIR_C_11,
+        ns1:NAYSIR_C_12,
+        ns1:NAYSIR_C_13,
+        ns1:NAYSIR_C_14,
+        ns1:NAYSIR_C_2,
+        ns1:NAYSIR_C_3,
+        ns1:NAYSIR_C_4,
+        ns1:NAYSIR_C_5,
+        ns1:NAYSIR_C_6,
+        ns1:NAYSIR_C_7,
+        ns1:NAYSIR_C_8,
+        ns1:NAYSIR_C_9,
+        ns1:NAYSIR_H_0,
+        ns1:NAYSIR_H_1,
+        ns1:NAYSIR_H_10,
+        ns1:NAYSIR_H_11,
+        ns1:NAYSIR_H_12,
+        ns1:NAYSIR_H_13,
+        ns1:NAYSIR_H_14,
+        ns1:NAYSIR_H_15,
+        ns1:NAYSIR_H_2,
+        ns1:NAYSIR_H_3,
+        ns1:NAYSIR_H_4,
+        ns1:NAYSIR_H_5,
+        ns1:NAYSIR_H_6,
+        ns1:NAYSIR_H_7,
+        ns1:NAYSIR_H_8,
+        ns1:NAYSIR_H_9,
+        ns1:NAYSIR_N_0,
+        ns1:NAYSIR_N_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4338-1> ;
+    ns4:bLl ns7:NAYSIR_bondL_ligand4338-1_0_0,
+        ns7:NAYSIR_bondL_ligand4338-1_0_1 .
+
+ns1:NAYSIR_I_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_Cr_0_I_0> .
+
+ns1:NAYSIR_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_N_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_N_0>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_N_0_Cr_0> .
+
+ns1:NAYSIR_N_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_N_1>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_N_1>,
+        <resource://integreat/p5/atomic/bond/NAYSIR_bond_N_1_Cr_0> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_10_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_12_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_13_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_14_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_3_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_4_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_5_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_6_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_7_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_8_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_C_9_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_Cr_0_I_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_N_0_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/NAYSIR_bond_N_1_Cr_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:NAYSIR_bondL_ligand40-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns1:NAYSIR_I_0 .
+
+ns7:NAYSIR_bondL_ligand4338-1_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns1:NAYSIR_N_0 .
+
+ns7:NAYSIR_bondL_ligand4338-1_0_1 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns1:NAYSIR_N_1 .
+

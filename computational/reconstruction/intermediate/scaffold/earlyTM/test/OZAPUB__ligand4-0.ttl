@@ -1,0 +1,199 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:OZAPUB ns3:hasLigand ns6:OZAPUB_ligand23815-0_0,
+        ns6:OZAPUB_ligand4-0_0,
+        ns6:OZAPUB_ligand4-0_2,
+        ns6:OZAPUB_ligand4-0_3,
+        ns6:OZAPUB_ligand4-0_4 ;
+    ns3:hasMetalCentre ns7:OZAPUB_metalCentre_W .
+
+ns1:OZAPUB_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_O_5>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_P_0> .
+
+ns1:OZAPUB_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_6_H_0> .
+
+ns1:OZAPUB_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_7_H_1> .
+
+ns1:OZAPUB_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_8_H_2> .
+
+ns1:OZAPUB_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_9_H_3>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_9_P_0> .
+
+ns1:OZAPUB_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_6_H_0> .
+
+ns1:OZAPUB_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_7_H_1> .
+
+ns1:OZAPUB_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_8_H_2> .
+
+ns1:OZAPUB_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_9_H_3> .
+
+ns1:OZAPUB_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_O_5_H_4> .
+
+ns1:OZAPUB_O_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_0_O_0> .
+
+ns1:OZAPUB_O_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_2_O_2> .
+
+ns1:OZAPUB_O_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_3_O_3> .
+
+ns1:OZAPUB_O_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_4_O_4> .
+
+ns1:OZAPUB_O_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_O_5>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_O_5_H_4> .
+
+ns1:OZAPUB_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_2>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_3>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_4>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_P_0> .
+
+ns7:OZAPUB_metalCentre_W ns7:hasAtom ns1:OZAPUB_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns5:bLc ns4:OZAPUB_bondL_ligand23815-0_0_0,
+        ns4:OZAPUB_bondL_ligand4-0_0_0,
+        ns4:OZAPUB_bondL_ligand4-0_2_0,
+        ns4:OZAPUB_bondL_ligand4-0_3_0,
+        ns4:OZAPUB_bondL_ligand4-0_4_0 .
+
+ns6:OZAPUB_ligand23815-0_0 ns6:hasAtom ns1:OZAPUB_C_5,
+        ns1:OZAPUB_C_6,
+        ns1:OZAPUB_C_7,
+        ns1:OZAPUB_C_8,
+        ns1:OZAPUB_C_9,
+        ns1:OZAPUB_H_0,
+        ns1:OZAPUB_H_1,
+        ns1:OZAPUB_H_2,
+        ns1:OZAPUB_H_3,
+        ns1:OZAPUB_H_4,
+        ns1:OZAPUB_O_5,
+        ns1:OZAPUB_P_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand23815-0> ;
+    ns5:bLl ns4:OZAPUB_bondL_ligand23815-0_0_0 .
+
+ns6:OZAPUB_ligand4-0_0 ns6:hasAtom ns1:OZAPUB_C_0,
+        ns1:OZAPUB_O_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns4:OZAPUB_bondL_ligand4-0_0_0 .
+
+ns6:OZAPUB_ligand4-0_2 ns6:hasAtom ns1:OZAPUB_C_2,
+        ns1:OZAPUB_O_2 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns4:OZAPUB_bondL_ligand4-0_2_0 .
+
+ns6:OZAPUB_ligand4-0_3 ns6:hasAtom ns1:OZAPUB_C_3,
+        ns1:OZAPUB_O_3 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns4:OZAPUB_bondL_ligand4-0_3_0 .
+
+ns6:OZAPUB_ligand4-0_4 ns6:hasAtom ns1:OZAPUB_C_4,
+        ns1:OZAPUB_O_4 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns4:OZAPUB_bondL_ligand4-0_4_0 .
+
+ns1:OZAPUB_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_0_O_0>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_0> .
+
+ns1:OZAPUB_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_2_O_2>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_2> .
+
+ns1:OZAPUB_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_3_O_3>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_3> .
+
+ns1:OZAPUB_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_4_O_4>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_4> .
+
+ns1:OZAPUB_P_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_P_0>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_C_9_P_0>,
+        <resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_2_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_3_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_4_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_O_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_5_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_6_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_7_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_8_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_9_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_C_9_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_O_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/OZAPUB_bond_W_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:OZAPUB_bondL_ligand23815-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:OZAPUB_P_0 .
+
+ns4:OZAPUB_bondL_ligand4-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:OZAPUB_C_0 .
+
+ns4:OZAPUB_bondL_ligand4-0_2_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:OZAPUB_C_2 .
+
+ns4:OZAPUB_bondL_ligand4-0_3_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:OZAPUB_C_3 .
+
+ns4:OZAPUB_bondL_ligand4-0_4_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:OZAPUB_C_4 .
+

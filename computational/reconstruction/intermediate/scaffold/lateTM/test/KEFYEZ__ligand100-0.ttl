@@ -1,0 +1,162 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns4:KEFYEZ ns4:hasLigand ns1:KEFYEZ_ligand1-0_0,
+        ns1:KEFYEZ_ligand1-0_1,
+        ns1:KEFYEZ_ligand100-0_1 ;
+    ns4:hasMetalCentre ns6:KEFYEZ_metalCentre_Pd .
+
+ns2:KEFYEZ_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_5_C_8>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_3_C_5> .
+
+ns2:KEFYEZ_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_6_H_9> .
+
+ns2:KEFYEZ_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_7_C_9>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_2_C_7> .
+
+ns2:KEFYEZ_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_5_C_8>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_10>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_11>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_12> .
+
+ns2:KEFYEZ_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_7_C_9>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_13>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_14>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_15> .
+
+ns2:KEFYEZ_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_3_H_1> .
+
+ns2:KEFYEZ_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_10> .
+
+ns2:KEFYEZ_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_11> .
+
+ns2:KEFYEZ_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_12> .
+
+ns2:KEFYEZ_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_13> .
+
+ns2:KEFYEZ_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_14> .
+
+ns2:KEFYEZ_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_15> .
+
+ns2:KEFYEZ_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_6_H_9> .
+
+ns2:KEFYEZ_N_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_2_N_3>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_3_C_5>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_3_H_1> .
+
+ns2:KEFYEZ_Pd_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_N_2> .
+
+ns6:KEFYEZ_metalCentre_Pd ns6:hasAtom ns2:KEFYEZ_Pd_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns7:bLc ns5:KEFYEZ_bondL_ligand1-0_0_0,
+        ns5:KEFYEZ_bondL_ligand1-0_1_0,
+        ns5:KEFYEZ_bondL_ligand100-0_1_0 .
+
+ns1:KEFYEZ_ligand1-0_0 ns1:hasAtom ns2:KEFYEZ_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns7:bLl ns5:KEFYEZ_bondL_ligand1-0_0_0 .
+
+ns1:KEFYEZ_ligand1-0_1 ns1:hasAtom ns2:KEFYEZ_Cl_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns7:bLl ns5:KEFYEZ_bondL_ligand1-0_1_0 .
+
+ns1:KEFYEZ_ligand100-0_1 ns1:hasAtom ns2:KEFYEZ_C_5,
+        ns2:KEFYEZ_C_6,
+        ns2:KEFYEZ_C_7,
+        ns2:KEFYEZ_C_8,
+        ns2:KEFYEZ_C_9,
+        ns2:KEFYEZ_H_1,
+        ns2:KEFYEZ_H_10,
+        ns2:KEFYEZ_H_11,
+        ns2:KEFYEZ_H_12,
+        ns2:KEFYEZ_H_13,
+        ns2:KEFYEZ_H_14,
+        ns2:KEFYEZ_H_15,
+        ns2:KEFYEZ_H_9,
+        ns2:KEFYEZ_N_2,
+        ns2:KEFYEZ_N_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand100-0> ;
+    ns7:bLl ns5:KEFYEZ_bondL_ligand100-0_1_0 .
+
+ns2:KEFYEZ_Cl_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_Cl_0> .
+
+ns2:KEFYEZ_Cl_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_Cl_1> .
+
+ns2:KEFYEZ_N_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_2_C_7>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_2_N_3>,
+        <resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_N_2> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_5_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_6_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_7_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_8_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_C_9_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_2_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_2_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_3_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_N_3_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/KEFYEZ_bond_Pd_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:KEFYEZ_bondL_ligand1-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:KEFYEZ_Cl_0 .
+
+ns5:KEFYEZ_bondL_ligand1-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:KEFYEZ_Cl_1 .
+
+ns5:KEFYEZ_bondL_ligand100-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:KEFYEZ_N_2 .
+

@@ -1,0 +1,181 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/atomic/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:UGEZEM ns5:hasLigand ns3:UGEZEM_ligand422-0_0,
+        ns3:UGEZEM_ligand686-0_0,
+        ns3:UGEZEM_ligand686-0_1 ;
+    ns5:hasMetalCentre ns7:UGEZEM_metalCentre_Mo .
+
+ns1:UGEZEM_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_O_5>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_O_6> .
+
+ns1:UGEZEM_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_1_N_0> .
+
+ns1:UGEZEM_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_2_H_0> .
+
+ns1:UGEZEM_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_3_H_1> .
+
+ns1:UGEZEM_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_4_H_2> .
+
+ns1:UGEZEM_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_5_H_3>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_5_N_0> .
+
+ns1:UGEZEM_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_2_H_0> .
+
+ns1:UGEZEM_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_3_H_1> .
+
+ns1:UGEZEM_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_4_H_2> .
+
+ns1:UGEZEM_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_5_H_3> .
+
+ns1:UGEZEM_Mo_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_1_Mo_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_2_Mo_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_3_Mo_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_4_Mo_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_5_Mo_0> .
+
+ns1:UGEZEM_O_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_O_6> .
+
+ns7:UGEZEM_metalCentre_Mo ns7:hasAtom ns1:UGEZEM_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns2:bLc ns6:UGEZEM_bondL_ligand422-0_0_0,
+        ns6:UGEZEM_bondL_ligand422-0_0_1,
+        ns6:UGEZEM_bondL_ligand686-0_0_0,
+        ns6:UGEZEM_bondL_ligand686-0_1_0 .
+
+ns3:UGEZEM_ligand422-0_0 ns3:hasAtom ns1:UGEZEM_C_0,
+        ns1:UGEZEM_C_1,
+        ns1:UGEZEM_C_2,
+        ns1:UGEZEM_C_3,
+        ns1:UGEZEM_C_4,
+        ns1:UGEZEM_C_5,
+        ns1:UGEZEM_H_0,
+        ns1:UGEZEM_H_1,
+        ns1:UGEZEM_H_2,
+        ns1:UGEZEM_H_3,
+        ns1:UGEZEM_N_0,
+        ns1:UGEZEM_O_5,
+        ns1:UGEZEM_O_6 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand422-0> ;
+    ns2:bLl ns6:UGEZEM_bondL_ligand422-0_0_0,
+        ns6:UGEZEM_bondL_ligand422-0_0_1 .
+
+ns3:UGEZEM_ligand686-0_0 ns3:hasAtom ns1:UGEZEM_O_1,
+        ns1:UGEZEM_O_2 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand686-0> ;
+    ns2:bLl ns6:UGEZEM_bondL_ligand686-0_0_0 .
+
+ns3:UGEZEM_ligand686-0_1 ns3:hasAtom ns1:UGEZEM_O_3,
+        ns1:UGEZEM_O_4 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand686-0> ;
+    ns2:bLl ns6:UGEZEM_bondL_ligand686-0_1_0 .
+
+ns1:UGEZEM_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_1_N_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_5_N_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_Mo_0_N_0> .
+
+ns1:UGEZEM_O_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_1_Mo_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_1_O_2> .
+
+ns1:UGEZEM_O_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_1_O_2>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_2_Mo_0> .
+
+ns1:UGEZEM_O_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_3_Mo_0>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_3_O_4> .
+
+ns1:UGEZEM_O_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_3_O_4>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_4_Mo_0> .
+
+ns1:UGEZEM_O_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_O_5>,
+        <resource://integreat/p5/atomic/bond/UGEZEM_bond_O_5_Mo_0> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_O_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_0_O_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_1_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_2_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_3_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_4_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_5_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_C_5_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_Mo_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_1_Mo_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_1_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_2_Mo_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_3_Mo_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_3_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_4_Mo_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/UGEZEM_bond_O_5_Mo_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:UGEZEM_bondL_ligand422-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:UGEZEM_O_5 .
+
+ns6:UGEZEM_bondL_ligand422-0_0_1 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:UGEZEM_N_0 .
+
+ns6:UGEZEM_bondL_ligand686-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:UGEZEM_O_1,
+        ns1:UGEZEM_O_2 .
+
+ns6:UGEZEM_bondL_ligand686-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns1:UGEZEM_O_3,
+        ns1:UGEZEM_O_4 .
+

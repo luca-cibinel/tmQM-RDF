@@ -1,0 +1,342 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:FAWSAX ns5:hasLigand ns1:FAWSAX_ligand1-0_0,
+        ns1:FAWSAX_ligand1687-0_0,
+        ns1:FAWSAX_ligand798-0_0 ;
+    ns5:hasMetalCentre ns4:FAWSAX_metalCentre_Pd .
+
+ns3:FAWSAX_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_0> .
+
+ns3:FAWSAX_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_1_H_0>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_N_0_C_1> .
+
+ns3:FAWSAX_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_10_H_8>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_5_C_10>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_9_C_10> .
+
+ns3:FAWSAX_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_11_C_16>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_11> .
+
+ns3:FAWSAX_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_12_H_9> .
+
+ns3:FAWSAX_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_13_H_10> .
+
+ns3:FAWSAX_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_14_H_11> .
+
+ns3:FAWSAX_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_15_H_12> .
+
+ns3:FAWSAX_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_11_C_16>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_16_H_13> .
+
+ns3:FAWSAX_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_2_H_1> .
+
+ns3:FAWSAX_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_3_H_2> .
+
+ns3:FAWSAX_C_35 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_28>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_29>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_30>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_O_1_C_35> .
+
+ns3:FAWSAX_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_4_H_3> .
+
+ns3:FAWSAX_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_5_C_10>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_5> .
+
+ns3:FAWSAX_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_6_H_4> .
+
+ns3:FAWSAX_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_7_H_5> .
+
+ns3:FAWSAX_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_8_H_6> .
+
+ns3:FAWSAX_C_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_9_H_7> .
+
+ns3:FAWSAX_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_1_H_0> .
+
+ns3:FAWSAX_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_2_H_1> .
+
+ns3:FAWSAX_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_13_H_10> .
+
+ns3:FAWSAX_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_14_H_11> .
+
+ns3:FAWSAX_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_15_H_12> .
+
+ns3:FAWSAX_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_16_H_13> .
+
+ns3:FAWSAX_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_3_H_2> .
+
+ns3:FAWSAX_H_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_28> .
+
+ns3:FAWSAX_H_29 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_29> .
+
+ns3:FAWSAX_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_4_H_3> .
+
+ns3:FAWSAX_H_30 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_30> .
+
+ns3:FAWSAX_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_6_H_4> .
+
+ns3:FAWSAX_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_7_H_5> .
+
+ns3:FAWSAX_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_8_H_6> .
+
+ns3:FAWSAX_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_9_H_7> .
+
+ns3:FAWSAX_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_10_H_8> .
+
+ns3:FAWSAX_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_C_12_H_9> .
+
+ns3:FAWSAX_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_N_0_C_1> .
+
+ns3:FAWSAX_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_O_0_C_34>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_O_0> .
+
+ns3:FAWSAX_O_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_O_1_C_34>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_O_1_C_35> .
+
+ns3:FAWSAX_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_C_34>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_O_0>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_P_0> .
+
+ns4:FAWSAX_metalCentre_Pd ns4:hasAtom ns3:FAWSAX_Pd_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns7:FAWSAX_bondL_ligand1-0_0_0,
+        ns7:FAWSAX_bondL_ligand1687-0_0_0,
+        ns7:FAWSAX_bondL_ligand798-0_0_0 .
+
+ns1:FAWSAX_ligand1-0_0 ns1:hasAtom ns3:FAWSAX_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns7:FAWSAX_bondL_ligand1-0_0_0 .
+
+ns1:FAWSAX_ligand1687-0_0 ns1:hasAtom ns3:FAWSAX_C_0,
+        ns3:FAWSAX_C_1,
+        ns3:FAWSAX_C_10,
+        ns3:FAWSAX_C_11,
+        ns3:FAWSAX_C_12,
+        ns3:FAWSAX_C_13,
+        ns3:FAWSAX_C_14,
+        ns3:FAWSAX_C_15,
+        ns3:FAWSAX_C_16,
+        ns3:FAWSAX_C_2,
+        ns3:FAWSAX_C_3,
+        ns3:FAWSAX_C_4,
+        ns3:FAWSAX_C_5,
+        ns3:FAWSAX_C_6,
+        ns3:FAWSAX_C_7,
+        ns3:FAWSAX_C_8,
+        ns3:FAWSAX_C_9,
+        ns3:FAWSAX_H_0,
+        ns3:FAWSAX_H_1,
+        ns3:FAWSAX_H_10,
+        ns3:FAWSAX_H_11,
+        ns3:FAWSAX_H_12,
+        ns3:FAWSAX_H_13,
+        ns3:FAWSAX_H_2,
+        ns3:FAWSAX_H_3,
+        ns3:FAWSAX_H_4,
+        ns3:FAWSAX_H_5,
+        ns3:FAWSAX_H_6,
+        ns3:FAWSAX_H_7,
+        ns3:FAWSAX_H_8,
+        ns3:FAWSAX_H_9,
+        ns3:FAWSAX_N_0,
+        ns3:FAWSAX_P_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1687-0> ;
+    ns6:bLl ns7:FAWSAX_bondL_ligand1687-0_0_0 .
+
+ns1:FAWSAX_ligand798-0_0 ns1:hasAtom ns3:FAWSAX_C_34,
+        ns3:FAWSAX_C_35,
+        ns3:FAWSAX_H_28,
+        ns3:FAWSAX_H_29,
+        ns3:FAWSAX_H_30,
+        ns3:FAWSAX_O_0,
+        ns3:FAWSAX_O_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand798-0> ;
+    ns6:bLl ns7:FAWSAX_bondL_ligand798-0_0_0 .
+
+ns3:FAWSAX_C_34 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_O_0_C_34>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_O_1_C_34>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_C_34> .
+
+ns3:FAWSAX_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_Cl_0> .
+
+ns3:FAWSAX_P_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_11>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_5>,
+        <resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_10_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_11_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_12_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_13_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_14_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_15_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_16_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_35_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_5_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_7_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_8_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_C_9_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_N_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_O_0_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_O_1_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_O_1_C_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_P_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_C_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FAWSAX_bond_Pd_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:FAWSAX_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:FAWSAX_Cl_0 .
+
+ns7:FAWSAX_bondL_ligand1687-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:FAWSAX_P_0 .
+
+ns7:FAWSAX_bondL_ligand798-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:FAWSAX_C_34 .
+

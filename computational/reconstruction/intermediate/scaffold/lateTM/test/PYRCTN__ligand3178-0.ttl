@@ -1,0 +1,148 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:PYRCTN ns6:hasLigand ns2:PYRCTN_ligand3178-0_1 ;
+    ns6:hasMetalCentre ns7:PYRCTN_metalCentre_Ni .
+
+ns3:PYRCTN_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_5_N_1>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_S_2_C_5>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_S_3_C_5> .
+
+ns3:PYRCTN_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_H_8>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_H_9>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_N_1_C_6> .
+
+ns3:PYRCTN_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_C_9>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_H_10>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_H_11>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_N_1_C_7> .
+
+ns3:PYRCTN_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_C_8>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_H_12>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_H_13> .
+
+ns3:PYRCTN_C_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_C_9>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_9_H_14>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_9_H_15> .
+
+ns3:PYRCTN_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_H_10> .
+
+ns3:PYRCTN_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_H_11> .
+
+ns3:PYRCTN_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_H_12> .
+
+ns3:PYRCTN_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_H_13> .
+
+ns3:PYRCTN_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_9_H_14> .
+
+ns3:PYRCTN_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_9_H_15> .
+
+ns3:PYRCTN_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_H_8> .
+
+ns3:PYRCTN_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_H_9> .
+
+ns3:PYRCTN_N_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_C_5_N_1>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_N_1_C_6>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_N_1_C_7> .
+
+ns3:PYRCTN_Ni_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_Ni_0_S_2>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_Ni_0_S_3> .
+
+ns7:PYRCTN_metalCentre_Ni ns7:hasAtom ns3:PYRCTN_Ni_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns5:bLc ns4:PYRCTN_bondL_ligand3178-0_1_0,
+        ns4:PYRCTN_bondL_ligand3178-0_1_1 .
+
+ns2:PYRCTN_ligand3178-0_1 ns2:hasAtom ns3:PYRCTN_C_5,
+        ns3:PYRCTN_C_6,
+        ns3:PYRCTN_C_7,
+        ns3:PYRCTN_C_8,
+        ns3:PYRCTN_C_9,
+        ns3:PYRCTN_H_10,
+        ns3:PYRCTN_H_11,
+        ns3:PYRCTN_H_12,
+        ns3:PYRCTN_H_13,
+        ns3:PYRCTN_H_14,
+        ns3:PYRCTN_H_15,
+        ns3:PYRCTN_H_8,
+        ns3:PYRCTN_H_9,
+        ns3:PYRCTN_N_1,
+        ns3:PYRCTN_S_2,
+        ns3:PYRCTN_S_3 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3178-0> ;
+    ns5:bLl ns4:PYRCTN_bondL_ligand3178-0_1_0,
+        ns4:PYRCTN_bondL_ligand3178-0_1_1 .
+
+ns3:PYRCTN_S_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_Ni_0_S_2>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_S_2_C_5> .
+
+ns3:PYRCTN_S_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/PYRCTN_bond_Ni_0_S_3>,
+        <resource://integreat/p5/atomic/bond/PYRCTN_bond_S_3_C_5> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_5_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_6_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_7_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_8_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_9_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_C_9_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_N_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_N_1_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_Ni_0_S_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_Ni_0_S_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_S_2_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PYRCTN_bond_S_3_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:PYRCTN_bondL_ligand3178-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:PYRCTN_S_2 .
+
+ns4:PYRCTN_bondL_ligand3178-0_1_1 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:PYRCTN_S_3 .
+

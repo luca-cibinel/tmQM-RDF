@@ -1,0 +1,144 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:XUPSIL ns5:hasLigand ns1:XUPSIL_ligand1-0_0,
+        ns1:XUPSIL_ligand1-0_1,
+        ns1:XUPSIL_ligand38-0_0 ;
+    ns5:hasMetalCentre ns6:XUPSIL_metalCentre_Ni .
+
+ns4:XUPSIL_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_11>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_12>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_13>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_15> .
+
+ns4:XUPSIL_C_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_26>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_27>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_28>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_23> .
+
+ns4:XUPSIL_C_29 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_42>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_43>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_44>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_29> .
+
+ns4:XUPSIL_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_11> .
+
+ns4:XUPSIL_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_12> .
+
+ns4:XUPSIL_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_13> .
+
+ns4:XUPSIL_H_26 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_26> .
+
+ns4:XUPSIL_H_27 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_27> .
+
+ns4:XUPSIL_H_28 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_28> .
+
+ns4:XUPSIL_H_42 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_42> .
+
+ns4:XUPSIL_H_43 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_43> .
+
+ns4:XUPSIL_H_44 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_44> .
+
+ns4:XUPSIL_Ni_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_P_0> .
+
+ns6:XUPSIL_metalCentre_Ni ns6:hasAtom ns4:XUPSIL_Ni_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns3:bLc ns7:XUPSIL_bondL_ligand1-0_0_0,
+        ns7:XUPSIL_bondL_ligand1-0_1_0,
+        ns7:XUPSIL_bondL_ligand38-0_0_0 .
+
+ns1:XUPSIL_ligand1-0_0 ns1:hasAtom ns4:XUPSIL_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns3:bLl ns7:XUPSIL_bondL_ligand1-0_0_0 .
+
+ns1:XUPSIL_ligand1-0_1 ns1:hasAtom ns4:XUPSIL_Cl_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns3:bLl ns7:XUPSIL_bondL_ligand1-0_1_0 .
+
+ns1:XUPSIL_ligand38-0_0 ns1:hasAtom ns4:XUPSIL_C_15,
+        ns4:XUPSIL_C_23,
+        ns4:XUPSIL_C_29,
+        ns4:XUPSIL_H_11,
+        ns4:XUPSIL_H_12,
+        ns4:XUPSIL_H_13,
+        ns4:XUPSIL_H_26,
+        ns4:XUPSIL_H_27,
+        ns4:XUPSIL_H_28,
+        ns4:XUPSIL_H_42,
+        ns4:XUPSIL_H_43,
+        ns4:XUPSIL_H_44,
+        ns4:XUPSIL_P_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns3:bLl ns7:XUPSIL_bondL_ligand38-0_0_0 .
+
+ns4:XUPSIL_Cl_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_Cl_0> .
+
+ns4:XUPSIL_Cl_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_Cl_1> .
+
+ns4:XUPSIL_P_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_15>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_23>,
+        <resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_29> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_15_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_23_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_42> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_43> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_C_29_H_44> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_Ni_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XUPSIL_bond_P_0_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:XUPSIL_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:XUPSIL_Cl_0 .
+
+ns7:XUPSIL_bondL_ligand1-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:XUPSIL_Cl_1 .
+
+ns7:XUPSIL_bondL_ligand38-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:XUPSIL_P_0 .
+

@@ -1,0 +1,30 @@
+@prefix ns1: <resource://integreat/p5/ligand/bond/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns4:HAZYIT ns4:hasLigand ns6:HAZYIT_ligand40-0_0 ;
+    ns4:hasMetalCentre ns5:HAZYIT_metalCentre_Pd .
+
+ns2:HAZYIT_Pd_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns3:b <resource://integreat/p5/atomic/bond/HAZYIT_bond_I_0_Pd_0> .
+
+ns5:HAZYIT_metalCentre_Pd ns5:hasAtom ns2:HAZYIT_Pd_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns7:bLc ns1:HAZYIT_bondL_ligand40-0_0_0 .
+
+ns6:HAZYIT_ligand40-0_0 ns6:hasAtom ns2:HAZYIT_I_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns7:bLl ns1:HAZYIT_bondL_ligand40-0_0_0 .
+
+ns2:HAZYIT_I_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns3:b <resource://integreat/p5/atomic/bond/HAZYIT_bond_I_0_Pd_0> .
+
+<resource://integreat/p5/atomic/bond/HAZYIT_bond_I_0_Pd_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns1:HAZYIT_bondL_ligand40-0_0_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:HAZYIT_I_0 .
+

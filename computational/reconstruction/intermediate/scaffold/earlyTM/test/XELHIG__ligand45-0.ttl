@@ -1,0 +1,236 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:XELHIG ns6:hasLigand ns3:XELHIG_ligand2281-0_0,
+        ns3:XELHIG_ligand45-0_1 ;
+    ns6:hasMetalCentre ns7:XELHIG_metalCentre_W .
+
+ns1:XELHIG_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_0_C_6>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_O_0_C_0> .
+
+ns1:XELHIG_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_1_H_0> .
+
+ns1:XELHIG_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_2_H_1> .
+
+ns1:XELHIG_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_3_H_2> .
+
+ns1:XELHIG_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_4_H_3> .
+
+ns1:XELHIG_C_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_5_H_4> .
+
+ns1:XELHIG_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_0_C_6>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_O_1_C_6> .
+
+ns1:XELHIG_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_1_H_0> .
+
+ns1:XELHIG_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_2_H_1> .
+
+ns1:XELHIG_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_H_10> .
+
+ns1:XELHIG_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_13_H_11> .
+
+ns1:XELHIG_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_14_H_12> .
+
+ns1:XELHIG_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_15_H_13> .
+
+ns1:XELHIG_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_16_H_14> .
+
+ns1:XELHIG_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_3_H_2> .
+
+ns1:XELHIG_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_4_H_3> .
+
+ns1:XELHIG_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_5_H_4> .
+
+ns1:XELHIG_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_12>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_13>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_14>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_15>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_16>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_O_0>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_O_1> .
+
+ns7:XELHIG_metalCentre_W ns7:hasAtom ns1:XELHIG_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns5:bLc ns4:XELHIG_bondL_ligand2281-0_0_0,
+        ns4:XELHIG_bondL_ligand2281-0_0_1,
+        ns4:XELHIG_bondL_ligand45-0_1_0 .
+
+ns3:XELHIG_ligand2281-0_0 ns3:hasAtom ns1:XELHIG_C_0,
+        ns1:XELHIG_C_1,
+        ns1:XELHIG_C_2,
+        ns1:XELHIG_C_3,
+        ns1:XELHIG_C_4,
+        ns1:XELHIG_C_5,
+        ns1:XELHIG_C_6,
+        ns1:XELHIG_H_0,
+        ns1:XELHIG_H_1,
+        ns1:XELHIG_H_2,
+        ns1:XELHIG_H_3,
+        ns1:XELHIG_H_4,
+        ns1:XELHIG_O_0,
+        ns1:XELHIG_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2281-0> ;
+    ns5:bLl ns4:XELHIG_bondL_ligand2281-0_0_0,
+        ns4:XELHIG_bondL_ligand2281-0_0_1 .
+
+ns3:XELHIG_ligand45-0_1 ns3:hasAtom ns1:XELHIG_C_12,
+        ns1:XELHIG_C_13,
+        ns1:XELHIG_C_14,
+        ns1:XELHIG_C_15,
+        ns1:XELHIG_C_16,
+        ns1:XELHIG_H_10,
+        ns1:XELHIG_H_11,
+        ns1:XELHIG_H_12,
+        ns1:XELHIG_H_13,
+        ns1:XELHIG_H_14 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand45-0> ;
+    ns5:bLl ns4:XELHIG_bondL_ligand45-0_1_0 .
+
+ns1:XELHIG_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_C_16>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_H_10>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_12> .
+
+ns1:XELHIG_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_13_H_11>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_13> .
+
+ns1:XELHIG_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_14_H_12>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_14> .
+
+ns1:XELHIG_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_15_H_13>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_15> .
+
+ns1:XELHIG_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_C_16>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_C_16_H_14>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_16> .
+
+ns1:XELHIG_O_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_O_0> .
+
+ns1:XELHIG_O_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/XELHIG_bond_O_1_C_6>,
+        <resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_O_1> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_12_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_13_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_14_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_15_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_16_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_O_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XELHIG_bond_W_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:XELHIG_bondL_ligand2281-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:XELHIG_O_0 .
+
+ns4:XELHIG_bondL_ligand2281-0_0_1 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:XELHIG_O_1 .
+
+ns4:XELHIG_bondL_ligand45-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:XELHIG_C_12,
+        ns1:XELHIG_C_13,
+        ns1:XELHIG_C_14,
+        ns1:XELHIG_C_15,
+        ns1:XELHIG_C_16 .
+

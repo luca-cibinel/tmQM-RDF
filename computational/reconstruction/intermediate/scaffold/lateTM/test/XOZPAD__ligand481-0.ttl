@@ -1,0 +1,288 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns4:XOZPAD ns4:hasLigand ns2:XOZPAD_ligand1-0_0,
+        ns2:XOZPAD_ligand51-0_0 ;
+    ns4:hasMetalCentre ns5:XOZPAD_metalCentre_Pd .
+
+ns3:XOZPAD_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_10> .
+
+ns3:XOZPAD_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_11_H_14> .
+
+ns3:XOZPAD_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_12_H_15> .
+
+ns3:XOZPAD_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_13_H_16> .
+
+ns3:XOZPAD_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_14_H_17> .
+
+ns3:XOZPAD_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_15_H_18> .
+
+ns3:XOZPAD_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_16> .
+
+ns3:XOZPAD_C_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_17_H_19> .
+
+ns3:XOZPAD_C_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_18_H_20> .
+
+ns3:XOZPAD_C_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_19_H_21> .
+
+ns3:XOZPAD_C_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_20_H_22> .
+
+ns3:XOZPAD_C_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_16_C_21>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_21_H_23> .
+
+ns3:XOZPAD_C_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_22_C_27>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_22> .
+
+ns3:XOZPAD_C_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_23_H_24> .
+
+ns3:XOZPAD_C_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_24_H_25> .
+
+ns3:XOZPAD_C_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_25_H_26> .
+
+ns3:XOZPAD_C_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_26_H_27> .
+
+ns3:XOZPAD_C_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_22_C_27>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_27_H_28> .
+
+ns3:XOZPAD_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_11_H_14> .
+
+ns3:XOZPAD_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_12_H_15> .
+
+ns3:XOZPAD_H_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_13_H_16> .
+
+ns3:XOZPAD_H_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_14_H_17> .
+
+ns3:XOZPAD_H_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_15_H_18> .
+
+ns3:XOZPAD_H_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_17_H_19> .
+
+ns3:XOZPAD_H_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_18_H_20> .
+
+ns3:XOZPAD_H_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_19_H_21> .
+
+ns3:XOZPAD_H_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_20_H_22> .
+
+ns3:XOZPAD_H_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_21_H_23> .
+
+ns3:XOZPAD_H_24 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_23_H_24> .
+
+ns3:XOZPAD_H_25 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_24_H_25> .
+
+ns3:XOZPAD_H_26 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_25_H_26> .
+
+ns3:XOZPAD_H_27 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_26_H_27> .
+
+ns3:XOZPAD_H_28 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_C_27_H_28> .
+
+ns3:XOZPAD_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_Pd_0_P_0> .
+
+ns5:XOZPAD_metalCentre_Pd ns5:hasAtom ns3:XOZPAD_Pd_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns7:XOZPAD_bondL_ligand1-0_0_0,
+        ns7:XOZPAD_bondL_ligand51-0_0_0 .
+
+ns2:XOZPAD_ligand1-0_0 ns2:hasAtom ns3:XOZPAD_Cl_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns7:XOZPAD_bondL_ligand1-0_0_0 .
+
+ns2:XOZPAD_ligand51-0_0 ns2:hasAtom ns3:XOZPAD_C_10,
+        ns3:XOZPAD_C_11,
+        ns3:XOZPAD_C_12,
+        ns3:XOZPAD_C_13,
+        ns3:XOZPAD_C_14,
+        ns3:XOZPAD_C_15,
+        ns3:XOZPAD_C_16,
+        ns3:XOZPAD_C_17,
+        ns3:XOZPAD_C_18,
+        ns3:XOZPAD_C_19,
+        ns3:XOZPAD_C_20,
+        ns3:XOZPAD_C_21,
+        ns3:XOZPAD_C_22,
+        ns3:XOZPAD_C_23,
+        ns3:XOZPAD_C_24,
+        ns3:XOZPAD_C_25,
+        ns3:XOZPAD_C_26,
+        ns3:XOZPAD_C_27,
+        ns3:XOZPAD_H_14,
+        ns3:XOZPAD_H_15,
+        ns3:XOZPAD_H_16,
+        ns3:XOZPAD_H_17,
+        ns3:XOZPAD_H_18,
+        ns3:XOZPAD_H_19,
+        ns3:XOZPAD_H_20,
+        ns3:XOZPAD_H_21,
+        ns3:XOZPAD_H_22,
+        ns3:XOZPAD_H_23,
+        ns3:XOZPAD_H_24,
+        ns3:XOZPAD_H_25,
+        ns3:XOZPAD_H_26,
+        ns3:XOZPAD_H_27,
+        ns3:XOZPAD_H_28,
+        ns3:XOZPAD_P_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand51-0> ;
+    ns6:bLl ns7:XOZPAD_bondL_ligand51-0_0_0 .
+
+ns3:XOZPAD_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_Pd_0_Cl_0> .
+
+ns3:XOZPAD_P_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_10>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_16>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_22>,
+        <resource://integreat/p5/atomic/bond/XOZPAD_bond_Pd_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_10_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_11_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_12_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_13_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_14_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_15_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_16_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_17_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_18_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_19_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_20_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_21_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_22_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_23_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_23_H_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_24_H_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_25_H_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_26_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_26_H_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_C_27_H_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_P_0_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/XOZPAD_bond_Pd_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:XOZPAD_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:XOZPAD_Cl_0 .
+
+ns7:XOZPAD_bondL_ligand51-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:XOZPAD_P_0 .
+

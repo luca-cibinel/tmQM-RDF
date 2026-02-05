@@ -1,0 +1,137 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:BADBAL ns3:hasLigand ns5:BADBAL_ligand40-0_0,
+        ns5:BADBAL_ligand40-0_1,
+        ns5:BADBAL_ligand5758-0_1 ;
+    ns3:hasMetalCentre ns7:BADBAL_metalCentre_Pt .
+
+ns4:BADBAL_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_10>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_8>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_9> .
+
+ns4:BADBAL_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_N_1_C_4> .
+
+ns4:BADBAL_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_11>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_12>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_13> .
+
+ns4:BADBAL_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_O_1_H_1> .
+
+ns4:BADBAL_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_10> .
+
+ns4:BADBAL_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_11> .
+
+ns4:BADBAL_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_12> .
+
+ns4:BADBAL_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_13> .
+
+ns4:BADBAL_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_8> .
+
+ns4:BADBAL_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_9> .
+
+ns4:BADBAL_O_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_O_1_H_1>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_O_1_N_1> .
+
+ns4:BADBAL_Pt_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_I_0>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_I_1>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_N_1> .
+
+ns7:BADBAL_metalCentre_Pt ns7:hasAtom ns4:BADBAL_Pt_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns2:bLc ns6:BADBAL_bondL_ligand40-0_0_0,
+        ns6:BADBAL_bondL_ligand40-0_1_0,
+        ns6:BADBAL_bondL_ligand5758-0_1_0 .
+
+ns5:BADBAL_ligand40-0_0 ns5:hasAtom ns4:BADBAL_I_0 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns2:bLl ns6:BADBAL_bondL_ligand40-0_0_0 .
+
+ns5:BADBAL_ligand40-0_1 ns5:hasAtom ns4:BADBAL_I_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand40-0> ;
+    ns2:bLl ns6:BADBAL_bondL_ligand40-0_1_0 .
+
+ns5:BADBAL_ligand5758-0_1 ns5:hasAtom ns4:BADBAL_C_3,
+        ns4:BADBAL_C_4,
+        ns4:BADBAL_C_5,
+        ns4:BADBAL_H_1,
+        ns4:BADBAL_H_10,
+        ns4:BADBAL_H_11,
+        ns4:BADBAL_H_12,
+        ns4:BADBAL_H_13,
+        ns4:BADBAL_H_8,
+        ns4:BADBAL_H_9,
+        ns4:BADBAL_N_1,
+        ns4:BADBAL_O_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand5758-0> ;
+    ns2:bLl ns6:BADBAL_bondL_ligand5758-0_1_0 .
+
+ns4:BADBAL_I_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_I_0> .
+
+ns4:BADBAL_I_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/I> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_I_1> .
+
+ns4:BADBAL_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/BADBAL_bond_N_1_C_4>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_O_1_N_1>,
+        <resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_3_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_C_5_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_N_1_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_O_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_O_1_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_I_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_I_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BADBAL_bond_Pt_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:BADBAL_bondL_ligand40-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:BADBAL_I_0 .
+
+ns6:BADBAL_bondL_ligand40-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:BADBAL_I_1 .
+
+ns6:BADBAL_bondL_ligand5758-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns4:BADBAL_N_1 .
+

@@ -1,0 +1,44 @@
+@prefix ns1: <resource://integreat/p5/complex/TMC/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns1:SUHYAV ns1:hasLigand ns6:SUHYAV_ligand34-0_0 ;
+    ns1:hasMetalCentre ns5:SUHYAV_metalCentre_Pd .
+
+ns3:SUHYAV_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_H_0> .
+
+ns3:SUHYAV_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_H_1> .
+
+ns3:SUHYAV_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_Pd_0> .
+
+ns5:SUHYAV_metalCentre_Pd ns5:hasAtom ns3:SUHYAV_Pd_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns7:bLc ns4:SUHYAV_bondL_ligand34-0_0_0 .
+
+ns6:SUHYAV_ligand34-0_0 ns6:hasAtom ns3:SUHYAV_H_0,
+        ns3:SUHYAV_H_1,
+        ns3:SUHYAV_O_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand34-0> ;
+    ns7:bLl ns4:SUHYAV_bondL_ligand34-0_0_0 .
+
+ns3:SUHYAV_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_H_0>,
+        <resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_H_1>,
+        <resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_Pd_0> .
+
+<resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUHYAV_bond_O_0_Pd_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:SUHYAV_bondL_ligand34-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns3:SUHYAV_O_0 .
+

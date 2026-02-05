@@ -1,0 +1,324 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns6:ONOYAT ns6:hasLigand ns2:ONOYAT_ligand1160-0_0,
+        ns2:ONOYAT_ligand1160-0_1,
+        ns2:ONOYAT_ligand188-0_0 ;
+    ns6:hasMetalCentre ns5:ONOYAT_metalCentre_Pd .
+
+ns3:ONOYAT_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_N_0_C_0> .
+
+ns3:ONOYAT_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_1_H_1> .
+
+ns3:ONOYAT_C_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_0_C_10>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_1_C_10> .
+
+ns3:ONOYAT_C_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_11_C_16> .
+
+ns3:ONOYAT_C_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_12_H_10> .
+
+ns3:ONOYAT_C_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_13_H_11> .
+
+ns3:ONOYAT_C_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_14_H_12> .
+
+ns3:ONOYAT_C_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_15_H_13> .
+
+ns3:ONOYAT_C_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_11_C_16>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_16_H_14> .
+
+ns3:ONOYAT_C_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_2_C_17>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_3_C_17> .
+
+ns3:ONOYAT_C_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_18_C_23> .
+
+ns3:ONOYAT_C_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_19_H_15> .
+
+ns3:ONOYAT_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_2_H_2> .
+
+ns3:ONOYAT_C_20 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_20_H_16> .
+
+ns3:ONOYAT_C_21 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_21_H_17> .
+
+ns3:ONOYAT_C_22 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_22_H_18> .
+
+ns3:ONOYAT_C_23 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_18_C_23>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_23_H_19> .
+
+ns3:ONOYAT_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_3_H_3> .
+
+ns3:ONOYAT_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_4_H_4>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_N_0_C_4> .
+
+ns3:ONOYAT_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_0_H_0> .
+
+ns3:ONOYAT_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_1_H_1> .
+
+ns3:ONOYAT_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_12_H_10> .
+
+ns3:ONOYAT_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_13_H_11> .
+
+ns3:ONOYAT_H_12 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_14_H_12> .
+
+ns3:ONOYAT_H_13 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_15_H_13> .
+
+ns3:ONOYAT_H_14 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_16_H_14> .
+
+ns3:ONOYAT_H_15 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_19_H_15> .
+
+ns3:ONOYAT_H_16 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_20_H_16> .
+
+ns3:ONOYAT_H_17 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_21_H_17> .
+
+ns3:ONOYAT_H_18 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_22_H_18> .
+
+ns3:ONOYAT_H_19 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_23_H_19> .
+
+ns3:ONOYAT_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_2_H_2> .
+
+ns3:ONOYAT_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_3_H_3> .
+
+ns3:ONOYAT_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_C_4_H_4> .
+
+ns3:ONOYAT_O_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_1_C_10> .
+
+ns3:ONOYAT_O_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_3_C_17> .
+
+ns3:ONOYAT_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_N_0>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_O_0>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_O_2> .
+
+ns5:ONOYAT_metalCentre_Pd ns5:hasAtom ns3:ONOYAT_Pd_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns4:bLc ns7:ONOYAT_bondL_ligand1160-0_0_0,
+        ns7:ONOYAT_bondL_ligand1160-0_1_0,
+        ns7:ONOYAT_bondL_ligand188-0_0_0 .
+
+ns2:ONOYAT_ligand1160-0_0 ns2:hasAtom ns3:ONOYAT_C_10,
+        ns3:ONOYAT_C_11,
+        ns3:ONOYAT_C_12,
+        ns3:ONOYAT_C_13,
+        ns3:ONOYAT_C_14,
+        ns3:ONOYAT_C_15,
+        ns3:ONOYAT_C_16,
+        ns3:ONOYAT_H_10,
+        ns3:ONOYAT_H_11,
+        ns3:ONOYAT_H_12,
+        ns3:ONOYAT_H_13,
+        ns3:ONOYAT_H_14,
+        ns3:ONOYAT_O_0,
+        ns3:ONOYAT_O_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1160-0> ;
+    ns4:bLl ns7:ONOYAT_bondL_ligand1160-0_0_0 .
+
+ns2:ONOYAT_ligand1160-0_1 ns2:hasAtom ns3:ONOYAT_C_17,
+        ns3:ONOYAT_C_18,
+        ns3:ONOYAT_C_19,
+        ns3:ONOYAT_C_20,
+        ns3:ONOYAT_C_21,
+        ns3:ONOYAT_C_22,
+        ns3:ONOYAT_C_23,
+        ns3:ONOYAT_H_15,
+        ns3:ONOYAT_H_16,
+        ns3:ONOYAT_H_17,
+        ns3:ONOYAT_H_18,
+        ns3:ONOYAT_H_19,
+        ns3:ONOYAT_O_2,
+        ns3:ONOYAT_O_3 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1160-0> ;
+    ns4:bLl ns7:ONOYAT_bondL_ligand1160-0_1_0 .
+
+ns2:ONOYAT_ligand188-0_0 ns2:hasAtom ns3:ONOYAT_C_0,
+        ns3:ONOYAT_C_1,
+        ns3:ONOYAT_C_2,
+        ns3:ONOYAT_C_3,
+        ns3:ONOYAT_C_4,
+        ns3:ONOYAT_H_0,
+        ns3:ONOYAT_H_1,
+        ns3:ONOYAT_H_2,
+        ns3:ONOYAT_H_3,
+        ns3:ONOYAT_H_4,
+        ns3:ONOYAT_N_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand188-0> ;
+    ns4:bLl ns7:ONOYAT_bondL_ligand188-0_0_0 .
+
+ns3:ONOYAT_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_N_0_C_4>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_N_0> .
+
+ns3:ONOYAT_O_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_0_C_10>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_O_0> .
+
+ns3:ONOYAT_O_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/ONOYAT_bond_O_2_C_17>,
+        <resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_O_2> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_11_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_12_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_13_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_14_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_15_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_16_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_18_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_19_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_20_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_21_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_22_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_23_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_3_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_C_4_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_N_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_O_0_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_O_1_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_O_2_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_O_3_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/ONOYAT_bond_Pd_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:ONOYAT_bondL_ligand1160-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:ONOYAT_O_0 .
+
+ns7:ONOYAT_bondL_ligand1160-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:ONOYAT_O_2 .
+
+ns7:ONOYAT_bondL_ligand188-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:ONOYAT_N_0 .
+

@@ -1,0 +1,51 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:BAMVUI ns5:hasLigand ns1:BAMVUI_ligand113-0_0 ;
+    ns5:hasMetalCentre ns6:BAMVUI_metalCentre_Ni .
+
+ns4:BAMVUI_C_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/BAMVUI_bond_C_18_H_31>,
+        <resource://integreat/p5/atomic/bond/BAMVUI_bond_O_2_C_18>,
+        <resource://integreat/p5/atomic/bond/BAMVUI_bond_O_3_C_18> .
+
+ns4:BAMVUI_H_31 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/BAMVUI_bond_C_18_H_31> .
+
+ns4:BAMVUI_Ni_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns3:b <resource://integreat/p5/atomic/bond/BAMVUI_bond_Ni_0_O_2> .
+
+ns4:BAMVUI_O_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/BAMVUI_bond_O_3_C_18> .
+
+ns6:BAMVUI_metalCentre_Ni ns6:hasAtom ns4:BAMVUI_Ni_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns2:bLc ns7:BAMVUI_bondL_ligand113-0_0_0 .
+
+ns1:BAMVUI_ligand113-0_0 ns1:hasAtom ns4:BAMVUI_C_18,
+        ns4:BAMVUI_H_31,
+        ns4:BAMVUI_O_2,
+        ns4:BAMVUI_O_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand113-0> ;
+    ns2:bLl ns7:BAMVUI_bondL_ligand113-0_0_0 .
+
+ns4:BAMVUI_O_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/BAMVUI_bond_Ni_0_O_2>,
+        <resource://integreat/p5/atomic/bond/BAMVUI_bond_O_2_C_18> .
+
+<resource://integreat/p5/atomic/bond/BAMVUI_bond_C_18_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BAMVUI_bond_Ni_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BAMVUI_bond_O_2_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/BAMVUI_bond_O_3_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:BAMVUI_bondL_ligand113-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:BAMVUI_O_2 .
+

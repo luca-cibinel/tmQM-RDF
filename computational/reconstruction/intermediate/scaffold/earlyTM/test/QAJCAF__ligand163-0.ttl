@@ -1,0 +1,125 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/atomic/structure/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:QAJCAF ns5:hasLigand ns1:QAJCAF_ligand4-0_0,
+        ns1:QAJCAF_ligand4-0_1,
+        ns1:QAJCAF_ligand4-0_2,
+        ns1:QAJCAF_ligand4-0_3,
+        ns1:QAJCAF_ligand4-0_4 ;
+    ns5:hasMetalCentre ns7:QAJCAF_metalCentre_W .
+
+ns2:QAJCAF_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_0_C_0> .
+
+ns2:QAJCAF_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_1_C_1> .
+
+ns2:QAJCAF_O_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_2_C_3> .
+
+ns2:QAJCAF_O_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_3_C_2> .
+
+ns2:QAJCAF_O_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_4_C_4> .
+
+ns2:QAJCAF_W_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_2>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_3>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_4> .
+
+ns7:QAJCAF_metalCentre_W ns7:hasAtom ns2:QAJCAF_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns3:bLc ns6:QAJCAF_bondL_ligand4-0_0_0,
+        ns6:QAJCAF_bondL_ligand4-0_1_0,
+        ns6:QAJCAF_bondL_ligand4-0_2_0,
+        ns6:QAJCAF_bondL_ligand4-0_3_0,
+        ns6:QAJCAF_bondL_ligand4-0_4_0 .
+
+ns1:QAJCAF_ligand4-0_0 ns1:hasAtom ns2:QAJCAF_C_0,
+        ns2:QAJCAF_O_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:QAJCAF_bondL_ligand4-0_0_0 .
+
+ns1:QAJCAF_ligand4-0_1 ns1:hasAtom ns2:QAJCAF_C_1,
+        ns2:QAJCAF_O_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:QAJCAF_bondL_ligand4-0_1_0 .
+
+ns1:QAJCAF_ligand4-0_2 ns1:hasAtom ns2:QAJCAF_C_3,
+        ns2:QAJCAF_O_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:QAJCAF_bondL_ligand4-0_2_0 .
+
+ns1:QAJCAF_ligand4-0_3 ns1:hasAtom ns2:QAJCAF_C_2,
+        ns2:QAJCAF_O_3 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:QAJCAF_bondL_ligand4-0_3_0 .
+
+ns1:QAJCAF_ligand4-0_4 ns1:hasAtom ns2:QAJCAF_C_4,
+        ns2:QAJCAF_O_4 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns3:bLl ns6:QAJCAF_bondL_ligand4-0_4_0 .
+
+ns2:QAJCAF_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_0> .
+
+ns2:QAJCAF_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_1_C_1>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_1> .
+
+ns2:QAJCAF_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_3_C_2>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_2> .
+
+ns2:QAJCAF_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_2_C_3>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_3> .
+
+ns2:QAJCAF_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/QAJCAF_bond_O_4_C_4>,
+        <resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_4> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_O_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_O_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_O_3_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_O_4_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QAJCAF_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:QAJCAF_bondL_ligand4-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:QAJCAF_C_0 .
+
+ns6:QAJCAF_bondL_ligand4-0_1_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:QAJCAF_C_1 .
+
+ns6:QAJCAF_bondL_ligand4-0_2_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:QAJCAF_C_3 .
+
+ns6:QAJCAF_bondL_ligand4-0_3_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:QAJCAF_C_2 .
+
+ns6:QAJCAF_bondL_ligand4-0_4_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns2:QAJCAF_C_4 .
+

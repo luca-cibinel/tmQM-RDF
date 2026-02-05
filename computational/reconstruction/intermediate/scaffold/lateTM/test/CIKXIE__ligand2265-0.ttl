@@ -1,0 +1,158 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/centre/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns5:CIKXIE ns5:hasLigand ns3:CIKXIE_ligand1-0_0,
+        ns3:CIKXIE_ligand1-0_1,
+        ns3:CIKXIE_ligand2265-0_0 ;
+    ns5:hasMetalCentre ns2:CIKXIE_metalCentre_Pt .
+
+ns4:CIKXIE_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_C_5>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_H_2>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_H_3>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_S_0_C_1> .
+
+ns4:CIKXIE_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_C_6>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_H_10>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_H_9>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_S_0_C_4> .
+
+ns4:CIKXIE_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_C_5>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_11>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_12>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_13> .
+
+ns4:CIKXIE_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_C_6>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_14>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_15>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_16> .
+
+ns4:CIKXIE_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_H_10> .
+
+ns4:CIKXIE_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_11> .
+
+ns4:CIKXIE_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_12> .
+
+ns4:CIKXIE_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_13> .
+
+ns4:CIKXIE_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_14> .
+
+ns4:CIKXIE_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_15> .
+
+ns4:CIKXIE_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_16> .
+
+ns4:CIKXIE_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_H_2> .
+
+ns4:CIKXIE_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_H_3> .
+
+ns4:CIKXIE_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_H_9> .
+
+ns4:CIKXIE_Pt_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_S_0> .
+
+ns2:CIKXIE_metalCentre_Pt ns2:hasAtom ns4:CIKXIE_Pt_0 ;
+    ns2:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns6:bLc ns7:CIKXIE_bondL_ligand1-0_0_0,
+        ns7:CIKXIE_bondL_ligand1-0_1_0,
+        ns7:CIKXIE_bondL_ligand2265-0_0_0 .
+
+ns3:CIKXIE_ligand1-0_0 ns3:hasAtom ns4:CIKXIE_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns7:CIKXIE_bondL_ligand1-0_0_0 .
+
+ns3:CIKXIE_ligand1-0_1 ns3:hasAtom ns4:CIKXIE_Cl_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns7:CIKXIE_bondL_ligand1-0_1_0 .
+
+ns3:CIKXIE_ligand2265-0_0 ns3:hasAtom ns4:CIKXIE_C_1,
+        ns4:CIKXIE_C_4,
+        ns4:CIKXIE_C_5,
+        ns4:CIKXIE_C_6,
+        ns4:CIKXIE_H_10,
+        ns4:CIKXIE_H_11,
+        ns4:CIKXIE_H_12,
+        ns4:CIKXIE_H_13,
+        ns4:CIKXIE_H_14,
+        ns4:CIKXIE_H_15,
+        ns4:CIKXIE_H_16,
+        ns4:CIKXIE_H_2,
+        ns4:CIKXIE_H_3,
+        ns4:CIKXIE_H_9,
+        ns4:CIKXIE_S_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2265-0> ;
+    ns6:bLl ns7:CIKXIE_bondL_ligand2265-0_0_0 .
+
+ns4:CIKXIE_Cl_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_Cl_0> .
+
+ns4:CIKXIE_Cl_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_Cl_1> .
+
+ns4:CIKXIE_S_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns1:b <resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_S_0>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_S_0_C_1>,
+        <resource://integreat/p5/atomic/bond/CIKXIE_bond_S_0_C_4> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_1_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_4_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_5_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_C_6_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_Pt_0_S_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_S_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CIKXIE_bond_S_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:CIKXIE_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:CIKXIE_Cl_0 .
+
+ns7:CIKXIE_bondL_ligand1-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:CIKXIE_Cl_1 .
+
+ns7:CIKXIE_bondL_ligand2265-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:CIKXIE_S_0 .
+

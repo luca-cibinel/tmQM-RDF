@@ -1,0 +1,44 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/complex/TMC/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/atomic/atom/> .
+@prefix ns6: <resource://integreat/p5/ligand/bond/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns2:MEBXUN ns2:hasLigand ns1:MEBXUN_ligand34-0_0 ;
+    ns2:hasMetalCentre ns4:MEBXUN_metalCentre_Pd .
+
+ns5:MEBXUN_H_31 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/MEBXUN_bond_O_0_H_31> .
+
+ns5:MEBXUN_H_32 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/MEBXUN_bond_O_0_H_32> .
+
+ns5:MEBXUN_Pd_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns3:b <resource://integreat/p5/atomic/bond/MEBXUN_bond_Pd_0_O_0> .
+
+ns4:MEBXUN_metalCentre_Pd ns4:hasAtom ns5:MEBXUN_Pd_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns7:bLc ns6:MEBXUN_bondL_ligand34-0_0_0 .
+
+ns1:MEBXUN_ligand34-0_0 ns1:hasAtom ns5:MEBXUN_H_31,
+        ns5:MEBXUN_H_32,
+        ns5:MEBXUN_O_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand34-0> ;
+    ns7:bLl ns6:MEBXUN_bondL_ligand34-0_0_0 .
+
+ns5:MEBXUN_O_0 ns5:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/MEBXUN_bond_O_0_H_31>,
+        <resource://integreat/p5/atomic/bond/MEBXUN_bond_O_0_H_32>,
+        <resource://integreat/p5/atomic/bond/MEBXUN_bond_Pd_0_O_0> .
+
+<resource://integreat/p5/atomic/bond/MEBXUN_bond_O_0_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MEBXUN_bond_O_0_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/MEBXUN_bond_Pd_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns6:MEBXUN_bondL_ligand34-0_0_0 a ns6:LigandBond ;
+    ns6:hasBindingAtom ns5:MEBXUN_O_0 .
+

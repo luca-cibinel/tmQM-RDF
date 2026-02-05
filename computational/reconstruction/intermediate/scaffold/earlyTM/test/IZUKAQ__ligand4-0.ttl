@@ -1,0 +1,445 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:IZUKAQ ns5:hasLigand ns3:IZUKAQ_ligand31843-0_0,
+        ns3:IZUKAQ_ligand4-0_0,
+        ns3:IZUKAQ_ligand4-0_1,
+        ns3:IZUKAQ_ligand4-0_3,
+        ns3:IZUKAQ_ligand4-0_4 ;
+    ns5:hasMetalCentre ns7:IZUKAQ_metalCentre_W .
+
+ns2:IZUKAQ_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_C_10>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_9_C_10> .
+
+ns2:IZUKAQ_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_11_H_4> .
+
+ns2:IZUKAQ_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_12_N_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_12_P_0> .
+
+ns2:IZUKAQ_C_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_C_15>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_H_5>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_N_0> .
+
+ns2:IZUKAQ_C_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_6>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_7>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_8> .
+
+ns2:IZUKAQ_C_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_C_15>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_10>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_11>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_9> .
+
+ns2:IZUKAQ_C_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_C_18>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_H_12>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_N_0> .
+
+ns2:IZUKAQ_C_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_13>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_14>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_15> .
+
+ns2:IZUKAQ_C_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_C_18>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_16>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_17>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_18> .
+
+ns2:IZUKAQ_C_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_C_24>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_P_0> .
+
+ns2:IZUKAQ_C_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_20_H_19> .
+
+ns2:IZUKAQ_C_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_21_H_20> .
+
+ns2:IZUKAQ_C_22 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_22_H_21> .
+
+ns2:IZUKAQ_C_23 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_23_H_22> .
+
+ns2:IZUKAQ_C_24 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_C_24>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_24_H_23> .
+
+ns2:IZUKAQ_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_C_10>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_P_0> .
+
+ns2:IZUKAQ_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_6_H_0> .
+
+ns2:IZUKAQ_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_7_H_1> .
+
+ns2:IZUKAQ_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_8_H_2> .
+
+ns2:IZUKAQ_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_9_H_3> .
+
+ns2:IZUKAQ_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_6_H_0> .
+
+ns2:IZUKAQ_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_7_H_1> .
+
+ns2:IZUKAQ_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_10> .
+
+ns2:IZUKAQ_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_11> .
+
+ns2:IZUKAQ_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_H_12> .
+
+ns2:IZUKAQ_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_13> .
+
+ns2:IZUKAQ_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_14> .
+
+ns2:IZUKAQ_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_15> .
+
+ns2:IZUKAQ_H_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_16> .
+
+ns2:IZUKAQ_H_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_17> .
+
+ns2:IZUKAQ_H_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_18> .
+
+ns2:IZUKAQ_H_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_20_H_19> .
+
+ns2:IZUKAQ_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_8_H_2> .
+
+ns2:IZUKAQ_H_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_21_H_20> .
+
+ns2:IZUKAQ_H_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_22_H_21> .
+
+ns2:IZUKAQ_H_22 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_23_H_22> .
+
+ns2:IZUKAQ_H_23 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_24_H_23> .
+
+ns2:IZUKAQ_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_9_H_3> .
+
+ns2:IZUKAQ_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_11_H_4> .
+
+ns2:IZUKAQ_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_H_5> .
+
+ns2:IZUKAQ_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_6> .
+
+ns2:IZUKAQ_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_7> .
+
+ns2:IZUKAQ_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_8> .
+
+ns2:IZUKAQ_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_9> .
+
+ns2:IZUKAQ_N_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_12_N_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_N_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_N_0> .
+
+ns2:IZUKAQ_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_0_O_0> .
+
+ns2:IZUKAQ_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_1_O_1> .
+
+ns2:IZUKAQ_O_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_3_O_3> .
+
+ns2:IZUKAQ_O_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_4_O_4> .
+
+ns2:IZUKAQ_W_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_3>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_4>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_P_0> .
+
+ns7:IZUKAQ_metalCentre_W ns7:hasAtom ns2:IZUKAQ_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns6:bLc ns4:IZUKAQ_bondL_ligand31843-0_0_0,
+        ns4:IZUKAQ_bondL_ligand4-0_0_0,
+        ns4:IZUKAQ_bondL_ligand4-0_1_0,
+        ns4:IZUKAQ_bondL_ligand4-0_3_0,
+        ns4:IZUKAQ_bondL_ligand4-0_4_0 .
+
+ns3:IZUKAQ_ligand31843-0_0 ns3:hasAtom ns2:IZUKAQ_C_10,
+        ns2:IZUKAQ_C_11,
+        ns2:IZUKAQ_C_12,
+        ns2:IZUKAQ_C_13,
+        ns2:IZUKAQ_C_14,
+        ns2:IZUKAQ_C_15,
+        ns2:IZUKAQ_C_16,
+        ns2:IZUKAQ_C_17,
+        ns2:IZUKAQ_C_18,
+        ns2:IZUKAQ_C_19,
+        ns2:IZUKAQ_C_20,
+        ns2:IZUKAQ_C_21,
+        ns2:IZUKAQ_C_22,
+        ns2:IZUKAQ_C_23,
+        ns2:IZUKAQ_C_24,
+        ns2:IZUKAQ_C_5,
+        ns2:IZUKAQ_C_6,
+        ns2:IZUKAQ_C_7,
+        ns2:IZUKAQ_C_8,
+        ns2:IZUKAQ_C_9,
+        ns2:IZUKAQ_H_0,
+        ns2:IZUKAQ_H_1,
+        ns2:IZUKAQ_H_10,
+        ns2:IZUKAQ_H_11,
+        ns2:IZUKAQ_H_12,
+        ns2:IZUKAQ_H_13,
+        ns2:IZUKAQ_H_14,
+        ns2:IZUKAQ_H_15,
+        ns2:IZUKAQ_H_16,
+        ns2:IZUKAQ_H_17,
+        ns2:IZUKAQ_H_18,
+        ns2:IZUKAQ_H_19,
+        ns2:IZUKAQ_H_2,
+        ns2:IZUKAQ_H_20,
+        ns2:IZUKAQ_H_21,
+        ns2:IZUKAQ_H_22,
+        ns2:IZUKAQ_H_23,
+        ns2:IZUKAQ_H_3,
+        ns2:IZUKAQ_H_4,
+        ns2:IZUKAQ_H_5,
+        ns2:IZUKAQ_H_6,
+        ns2:IZUKAQ_H_7,
+        ns2:IZUKAQ_H_8,
+        ns2:IZUKAQ_H_9,
+        ns2:IZUKAQ_N_0,
+        ns2:IZUKAQ_P_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand31843-0> ;
+    ns6:bLl ns4:IZUKAQ_bondL_ligand31843-0_0_0 .
+
+ns3:IZUKAQ_ligand4-0_0 ns3:hasAtom ns2:IZUKAQ_C_0,
+        ns2:IZUKAQ_O_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns6:bLl ns4:IZUKAQ_bondL_ligand4-0_0_0 .
+
+ns3:IZUKAQ_ligand4-0_1 ns3:hasAtom ns2:IZUKAQ_C_1,
+        ns2:IZUKAQ_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns6:bLl ns4:IZUKAQ_bondL_ligand4-0_1_0 .
+
+ns3:IZUKAQ_ligand4-0_3 ns3:hasAtom ns2:IZUKAQ_C_3,
+        ns2:IZUKAQ_O_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns6:bLl ns4:IZUKAQ_bondL_ligand4-0_3_0 .
+
+ns3:IZUKAQ_ligand4-0_4 ns3:hasAtom ns2:IZUKAQ_C_4,
+        ns2:IZUKAQ_O_4 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns6:bLl ns4:IZUKAQ_bondL_ligand4-0_4_0 .
+
+ns2:IZUKAQ_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_0_O_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_0> .
+
+ns2:IZUKAQ_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_1_O_1>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_1> .
+
+ns2:IZUKAQ_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_3_O_3>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_3> .
+
+ns2:IZUKAQ_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_4_O_4>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_4> .
+
+ns2:IZUKAQ_P_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_12_P_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_P_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_P_0>,
+        <resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_P_0> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_11_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_12_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_12_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_13_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_14_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_15_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_16_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_17_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_18_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_19_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_1_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_20_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_21_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_22_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_23_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_23_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_24_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_3_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_4_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_5_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_6_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_7_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_8_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_C_9_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/IZUKAQ_bond_W_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:IZUKAQ_bondL_ligand31843-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:IZUKAQ_P_0 .
+
+ns4:IZUKAQ_bondL_ligand4-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:IZUKAQ_C_0 .
+
+ns4:IZUKAQ_bondL_ligand4-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:IZUKAQ_C_1 .
+
+ns4:IZUKAQ_bondL_ligand4-0_3_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:IZUKAQ_C_3 .
+
+ns4:IZUKAQ_bondL_ligand4-0_4_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:IZUKAQ_C_4 .
+

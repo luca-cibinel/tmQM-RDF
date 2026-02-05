@@ -1,0 +1,45 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:HAHHAB ns7:hasLigand ns3:HAHHAB_ligand1-0_0,
+        ns3:HAHHAB_ligand1-0_1 ;
+    ns7:hasMetalCentre ns5:HAHHAB_metalCentre_Pt .
+
+ns1:HAHHAB_Pt_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HAHHAB_bond_Pt_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/HAHHAB_bond_Pt_0_Cl_1> .
+
+ns5:HAHHAB_metalCentre_Pt ns5:hasAtom ns1:HAHHAB_Pt_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns6:bLc ns4:HAHHAB_bondL_ligand1-0_0_0,
+        ns4:HAHHAB_bondL_ligand1-0_1_0 .
+
+ns3:HAHHAB_ligand1-0_0 ns3:hasAtom ns1:HAHHAB_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:HAHHAB_bondL_ligand1-0_0_0 .
+
+ns3:HAHHAB_ligand1-0_1 ns3:hasAtom ns1:HAHHAB_Cl_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns4:HAHHAB_bondL_ligand1-0_1_0 .
+
+ns1:HAHHAB_Cl_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HAHHAB_bond_Pt_0_Cl_0> .
+
+ns1:HAHHAB_Cl_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HAHHAB_bond_Pt_0_Cl_1> .
+
+<resource://integreat/p5/atomic/bond/HAHHAB_bond_Pt_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HAHHAB_bond_Pt_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:HAHHAB_bondL_ligand1-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:HAHHAB_Cl_0 .
+
+ns4:HAHHAB_bondL_ligand1-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:HAHHAB_Cl_1 .
+

@@ -1,0 +1,187 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/ligand/centre/> .
+@prefix ns4: <resource://integreat/p5/atomic/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:RUHVUL ns7:hasLigand ns2:RUHVUL_ligand2907-0_0 ;
+    ns7:hasMetalCentre ns3:RUHVUL_metalCentre_Ni .
+
+ns1:RUHVUL_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_15_H_32> .
+
+ns1:RUHVUL_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_16_H_33> .
+
+ns1:RUHVUL_C_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_17_H_34> .
+
+ns1:RUHVUL_C_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_17_C_18>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_18_H_35> .
+
+ns1:RUHVUL_C_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_14_C_19>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_19_C_20> .
+
+ns1:RUHVUL_C_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_20_C_25> .
+
+ns1:RUHVUL_C_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_S_0_C_21> .
+
+ns1:RUHVUL_C_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_22_H_36> .
+
+ns1:RUHVUL_C_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_23_H_37> .
+
+ns1:RUHVUL_C_24 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_24_H_38> .
+
+ns1:RUHVUL_C_25 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_20_C_25>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_25_H_39> .
+
+ns1:RUHVUL_H_32 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_15_H_32> .
+
+ns1:RUHVUL_H_33 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_16_H_33> .
+
+ns1:RUHVUL_H_34 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_17_H_34> .
+
+ns1:RUHVUL_H_35 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_18_H_35> .
+
+ns1:RUHVUL_H_36 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_22_H_36> .
+
+ns1:RUHVUL_H_37 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_23_H_37> .
+
+ns1:RUHVUL_H_38 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_24_H_38> .
+
+ns1:RUHVUL_H_39 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_25_H_39> .
+
+ns1:RUHVUL_Ni_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_Ni_0_C_14>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_Ni_0_S_0> .
+
+ns3:RUHVUL_metalCentre_Ni ns3:hasAtom ns1:RUHVUL_Ni_0 ;
+    ns3:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns6:bLc ns5:RUHVUL_bondL_ligand2907-0_0_0,
+        ns5:RUHVUL_bondL_ligand2907-0_0_1 .
+
+ns2:RUHVUL_ligand2907-0_0 ns2:hasAtom ns1:RUHVUL_C_14,
+        ns1:RUHVUL_C_15,
+        ns1:RUHVUL_C_16,
+        ns1:RUHVUL_C_17,
+        ns1:RUHVUL_C_18,
+        ns1:RUHVUL_C_19,
+        ns1:RUHVUL_C_20,
+        ns1:RUHVUL_C_21,
+        ns1:RUHVUL_C_22,
+        ns1:RUHVUL_C_23,
+        ns1:RUHVUL_C_24,
+        ns1:RUHVUL_C_25,
+        ns1:RUHVUL_H_32,
+        ns1:RUHVUL_H_33,
+        ns1:RUHVUL_H_34,
+        ns1:RUHVUL_H_35,
+        ns1:RUHVUL_H_36,
+        ns1:RUHVUL_H_37,
+        ns1:RUHVUL_H_38,
+        ns1:RUHVUL_H_39,
+        ns1:RUHVUL_S_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand2907-0> ;
+    ns6:bLl ns5:RUHVUL_bondL_ligand2907-0_0_0,
+        ns5:RUHVUL_bondL_ligand2907-0_0_1 .
+
+ns1:RUHVUL_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_C_14_C_19>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_Ni_0_C_14> .
+
+ns1:RUHVUL_S_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/S> ;
+    ns4:b <resource://integreat/p5/atomic/bond/RUHVUL_bond_Ni_0_S_0>,
+        <resource://integreat/p5/atomic/bond/RUHVUL_bond_S_0_C_21> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_14_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_15_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_16_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_17_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_17_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_18_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_20_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_22_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_23_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_23_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_24_H_38> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_C_25_H_39> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_Ni_0_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_Ni_0_S_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/RUHVUL_bond_S_0_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:RUHVUL_bondL_ligand2907-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:RUHVUL_S_0 .
+
+ns5:RUHVUL_bondL_ligand2907-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:RUHVUL_C_14 .
+

@@ -1,0 +1,239 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/centre/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/complex/TMC/> .
+
+ns7:PHZCWB ns7:hasLigand ns2:PHZCWB_ligand11624-0_0,
+        ns2:PHZCWB_ligand45-0_0 ;
+    ns7:hasMetalCentre ns4:PHZCWB_metalCentre_W .
+
+ns1:PHZCWB_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_1_C_10> .
+
+ns1:PHZCWB_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_11_H_10> .
+
+ns1:PHZCWB_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_12_H_11> .
+
+ns1:PHZCWB_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_13_H_12> .
+
+ns1:PHZCWB_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_14_H_13> .
+
+ns1:PHZCWB_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_15_H_14> .
+
+ns1:PHZCWB_H_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_H_0> .
+
+ns1:PHZCWB_H_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_1_H_1> .
+
+ns1:PHZCWB_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_11_H_10> .
+
+ns1:PHZCWB_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_12_H_11> .
+
+ns1:PHZCWB_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_13_H_12> .
+
+ns1:PHZCWB_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_14_H_13> .
+
+ns1:PHZCWB_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_15_H_14> .
+
+ns1:PHZCWB_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_H_15> .
+
+ns1:PHZCWB_H_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_H_16> .
+
+ns1:PHZCWB_H_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_2_H_2> .
+
+ns1:PHZCWB_H_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_3_H_3> .
+
+ns1:PHZCWB_H_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_4_H_4> .
+
+ns1:PHZCWB_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_2>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_3>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_4>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_N_0>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_N_1> .
+
+ns4:PHZCWB_metalCentre_W ns4:hasAtom ns1:PHZCWB_W_0 ;
+    ns4:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns6:bLc ns5:PHZCWB_bondL_ligand11624-0_0_0,
+        ns5:PHZCWB_bondL_ligand45-0_0_0 .
+
+ns2:PHZCWB_ligand11624-0_0 ns2:hasAtom ns1:PHZCWB_C_10,
+        ns1:PHZCWB_C_11,
+        ns1:PHZCWB_C_12,
+        ns1:PHZCWB_C_13,
+        ns1:PHZCWB_C_14,
+        ns1:PHZCWB_C_15,
+        ns1:PHZCWB_H_10,
+        ns1:PHZCWB_H_11,
+        ns1:PHZCWB_H_12,
+        ns1:PHZCWB_H_13,
+        ns1:PHZCWB_H_14,
+        ns1:PHZCWB_H_15,
+        ns1:PHZCWB_H_16,
+        ns1:PHZCWB_N_0,
+        ns1:PHZCWB_N_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand11624-0> ;
+    ns6:bLl ns5:PHZCWB_bondL_ligand11624-0_0_0 .
+
+ns2:PHZCWB_ligand45-0_0 ns2:hasAtom ns1:PHZCWB_C_0,
+        ns1:PHZCWB_C_1,
+        ns1:PHZCWB_C_2,
+        ns1:PHZCWB_C_3,
+        ns1:PHZCWB_C_4,
+        ns1:PHZCWB_H_0,
+        ns1:PHZCWB_H_1,
+        ns1:PHZCWB_H_2,
+        ns1:PHZCWB_H_3,
+        ns1:PHZCWB_H_4 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand45-0> ;
+    ns6:bLl ns5:PHZCWB_bondL_ligand45-0_0_0 .
+
+ns1:PHZCWB_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_0> .
+
+ns1:PHZCWB_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_1_H_1>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_1> .
+
+ns1:PHZCWB_C_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_2_H_2>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_2> .
+
+ns1:PHZCWB_C_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_3_H_3>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_3> .
+
+ns1:PHZCWB_C_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_C_4>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_C_4_H_4>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_4> .
+
+ns1:PHZCWB_N_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_H_15>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_H_16>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_N_0> .
+
+ns1:PHZCWB_N_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns3:b <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_N_1> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_10_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_11_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_12_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_13_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_14_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_15_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_3_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_C_4_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_N_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_N_1_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/PHZCWB_bond_W_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:PHZCWB_bondL_ligand11624-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:PHZCWB_N_0,
+        ns1:PHZCWB_N_1 .
+
+ns5:PHZCWB_bondL_ligand45-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns1:PHZCWB_C_0,
+        ns1:PHZCWB_C_1,
+        ns1:PHZCWB_C_2,
+        ns1:PHZCWB_C_3,
+        ns1:PHZCWB_C_4 .
+

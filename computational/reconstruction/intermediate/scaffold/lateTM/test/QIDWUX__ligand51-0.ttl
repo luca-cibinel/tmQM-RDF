@@ -1,0 +1,195 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/atomic/atom/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns4:QIDWUX ns4:hasLigand ns1:QIDWUX_ligand1-0_0,
+        ns1:QIDWUX_ligand1479-0_0 ;
+    ns4:hasMetalCentre ns5:QIDWUX_metalCentre_Pt .
+
+ns6:QIDWUX_C_18 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_18_H_15>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_N_0_C_18> .
+
+ns6:QIDWUX_C_19 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_18_C_19>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_19_H_16> .
+
+ns6:QIDWUX_C_20 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_19_C_20>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_20_H_17> .
+
+ns6:QIDWUX_C_21 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_20_C_21>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_21_H_18> .
+
+ns6:QIDWUX_C_22 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_21_C_22>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_N_0_C_22> .
+
+ns6:QIDWUX_C_23 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_22_C_23>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_23_C_28> .
+
+ns6:QIDWUX_C_24 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_23_C_24>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_24_H_19> .
+
+ns6:QIDWUX_C_25 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_24_C_25>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_25_H_20> .
+
+ns6:QIDWUX_C_26 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_25_C_26>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_F_0_C_26> .
+
+ns6:QIDWUX_C_27 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_26_C_27>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_27_H_21> .
+
+ns6:QIDWUX_F_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/F> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_F_0_C_26> .
+
+ns6:QIDWUX_H_15 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_18_H_15> .
+
+ns6:QIDWUX_H_16 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_19_H_16> .
+
+ns6:QIDWUX_H_17 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_20_H_17> .
+
+ns6:QIDWUX_H_18 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_21_H_18> .
+
+ns6:QIDWUX_H_19 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_24_H_19> .
+
+ns6:QIDWUX_H_20 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_25_H_20> .
+
+ns6:QIDWUX_H_21 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_27_H_21> .
+
+ns6:QIDWUX_Pt_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_C_28>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_N_0> .
+
+ns5:QIDWUX_metalCentre_Pt ns5:hasAtom ns6:QIDWUX_Pt_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns3:bLc ns7:QIDWUX_bondL_ligand1-0_0_0,
+        ns7:QIDWUX_bondL_ligand1479-0_0_0,
+        ns7:QIDWUX_bondL_ligand1479-0_0_1 .
+
+ns1:QIDWUX_ligand1-0_0 ns1:hasAtom ns6:QIDWUX_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns3:bLl ns7:QIDWUX_bondL_ligand1-0_0_0 .
+
+ns1:QIDWUX_ligand1479-0_0 ns1:hasAtom ns6:QIDWUX_C_18,
+        ns6:QIDWUX_C_19,
+        ns6:QIDWUX_C_20,
+        ns6:QIDWUX_C_21,
+        ns6:QIDWUX_C_22,
+        ns6:QIDWUX_C_23,
+        ns6:QIDWUX_C_24,
+        ns6:QIDWUX_C_25,
+        ns6:QIDWUX_C_26,
+        ns6:QIDWUX_C_27,
+        ns6:QIDWUX_C_28,
+        ns6:QIDWUX_F_0,
+        ns6:QIDWUX_H_15,
+        ns6:QIDWUX_H_16,
+        ns6:QIDWUX_H_17,
+        ns6:QIDWUX_H_18,
+        ns6:QIDWUX_H_19,
+        ns6:QIDWUX_H_20,
+        ns6:QIDWUX_H_21,
+        ns6:QIDWUX_N_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1479-0> ;
+    ns3:bLl ns7:QIDWUX_bondL_ligand1479-0_0_0,
+        ns7:QIDWUX_bondL_ligand1479-0_0_1 .
+
+ns6:QIDWUX_C_28 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_23_C_28>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_C_27_C_28>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_C_28> .
+
+ns6:QIDWUX_Cl_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_Cl_0> .
+
+ns6:QIDWUX_N_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/QIDWUX_bond_N_0_C_18>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_N_0_C_22>,
+        <resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_N_0> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_18_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_18_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_19_C_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_19_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_20_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_20_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_21_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_21_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_22_C_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_23_C_24> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_23_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_24_C_25> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_24_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_25_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_25_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_26_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_27_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_C_27_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_F_0_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_N_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_N_0_C_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/QIDWUX_bond_Pt_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:QIDWUX_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:QIDWUX_Cl_0 .
+
+ns7:QIDWUX_bondL_ligand1479-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:QIDWUX_N_0 .
+
+ns7:QIDWUX_bondL_ligand1479-0_0_1 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns6:QIDWUX_C_28 .
+

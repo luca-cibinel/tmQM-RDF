@@ -1,0 +1,418 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:HITBOC ns6:hasLigand ns3:HITBOC_ligand4-0_0,
+        ns3:HITBOC_ligand4-0_1,
+        ns3:HITBOC_ligand4-0_3,
+        ns3:HITBOC_ligand8155-0_0 ;
+    ns6:hasMetalCentre ns7:HITBOC_metalCentre_Mo .
+
+ns2:HITBOC_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_0_C_3>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_0_C_0> .
+
+ns2:HITBOC_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_1_H_12> .
+
+ns2:HITBOC_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_10_H_2>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_3_C_10> .
+
+ns2:HITBOC_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_H_0>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_H_7> .
+
+ns2:HITBOC_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_12_C_17> .
+
+ns2:HITBOC_C_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_13_H_3> .
+
+ns2:HITBOC_C_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_14_H_15> .
+
+ns2:HITBOC_C_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_15_H_21> .
+
+ns2:HITBOC_C_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_16_H_4> .
+
+ns2:HITBOC_C_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_12_C_17>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_16_C_17>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_17_H_10> .
+
+ns2:HITBOC_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_2_C_4>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_1_C_2> .
+
+ns2:HITBOC_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_0_C_3>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_13>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_16>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_9> .
+
+ns2:HITBOC_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_2_C_4>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_1>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_19>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_5> .
+
+ns2:HITBOC_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_5_C_8>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_2_C_5> .
+
+ns2:HITBOC_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_6_H_6> .
+
+ns2:HITBOC_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_7_C_9>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_3_C_7> .
+
+ns2:HITBOC_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_5_C_8>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_17>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_18>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_8> .
+
+ns2:HITBOC_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_7_C_9>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_11>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_14>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_20> .
+
+ns2:HITBOC_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_H_0> .
+
+ns2:HITBOC_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_1> .
+
+ns2:HITBOC_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_17_H_10> .
+
+ns2:HITBOC_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_11> .
+
+ns2:HITBOC_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_1_H_12> .
+
+ns2:HITBOC_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_13> .
+
+ns2:HITBOC_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_14> .
+
+ns2:HITBOC_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_14_H_15> .
+
+ns2:HITBOC_H_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_16> .
+
+ns2:HITBOC_H_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_17> .
+
+ns2:HITBOC_H_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_18> .
+
+ns2:HITBOC_H_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_19> .
+
+ns2:HITBOC_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_10_H_2> .
+
+ns2:HITBOC_H_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_20> .
+
+ns2:HITBOC_H_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_15_H_21> .
+
+ns2:HITBOC_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_13_H_3> .
+
+ns2:HITBOC_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_16_H_4> .
+
+ns2:HITBOC_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_5> .
+
+ns2:HITBOC_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_6_H_6> .
+
+ns2:HITBOC_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_H_7> .
+
+ns2:HITBOC_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_8> .
+
+ns2:HITBOC_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_9> .
+
+ns2:HITBOC_Mo_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_18>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_19>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_21>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_N_2> .
+
+ns2:HITBOC_N_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_N_0_N_1>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_1_C_10>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_1_C_2> .
+
+ns2:HITBOC_N_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_N_2_N_3>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_3_C_10>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_3_C_7> .
+
+ns2:HITBOC_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_O_0_C_18> .
+
+ns2:HITBOC_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_O_1_C_19> .
+
+ns2:HITBOC_O_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_O_3_C_21> .
+
+ns7:HITBOC_metalCentre_Mo ns7:hasAtom ns2:HITBOC_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns4:bLc ns5:HITBOC_bondL_ligand4-0_0_0,
+        ns5:HITBOC_bondL_ligand4-0_1_0,
+        ns5:HITBOC_bondL_ligand4-0_3_0,
+        ns5:HITBOC_bondL_ligand8155-0_0_0,
+        ns5:HITBOC_bondL_ligand8155-0_0_1 .
+
+ns3:HITBOC_ligand4-0_0 ns3:hasAtom ns2:HITBOC_C_18,
+        ns2:HITBOC_O_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns5:HITBOC_bondL_ligand4-0_0_0 .
+
+ns3:HITBOC_ligand4-0_1 ns3:hasAtom ns2:HITBOC_C_19,
+        ns2:HITBOC_O_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns5:HITBOC_bondL_ligand4-0_1_0 .
+
+ns3:HITBOC_ligand4-0_3 ns3:hasAtom ns2:HITBOC_C_21,
+        ns2:HITBOC_O_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns4:bLl ns5:HITBOC_bondL_ligand4-0_3_0 .
+
+ns3:HITBOC_ligand8155-0_0 ns3:hasAtom ns2:HITBOC_C_0,
+        ns2:HITBOC_C_1,
+        ns2:HITBOC_C_10,
+        ns2:HITBOC_C_11,
+        ns2:HITBOC_C_12,
+        ns2:HITBOC_C_13,
+        ns2:HITBOC_C_14,
+        ns2:HITBOC_C_15,
+        ns2:HITBOC_C_16,
+        ns2:HITBOC_C_17,
+        ns2:HITBOC_C_2,
+        ns2:HITBOC_C_3,
+        ns2:HITBOC_C_4,
+        ns2:HITBOC_C_5,
+        ns2:HITBOC_C_6,
+        ns2:HITBOC_C_7,
+        ns2:HITBOC_C_8,
+        ns2:HITBOC_C_9,
+        ns2:HITBOC_H_0,
+        ns2:HITBOC_H_1,
+        ns2:HITBOC_H_10,
+        ns2:HITBOC_H_11,
+        ns2:HITBOC_H_12,
+        ns2:HITBOC_H_13,
+        ns2:HITBOC_H_14,
+        ns2:HITBOC_H_15,
+        ns2:HITBOC_H_16,
+        ns2:HITBOC_H_17,
+        ns2:HITBOC_H_18,
+        ns2:HITBOC_H_19,
+        ns2:HITBOC_H_2,
+        ns2:HITBOC_H_20,
+        ns2:HITBOC_H_21,
+        ns2:HITBOC_H_3,
+        ns2:HITBOC_H_4,
+        ns2:HITBOC_H_5,
+        ns2:HITBOC_H_6,
+        ns2:HITBOC_H_7,
+        ns2:HITBOC_H_8,
+        ns2:HITBOC_H_9,
+        ns2:HITBOC_N_0,
+        ns2:HITBOC_N_1,
+        ns2:HITBOC_N_2,
+        ns2:HITBOC_N_3 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand8155-0> ;
+    ns4:bLl ns5:HITBOC_bondL_ligand8155-0_0_0,
+        ns5:HITBOC_bondL_ligand8155-0_0_1 .
+
+ns2:HITBOC_C_18 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_18>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_O_0_C_18> .
+
+ns2:HITBOC_C_19 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_19>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_O_1_C_19> .
+
+ns2:HITBOC_C_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_21>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_O_3_C_21> .
+
+ns2:HITBOC_N_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_0_N_1> .
+
+ns2:HITBOC_N_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_N_2>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_2_C_5>,
+        <resource://integreat/p5/atomic/bond/HITBOC_bond_N_2_N_3> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_0_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_10_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_11_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_12_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_13_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_14_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_15_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_16_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_16_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_17_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_1_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_2_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_3_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_4_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_5_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_6_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_7_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_8_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_C_9_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_Mo_0_N_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_1_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_2_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_2_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_3_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_N_3_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_O_0_C_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_O_1_C_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HITBOC_bond_O_3_C_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:HITBOC_bondL_ligand4-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:HITBOC_C_18 .
+
+ns5:HITBOC_bondL_ligand4-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:HITBOC_C_19 .
+
+ns5:HITBOC_bondL_ligand4-0_3_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:HITBOC_C_21 .
+
+ns5:HITBOC_bondL_ligand8155-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:HITBOC_N_0 .
+
+ns5:HITBOC_bondL_ligand8155-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:HITBOC_N_2 .
+

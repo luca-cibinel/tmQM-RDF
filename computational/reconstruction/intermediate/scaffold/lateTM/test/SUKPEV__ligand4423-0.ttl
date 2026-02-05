@@ -1,0 +1,70 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns5:SUKPEV ns5:hasLigand ns3:SUKPEV_ligand370-1_0 ;
+    ns5:hasMetalCentre ns7:SUKPEV_metalCentre_Ni .
+
+ns2:SUKPEV_H_20 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_H_20> .
+
+ns2:SUKPEV_H_21 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_H_21> .
+
+ns2:SUKPEV_H_42 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_29_H_42> .
+
+ns2:SUKPEV_H_43 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_29_H_43> .
+
+ns2:SUKPEV_Ni_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_Ni_0_C_14>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_Ni_0_C_29> .
+
+ns7:SUKPEV_metalCentre_Ni ns7:hasAtom ns2:SUKPEV_Ni_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns6:bLc ns4:SUKPEV_bondL_ligand370-1_0_0 .
+
+ns3:SUKPEV_ligand370-1_0 ns3:hasAtom ns2:SUKPEV_C_14,
+        ns2:SUKPEV_C_29,
+        ns2:SUKPEV_H_20,
+        ns2:SUKPEV_H_21,
+        ns2:SUKPEV_H_42,
+        ns2:SUKPEV_H_43 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand370-1> ;
+    ns6:bLl ns4:SUKPEV_bondL_ligand370-1_0_0 .
+
+ns2:SUKPEV_C_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_C_29>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_H_20>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_H_21>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_Ni_0_C_14> .
+
+ns2:SUKPEV_C_29 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_C_29>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_29_H_42>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_C_29_H_43>,
+        <resource://integreat/p5/atomic/bond/SUKPEV_bond_Ni_0_C_29> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_C_14_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_C_29_H_42> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_C_29_H_43> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_Ni_0_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/SUKPEV_bond_Ni_0_C_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:SUKPEV_bondL_ligand370-1_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:SUKPEV_C_14,
+        ns2:SUKPEV_C_29 .
+

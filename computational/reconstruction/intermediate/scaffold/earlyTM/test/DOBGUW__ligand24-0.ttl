@@ -1,0 +1,392 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns3:DOBGUW ns3:hasLigand ns1:DOBGUW_ligand1025-0_0,
+        ns1:DOBGUW_ligand11618-0_0,
+        ns1:DOBGUW_ligand11618-0_1 ;
+    ns3:hasMetalCentre ns7:DOBGUW_metalCentre_Mo .
+
+ns4:DOBGUW_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_H_10>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_H_11>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_0_C_0> .
+
+ns4:DOBGUW_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_H_12>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_H_13> .
+
+ns4:DOBGUW_C_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_3_C_10> .
+
+ns4:DOBGUW_C_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_11_H_20> .
+
+ns4:DOBGUW_C_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_12_H_21> .
+
+ns4:DOBGUW_C_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_13_H_22> .
+
+ns4:DOBGUW_C_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_14_H_23> .
+
+ns4:DOBGUW_C_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_10_C_15>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_4_C_15> .
+
+ns4:DOBGUW_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_H_14>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_H_15> .
+
+ns4:DOBGUW_C_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_H_16>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_H_17> .
+
+ns4:DOBGUW_C_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_4_H_18>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_4_H_19>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_0_C_4> .
+
+ns4:DOBGUW_C_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_H_0>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_H_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_1_C_5> .
+
+ns4:DOBGUW_C_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_H_2>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_H_3> .
+
+ns4:DOBGUW_C_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_H_4>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_H_5> .
+
+ns4:DOBGUW_C_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_H_6>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_H_7> .
+
+ns4:DOBGUW_C_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_9_H_8>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_9_H_9>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_1_C_9> .
+
+ns4:DOBGUW_H_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_H_0> .
+
+ns4:DOBGUW_H_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_H_1> .
+
+ns4:DOBGUW_H_10 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_H_10> .
+
+ns4:DOBGUW_H_11 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_H_11> .
+
+ns4:DOBGUW_H_12 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_H_12> .
+
+ns4:DOBGUW_H_13 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_H_13> .
+
+ns4:DOBGUW_H_14 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_H_14> .
+
+ns4:DOBGUW_H_15 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_H_15> .
+
+ns4:DOBGUW_H_16 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_H_16> .
+
+ns4:DOBGUW_H_17 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_H_17> .
+
+ns4:DOBGUW_H_18 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_4_H_18> .
+
+ns4:DOBGUW_H_19 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_4_H_19> .
+
+ns4:DOBGUW_H_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_H_2> .
+
+ns4:DOBGUW_H_20 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_11_H_20> .
+
+ns4:DOBGUW_H_21 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_12_H_21> .
+
+ns4:DOBGUW_H_22 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_13_H_22> .
+
+ns4:DOBGUW_H_23 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_14_H_23> .
+
+ns4:DOBGUW_H_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_H_3> .
+
+ns4:DOBGUW_H_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_H_4> .
+
+ns4:DOBGUW_H_5 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_H_5> .
+
+ns4:DOBGUW_H_6 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_H_6> .
+
+ns4:DOBGUW_H_7 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_H_7> .
+
+ns4:DOBGUW_H_8 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_9_H_8> .
+
+ns4:DOBGUW_H_9 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_C_9_H_9> .
+
+ns4:DOBGUW_Mo_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_N_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_2>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_3>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_4> .
+
+ns7:DOBGUW_metalCentre_Mo ns7:hasAtom ns4:DOBGUW_Mo_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns6:bLc ns5:DOBGUW_bondL_ligand1025-0_0_0,
+        ns5:DOBGUW_bondL_ligand1025-0_0_1,
+        ns5:DOBGUW_bondL_ligand11618-0_0_0,
+        ns5:DOBGUW_bondL_ligand11618-0_1_0 .
+
+ns1:DOBGUW_ligand1025-0_0 ns1:hasAtom ns4:DOBGUW_C_10,
+        ns4:DOBGUW_C_11,
+        ns4:DOBGUW_C_12,
+        ns4:DOBGUW_C_13,
+        ns4:DOBGUW_C_14,
+        ns4:DOBGUW_C_15,
+        ns4:DOBGUW_H_20,
+        ns4:DOBGUW_H_21,
+        ns4:DOBGUW_H_22,
+        ns4:DOBGUW_H_23,
+        ns4:DOBGUW_O_3,
+        ns4:DOBGUW_O_4 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1025-0> ;
+    ns6:bLl ns5:DOBGUW_bondL_ligand1025-0_0_0,
+        ns5:DOBGUW_bondL_ligand1025-0_0_1 .
+
+ns1:DOBGUW_ligand11618-0_0 ns1:hasAtom ns4:DOBGUW_C_0,
+        ns4:DOBGUW_C_1,
+        ns4:DOBGUW_C_2,
+        ns4:DOBGUW_C_3,
+        ns4:DOBGUW_C_4,
+        ns4:DOBGUW_H_10,
+        ns4:DOBGUW_H_11,
+        ns4:DOBGUW_H_12,
+        ns4:DOBGUW_H_13,
+        ns4:DOBGUW_H_14,
+        ns4:DOBGUW_H_15,
+        ns4:DOBGUW_H_16,
+        ns4:DOBGUW_H_17,
+        ns4:DOBGUW_H_18,
+        ns4:DOBGUW_H_19,
+        ns4:DOBGUW_N_0,
+        ns4:DOBGUW_O_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand11618-0> ;
+    ns6:bLl ns5:DOBGUW_bondL_ligand11618-0_0_0 .
+
+ns1:DOBGUW_ligand11618-0_1 ns1:hasAtom ns4:DOBGUW_C_5,
+        ns4:DOBGUW_C_6,
+        ns4:DOBGUW_C_7,
+        ns4:DOBGUW_C_8,
+        ns4:DOBGUW_C_9,
+        ns4:DOBGUW_H_0,
+        ns4:DOBGUW_H_1,
+        ns4:DOBGUW_H_2,
+        ns4:DOBGUW_H_3,
+        ns4:DOBGUW_H_4,
+        ns4:DOBGUW_H_5,
+        ns4:DOBGUW_H_6,
+        ns4:DOBGUW_H_7,
+        ns4:DOBGUW_H_8,
+        ns4:DOBGUW_H_9,
+        ns4:DOBGUW_N_1,
+        ns4:DOBGUW_O_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand11618-0> ;
+    ns6:bLl ns5:DOBGUW_bondL_ligand11618-0_1_0 .
+
+ns4:DOBGUW_N_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_N_0>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_0_C_4>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_1_N_0> .
+
+ns4:DOBGUW_N_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_N_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_1_C_5>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_N_1_C_9>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_2_N_1> .
+
+ns4:DOBGUW_O_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_1>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_1_N_0> .
+
+ns4:DOBGUW_O_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_2>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_2_N_1> .
+
+ns4:DOBGUW_O_3 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_3>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_3_C_10> .
+
+ns4:DOBGUW_O_4 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns2:b <resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_4>,
+        <resource://integreat/p5/atomic/bond/DOBGUW_bond_O_4_C_15> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_0_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_10_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_11_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_12_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_13_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_14_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_1_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_2_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_3_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_4_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_4_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_5_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_6_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_7_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_8_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_9_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_C_9_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_Mo_0_O_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_N_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_N_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_N_1_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_O_1_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_O_2_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_O_3_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/DOBGUW_bond_O_4_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:DOBGUW_bondL_ligand1025-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:DOBGUW_O_3 .
+
+ns5:DOBGUW_bondL_ligand1025-0_0_1 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:DOBGUW_O_4 .
+
+ns5:DOBGUW_bondL_ligand11618-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:DOBGUW_N_0,
+        ns4:DOBGUW_O_1 .
+
+ns5:DOBGUW_bondL_ligand11618-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns4:DOBGUW_N_1,
+        ns4:DOBGUW_O_2 .
+

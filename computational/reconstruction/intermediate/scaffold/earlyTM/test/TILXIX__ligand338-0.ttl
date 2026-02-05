@@ -1,0 +1,344 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns3:TILXIX ns3:hasLigand ns4:TILXIX_ligand38-0_0,
+        ns4:TILXIX_ligand488-0_0,
+        ns4:TILXIX_ligand488-0_1 ;
+    ns3:hasMetalCentre ns6:TILXIX_metalCentre_Mo .
+
+ns2:TILXIX_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_1_C_6> .
+
+ns2:TILXIX_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_10_H_8>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_9_C_10> .
+
+ns2:TILXIX_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_11_H_9> .
+
+ns2:TILXIX_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_12_H_10> .
+
+ns2:TILXIX_C_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_13_H_11>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_8_C_13> .
+
+ns2:TILXIX_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_2_H_1> .
+
+ns2:TILXIX_C_26 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_29>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_30>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_31>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_26> .
+
+ns2:TILXIX_C_27 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_32>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_33>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_34>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_27> .
+
+ns2:TILXIX_C_28 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_35>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_36>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_37>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_28> .
+
+ns2:TILXIX_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_3_H_2> .
+
+ns2:TILXIX_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_4_H_3> .
+
+ns2:TILXIX_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_5_H_4> .
+
+ns2:TILXIX_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_1_C_6>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_6_H_5> .
+
+ns2:TILXIX_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_8_C_13>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_8_C_9> .
+
+ns2:TILXIX_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_9_H_7> .
+
+ns2:TILXIX_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_0_H_0> .
+
+ns2:TILXIX_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_2_H_1> .
+
+ns2:TILXIX_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_12_H_10> .
+
+ns2:TILXIX_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_13_H_11> .
+
+ns2:TILXIX_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_3_H_2> .
+
+ns2:TILXIX_H_29 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_29> .
+
+ns2:TILXIX_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_4_H_3> .
+
+ns2:TILXIX_H_30 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_30> .
+
+ns2:TILXIX_H_31 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_31> .
+
+ns2:TILXIX_H_32 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_32> .
+
+ns2:TILXIX_H_33 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_33> .
+
+ns2:TILXIX_H_34 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_34> .
+
+ns2:TILXIX_H_35 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_35> .
+
+ns2:TILXIX_H_36 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_36> .
+
+ns2:TILXIX_H_37 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_37> .
+
+ns2:TILXIX_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_5_H_4> .
+
+ns2:TILXIX_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_6_H_5> .
+
+ns2:TILXIX_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_7_H_6> .
+
+ns2:TILXIX_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_9_H_7> .
+
+ns2:TILXIX_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_10_H_8> .
+
+ns2:TILXIX_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_11_H_9> .
+
+ns2:TILXIX_Mo_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Mo> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_C_0>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_C_7>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_O_0>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_O_1>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_P_0> .
+
+ns6:TILXIX_metalCentre_Mo ns6:hasAtom ns2:TILXIX_Mo_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Mo> ;
+    ns7:bLc ns5:TILXIX_bondL_ligand38-0_0_0,
+        ns5:TILXIX_bondL_ligand488-0_0_0,
+        ns5:TILXIX_bondL_ligand488-0_1_0 .
+
+ns4:TILXIX_ligand38-0_0 ns4:hasAtom ns2:TILXIX_C_26,
+        ns2:TILXIX_C_27,
+        ns2:TILXIX_C_28,
+        ns2:TILXIX_H_29,
+        ns2:TILXIX_H_30,
+        ns2:TILXIX_H_31,
+        ns2:TILXIX_H_32,
+        ns2:TILXIX_H_33,
+        ns2:TILXIX_H_34,
+        ns2:TILXIX_H_35,
+        ns2:TILXIX_H_36,
+        ns2:TILXIX_H_37,
+        ns2:TILXIX_P_0 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns7:bLl ns5:TILXIX_bondL_ligand38-0_0_0 .
+
+ns4:TILXIX_ligand488-0_0 ns4:hasAtom ns2:TILXIX_C_0,
+        ns2:TILXIX_C_1,
+        ns2:TILXIX_C_2,
+        ns2:TILXIX_C_3,
+        ns2:TILXIX_C_4,
+        ns2:TILXIX_C_5,
+        ns2:TILXIX_C_6,
+        ns2:TILXIX_H_0,
+        ns2:TILXIX_H_1,
+        ns2:TILXIX_H_2,
+        ns2:TILXIX_H_3,
+        ns2:TILXIX_H_4,
+        ns2:TILXIX_H_5,
+        ns2:TILXIX_O_0 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand488-0> ;
+    ns7:bLl ns5:TILXIX_bondL_ligand488-0_0_0 .
+
+ns4:TILXIX_ligand488-0_1 ns4:hasAtom ns2:TILXIX_C_10,
+        ns2:TILXIX_C_11,
+        ns2:TILXIX_C_12,
+        ns2:TILXIX_C_13,
+        ns2:TILXIX_C_7,
+        ns2:TILXIX_C_8,
+        ns2:TILXIX_C_9,
+        ns2:TILXIX_H_10,
+        ns2:TILXIX_H_11,
+        ns2:TILXIX_H_6,
+        ns2:TILXIX_H_7,
+        ns2:TILXIX_H_8,
+        ns2:TILXIX_H_9,
+        ns2:TILXIX_O_1 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand488-0> ;
+    ns7:bLl ns5:TILXIX_bondL_ligand488-0_1_0 .
+
+ns2:TILXIX_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_C_0>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_O_0_C_0> .
+
+ns2:TILXIX_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_C_7>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_O_1_C_7> .
+
+ns2:TILXIX_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_O_0>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_O_0_C_0> .
+
+ns2:TILXIX_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_O_1>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_O_1_C_7> .
+
+ns2:TILXIX_P_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_P_0>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_26>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_27>,
+        <resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_28> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_10_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_11_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_12_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_13_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_29> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_30> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_26_H_31> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_32> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_33> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_27_H_34> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_35> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_36> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_28_H_37> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_5_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_6_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_8_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_C_9_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_Mo_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_O_1_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_26> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_27> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/TILXIX_bond_P_0_C_28> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:TILXIX_bondL_ligand38-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:TILXIX_P_0 .
+
+ns5:TILXIX_bondL_ligand488-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:TILXIX_C_0,
+        ns2:TILXIX_O_0 .
+
+ns5:TILXIX_bondL_ligand488-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns2:TILXIX_C_7,
+        ns2:TILXIX_O_1 .
+

@@ -1,0 +1,219 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:HULBOF ns6:hasLigand ns3:HULBOF_ligand3-0_0,
+        ns3:HULBOF_ligand3-0_1,
+        ns3:HULBOF_ligand497-0_1 ;
+    ns6:hasMetalCentre ns7:HULBOF_metalCentre_Pd .
+
+ns1:HULBOF_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_10_H_12>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_10_H_13>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_4_C_10>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_5_C_10> .
+
+ns1:HULBOF_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_11_H_14>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_11_H_15>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_3_C_11>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_5_C_11> .
+
+ns1:HULBOF_C_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_H_22>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_H_23>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_N_3>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_6> .
+
+ns1:HULBOF_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_H_20>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_H_21>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_N_4>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_3_C_7> .
+
+ns1:HULBOF_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_8_H_18>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_8_H_19>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_4_C_8>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_8> .
+
+ns1:HULBOF_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_H_16>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_H_17>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_N_5>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_9> .
+
+ns1:HULBOF_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_10_H_12> .
+
+ns1:HULBOF_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_10_H_13> .
+
+ns1:HULBOF_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_11_H_14> .
+
+ns1:HULBOF_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_11_H_15> .
+
+ns1:HULBOF_H_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_H_16> .
+
+ns1:HULBOF_H_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_H_17> .
+
+ns1:HULBOF_H_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_8_H_18> .
+
+ns1:HULBOF_H_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_8_H_19> .
+
+ns1:HULBOF_H_20 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_H_20> .
+
+ns1:HULBOF_H_21 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_H_21> .
+
+ns1:HULBOF_H_22 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_H_22> .
+
+ns1:HULBOF_H_23 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_H_23> .
+
+ns1:HULBOF_N_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_N_3>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_3_C_11>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_3_C_7> .
+
+ns1:HULBOF_N_4 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_N_4>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_4_C_10>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_4_C_8> .
+
+ns1:HULBOF_N_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_N_5>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_5_C_10>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_N_5_C_11> .
+
+ns1:HULBOF_Pd_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_Br_0>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_Br_1>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_P_1> .
+
+ns7:HULBOF_metalCentre_Pd ns7:hasAtom ns1:HULBOF_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns5:bLc ns4:HULBOF_bondL_ligand3-0_0_0,
+        ns4:HULBOF_bondL_ligand3-0_1_0,
+        ns4:HULBOF_bondL_ligand497-0_1_0 .
+
+ns3:HULBOF_ligand3-0_0 ns3:hasAtom ns1:HULBOF_Br_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns5:bLl ns4:HULBOF_bondL_ligand3-0_0_0 .
+
+ns3:HULBOF_ligand3-0_1 ns3:hasAtom ns1:HULBOF_Br_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand3-0> ;
+    ns5:bLl ns4:HULBOF_bondL_ligand3-0_1_0 .
+
+ns3:HULBOF_ligand497-0_1 ns3:hasAtom ns1:HULBOF_C_10,
+        ns1:HULBOF_C_11,
+        ns1:HULBOF_C_6,
+        ns1:HULBOF_C_7,
+        ns1:HULBOF_C_8,
+        ns1:HULBOF_C_9,
+        ns1:HULBOF_H_12,
+        ns1:HULBOF_H_13,
+        ns1:HULBOF_H_14,
+        ns1:HULBOF_H_15,
+        ns1:HULBOF_H_16,
+        ns1:HULBOF_H_17,
+        ns1:HULBOF_H_18,
+        ns1:HULBOF_H_19,
+        ns1:HULBOF_H_20,
+        ns1:HULBOF_H_21,
+        ns1:HULBOF_H_22,
+        ns1:HULBOF_H_23,
+        ns1:HULBOF_N_3,
+        ns1:HULBOF_N_4,
+        ns1:HULBOF_N_5,
+        ns1:HULBOF_P_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand497-0> ;
+    ns5:bLl ns4:HULBOF_bondL_ligand497-0_1_0 .
+
+ns1:HULBOF_Br_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_Br_0> .
+
+ns1:HULBOF_Br_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/Br> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_Br_1> .
+
+ns1:HULBOF_P_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns2:b <resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_6>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_8>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_9>,
+        <resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_P_1> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_10_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_10_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_11_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_11_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_H_22> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_H_23> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_6_N_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_H_20> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_H_21> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_7_N_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_8_H_18> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_8_H_19> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_C_9_N_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_N_3_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_N_3_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_N_4_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_N_4_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_N_5_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_N_5_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_P_1_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_Br_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_Br_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/HULBOF_bond_Pd_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:HULBOF_bondL_ligand3-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:HULBOF_Br_0 .
+
+ns4:HULBOF_bondL_ligand3-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:HULBOF_Br_1 .
+
+ns4:HULBOF_bondL_ligand497-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:HULBOF_P_1 .
+

@@ -1,0 +1,60 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/ligand/structure/> .
+@prefix ns3: <resource://integreat/p5/ligand/bond/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/atomic/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/atomic/atom/> .
+
+ns4:WUBNEM ns4:hasLigand ns1:WUBNEM_ligand1-0_0,
+        ns1:WUBNEM_ligand1-0_1,
+        ns1:WUBNEM_ligand24-0_0 ;
+    ns4:hasMetalCentre ns6:WUBNEM_metalCentre_W .
+
+ns7:WUBNEM_W_0 ns7:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns5:b <resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_Cl_1>,
+        <resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_O_2> .
+
+ns6:WUBNEM_metalCentre_W ns6:hasAtom ns7:WUBNEM_W_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns2:bLc ns3:WUBNEM_bondL_ligand1-0_0_0,
+        ns3:WUBNEM_bondL_ligand1-0_1_0,
+        ns3:WUBNEM_bondL_ligand24-0_0_0 .
+
+ns1:WUBNEM_ligand1-0_0 ns1:hasAtom ns7:WUBNEM_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns2:bLl ns3:WUBNEM_bondL_ligand1-0_0_0 .
+
+ns1:WUBNEM_ligand1-0_1 ns1:hasAtom ns7:WUBNEM_Cl_1 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns2:bLl ns3:WUBNEM_bondL_ligand1-0_1_0 .
+
+ns1:WUBNEM_ligand24-0_0 ns1:hasAtom ns7:WUBNEM_O_2 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand24-0> ;
+    ns2:bLl ns3:WUBNEM_bondL_ligand24-0_0_0 .
+
+ns7:WUBNEM_Cl_0 ns7:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns5:b <resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_Cl_0> .
+
+ns7:WUBNEM_Cl_1 ns7:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns5:b <resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_Cl_1> .
+
+ns7:WUBNEM_O_2 ns7:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns5:b <resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_O_2> .
+
+<resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/WUBNEM_bond_W_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns3:WUBNEM_bondL_ligand1-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns7:WUBNEM_Cl_0 .
+
+ns3:WUBNEM_bondL_ligand1-0_1_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns7:WUBNEM_Cl_1 .
+
+ns3:WUBNEM_bondL_ligand24-0_0_0 a ns3:LigandBond ;
+    ns3:hasBindingAtom ns7:WUBNEM_O_2 .
+

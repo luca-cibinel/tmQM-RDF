@@ -1,0 +1,281 @@
+@prefix ns1: <resource://integreat/p5/atomic/atom/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/atomic/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/complex/TMC/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns5:YOXXAK ns5:hasLigand ns2:YOXXAK_ligand4-0_0,
+        ns2:YOXXAK_ligand4-0_1,
+        ns2:YOXXAK_ligand8363-0_0 ;
+    ns5:hasMetalCentre ns6:YOXXAK_metalCentre_W .
+
+ns1:YOXXAK_C_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_8_C_10>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_9_C_10> .
+
+ns1:YOXXAK_C_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_10_C_11>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_11_C_16>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_10_C_11> .
+
+ns1:YOXXAK_C_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_11_C_12>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_11_C_12>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_12_C_12> .
+
+ns1:YOXXAK_C_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_12_C_13>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_13_C_13>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_14_C_13> .
+
+ns1:YOXXAK_C_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_13_C_14>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_15_C_14>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_16_C_14> .
+
+ns1:YOXXAK_C_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_14_C_15>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_17_C_15>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_18_C_15> .
+
+ns1:YOXXAK_C_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_11_C_16>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_15_C_16>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_19_C_16>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_2_C_16> .
+
+ns1:YOXXAK_C_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_8_C_17>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_2_C_17>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_3_C_17> .
+
+ns1:YOXXAK_H_10 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_10_C_11> .
+
+ns1:YOXXAK_H_11 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_11_C_12> .
+
+ns1:YOXXAK_H_12 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_12_C_12> .
+
+ns1:YOXXAK_H_13 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_13_C_13> .
+
+ns1:YOXXAK_H_14 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_14_C_13> .
+
+ns1:YOXXAK_H_15 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_15_C_14> .
+
+ns1:YOXXAK_H_16 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_16_C_14> .
+
+ns1:YOXXAK_H_17 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_17_C_15> .
+
+ns1:YOXXAK_H_18 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_18_C_15> .
+
+ns1:YOXXAK_H_19 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_19_C_16> .
+
+ns1:YOXXAK_H_5 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_5_C_7> .
+
+ns1:YOXXAK_H_6 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_6_C_7> .
+
+ns1:YOXXAK_H_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_7_C_9> .
+
+ns1:YOXXAK_H_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_8_C_10> .
+
+ns1:YOXXAK_H_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_9_C_10> .
+
+ns1:YOXXAK_O_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_0_C_0> .
+
+ns1:YOXXAK_O_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_1_C_1> .
+
+ns1:YOXXAK_O_2 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_2_C_16>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_2_C_17> .
+
+ns1:YOXXAK_O_3 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_3_C_17> .
+
+ns1:YOXXAK_W_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_7>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_8>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_9> .
+
+ns6:YOXXAK_metalCentre_W ns6:hasAtom ns1:YOXXAK_W_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns7:bLc ns4:YOXXAK_bondL_ligand4-0_0_0,
+        ns4:YOXXAK_bondL_ligand4-0_1_0,
+        ns4:YOXXAK_bondL_ligand8363-0_0_0 .
+
+ns2:YOXXAK_ligand4-0_0 ns2:hasAtom ns1:YOXXAK_C_0,
+        ns1:YOXXAK_O_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns7:bLl ns4:YOXXAK_bondL_ligand4-0_0_0 .
+
+ns2:YOXXAK_ligand4-0_1 ns2:hasAtom ns1:YOXXAK_C_1,
+        ns1:YOXXAK_O_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns7:bLl ns4:YOXXAK_bondL_ligand4-0_1_0 .
+
+ns2:YOXXAK_ligand8363-0_0 ns2:hasAtom ns1:YOXXAK_C_10,
+        ns1:YOXXAK_C_11,
+        ns1:YOXXAK_C_12,
+        ns1:YOXXAK_C_13,
+        ns1:YOXXAK_C_14,
+        ns1:YOXXAK_C_15,
+        ns1:YOXXAK_C_16,
+        ns1:YOXXAK_C_17,
+        ns1:YOXXAK_C_7,
+        ns1:YOXXAK_C_8,
+        ns1:YOXXAK_C_9,
+        ns1:YOXXAK_H_10,
+        ns1:YOXXAK_H_11,
+        ns1:YOXXAK_H_12,
+        ns1:YOXXAK_H_13,
+        ns1:YOXXAK_H_14,
+        ns1:YOXXAK_H_15,
+        ns1:YOXXAK_H_16,
+        ns1:YOXXAK_H_17,
+        ns1:YOXXAK_H_18,
+        ns1:YOXXAK_H_19,
+        ns1:YOXXAK_H_5,
+        ns1:YOXXAK_H_6,
+        ns1:YOXXAK_H_7,
+        ns1:YOXXAK_H_8,
+        ns1:YOXXAK_H_9,
+        ns1:YOXXAK_O_2,
+        ns1:YOXXAK_O_3 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand8363-0> ;
+    ns7:bLl ns4:YOXXAK_bondL_ligand8363-0_0_0 .
+
+ns1:YOXXAK_C_0 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_0> .
+
+ns1:YOXXAK_C_1 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_O_1_C_1>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_1> .
+
+ns1:YOXXAK_C_7 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_5_C_7>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_6_C_7>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_7> .
+
+ns1:YOXXAK_C_8 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_8_C_17>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_8> .
+
+ns1:YOXXAK_C_9 ns1:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns3:b <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_C_9_C_10>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_H_7_C_9>,
+        <resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_9> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_11_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_12_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_13_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_14_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_15_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_8_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_C_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_10_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_11_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_12_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_13_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_14_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_15_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_16_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_17_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_18_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_19_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_5_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_7_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_8_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_H_9_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_O_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_O_2_C_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_O_2_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_O_3_C_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/YOXXAK_bond_W_0_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:YOXXAK_bondL_ligand4-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:YOXXAK_C_0 .
+
+ns4:YOXXAK_bondL_ligand4-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:YOXXAK_C_1 .
+
+ns4:YOXXAK_bondL_ligand8363-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns1:YOXXAK_C_7,
+        ns1:YOXXAK_C_8,
+        ns1:YOXXAK_C_9 .
+

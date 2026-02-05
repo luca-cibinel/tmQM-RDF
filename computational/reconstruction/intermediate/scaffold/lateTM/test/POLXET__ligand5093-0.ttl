@@ -1,0 +1,66 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/complex/TMC/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/atomic/atom/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns2:POLXET ns2:hasLigand ns3:POLXET_ligand1-0_0,
+        ns3:POLXET_ligand1858-0_0 ;
+    ns2:hasMetalCentre ns7:POLXET_metalCentre_Pd .
+
+ns6:POLXET_Cl_1 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/POLXET_bond_Cl_1_C_0> .
+
+ns6:POLXET_H_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/POLXET_bond_C_0_H_0> .
+
+ns6:POLXET_H_1 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/POLXET_bond_C_0_H_1> .
+
+ns6:POLXET_Pd_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns1:b <resource://integreat/p5/atomic/bond/POLXET_bond_Pd_0_C_0>,
+        <resource://integreat/p5/atomic/bond/POLXET_bond_Pd_0_Cl_0> .
+
+ns7:POLXET_metalCentre_Pd ns7:hasAtom ns6:POLXET_Pd_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns5:bLc ns4:POLXET_bondL_ligand1-0_0_0,
+        ns4:POLXET_bondL_ligand1858-0_0_0 .
+
+ns3:POLXET_ligand1-0_0 ns3:hasAtom ns6:POLXET_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns5:bLl ns4:POLXET_bondL_ligand1-0_0_0 .
+
+ns3:POLXET_ligand1858-0_0 ns3:hasAtom ns6:POLXET_C_0,
+        ns6:POLXET_Cl_1,
+        ns6:POLXET_H_0,
+        ns6:POLXET_H_1 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1858-0> ;
+    ns5:bLl ns4:POLXET_bondL_ligand1858-0_0_0 .
+
+ns6:POLXET_C_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/POLXET_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/POLXET_bond_C_0_H_1>,
+        <resource://integreat/p5/atomic/bond/POLXET_bond_Cl_1_C_0>,
+        <resource://integreat/p5/atomic/bond/POLXET_bond_Pd_0_C_0> .
+
+ns6:POLXET_Cl_0 ns6:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns1:b <resource://integreat/p5/atomic/bond/POLXET_bond_Pd_0_Cl_0> .
+
+<resource://integreat/p5/atomic/bond/POLXET_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/POLXET_bond_C_0_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/POLXET_bond_Cl_1_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/POLXET_bond_Pd_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/POLXET_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:POLXET_bondL_ligand1-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:POLXET_Cl_0 .
+
+ns4:POLXET_bondL_ligand1858-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns6:POLXET_C_0 .
+

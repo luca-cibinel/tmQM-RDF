@@ -1,0 +1,45 @@
+@prefix ns1: <resource://integreat/p5/ligand/centre/> .
+@prefix ns2: <resource://integreat/p5/complex/TMC/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/ligand/structure/> .
+@prefix ns5: <resource://integreat/p5/ligand/bond/> .
+@prefix ns6: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns7: <resource://integreat/p5/atomic/structure/> .
+
+ns2:AHOHUB ns2:hasLigand ns6:AHOHUB_ligand1-0_0,
+        ns6:AHOHUB_ligand1-0_1 ;
+    ns2:hasMetalCentre ns1:AHOHUB_metalCentre_Pd .
+
+ns3:AHOHUB_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns7:b <resource://integreat/p5/atomic/bond/AHOHUB_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/AHOHUB_bond_Pd_0_Cl_1> .
+
+ns1:AHOHUB_metalCentre_Pd ns1:hasAtom ns3:AHOHUB_Pd_0 ;
+    ns1:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns4:bLc ns5:AHOHUB_bondL_ligand1-0_0_0,
+        ns5:AHOHUB_bondL_ligand1-0_1_0 .
+
+ns6:AHOHUB_ligand1-0_0 ns6:hasAtom ns3:AHOHUB_Cl_0 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns5:AHOHUB_bondL_ligand1-0_0_0 .
+
+ns6:AHOHUB_ligand1-0_1 ns6:hasAtom ns3:AHOHUB_Cl_1 ;
+    ns6:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns4:bLl ns5:AHOHUB_bondL_ligand1-0_1_0 .
+
+ns3:AHOHUB_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns7:b <resource://integreat/p5/atomic/bond/AHOHUB_bond_Pd_0_Cl_0> .
+
+ns3:AHOHUB_Cl_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns7:b <resource://integreat/p5/atomic/bond/AHOHUB_bond_Pd_0_Cl_1> .
+
+<resource://integreat/p5/atomic/bond/AHOHUB_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/AHOHUB_bond_Pd_0_Cl_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns5:AHOHUB_bondL_ligand1-0_0_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:AHOHUB_Cl_0 .
+
+ns5:AHOHUB_bondL_ligand1-0_1_0 a ns5:LigandBond ;
+    ns5:hasBindingAtom ns3:AHOHUB_Cl_1 .
+

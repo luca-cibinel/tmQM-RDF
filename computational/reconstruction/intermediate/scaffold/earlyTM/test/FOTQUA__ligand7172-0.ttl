@@ -1,0 +1,81 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns3: <resource://integreat/p5/complex/TMC/> .
+@prefix ns4: <resource://integreat/p5/atomic/atom/> .
+@prefix ns5: <resource://integreat/p5/ligand/structure/> .
+@prefix ns6: <resource://integreat/p5/ligand/centre/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns3:FOTQUA ns3:hasLigand ns2:FOTQUA_ligand4-0_0,
+        ns2:FOTQUA_ligand4-0_1,
+        ns2:FOTQUA_ligand4-0_2 ;
+    ns3:hasMetalCentre ns6:FOTQUA_metalCentre_W .
+
+ns4:FOTQUA_O_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_O_0_C_0> .
+
+ns4:FOTQUA_O_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_O_1_C_1> .
+
+ns4:FOTQUA_O_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_O_2_C_2> .
+
+ns4:FOTQUA_W_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_1>,
+        <resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_2> .
+
+ns6:FOTQUA_metalCentre_W ns6:hasAtom ns4:FOTQUA_W_0 ;
+    ns6:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns5:bLc ns7:FOTQUA_bondL_ligand4-0_0_0,
+        ns7:FOTQUA_bondL_ligand4-0_1_0,
+        ns7:FOTQUA_bondL_ligand4-0_2_0 .
+
+ns2:FOTQUA_ligand4-0_0 ns2:hasAtom ns4:FOTQUA_C_0,
+        ns4:FOTQUA_O_0 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns7:FOTQUA_bondL_ligand4-0_0_0 .
+
+ns2:FOTQUA_ligand4-0_1 ns2:hasAtom ns4:FOTQUA_C_1,
+        ns4:FOTQUA_O_1 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns7:FOTQUA_bondL_ligand4-0_1_0 .
+
+ns2:FOTQUA_ligand4-0_2 ns2:hasAtom ns4:FOTQUA_C_2,
+        ns4:FOTQUA_O_2 ;
+    ns2:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand4-0> ;
+    ns5:bLl ns7:FOTQUA_bondL_ligand4-0_2_0 .
+
+ns4:FOTQUA_C_0 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_O_0_C_0>,
+        <resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_0> .
+
+ns4:FOTQUA_C_1 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_O_1_C_1>,
+        <resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_1> .
+
+ns4:FOTQUA_C_2 ns4:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/FOTQUA_bond_O_2_C_2>,
+        <resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_2> .
+
+<resource://integreat/p5/atomic/bond/FOTQUA_bond_O_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FOTQUA_bond_O_1_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FOTQUA_bond_O_2_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/FOTQUA_bond_W_0_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:FOTQUA_bondL_ligand4-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:FOTQUA_C_0 .
+
+ns7:FOTQUA_bondL_ligand4-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:FOTQUA_C_1 .
+
+ns7:FOTQUA_bondL_ligand4-0_2_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns4:FOTQUA_C_2 .
+

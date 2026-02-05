@@ -1,0 +1,234 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/bond/> .
+@prefix ns5: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/centre/> .
+
+ns6:EQADIL ns6:hasLigand ns5:EQADIL_ligand115-0_0,
+        ns5:EQADIL_ligand686-0_0,
+        ns5:EQADIL_ligand686-0_1 ;
+    ns6:hasMetalCentre ns7:EQADIL_metalCentre_W .
+
+ns2:EQADIL_C_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_0_H_0>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_N_0_C_0> .
+
+ns2:EQADIL_C_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_1_H_1> .
+
+ns2:EQADIL_C_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_2_H_2> .
+
+ns2:EQADIL_C_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_3_H_3> .
+
+ns2:EQADIL_C_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_N_0_C_4> .
+
+ns2:EQADIL_C_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_N_1_C_5> .
+
+ns2:EQADIL_C_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_6_H_4> .
+
+ns2:EQADIL_C_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_6_C_7>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_7_H_5> .
+
+ns2:EQADIL_C_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_7_C_8>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_8_H_6> .
+
+ns2:EQADIL_C_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_8_C_9>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_C_9_H_7>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_N_1_C_9> .
+
+ns2:EQADIL_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_0_H_0> .
+
+ns2:EQADIL_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_1_H_1> .
+
+ns2:EQADIL_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_2_H_2> .
+
+ns2:EQADIL_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_3_H_3> .
+
+ns2:EQADIL_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_6_H_4> .
+
+ns2:EQADIL_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_7_H_5> .
+
+ns2:EQADIL_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_8_H_6> .
+
+ns2:EQADIL_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_C_9_H_7> .
+
+ns2:EQADIL_W_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/W> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_N_0>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_N_1>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_0>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_1>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_2>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_3> .
+
+ns7:EQADIL_metalCentre_W ns7:hasAtom ns2:EQADIL_W_0 ;
+    ns7:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_W> ;
+    ns3:bLc ns4:EQADIL_bondL_ligand115-0_0_0,
+        ns4:EQADIL_bondL_ligand115-0_0_1,
+        ns4:EQADIL_bondL_ligand686-0_0_0,
+        ns4:EQADIL_bondL_ligand686-0_1_0 .
+
+ns5:EQADIL_ligand115-0_0 ns5:hasAtom ns2:EQADIL_C_0,
+        ns2:EQADIL_C_1,
+        ns2:EQADIL_C_2,
+        ns2:EQADIL_C_3,
+        ns2:EQADIL_C_4,
+        ns2:EQADIL_C_5,
+        ns2:EQADIL_C_6,
+        ns2:EQADIL_C_7,
+        ns2:EQADIL_C_8,
+        ns2:EQADIL_C_9,
+        ns2:EQADIL_H_0,
+        ns2:EQADIL_H_1,
+        ns2:EQADIL_H_2,
+        ns2:EQADIL_H_3,
+        ns2:EQADIL_H_4,
+        ns2:EQADIL_H_5,
+        ns2:EQADIL_H_6,
+        ns2:EQADIL_H_7,
+        ns2:EQADIL_N_0,
+        ns2:EQADIL_N_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand115-0> ;
+    ns3:bLl ns4:EQADIL_bondL_ligand115-0_0_0,
+        ns4:EQADIL_bondL_ligand115-0_0_1 .
+
+ns5:EQADIL_ligand686-0_0 ns5:hasAtom ns2:EQADIL_O_0,
+        ns2:EQADIL_O_1 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand686-0> ;
+    ns3:bLl ns4:EQADIL_bondL_ligand686-0_0_0 .
+
+ns5:EQADIL_ligand686-0_1 ns5:hasAtom ns2:EQADIL_O_2,
+        ns2:EQADIL_O_3 ;
+    ns5:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand686-0> ;
+    ns3:bLl ns4:EQADIL_bondL_ligand686-0_1_0 .
+
+ns2:EQADIL_N_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_N_0_C_0>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_N_0_C_4>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_N_0> .
+
+ns2:EQADIL_N_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_N_1_C_5>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_N_1_C_9>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_N_1> .
+
+ns2:EQADIL_O_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_O_0_O_1>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_0> .
+
+ns2:EQADIL_O_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_O_0_O_1>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_1> .
+
+ns2:EQADIL_O_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_O_2_O_3>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_2> .
+
+ns2:EQADIL_O_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/O> ;
+    ns1:b <resource://integreat/p5/atomic/bond/EQADIL_bond_O_2_O_3>,
+        <resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_3> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_0_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_1_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_2_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_3_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_6_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_7_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_7_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_8_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_8_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_C_9_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_N_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_N_0_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_N_1_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_N_1_C_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_O_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_O_2_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_N_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/EQADIL_bond_W_0_O_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns4:EQADIL_bondL_ligand115-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:EQADIL_N_0 .
+
+ns4:EQADIL_bondL_ligand115-0_0_1 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:EQADIL_N_1 .
+
+ns4:EQADIL_bondL_ligand686-0_0_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:EQADIL_O_0,
+        ns2:EQADIL_O_1 .
+
+ns4:EQADIL_bondL_ligand686-0_1_0 a ns4:LigandBond ;
+    ns4:hasBindingAtom ns2:EQADIL_O_2,
+        ns2:EQADIL_O_3 .
+

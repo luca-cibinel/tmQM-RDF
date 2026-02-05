@@ -1,0 +1,30 @@
+@prefix ns1: <resource://integreat/p5/ligand/bond/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/atomic/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/structure/> .
+
+ns4:QOYCEO ns4:hasLigand ns3:QOYCEO_ligand1-0_0 ;
+    ns4:hasMetalCentre ns5:QOYCEO_metalCentre_Pt .
+
+ns2:QOYCEO_Pt_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Pt> ;
+    ns6:b <resource://integreat/p5/atomic/bond/QOYCEO_bond_Pt_0_Cl_0> .
+
+ns5:QOYCEO_metalCentre_Pt ns5:hasAtom ns2:QOYCEO_Pt_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pt> ;
+    ns7:bLc ns1:QOYCEO_bondL_ligand1-0_0_0 .
+
+ns3:QOYCEO_ligand1-0_0 ns3:hasAtom ns2:QOYCEO_Cl_0 ;
+    ns3:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns7:bLl ns1:QOYCEO_bondL_ligand1-0_0_0 .
+
+ns2:QOYCEO_Cl_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns6:b <resource://integreat/p5/atomic/bond/QOYCEO_bond_Pt_0_Cl_0> .
+
+<resource://integreat/p5/atomic/bond/QOYCEO_bond_Pt_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns1:QOYCEO_bondL_ligand1-0_0_0 a ns1:LigandBond ;
+    ns1:hasBindingAtom ns2:QOYCEO_Cl_0 .
+

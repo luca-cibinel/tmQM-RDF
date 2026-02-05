@@ -1,0 +1,213 @@
+@prefix ns1: <resource://integreat/p5/atomic/structure/> .
+@prefix ns2: <resource://integreat/p5/atomic/atom/> .
+@prefix ns3: <resource://integreat/p5/ligand/structure/> .
+@prefix ns4: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/complex/TMC/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns6:VAMMOL ns6:hasLigand ns4:VAMMOL_ligand38-0_0,
+        ns4:VAMMOL_ligand38-0_1 ;
+    ns6:hasMetalCentre ns5:VAMMOL_metalCentre_Ni .
+
+ns2:VAMMOL_C_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_3>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_4>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_5>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_10> .
+
+ns2:VAMMOL_C_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_0>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_1>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_2>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_11> .
+
+ns2:VAMMOL_C_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_6>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_7>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_8>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_12> .
+
+ns2:VAMMOL_C_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_10>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_11>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_9>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_13> .
+
+ns2:VAMMOL_C_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_12>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_13>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_14>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_14> .
+
+ns2:VAMMOL_C_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_15>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_16>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_17>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_15> .
+
+ns2:VAMMOL_H_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_0> .
+
+ns2:VAMMOL_H_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_1> .
+
+ns2:VAMMOL_H_10 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_10> .
+
+ns2:VAMMOL_H_11 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_11> .
+
+ns2:VAMMOL_H_12 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_12> .
+
+ns2:VAMMOL_H_13 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_13> .
+
+ns2:VAMMOL_H_14 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_14> .
+
+ns2:VAMMOL_H_15 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_15> .
+
+ns2:VAMMOL_H_16 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_16> .
+
+ns2:VAMMOL_H_17 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_17> .
+
+ns2:VAMMOL_H_2 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_2> .
+
+ns2:VAMMOL_H_3 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_3> .
+
+ns2:VAMMOL_H_4 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_4> .
+
+ns2:VAMMOL_H_5 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_5> .
+
+ns2:VAMMOL_H_6 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_6> .
+
+ns2:VAMMOL_H_7 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_7> .
+
+ns2:VAMMOL_H_8 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_8> .
+
+ns2:VAMMOL_H_9 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_9> .
+
+ns2:VAMMOL_Ni_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/Ni> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_Ni_0_P_1> .
+
+ns5:VAMMOL_metalCentre_Ni ns5:hasAtom ns2:VAMMOL_Ni_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Ni> ;
+    ns3:bLc ns7:VAMMOL_bondL_ligand38-0_0_0,
+        ns7:VAMMOL_bondL_ligand38-0_1_0 .
+
+ns4:VAMMOL_ligand38-0_0 ns4:hasAtom ns2:VAMMOL_C_10,
+        ns2:VAMMOL_C_11,
+        ns2:VAMMOL_C_12,
+        ns2:VAMMOL_H_0,
+        ns2:VAMMOL_H_1,
+        ns2:VAMMOL_H_2,
+        ns2:VAMMOL_H_3,
+        ns2:VAMMOL_H_4,
+        ns2:VAMMOL_H_5,
+        ns2:VAMMOL_H_6,
+        ns2:VAMMOL_H_7,
+        ns2:VAMMOL_H_8,
+        ns2:VAMMOL_P_0 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns3:bLl ns7:VAMMOL_bondL_ligand38-0_0_0 .
+
+ns4:VAMMOL_ligand38-0_1 ns4:hasAtom ns2:VAMMOL_C_13,
+        ns2:VAMMOL_C_14,
+        ns2:VAMMOL_C_15,
+        ns2:VAMMOL_H_10,
+        ns2:VAMMOL_H_11,
+        ns2:VAMMOL_H_12,
+        ns2:VAMMOL_H_13,
+        ns2:VAMMOL_H_14,
+        ns2:VAMMOL_H_15,
+        ns2:VAMMOL_H_16,
+        ns2:VAMMOL_H_17,
+        ns2:VAMMOL_H_9,
+        ns2:VAMMOL_P_1 ;
+    ns4:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand38-0> ;
+    ns3:bLl ns7:VAMMOL_bondL_ligand38-0_1_0 .
+
+ns2:VAMMOL_P_0 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_Ni_0_P_0>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_10>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_11>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_12> .
+
+ns2:VAMMOL_P_1 ns2:isAtom <resource://integreat/p5/atomic/atom/reference/P> ;
+    ns1:b <resource://integreat/p5/atomic/bond/VAMMOL_bond_Ni_0_P_1>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_13>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_14>,
+        <resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_15> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_10_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_11_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_12_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_13_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_14_H_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_16> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_C_15_H_17> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_Ni_0_P_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_Ni_0_P_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_P_0_C_12> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_13> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_14> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/VAMMOL_bond_P_1_C_15> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:VAMMOL_bondL_ligand38-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:VAMMOL_P_0 .
+
+ns7:VAMMOL_bondL_ligand38-0_1_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns2:VAMMOL_P_1 .
+

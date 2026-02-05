@@ -1,0 +1,205 @@
+@prefix ns1: <resource://integreat/p5/ligand/ligand/> .
+@prefix ns2: <resource://integreat/p5/atomic/structure/> .
+@prefix ns3: <resource://integreat/p5/atomic/atom/> .
+@prefix ns4: <resource://integreat/p5/complex/TMC/> .
+@prefix ns5: <resource://integreat/p5/ligand/centre/> .
+@prefix ns6: <resource://integreat/p5/ligand/structure/> .
+@prefix ns7: <resource://integreat/p5/ligand/bond/> .
+
+ns4:CETXOP ns4:hasLigand ns1:CETXOP_ligand1-0_0,
+        ns1:CETXOP_ligand162-0_0 ;
+    ns4:hasMetalCentre ns5:CETXOP_metalCentre_Pd .
+
+ns3:CETXOP_C_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_1_H_0> .
+
+ns3:CETXOP_C_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_1_C_2>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_2_H_1> .
+
+ns3:CETXOP_C_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_2_C_3>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_3_H_2> .
+
+ns3:CETXOP_C_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_3_C_4>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_4_H_3> .
+
+ns3:CETXOP_C_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_4_C_5>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_5_C_6> .
+
+ns3:CETXOP_C_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_5_C_6>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_6_H_4>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_6_H_5>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_6> .
+
+ns3:CETXOP_C_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_6>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_7>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_8>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_7> .
+
+ns3:CETXOP_C_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_10>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_11>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_9>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_8> .
+
+ns3:CETXOP_H_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_1_H_0> .
+
+ns3:CETXOP_H_1 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_2_H_1> .
+
+ns3:CETXOP_H_10 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_10> .
+
+ns3:CETXOP_H_11 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_11> .
+
+ns3:CETXOP_H_2 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_3_H_2> .
+
+ns3:CETXOP_H_3 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_4_H_3> .
+
+ns3:CETXOP_H_4 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_6_H_4> .
+
+ns3:CETXOP_H_5 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_6_H_5> .
+
+ns3:CETXOP_H_6 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_6> .
+
+ns3:CETXOP_H_7 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_7> .
+
+ns3:CETXOP_H_8 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_8> .
+
+ns3:CETXOP_H_9 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/H> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_9> .
+
+ns3:CETXOP_Pd_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Pd> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_C_0>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_Cl_0>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_N_0> .
+
+ns5:CETXOP_metalCentre_Pd ns5:hasAtom ns3:CETXOP_Pd_0 ;
+    ns5:isMetalCentre <resource://integreat/p5/ligand/centre/reference/MetalCentre_Pd> ;
+    ns6:bLc ns7:CETXOP_bondL_ligand1-0_0_0,
+        ns7:CETXOP_bondL_ligand162-0_0_0,
+        ns7:CETXOP_bondL_ligand162-0_0_1 .
+
+ns1:CETXOP_ligand1-0_0 ns1:hasAtom ns3:CETXOP_Cl_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand1-0> ;
+    ns6:bLl ns7:CETXOP_bondL_ligand1-0_0_0 .
+
+ns1:CETXOP_ligand162-0_0 ns1:hasAtom ns3:CETXOP_C_0,
+        ns3:CETXOP_C_1,
+        ns3:CETXOP_C_2,
+        ns3:CETXOP_C_3,
+        ns3:CETXOP_C_4,
+        ns3:CETXOP_C_5,
+        ns3:CETXOP_C_6,
+        ns3:CETXOP_C_7,
+        ns3:CETXOP_C_8,
+        ns3:CETXOP_H_0,
+        ns3:CETXOP_H_1,
+        ns3:CETXOP_H_10,
+        ns3:CETXOP_H_11,
+        ns3:CETXOP_H_2,
+        ns3:CETXOP_H_3,
+        ns3:CETXOP_H_4,
+        ns3:CETXOP_H_5,
+        ns3:CETXOP_H_6,
+        ns3:CETXOP_H_7,
+        ns3:CETXOP_H_8,
+        ns3:CETXOP_H_9,
+        ns3:CETXOP_N_0 ;
+    ns1:isLigand <resource://integreat/p5/ligand/ligand/reference/Ligand_ligand162-0> ;
+    ns6:bLl ns7:CETXOP_bondL_ligand162-0_0_0,
+        ns7:CETXOP_bondL_ligand162-0_0_1 .
+
+ns3:CETXOP_C_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/C> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_C_0_C_1>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_C_0_C_5>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_C_0> .
+
+ns3:CETXOP_Cl_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/Cl> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_Cl_0> .
+
+ns3:CETXOP_N_0 ns3:isAtom <resource://integreat/p5/atomic/atom/reference/N> ;
+    ns2:b <resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_6>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_7>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_8>,
+        <resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_N_0> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_0_C_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_0_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_1_C_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_1_H_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_2_C_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_2_H_1> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_3_C_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_3_H_2> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_4_C_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_4_H_3> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_5_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_6_H_4> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_6_H_5> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_7_H_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_10> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_11> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_C_8_H_9> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_6> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_7> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_N_0_C_8> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_C_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_Cl_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+<resource://integreat/p5/atomic/bond/CETXOP_bond_Pd_0_N_0> a <resource://integreat/p5/atomic/bond/AtomicBond> .
+
+ns7:CETXOP_bondL_ligand1-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:CETXOP_Cl_0 .
+
+ns7:CETXOP_bondL_ligand162-0_0_0 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:CETXOP_N_0 .
+
+ns7:CETXOP_bondL_ligand162-0_0_1 a ns7:LigandBond ;
+    ns7:hasBindingAtom ns3:CETXOP_C_0 .
+
