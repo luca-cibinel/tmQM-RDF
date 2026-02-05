@@ -1,0 +1,23 @@
+INPUT_FILES:
+  intermediate: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/intermediate/%s
+  patterns: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_mining/results/%s
+  tmQM-RDF-1Ksel: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/data/derivative/tmQM-RDF-1Ksel/data/%s/1k_selection.csv
+agglomeration_settings:
+  aggregation:
+  - max
+  - set_median
+  dist_matrix_file: dist_matrix.pkl
+  linkage: average
+  min_n_clusters: 300
+children_directories:
+  cluster_storage_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12/by_metric
+  local_dataset_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12
+  pattern_storage_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12/patterns
+  results_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12/by_metric
+dataset_short_id: latmod
+dataset_tag: earlyTM-latmod-s_10_12
+date: '2025-11-28'
+dirs_to_prepare: []
+size_range:
+- 10
+- 12

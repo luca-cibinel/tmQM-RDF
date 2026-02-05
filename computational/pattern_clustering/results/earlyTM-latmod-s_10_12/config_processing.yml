@@ -1,0 +1,22 @@
+INPUT_FILES:
+  R:
+    domination: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/aux/compute_pattern_dominations.R
+    matches: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/aux/compute_pattern_matches.R
+    tools: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/vos_tools/vos_interface.R
+  patterns: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_mining/results/%s
+  tmQM-RDF: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/data/derivative/tmQM-RDF/data
+  tmQM-RDF-1Ksel: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/data/derivative/tmQM-RDF-1Ksel/data/%s/1k_selection.csv
+  vos_db_dir: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/temp/vos_db
+children_directories:
+  cluster_storage_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12/clusters
+  local_dataset_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12
+  pattern_storage_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12/patterns
+  results_directory: /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/results/earlyTM-latmod-s_10_12/clusters
+dataset_short_id: latmod
+dataset_tag: earlyTM-latmod-s_10_12
+date: '2025-11-25'
+dirs_to_prepare:
+- /Users/lucaci/Desktop/InteGreat_p5/prj_paper_1/computational/pattern_clustering/temp/vos_db
+size_range:
+- 10
+- 12
