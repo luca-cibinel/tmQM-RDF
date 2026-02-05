@@ -1,0 +1,160 @@
+SELECT *
+WHERE {
+GRAPH ?graph {?v1 <resource://integreat/p5/ligand/centre/isMetalCentre> ?v7 .
+?v1 <resource://integreat/p5/ligand/structure/bLc> ?v6 .
+?v1 <resource://integreat/p5/ligand/structure/bLc> ?v5 .
+?v1 <resource://integreat/p5/ligand/structure/bLc> ?v2 .
+?v0 <resource://integreat/p5/complex/TMC/hasMetalCentre> ?v1 .
+?v8 <resource://integreat/p5/atomic/atom/isAtom> <resource://integreat/p5/atomic/atom/reference/O> .
+?v9 <resource://integreat/p5/ligand/structure/bLl> ?v5 .
+?v3 <resource://integreat/p5/atomic/atom/isAtom> <resource://integreat/p5/atomic/atom/reference/P> .
+?v10 <resource://integreat/p5/ligand/structure/bLl> ?v4 .
+?v2 <resource://integreat/p5/ligand/bond/hasBindingAtom> ?v3 .
+?v1 <resource://integreat/p5/ligand/structure/bLc> ?v4 .
+?v4 <resource://integreat/p5/ligand/bond/hasBindingAtom> ?v8 .}
+FILTER (
+	?v7 != ?v1 &&
+	?v7 != ?v10 &&
+	?v7 != ?v3 &&
+	?v7 != ?v8 &&
+	?v7 != ?v5 &&
+	?v7 != ?v0 &&
+	?v7 != ?v6 &&
+	?v7 != ?v4 &&
+	?v7 != ?v2 &&
+	?v7 != ?v9 &&
+	?v1 != ?v10 &&
+	?v1 != ?v3 &&
+	?v1 != ?v8 &&
+	?v1 != ?v5 &&
+	?v1 != ?v0 &&
+	?v1 != ?v6 &&
+	?v1 != ?v4 &&
+	?v1 != ?v2 &&
+	?v1 != ?v9 &&
+	?v10 != ?v3 &&
+	?v10 != ?v8 &&
+	?v10 != ?v5 &&
+	?v10 != ?v0 &&
+	?v10 != ?v6 &&
+	?v10 != ?v4 &&
+	?v10 != ?v2 &&
+	?v10 != ?v9 &&
+	?v3 != ?v8 &&
+	?v3 != ?v5 &&
+	?v3 != ?v0 &&
+	?v3 != ?v6 &&
+	?v3 != ?v4 &&
+	?v3 != ?v2 &&
+	?v3 != ?v9 &&
+	?v8 != ?v5 &&
+	?v8 != ?v0 &&
+	?v8 != ?v6 &&
+	?v8 != ?v4 &&
+	?v8 != ?v2 &&
+	?v8 != ?v9 &&
+	?v5 != ?v0 &&
+	?v5 != ?v6 &&
+	?v5 != ?v4 &&
+	?v5 != ?v2 &&
+	?v5 != ?v9 &&
+	?v0 != ?v6 &&
+	?v0 != ?v4 &&
+	?v0 != ?v2 &&
+	?v0 != ?v9 &&
+	?v6 != ?v4 &&
+	?v6 != ?v2 &&
+	?v6 != ?v9 &&
+	?v4 != ?v2 &&
+	?v4 != ?v9 &&
+	?v2 != ?v9 &&
+	?v7 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v7 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v7 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v7 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v7 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v7 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v7 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v7 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v1 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v1 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v1 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v1 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v1 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v1 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v1 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v1 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v10 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v10 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v10 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v10 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v10 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v10 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v10 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v10 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v3 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v3 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v3 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v3 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v3 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v3 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v3 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v3 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v8 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v8 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v8 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v8 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v8 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v8 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v8 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v8 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v5 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v5 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v5 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v5 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v5 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v5 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v5 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v5 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v0 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v0 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v0 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v0 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v0 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v0 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v0 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v0 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v6 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v6 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v6 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v6 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v6 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v6 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v6 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v6 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v4 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v4 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v4 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v4 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v4 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v4 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v4 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v4 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v2 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v2 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v2 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v2 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v2 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v2 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v2 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v2 != <resource://integreat/p5/ligand/bond/hasBindingAtom> &&
+	?v9 != <resource://integreat/p5/ligand/centre/isMetalCentre> &&
+	?v9 != <resource://integreat/p5/atomic/atom/isAtom> &&
+	?v9 != <resource://integreat/p5/ligand/structure/bLc> &&
+	?v9 != <resource://integreat/p5/complex/TMC/hasMetalCentre> &&
+	?v9 != <resource://integreat/p5/ligand/structure/bLl> &&
+	?v9 != <resource://integreat/p5/atomic/atom/reference/P> &&
+	?v9 != <resource://integreat/p5/atomic/atom/reference/O> &&
+	?v9 != <resource://integreat/p5/ligand/bond/hasBindingAtom>
+)
+}
