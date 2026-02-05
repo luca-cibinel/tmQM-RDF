@@ -1,0 +1,115 @@
+LEVEL,PREFIX,PROPERTY NAME,LABEL,COMMENT
+atomic,tmAp,lone_pair_max_occupation,Lone pair: max occupation,Maximum electron occupation of the NBO lone pairs
+atomic,tmAp,natural_electron_configuration_d_occupation,Natural electron configuration: d occupation,Electron occupation of the d orbitals
+atomic,tmAp,n_lone_vacancies,Number of lone vacancies,Number of lone vacancy orbitals
+atomic,tmAp,natural_electron_population_valence,Natural electron population valence,Electron occupation of valence orbitals
+atomic,tmAp,lone_vacancy_min_energy,Lone vacancy: min energy,Minimum energy of lone vacancies
+atomic,tmAp,lone_vacancy_min_p_occupation,Lone vacancy: min p occupation,Minimum p occupation of lone vacancy orbitals
+atomic,tmAp,lone_pair_max_p_occupation,Lone pair: max p occupation,Maximum p occupation of lone pair orbitals
+atomic,tmAp,lone_pair_max_d_occupation,Lone pair: max d occupation,Maximum d occupation of lone pair orbitals
+atomic,tmAp,lone_vacancy_min_occupation,Lone vacancy: min occupation,Minimum occupation of lone vacancy orbitals
+atomic,tmAp,lone_pair_max_energy,Lone pair: max energy,Maximum energy of lone pair orbitals
+atomic,tmAp,lone_vacancy_min_s_occupation,Lone vacancy: min s occupation,Minimum s occupation of lone vacancy orbitals
+atomic,tmAp,natural_electron_configuration_s_occupation,Natural electron configuration: s occupation,Electron occupation of the s orbitals
+atomic,tmAp,node_position,Node position,Atom index in associated xyz geometry
+atomic,tmAp,lone_pair_energy_min_max_difference,Lone pair energy: min-max difference,Energy difference between lowest- and highest-energy lone pair orbitals
+atomic,tmAp,natural_atomic_charge,Natural atomic charge,"Natural atomic charge, in e units"
+atomic,tmAp,hydrogen_count,Hydrogen count,Number of hydrogen atoms bound to atomic node
+atomic,tmAp,n_lone_pairs,Number of lone pairs,Number of lone pair orbitals
+atomic,tmAp,lone_vacancy_min_d_occupation,Lone vacancy: min d occupation,Minimum d occupation of lone vacancy orbitals
+atomic,tmAp,lone_vacancy_energy_min_max_difference,Lone vacancy energy: min-max difference,Energy difference between lowest- and highest-energy lone vacancy orbitals
+atomic,tmAp,valency_index,Valency index,Valency index from NBO analysis
+atomic,tmAp,natural_electron_configuration_p_occupation,Natural electron configuration: p occupation,Electron occupation of the p orbitals
+atomic,tmAp,node_id,Node ID,"A unique internal identifier used to distinguish the nodes of the atomic graph (i.e., the atoms)."
+atomic,tmAp,lone_pair_max_s_occupation,Lone pair: max s occupation,Maximum s occupation of lone pair orbitals
+atomic,tmBp,bond_max_s_occupation,Bonding orbitals: max s occupation,Maximum s occupation of bonding orbitals
+atomic,tmBp,bond_max_p_occupation,Bonding orbitals: max p occupation,Maximum p occupation of bonding orbitals
+atomic,tmBp,wiberg_bond_order,Wiberg bond order,Wiberg bond order
+atomic,tmBp,nbo_type,NBO type,NBO type defining the bond
+atomic,tmBp,bond_max_energy,Bonding orbitals: max energy,Highest energy of bonding orbitals
+atomic,tmBp,bond_max_d_occupation,Bonding orbitals: max d occupation,Maximum d occupation of bonding orbitals
+atomic,tmBp,bond_energy_min_max_difference,Bonding orbitals: min-max difference,Energy difference between lowest- and highest-energy bonding orbitals
+atomic,tmBp,bond_distance,Bond distance,"Bond distance, in Å"
+atomic,tmBp,antibond_min_s_occupation,Antibonding orbitals: min s occupation,Minimum s occupation of antibonding orbitals
+atomic,tmBp,bond_max_occupation,Antibonding orbitals: max occupation,Maximum overall occupation of bonding orbitals
+atomic,tmBp,n_bn,Number of bonding orbitals,Number of bonding orbitals for bond
+atomic,tmBp,antibond_energy_min_max_difference,Antibonding orbitals: min-max difference,Energy difference between lowest- and highest-energy antibonding orbitals
+atomic,tmBp,antibond_min_occupation,Antibonding orbitals: min occupation,Minimum overall occupation of antibonding orbitals
+atomic,tmBp,n_nbn,Number of antibonding orbitals,Number of antibonding orbitals for bond
+atomic,tmBp,antibond_min_d_occupation,Antibonding orbitals: min d occupation,Minimum d occupation of antibonding orbitals
+atomic,tmBp,antibond_min_p_occupation,Antibonding orbitals: min p occupation,Minimum p occupation of antibonding orbitals
+atomic,tmBp,antibond_min_energy,Antibonding orbitals: min energy,Minimum energy of antibonding orbitals
+atomic,tmArp,atomic_number,Atomic number,Atomic number
+complex,cmTp,lowest_vibrational_frequency,Lowest vibrational frequency,Lowest vibrational frequency in cm-1
+complex,cmTp,metal_node_degree,Metal node degree,Metal node degree
+complex,cmTp,enthalpy_energy_correction,Enthalpy energy correction,Enthalpy energy correction
+complex,cmTp,homo_lumo_gap_delta,HOMO-LUMO gap,Change of HOMO-LUMO between different levels of theory
+complex,cmTp,heat_capacity,Heat capacity,Heat capacity
+complex,cmTp,metal_center_period,Periodic table period of the metal,Periodic table period of the metal
+complex,cmTp,metal_center_element,Metal element,Metal element
+complex,cmTp,n_atoms,Total number of atoms,Total number of atoms
+complex,cmTp,dipole_moment_delta,Dipole moment gap,Change of dipole moment between different levels of theory
+complex,cmTp,homo_lumo_gap,HOMO-LUMO gap,HOMO-LUMO gap
+complex,cmTp,CSD_years,Year of CSD update,Year of the CSD update to which the data refers to
+complex,cmTp,gibbs_energy_correction,Gibbs free energy correction,Gibbs free energy correction
+complex,cmTp,dipole_moment,Dipole moment,Dipole moment in Debyes
+complex,cmTp,metal_center_group,Periodic table group of the metal,Periodic table group of the metal
+complex,cmTp,electronic_energy_delta,Electronic energy gap,Electronic energy difference between the different levels of theory
+complex,cmTp,highest_vibrational_frequency,Highest vibrational frequency,"Vibrational frequency with the largest value, in cm-1"
+complex,cmTp,charge,Charge,Overal charge of the metal complex
+complex,cmTp,stoichiometry,Stoichiometry,"Stoichiometry of the metal complex, in Hill format"
+complex,cmTp,spin,Spin,Overal spin multiplicity of the metal complex
+complex,cmTp,dispersion_energy_delta,Dispersion energy gap,Dispersion energy difference between the different levels of theory
+complex,cmTp,metal_node_natural_charge,Natural atomic charge of metal node,"Natural atomic charge of the metal node, in e units"
+complex,cmTp,polarisability,Polarizability,Overal polarizability of the metal complex
+complex,cmTp,zpe_correction,Zero-point energy,Zero-point energy
+complex,cmTp,homo_energy,HOMO energy,HOMO energy
+complex,cmTp,electronic_energy,Electronic energy,Electronic energy
+complex,cmTp,dispersion_energy,Dispersion energy,Dispersion energy
+complex,cmTp,lumo_energy,LUMO energy,LUMO energy
+complex,cmTp,molecular_mass,Molecular mass,Molecular mass
+complex,cmTp,gibbs_energy,Gibbs energy,Gibbs energy
+complex,cmTp,element_counts,Element counts,Element counts
+complex,cmTp,n_electrons,Number of electrons,Total number of electrons in the metal complex
+complex,cmTp,enthalpy_energy,Enthalpy energy,Enthalpy energy
+complex,cmTp,entropy,Entropy energy,Entropy energy
+ligand,lgLrp,n_haptic_bound,Number of haptic bonds,Number of haptic bonds
+ligand,lgLrp,metal_bound_homo_energy,HOMO energy involving metal bound atom,HOMO energy involving metal bound atom
+ligand,lgLrp,I2_over_I3,Moments of inertia I2 and I3 ratio,Moments of inertia I2 and I3 ratio
+ligand,lgLrp,metal_bound_homo_p,p orbital character of metal-bound HOMO,p orbital character of metal-bound HOMO
+ligand,lgLrp,smiles_metal_bond_node_idx_groups,Indicies of metal-bound atoms in the SMILES,Indicies of metal-bound atoms in the SMILES
+ligand,lgLrp,solid_angle,Ligand coordination solid angle,Ligand coordination solid angle
+ligand,lgLrp,n_atoms,Ligand total number of atoms,Ligand total number of atoms
+ligand,lgLrp,homo_lumo_gap,Ligand HOMO-LUMO gap,Ligand HOMO-LUMO gap
+ligand,lgLrp,sasa_area_stable,Ligand SASA area (stable),Ligand SASA area (stable)
+ligand,lgLrp,buried_volume,Ligand buried volume,Ligand buried volume
+ligand,lgLrp,metal_bound_homo_f,f orbital character of metal-bound HOMO,f orbital character of metal-bound HOMO
+ligand,lgLrp,sasa_volume_free,SASA volume,Ligand SASA volume (free)
+ligand,lgLrp,metal_bound_lumo_d,d orbital character of metal-bound LUMO,d orbital character of metal-bound LUMO
+ligand,lgLrp,metal_bound_lumo_f,f orbital character of metal-bound LUMO,f orbital character of metal-bound LUMO
+ligand,lgLrp,haptic_element_counts,Haptic-metal-bound atoms count,Element-wise counting of haptic-metal-bound atoms
+ligand,lgLrp,dipole_moment,Dipole moment,Ligand dipole moment
+ligand,lgLrp,is_alternative_charge,Alternative charge w.r.t. OctLig,Whether the charge reported in tmQMg-L disagrees with the charge reported in the OctLig dataset for the same ligand
+ligand,lgLrp,metal_bound_lumo_p,p orbital character of metal-bound LUMO,p orbital character of metal-bound LUMO
+ligand,lgLrp,charge,Ligand charge,Ligand charge
+ligand,lgLrp,largest_frequency,Ligand largest frequency,Ligand largest frequency
+ligand,lgLrp,n_dentic_bound,Number of dentic-metal-bound atoms,Number of dentic-metal-bound atoms
+ligand,lgLrp,stable_occurrence,Most stable occurrence,The most stable occurrence of a ligand
+ligand,lgLrp,n_metal_bound,Number of metal-bound atoms,Number of metal-bound atoms
+ligand,lgLrp,metal_bound_lumo_s,s orbital character of metal-bound LUMO,s orbital character of metal-bound LUMO
+ligand,lgLrp,metal_bound_lumo_energy,Metal-bound LUMO energy,Metal-bound LUMO energy
+ligand,lgLrp,solid_cone_angle,Ligand solid cone angle,Ligand solid cone angle
+ligand,lgLrp,structure_counts,Structure counts,Counts of selected structures within ligands
+ligand,lgLrp,polarisability,Ligand polarizability,Ligand polarizability
+ligand,lgLrp,exact_cone_angle,Ligand exact cone angle,Ligand exact cone angle
+ligand,lgLrp,molar_volume,Ligand molar volume,Ligand molar volume
+ligand,lgLrp,sasa_area_free,Ligand SASA area (free),Ligand SASA area (free)
+ligand,lgLrp,I1_over_I3,Moments of inertia I1 and I3 ratio,Moments of inertia I1 and I3 ratio
+ligand,lgLrp,dentic_element_counts,Number of dentic-metal-bound atoms,Number of dentic-metal-bound atoms
+ligand,lgLrp,logp,Ligand logP,Ligand logP
+ligand,lgLrs,SMILES,Ligand SMILES,Ligand SMILES
+ligand,lgLrp,G_parameter,Ligand G parameter,Ligand G parameter
+ligand,lgLrp,element_counts,Element-wise count of ligand atoms,Element-wise count of ligand atoms
+ligand,lgLrp,sasa_volume_stable,Ligand SASA volume (stable),Ligand SASA volume (stable)
+ligand,lgLrp,metal_bound_homo_d,d orbital character of metal-bound HOMO,d orbital character of metal-bound HOMO
+ligand,lgLrp,metal_bound_homo_s,s orbital character of metal-bound HOMO,s orbital character of metal-bound HOMO

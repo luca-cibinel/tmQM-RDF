@@ -1,0 +1,2 @@
+- [**tmQM series**](/data/raw/tmQMseries): the original chemical datasets on which tmQM-RDF is based, namely the tmQM series 
+- [**pubChem**](/data/raw/pubChem):  the csv version of the pubChem periodic table

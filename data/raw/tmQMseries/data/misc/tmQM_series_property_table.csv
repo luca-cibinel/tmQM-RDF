@@ -1,0 +1,32 @@
+property_key;property_name;dataset;optimisation;singlepoint
+electronic_energy;Electronic energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+dispersion_energy;Dispersion energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+homo_energy;HOMO energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+lumo_energy;LUMO energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+homo_lumo_gap;HOMO-LUMO gap;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+dipole_moment;Dipole moment;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+polarisability;Polarizability;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+lowest_vibrational_frequency;Lowest vibrational frequency;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+highest_vibrational_frequency;Highest vibrational frequency;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+enthalpy_energy;Enthalpy;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+gibbs_energy;Gibbs energy;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+zpe_correction;ZPE correction;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+heat_capacity;Heat capacity;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+entropy;Entropy;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+electronic_energy;Electronic energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+dispersion_energy;Dispersion energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+homo_energy;HOMO energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+lumo_energy;LUMO energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+homo_lumo_gap;HOMO-LUMO gap;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+dipole_moment;Dipole moment;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+metal_node_natural_charge;Metal charge;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+polarisability;Polarizability;tmQM;GFN2-xTB;GFN2-xTB
+metal_bound_homo_energy;HOMO energy;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+metal_bound_lumo_energy;LUMO energy;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+homo_lumo_gap;HOMO-LUMO gap;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+dipole_moment;Dipole moment;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
+polarisability;Polarizability;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-SVP
+largest_frequency;Highest vibrational frequency;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+molar_volume;Molar volume;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+I1_over_I3;Moments of inertia;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+I2_over_I3;Moments of inertia;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
