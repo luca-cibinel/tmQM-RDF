@@ -1,21 +1,7 @@
-#'                     
-#'                         "'~-.       .-~'"
-#'                         |   .'"""""'.   |
-#'                         \`_"         "_'/
-#'                          )             (
-#'                          /   0     0   \
-#'                         <               >
-#'                       .< __.-'. _ .'-.__ >.
-#'                         "-.._  (#)  _..-"
-#'                              `-:_:-'
-#'                    
-#' Note: this file is meant for usage on a remote computational server (educloud - FOX HPC)
-#' 
-#' Required files (per dataset):
-#'  cls_matches.csv: the (binarised cluster-wise) feature matrix
-#'  cls_edges.csv: the dataset of the preliminary edges (two columns, heads and tails)
-#' Required files (global)
-#'  selection.csv: dataset selection (two columns, TMC and partition)
+#' Update ROOT.DIR (lines 33 and 35) with your own project root directory (location of '.prj_root')
+#' This script is meant to be launched via 'RScript 1_bn_learn.R [i]' where i = 1 loads the lateTM dataset selection
+#' and i = 2 loads the earlyTM selection
+#' Also remember to update the number of cores to be used (lines 54 and 56) to adapt to your own use case
 
 set.seed(863269655)
 rm(list = ls())
@@ -47,10 +33,9 @@ extract.path.tail <- function(path, tail = 3){
 # Header ====
 
 if(DEBUG){
-  ROOT.DIR <- "/Users/lucaci/Desktop/InteGreat_p5/prj_paper_1"
+  ROOT.DIR <- "."
 }else{
-  ROOT.DIR <- "/fp/projects01/ec287/ec-lucac/code/prj_paper1_3"
-  .libPaths(paste0(Sys.getenv("HOME"), "/rlibrary4.4.2"))
+  ROOT.DIR <- "."
 }
 
 if(USE.PCALG){

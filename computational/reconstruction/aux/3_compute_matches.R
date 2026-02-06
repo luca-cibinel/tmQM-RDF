@@ -1,6 +1,6 @@
 #' This code uses the virtuoso package as an interface with Virtuoso Open Source
 #' in order to compute the number of matches of the patterns identified via
-#' ../identify_candidate_patterns.py on the 1k selection of tmQM-RDF
+#' pattern_clustering/identify_candidate_patterns.py on the 1k selection of tmQM-RDF
 #' 
 #' The patterns are stored in a query of the form
 #'  SELECT *
@@ -23,55 +23,18 @@ path.join <-  function(...){
   return(paste0(paths, collapse = sep))
 }
 
-DEBUG <- F
+source(path.join(ROOT.DIR, "computational", "vos_tools", "vos_interface.R"))
 
-if(!DEBUG){
-  source(path.join(ROOT.DIR, "computational", "vos_tools", "vos_interface.R"))
-  
-  # RECON.FOLDER <- path.join(
-  #   ROOT.DIR, 
-  #   "computational", 
-  #   "reconstruction", 
-  #   "intermediate", 
-  #   "reconstructions", 
-  #   "rdf", 
-  #   TM.MODE
-  # )
-  
-  AVAILABLE.RECONSTRUCTIONS <- list.dirs(RECON.FOLDER, recursive = F)
-  
-  PATTERN.DIR <- path.join(
-    ROOT.DIR, 
-    "computational", 
-    "pattern_clustering", 
-    "results", 
-    PATTERN.DATASET.TAG, 
-    "patterns"
-  )
-  
-  # N.PROC <- 8
-}else{
-  source("/Users/lucaci/Desktop/InteGreat_p5/paper_1/computational/substructures/vos_tools/vos_interface.R")
-  WD0 <- "/Users/lucaci/Desktop/InteGreat_p5/paper_1/computational/substructures/bayes/inference/experiments/recon_experiments"
-  
-  available.reconstructions <- paste0(
-    "/Users/lucaci/Desktop/InteGreat_p5/paper_1/computational/substructures/bayes/inference/recon/recon", 
-    c(0, 1)
-  )
-  
-  pattern.dir <- "/Users/lucaci/Desktop/InteGreat_p5/paper_1/computational/substructures/processed_pattern_data/latmod_large__s_10_12/2025-08-25/patterns"
-  
-  if(dir.exists(path.join(WD0, "recon_matches"))){
-    unlink(path.join(WD0, "recon_matches"), recursive = T)
-  }
-  dir.create(path.join(WD0, "recon_matches"))
-  dir.create(path.join(WD0, "recon_matches", "recon0"))
-  dir.create(path.join(WD0, "recon_matches", "recon1"))
-  
-  sanity.check.dir <- "/Users/lucaci/Desktop/InteGreat_p5/paper_1/computational/substructures/bayes/inference/recon_matches"
-  
-  N.proc <- 8
-}
+AVAILABLE.RECONSTRUCTIONS <- list.dirs(RECON.FOLDER, recursive = F)
+
+PATTERN.DIR <- path.join(
+  ROOT.DIR, 
+  "computational", 
+  "pattern_clustering", 
+  "results", 
+  PATTERN.DATASET.TAG, 
+  "patterns"
+)
 
 VOS.DB.DIR <- path.join(
   ROOT.DIR, 
