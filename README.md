@@ -6,7 +6,7 @@ _Download links are available below_
 ![tmQM-RDF-1](/tmQM-RDF-1.png)
 ![tmQM-RDF-2](/tmQM-RDF-2.png)
 
-## Download links (coming soon)
+## Download links
  - **v2025dev**: development version [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)] [documentation]
 
 ## Release history:
