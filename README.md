@@ -1,5 +1,5 @@
 # tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes
-This repository contains the material associated with the publication presenting the tmQM-RDF knowledge graph (KG). The KG contains data about 47,814 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
+This repository contains the material associated with the publication [tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes (Cibinel et al., 2026)](https://arxiv.org/abs/2602.07091). The KG contains data about 47,814 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
 
 _Download links are available below_
 
@@ -19,5 +19,6 @@ In particular, this repository contains the [code used to generate the data](/da
 
 # References
 - Balcells, D. and B. B. Skjelstad (2020). Tmqm dataset-quantum geometries and properties of 86k transition metal complexes. *Journal of Chemical Information and Modeling 60.*
+- Cibinel, L., T. Linjordet, J. Pensar, D. Balcells, R. De Bin, and B. Ell (2026). tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes. *arXiv preprint*,	arXiv:2602.07091.
 - Kneiding, H., R. Lukin, L. Lang, S. Reine, T. B. Pedersen, R. De Bin, and D. Balcells (2023). Deep learning metal complex properties with natural quantum graphs. *Digital Discovery 2*, 618–633.
 - Kneiding, H., A. Nova, and D. Balcells (2024). Directional multiobjective optimization of metal complexes at the billion-system scale. *Nature Computational Science 4*, 263–273.
