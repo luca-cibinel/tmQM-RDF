@@ -16,7 +16,7 @@ import re
 
 from collections import Counter
 
-DATASET_VERSION = "v2025dev"
+DATASET_VERSION = "v1.0"
 
 INPUT_FILES = {
         "pubchem": os.path.join(ROOT_DIR, "data", "raw", "pubChem", "data", "PubChemElements_all.csv"),

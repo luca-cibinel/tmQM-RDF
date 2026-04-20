@@ -20,13 +20,15 @@ import pandas as pd
 import numpy as np
 import cairosvg
 
-DATASET_VERSION = "v2025dev"
+DATASET_VERSION = "v1.0"
 
 TMQMG = {
-        "v2025dev": "v74.637k"    
+        "v2025dev": "v74.637k",
+        "v1.0": "v74.548k"    
     }
 TMQMGL = {
-        "v2025dev": "v60k"    
+        "v2025dev": "v60k",
+        "v1.0": "v74k"    
     }
 
 INPUT_FILES = {

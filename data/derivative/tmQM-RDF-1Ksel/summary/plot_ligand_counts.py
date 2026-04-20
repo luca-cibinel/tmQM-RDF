@@ -23,14 +23,16 @@ import numpy as np
 import cairosvg
 import re
 
-DATASET_VERSION = "v2025dev"
+DATASET_VERSION = "v1.0"
 
 TMQMG = {
-        "v2025dev": "v74.637k"
+        "v2025dev": "v74.637k",
+        "v1.0": "v74.548k"
     }
 
 TMQMGL= {
-        "v2025dev": "v60k"
+        "v2025dev": "v60k",
+        "v1.0": "v74k"
     }
 
 INPUT_FILES = {
@@ -399,8 +401,16 @@ def plot_ligands(tm_mode, ligand_count, ligand_count_no_rep, n_lig_to_highlight 
             ligand_smiles += [
                 ligand_info.loc[ligand_info["name"] == sorted_lig_names[i], "smiles"].iloc[0]
             ]
-            
-        ligands_as_mol = [Chem.MolFromSmiles(smiles) for smiles in ligand_smiles]
+
+        def safe_smiles_to_mol(smiles):
+            m = Chem.MolFromSmiles(smiles, sanitize = True)
+            if m is None:
+                m = Chem.MolFromSmiles(smiles, sanitize = False)
+                m = Chem.RemoveHs(m, sanitize = False)
+
+            return m
+
+        ligands_as_mol = [safe_smiles_to_mol(smiles) for smiles in ligand_smiles]
         
         # Plot
         img = Draw.MolsToGridImage(
