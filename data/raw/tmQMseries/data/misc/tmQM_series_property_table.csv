@@ -1,32 +1,92 @@
-property_key;property_name;dataset;optimisation;singlepoint
-electronic_energy;Electronic energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-dispersion_energy;Dispersion energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-homo_energy;HOMO energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-lumo_energy;LUMO energy;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-homo_lumo_gap;HOMO-LUMO gap;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-dipole_moment;Dipole moment;tmQMg;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-polarisability;Polarizability;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-lowest_vibrational_frequency;Lowest vibrational frequency;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-highest_vibrational_frequency;Highest vibrational frequency;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-enthalpy_energy;Enthalpy;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-gibbs_energy;Gibbs energy;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-zpe_correction;ZPE correction;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-heat_capacity;Heat capacity;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-entropy;Entropy;tmQMg;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-electronic_energy;Electronic energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-dispersion_energy;Dispersion energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-homo_energy;HOMO energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-lumo_energy;LUMO energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-homo_lumo_gap;HOMO-LUMO gap;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-dipole_moment;Dipole moment;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-metal_node_natural_charge;Metal charge;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
-polarisability;Polarizability;tmQM;GFN2-xTB;GFN2-xTB
-metal_bound_homo_energy;HOMO energy;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-metal_bound_lumo_energy;LUMO energy;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-homo_lumo_gap;HOMO-LUMO gap;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-dipole_moment;Dipole moment;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-TZVP
-polarisability;Polarizability;tmQMg-L;PBE-D3BJ/def2-SVP;PBE0-D3BJ/def2-SVP
-largest_frequency;Highest vibrational frequency;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-molar_volume;Molar volume;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-I1_over_I3;Moments of inertia;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
-I2_over_I3;Moments of inertia;tmQMg-L;PBE-D3BJ/def2-SVP;PBE-D3BJ/def2-SVP
+property_key;dataset;optimisation;singlepoint
+metal_node_natural_charge;tmQM;;TPSSh-D3BJ/def2-SVP
+electronic_energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+homo_lumo_gap;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+dipole_moment;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+polarisability;tmQM;GFN2-xTB;
+dispersion_energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+lumo_energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+homo_energy;tmQM;GFN2-xTB;TPSSh-D3BJ/def2-SVP
+metal_node_degree;tmQM;GFN2-xTB;
+valency_index;tmQM;;TPSSh-D3BJ/def2-SVP
+natural_atomic_charge;tmQM;;TPSSh-D3BJ/def2-SVP
+wiberg_bond_order;tmQM;;TPSSh-D3BJ/def2-SVP
+entropy;tmQMg;PBE_D3BJ__def2_SVP;
+lowest_vibrational_frequency;tmQMg;PBE_D3BJ__def2_SVP;
+gibbs_energy;tmQMg;PBE_D3BJ__def2_SVP;
+zpe_correction;tmQMg;PBE_D3BJ__def2_SVP;
+electronic_energy;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+dispersion_energy;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+lumo_energy;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+heat_capacity;tmQMg;PBE_D3BJ__def2_SVP;
+dipole_moment;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+highest_vibrational_frequency;tmQMg;PBE_D3BJ__def2_SVP;
+enthalpy_energy;tmQMg;PBE_D3BJ__def2_SVP;
+homo_energy;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+homo_lumo_gap;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+polarisability;tmQMg;PBE_D3BJ__def2_SVP;
+bond_max_d_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_pair_max_energy;tmQMg;;PBE0_D3BJ__def2_TZVP
+bond_max_p_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_pair_energy_min_max_difference;tmQMg;;PBE0_D3BJ__def2_TZVP
+n_lone_vacancies;tmQMg;;PBE0_D3BJ__def2_TZVP
+antibond_min_s_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_vacancy_energy_min_max_difference;tmQMg;;PBE0_D3BJ__def2_TZVP
+n_lone_pairs;tmQMg;;PBE0_D3BJ__def2_TZVP
+n_electrons;tmQMg;;PBE0_D3BJ__def2_TZVP
+antibond_energy_min_max_difference;tmQMg;;PBE0_D3BJ__def2_TZVP
+n_bn;tmQMg;;PBE0_D3BJ__def2_TZVP
+wiberg_bond_order;tmQMg;;PBE0_D3BJ__def2_TZVP
+natural_electron_configuration_d_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_pair_max_p_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+natural_electron_configuration_s_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_vacancy_min_d_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+antibond_min_energy;tmQMg;;PBE0_D3BJ__def2_TZVP
+bond_distance;tmQMg;PBE_D3BJ__def2_SVP;
+lone_vacancy_min_energy;tmQMg;;PBE0_D3BJ__def2_TZVP
+antibond_min_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+enthalpy_energy_correction;tmQMg;PBE_D3BJ__def2_SVP;
+natural_atomic_charge;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_pair_max_d_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+bond_max_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+electronic_energy_delta;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_vacancy_min_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+natural_electron_population_valence;tmQMg;;PBE0_D3BJ__def2_TZVP
+dispersion_energy_delta;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+natural_electron_configuration_p_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+gibbs_energy_correction;tmQMg;PBE_D3BJ__def2_SVP;
+nbo_type;tmQMg;;PBE0_D3BJ__def2_TZVP
+n_nbn;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_vacancy_min_s_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_vacancy_min_p_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+dipole_moment_delta;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+homo_lumo_gap_delta;tmQMg;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+antibond_min_d_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+antibond_min_p_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_pair_max_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+bond_max_energy;tmQMg;;PBE0_D3BJ__def2_TZVP
+lone_pair_max_s_occupation;tmQMg;;PBE0_D3BJ__def2_TZVP
+bond_energy_min_max_difference;tmQMg;;PBE0_D3BJ__def2_TZVP
+homo_lumo_gap;tmQMg-L;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+polarisability;tmQMg-L;PBE_D3BJ__def2_SVP;
+molar_volume;tmQMg-L;;PBE_D3BJ__def2_SVP
+largest_frequency;tmQMg-L;PBE_D3BJ__def2_SVP;
+metal_bound_lumo_energy;tmQMg-L;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+dipole_moment;tmQMg-L;PBE_D3BJ__def2_SVP;PBE0_D3BJ__def2_TZVP
+I2_over_I3;tmQMg-L;PBE_D3BJ__def2_SVP;
+metal_bound_homo_energy;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+I1_over_I3;tmQMg-L;PBE_D3BJ__def2_SVP;
+metal_bound_lumo_d;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_lumo_p;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_homo_p;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+haptic_element_counts;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+n_dentic_bound;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_lumo_f;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+n_haptic_bound;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_homo_s;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_homo_f;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_homo_d;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+dentic_element_counts;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+n_metal_bound;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+is_alternative_charge;tmQMg-L;;PBE0_D3BJ__def2_TZVP
+metal_bound_lumo_s;tmQMg-L;;PBE0_D3BJ__def2_TZVP
