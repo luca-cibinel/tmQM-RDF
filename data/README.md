@@ -1,4 +1,4 @@
-This directory contains all the code needed to download, manage and process the data used in the creation of tmQM-RDF. The creation of tmQM-RDF requires the avilability of the tmQM dataset series(see the [main page](/README.md)), hence [appropriate code](/data/raw/tmQMseries/download_data.py) is provided in order to download and store all the required material. The same applies to other prerequisite material (see below).
+This directory contains all the code needed to download, manage and process the data used in the creation of tmQM-RDF, beside of course tmQM-RDF itself. The creation of tmQM-RDF requires the avilability of the tmQM dataset series(see the [main page](/README.md)), hence [appropriate code](/data/raw/tmQMseries/download_data.py) is provided in order to download and store all the required material. The same applies to other prerequisite material (see below).
 
 The derivative dataset tmQM-RDF and the two selections (_lateTM_ and _earlyTM_) are created using the code indexed below.
 
