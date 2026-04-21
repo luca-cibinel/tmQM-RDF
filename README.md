@@ -1,5 +1,5 @@
 # tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes
-This repository contains the material associated with the publication [tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes (Cibinel et al., 2026)](https://arxiv.org/abs/2602.07091). The KG contains data about 47,814 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
+This is the companion repository of the publication "[tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes](https://arxiv.org/abs/2602.07091)" (Cibinel et al., 2026). The knowledge graph (KG) contains data about 59,143 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
 
 _Download links are available below_
 
@@ -7,8 +7,9 @@ _Download links are available below_
 ![tmQM-RDF-2](/tmQM-RDF-2.png)
 
 ## Download links
- - **v2025dev**: development version [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)] [documentation]
-
+ - **v2025dev**: development version (47,814 TMCs) [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)]
+ - **v1.0**: first official release (59,143 TMCs) [coming soon]
+   
 ## Release history:
  - September 2025, *v2025dev*: the development version of tmQM-RDF developed in 2025. All the experiments described in the paper are performed on this version of the dataset. The main features of this version are:
    - It relies on the 2024 release of tmQM, the v74k (September 2024) release of tmQMg and the v60k release of tmQMg-L.
