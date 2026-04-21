@@ -26,3 +26,11 @@ See [reconstruction](/computational/reconstruction).
     2. [Compute aggregated features and feature probabilities](/computational/reconstruction/4_compute_scores.py)
     3. [Rank reconstruction](/computational/reconstruction/5_compute_rankings.py)
     4. [Visualise results](/computational/reconstruction/6_plot_results.py)
+
+# Case studies
+See [reconstruction/case_studies](/computational/reconstruction/case_studies).
+1. [Create molecular scaffolds](/computational/reconstruction/case_studies/cs1_process_scaffolds.py)
+2. [Create reconstructions](/computational/reconstruction/case_studies/cs1_process_scaffolds.py)
+3. [Compute elementary features](/computational/reconstruction/case_studies/cs2_compute_matches.py)
+4. [Compute aggregated features and feature probabilities](/computational/reconstruction/case_studies/cs3_compute_scores.py)
+5. [Visualise results](/computational/reconstruction/case_studies/cs4_plot_reconstructions.py)
