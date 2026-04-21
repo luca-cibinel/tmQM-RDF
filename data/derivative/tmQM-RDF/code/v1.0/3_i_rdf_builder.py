@@ -900,7 +900,7 @@ def build_tmc(tmc_id, ligands_atlas, tmQM_series_property_table):
     """
     --------------- ATOMIC LEVEL ---------------
     """
-    atomic_triples, atom_atlas, reference_element_set, a_property_atlas = build_atomic_level(tmc_id, tmQM_g, tmQMg_g)
+    atomic_triples, atom_atlas, reference_element_set, a_property_atlas = build_atomic_level(tmc_id, tmQM_g, tmQMg_g, tmQM_series_property_table)
     property_atlas.update(a_property_atlas)
     
     """
