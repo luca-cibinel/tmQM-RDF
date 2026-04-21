@@ -7,8 +7,8 @@ _Download links are available below_
 ![tmQM-RDF-2](/tmQM-RDF-2.png)
 
 ## Download links
- - **v2025dev**: development version (47,814 TMCs) [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)]
- - **v1.0**: first official release (59,143 TMCs) [coming soon]
+ - 🏗️ **v2025dev**: development version (47,814 TMCs) [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)]
+ - ✅ **v1.0**: first official release (59,143 TMCs) [coming soon]
    
 ## Release history:
  - September 2025, *v2025dev*: the development version of tmQM-RDF developed in 2025. All the experiments described in the paper are performed on this version of the dataset. The main features of this version are:
