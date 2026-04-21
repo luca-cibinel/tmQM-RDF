@@ -1,11 +1,11 @@
 This document contains information on the data processing pipeline that is involved in the creation of tmQM-RDF.
 
-**Note:**
- - This pipeline relies on the data coming from the tmQM series and other sources. To acquire the data, run the scripts `download_data.py` in the subfolders of [/data/raw/](/data/raw/).
- - The pipeline is virtually identical for all the versions of tmQM-RDF, unless otherwise specified
+> [!NOTE]
+> - This pipeline relies on the data coming from the tmQM series and other sources. To acquire the data, run the scripts `download_data.py` in the subfolders of [/data/raw/](/data/raw/).
+> - The pipeline is virtually identical for all the versions of tmQM-RDF, unless otherwise specified
 
 All of the scripts mentioned below can be found in /data/derivative/tmQM-RDF/code/[version]/. For brevity, the paths mentioned below (and within the scripts) are not the full paths, but follow the following convention:
- - Paths starting with tmQM/, /tmQMg, /tmQMg-L and /misc are to be interpreted as subpaths of /data/raw/tmQMseries](/data/raw/tmQMseries)
+ - Paths starting with tmQM/, /tmQMg, /tmQMg-L and /misc are to be interpreted as subpaths of /data/raw/tmQMseries(/data/raw/tmQMseries)
  - Paths starting with pubChem/ are to be interpreted as subpaths of [/data/raw/pubChem](/data/raw/pubChem)
  - Paths starting with intermediate/ are to be interpreted as subpaths of /data/derivative/tmQM-RDF/[version]
  - Paths starting with data/ are to be interpreted as subpaths of /data/derivative/tmQM-RDF/data/[version]
