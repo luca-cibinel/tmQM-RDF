@@ -216,7 +216,7 @@ def helper_write_prefixes():
     triples = []
     
     path = lambda m: m()
-    prefixes = sorted([getattr(pfx, m) for m in dir(pfx) if not m.startswith("__")], key = path)
+    prefixes = sorted([getattr(pfx, m) for m in dir(pfx) if not m.startswith("_")], key = path)
     
     for p in prefixes:
         triples += ["@prefix " + p("") + " <" + p() + "> ."]
@@ -2182,7 +2182,7 @@ def assemble_tbox(tmc_property_atlas, lig_property_atlas, atom_property_atlas):
         
         triples += raw_triples
         
-        path = getattr(pfx, prefix)().replace(pfx.__root(), "").split("/")
+        path = getattr(pfx, prefix)().replace(pfx._root(), "").split("/")
         path = os.path.join(OUTPUT_FILES["tmQM_RDF_TBox"], *path)
         
         if not os.path.exists(path):

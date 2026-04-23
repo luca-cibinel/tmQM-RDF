@@ -11,252 +11,252 @@ Prefix logic:
         w, u: denote, respectively, the second and third sublevel (p = properties, r = reference; ... first letter) (if available)
 """
 
-def __root(item = None):
+def _root(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/'
+		 return 'https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/'
 
 	raise Exception("root URI should not be used as a standalone!")
 
 def ms(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/misc'
+		 return _root() + 'misc/'
 
 	return "ms:" + item
 
 def nm(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/numerical/'
+		 return _root() + 'numerical/'
 
 	return 'nm:' + item
 
 
 def ds(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/datasets/'
+		 return _root() + 'datasets/'
 
 	return 'ds:' + item
 
 
 def dsC(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/datasets/complexes/'
+		 return _root() + 'datasets/complexes/'
 
 	return 'dsC:' + item
 
 
 def dsG(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/datasets/graphs/'
+		 return _root() + 'datasets/graphs/'
 
 	return 'dsG:' + item
 
 
 def dsL(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/datasets/ligands/'
+		 return _root() + 'datasets/ligands/'
 
 	return 'dsL:' + item
 
 
 def cm(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/complex/'
+		 return _root() + 'complex/'
 
 	return 'cm:' + item
 
 
 def cmT(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/complex/TMC/'
+		 return _root() + 'complex/TMC/'
 
 	return 'cmT:' + item
 
 
 def cmTp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/complex/TMC/property/'
+		 return _root() + 'TMC/property/'
 
 	return 'cmTp:' + item
 
 
 def lg(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/'
+		 return _root() + 'ligand/'
 
 	return 'lg:' + item
 
 
 def lgC(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/centre/'
+		 return _root() + 'ligand/centre/'
 
 	return 'lgC:' + item
 
 
 def lgCp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/centre/property/'
+		 return _root() + 'ligand/centre/property/'
 
 	return 'lgCp:' + item
 
 
 def lgCr(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/centre/reference/'
+		 return _root() + 'ligand/centre/reference/'
 
 	return 'lgCr:' + item
 
 
 def lgCrp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/centre/reference/property/'
+		 return _root() + 'ligand/centre/reference/property/'
 
 	return 'lgCrp:' + item
 
 
 def lgL(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/ligand/'
+		 return _root() + 'ligand/ligand/'
 
 	return 'lgL:' + item
 
 
 def lgLp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/ligand/property/'
+		 return _root() + 'ligand/ligand/property/'
 
 	return 'lgLp:' + item
 
 
 def lgLr(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/ligand/reference/'
+		 return _root() + 'ligand/ligand/reference/'
 
 	return 'lgLr:' + item
 
 
 def lgLrp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/ligand/reference/property/'
+		 return _root() + 'ligand/ligand/reference/property/'
 
 	return 'lgLrp:' + item
 
 
 def lgLrm(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/ligand/reference/motif/'
+		 return _root() + 'ligand/ligand/reference/motif/'
 
 	return 'lgLrm:' + item
 
 
 def lgLro(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/ligand/reference/occurrence/'
+		 return _root() + 'ligand/ligand/reference/occurrence/'
 
 	return 'lgLro:' + item
 
 
 def lgB(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/bond/'
+		 return _root() + 'ligand/bond/'
 
 	return 'lgB:' + item
 
 
 def lgBp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/bond/property/'
+		 return _root() + 'ligand/bond/property/'
 
 	return 'lgBp:' + item
 
 
 def lgBr(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/bond/reference/'
+		 return _root() + 'ligand/bond/reference/'
 
 	return 'lgBr:' + item
 
 
 def lgBrp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/bond/reference/property/'
+		 return _root() + 'ligand/bond/reference/property/'
 
 	return 'lgBrp:' + item
 
 
 def lgS(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/ligand/structure/'
+		 return _root() + 'ligand/structure/'
 
 	return 'lgS:' + item
 
 
 def tm(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/'
+		 return _root() + 'atomic/'
 
 	return 'tm:' + item
 
 
 def tmA(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/atom/'
+		 return _root() + 'atomic/atom/'
 
 	return 'tmA:' + item
 
 
 def tmAp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/atom/property/'
+		 return _root() + 'atomic/atom/property/'
 
 	return 'tmAp:' + item
 
 
 def tmAr(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/atom/reference/'
+		 return _root() + 'atomic/atom/reference/'
 
 	return 'tmAr:' + item
 
 
 def tmArp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/atom/reference/property/'
+		 return _root() + 'atomic/atom/reference/property/'
 
 	return 'tmArp:' + item
 
 
 def tmB(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/bond/'
+		 return _root() + 'atomic/bond/'
 
 	return 'tmB:' + item
 
 
 def tmBp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/bond/property/'
+		 return _root() + 'atomic/bond/property/'
 
 	return 'tmBp:' + item
 
 
 def tmBr(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/bond/reference/'
+		 return _root() + 'atomic/bond/reference/'
 
 	return 'tmBr:' + item
 
 
 def tmBrp(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/bond/reference/property/'
+		 return _root() + 'atomic/bond/reference/property/'
 
 	return 'tmBrp:' + item
 
 
 def tmS(item = None):
 	if item is None:
-		 return 'resource://integreat/p5/atomic/structure/'
+		 return _root() + 'atomic/structure/'
 
 	return 'tmS:' + item
 
