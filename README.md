@@ -5,10 +5,10 @@
 This is the companion repository of the publication "[tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes](https://arxiv.org/abs/2602.07091)" (Cibinel et al., 2026). The knowledge graph (KG) contains data about 59,143 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
 
 ## Release hisitory
- - ✅ April 2026, **v1.0** [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/23042026)]: the first official release of tmQM-RDF. The main features of this version are:
+ - ![Static Badge](https://img.shields.io/badge/latest-green) April 2026, **v1.0** [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/23042026)]: the first official release of tmQM-RDF. The main features of this version are:
    - it relies on the 2025 release of tmQM, the [v74.548k release of tmQMg](https://data.archive.sigma2.no/dataset/4f94f626-b18c-458c-946f-d7052bb05982/download/u-NatQ_graphs.zip) and the v74k release of tmQMg-L;
    - URIs are resolvable and will redirect to [https://www.integreat.no/research/rdf/tmqm-rdf-dataset](https://www.integreat.no/research/rdf/tmqm-rdf-dataset).
- - 🏗️ September 2025, **v2025dev** [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)]: the development version of tmQM-RDF developed in 2025. All the experiments described in the paper are performed on this version of the dataset. The main features of this version are:
+ - ![Static Badge](https://img.shields.io/badge/pre--release-orange) September 2025, **v2025dev** [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)]: the development version of tmQM-RDF developed in 2025. All the experiments described in the paper are performed on this version of the dataset. The main features of this version are:
    - it relies on the 2024 release of tmQM, the [v74.637k release of tmQMg](https://data.archive.sigma2.no/dataset/cc354a73-7398-487f-83f8-4166caa8cc09/download/nird/home/hanneskn/tmQMg/uNatQ_graphs.zip) and the v60k release of tmQMg-L;
    - non resolvable URIs.
 
