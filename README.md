@@ -75,6 +75,11 @@ We report here an example of the RDF encoding of a TMC. We consider in particula
 >	&emsp; ...  
 >	&emsp; ...
 
+# Data security and scope
+The authors confirm that tmQM-RDF has been created using publicly available data and that the resource does not provide any direct access point to the original datasets.
+
+This work has been conducted entirely within the scope of a PhD fellowship at the University of Oslo.
+
 # References
 - Balcells, D. and B. B. Skjelstad (2020). Tmqm dataset-quantum geometries and properties of 86k transition metal complexes. *Journal of Chemical Information and Modeling 60.*
 - Cibinel, L., T. Linjordet, J. Pensar, D. Balcells, R. De Bin, and B. Ell (2026). tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes. *arXiv preprint*,	arXiv:2602.07091.
