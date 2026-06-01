@@ -15,10 +15,13 @@ import sys
 sys.path.append(os.path.join(ROOT_DIR, "computational", "bayesian_network"))
 sys.path.append(os.path.join(ROOT_DIR, "data", "derivative", "tmQM-RDF", "interface"))
 
+import re
 import numpy as np
 import pandas as pd
 #import tmQM_RDF_interface as tmint
 
+from collections import Counter
+from openbabel import openbabel, pybel
 from tqdm import tqdm
 
 INPUT_FILES = {
@@ -30,11 +33,11 @@ INPUT_FILES = {
 
 OUTPUT_FILES = {
         "results": os.path.join(ROOT_DIR, "computational", "reconstruction", "results", "%s", "ranks"),
-        # "reconstructions_figures": os.path.join(ROOT_DIR, "computational", "reconstruction", "results", "%s", "figures", "probable_reconstructions")
+        "reconstructions_figures": os.path.join(ROOT_DIR, "computational", "reconstruction", "results", "%s", "figures", "probable_reconstructions")
     }
 
 # Main component of dataset_tag = {dataset_short_comment}__s_{size_range[0]}_{size_range[1]}
-TM_MODE = "lateTM"
+#TM_MODE = "earlyTM"
 DATASET_SHORT_ID = "latmod" # Ligand ATtachment MODes
 
 # Range of sizes of interes (extremes included)
@@ -79,8 +82,32 @@ def identify_working_paths(dataset_tag, scores_file_name):
         
     return selected
 
-def retrieve_ligand_filtering_info():
-    ligands = [x.split(".")[0] for x in os.listdir(os.path.join(INPUT_FILES["ligands"] % TM_MODE, "train")) if x.endswith(".nt")]
+def compute_binding_modalities(tm_mode):
+    ligands = [x.split(".")[0] for x in os.listdir(os.path.join(INPUT_FILES["ligands"] % tm_mode, "train")) if x.endswith(".nt")]
+
+    misc_info = pd.read_csv(INPUT_FILES["ligands_misc_info"], sep = ";")
+
+    def binding_modality(lig_id):
+        smiles = misc_info.loc[misc_info["name"] == lig_id, "smiles"].item()
+
+        bindings = eval(misc_info.loc[misc_info["name"] == lig_id, "smiles_metal_bond_node_idx_groups"].item())
+        mol = pybel.readstring("smi", smiles)
+        atoms = [openbabel.GetSymbol(a.atomicnum) for a in mol.atoms]
+
+        processed_bindings = []
+        for bs in bindings:
+            processed_bindings += [[atoms[i] for i in bs]]
+
+        return "-".join(sorted(
+                        [
+                            ''.join(sorted([a.capitalize() for a in bs])) for bs in processed_bindings
+                        ]
+                    ))
+
+    return {lig_id: binding_modality(lig_id) for lig_id in ligands}
+
+def retrieve_ligand_filtering_info(tm_mode):
+    ligands = [x.split(".")[0] for x in os.listdir(os.path.join(INPUT_FILES["ligands"] % tm_mode, "train")) if x.endswith(".nt")]
     
     misc_info = pd.read_csv(INPUT_FILES["ligands_misc_info"], sep = ";")
     descriptors = pd.read_csv(INPUT_FILES["ligands_fingerprints"], sep = ";")
@@ -97,17 +124,18 @@ def retrieve_ligand_filtering_info():
         for l in ligands
         }
 
-def compute_rankings():
+def compute_rankings(tm_mode):
     # Assemble dataset tag
     if SIZE_RANGE[1] > SIZE_RANGE[0]:
         size_tag = f"s_{SIZE_RANGE[0]}_{SIZE_RANGE[1]}"
     else:
         size_tag = f"s_{SIZE_RANGE[0]}"
     
-    dataset_tag = f"{TM_MODE}-{DATASET_SHORT_ID}-{size_tag}"
+    dataset_tag = f"{tm_mode}-{DATASET_SHORT_ID}-{size_tag}"
     
-    # Get filtering info
-    ligands_filtering_info = retrieve_ligand_filtering_info()
+    # Get modalities/filtering info
+    ligands_modalities = compute_binding_modalities(tm_mode)
+    ligands_filtering_info = retrieve_ligand_filtering_info(tm_mode)
     
     # Get working paths
     working_paths = identify_working_paths(dataset_tag, SETTINGS["scores_file_name"])
@@ -133,35 +161,44 @@ def compute_rankings():
                                 if info[fltr] == ligands_filtering_info[ligand_gt][fltr]
                             ]
                         
-                        if wp == working_paths[0]:
-                            recon_sizes[fltr] += [len(viable_ligands)]
-                        
                         loc_scores = {
                                 r: s 
                                 for r, s in recon_scores.items()
                                 if r.split("_")[-1] in viable_ligands
                             }
+
+                        sscores = sorted(set(loc_scores.values()), reverse = True)
                         
-                        uscores = np.sort(np.unique(list(loc_scores.values())))
-                    
-                        gt_score = recon_scores[ground_truth]
-                        gt_rank = np.argmin(np.abs(uscores - gt_score))
-                        
+                        # With regards to the notation used in Saha et al. (2022):
+                        #  c[sscores[i]] = n_{i + 1} = number of items at rank i
+                        #    (Ranks start from 1, indexes start from 0, hence why scores_to_level introduces a +1 shift)
+                        #  N[i] = N_i = total number of items retrieved up to rank i (included)
+                        c = {
+                            s: len(set([
+                                ligands_modalities[recon_name.split("__")[1]] for recon_name, x in loc_scores.items() if x == s
+                            ])) 
+                            for s in sscores
+                        }
+                        #c = Counter(loc_scores.values())
+
+                        scores_to_level = {
+                            s: i + 1 for i, s in enumerate(sscores)
+                        }
+
+                        N = {
+                            i + 1: sum([c[x] for x in sscores if x >= sscores[i]])
+                            for i in range(len(c))
+                        }
+
+                        N[0] = 0
+
+                        correct_level = scores_to_level[recon_scores[ground_truth]]
+
                         tmc_code = ground_truth.split("_")[0]
-                        ranks[fltr][wp][tmc_code] = len(uscores) - gt_rank
-                           
-                    # Save figures
-                    # fig_folder = os.path.join(os.path.join(OUTPUT_FILES["reconstructions_figures"] % dataset_tag, wp))
-                    # tmint.TmQMRDFInterface.path_to_tmQM_RDF = os.path.join(INPUT_FILES["reconstructions"] % TM_MODE, recon, "graphs")
-                    
-                    # if not os.path.exists(fig_folder):
-                    #     os.makedirs(fig_folder)
-                    
-                    # for i, k in enumerate(np.array(list(loc_scores.keys()))[perm][-SETTINGS["figures_per_recon"]:]):
-                    #     tmint.TmQMRDFGraph(k).render(
-                    #         filename = os.path.join(fig_folder, f"{SETTINGS['figures_per_recon'] - i}__{k.replace('-','_')}"), 
-                    #         layout = "neato"
-                    #     )
+                        ranks[fltr][wp][tmc_code] = (N[correct_level - 1], c[recon_scores[ground_truth]])
+                        
+                        if wp == working_paths[0]:
+                            recon_sizes[fltr] += [len(viable_ligands)]
     
     for fltr in SETTINGS["filters"]:
         results_folder = os.path.join(OUTPUT_FILES["results"] % dataset_tag, fltr)
@@ -177,5 +214,5 @@ def compute_rankings():
         
 # %% Main statement
 if __name__ == "__main__":
-    #tmint.TmQMRDFGraph.path_to_chem_info = INPUT_FILES["periodic_table"]
-    compute_rankings()
+    compute_rankings("lateTM")
+    compute_rankings("earlyTM")
