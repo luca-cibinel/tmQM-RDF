@@ -115,3 +115,4 @@ ligand,lgLrp,sasa_volume_stable,Ligand SASA volume (stable),Ligand SASA volume (
 ligand,lgLrp,metal_bound_homo_d,d orbital character of metal-bound HOMO,d orbital character of metal-bound HOMO
 ligand,lgLrp,metal_bound_homo_s,s orbital character of metal-bound HOMO,s orbital character of metal-bound HOMO
 ligand,lgLrp,energy,Energy,The energy of the ligand
+ligand,lgLrp,denticity_hapticity_orders, Denticity/hapticity orders,The list of denticity and/or hapticity orders of the ligand
