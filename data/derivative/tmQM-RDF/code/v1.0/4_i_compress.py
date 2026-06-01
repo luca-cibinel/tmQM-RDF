@@ -16,7 +16,7 @@ while not ".prj_root" in os.listdir(ROOT_DIR):
 import zipfile
 import re
 
-DATA = os.path.join(ROOT_DIR, "data", "derivative", "tmQM-RDF", "data", "v2025dev")
+DATA = os.path.join(ROOT_DIR, "data", "derivative", "tmQM-RDF", "data", "v1.0")
 RDFS_HEADER_PATTERN = "tmQM-RDFS-.\\.ttl"
 
 # %% Utility functions

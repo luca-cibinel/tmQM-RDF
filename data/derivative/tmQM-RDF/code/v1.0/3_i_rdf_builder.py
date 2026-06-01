@@ -555,8 +555,8 @@ def build_ligand_level(tmc_id, tmc_ligands, ligand_atlas, atom_atlas, metal_cent
 
     Arguments:
         - tmc_id: the CSD code of the TMC to build
-        - tmc_ligands: the pandads.Dataframe version of intermediate/tmQMg-L/ligands_atoms_idx.csv (built by 1_i_encode_ligand_subgraphs.py)
-        - ligand_atlas: the pandads.Dataframe version of intermediate/tmQMg-L/uNatQ_graphs/XXYYZZ.csv (built by 1_ii_encode_ligand_structure.py)
+        - tmc_ligands: the pandads.Dataframe version of intermediate/tmQMg-L/uNatQ_graphs/XXYYZZ.csv (built by 1_ii_encode_ligand_structure.py)
+        - ligand_atlas: the pandads.Dataframe version of intermediate/tmQMg-L/ligands_atoms_idx.csv (built by 1_i_encode_ligand_subgraphs.py)
         - atom_atlas: the atom atlas returned by build_atomic_level
         - metal_center_element: a string representing the chemical element of the metal centre
 
