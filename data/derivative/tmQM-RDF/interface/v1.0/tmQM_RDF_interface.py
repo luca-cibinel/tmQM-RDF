@@ -54,7 +54,7 @@ class TmQMRDF(collections.UserDict):
     Additional category-specific attributes may be available. Specifically, TMCs expose the following attributes:
         - atoms: a list of pairs (atom_name, atom_element), where
             - atom_name is the name of the object representing the atom, intended
-                as the last element on the URI path (e.g. if the URI is resource://integreat/p5/atomic/atom/XXYYZZ_El1,
+                as the last element on the URI path (e.g. if the URI is https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/atomic/atom/XXYYZZ_El1,
                 the name is XXYYZZ_El1)
             - atom_element is the chemical symbol of the element of the atom, again, extracted as the last element
                 of the URI path of the element object
@@ -274,7 +274,7 @@ class _TMC(_TmQMRDFSubgraph):
         Returns:
             A list of pairs (atom_name, atom_element), where
                 - atom_name is the name of the object representing the atom, intended
-                    as the last element on the URI path (e.g. if the URI is resource://integreat/p5/atomic/atom/XXYYZZ_El1,
+                    as the last element on the URI path (e.g. if the URI is https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/atomic/atom/XXYYZZ_El1,
                     the name is XXYYZZ_El1)
                 - atom_element is the chemical symbol of the element of the atom, again, extracted as the last element
                     of the URI path of the element object
@@ -283,7 +283,7 @@ class _TMC(_TmQMRDFSubgraph):
         retrieve_atoms = """
             SELECT DISTINCT ?atom ?element
             WHERE {
-                ?atom <resource://integreat/p5/atomic/atom/isAtom> ?element .
+                ?atom <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/atomic/atom/isAtom> ?element .
             }
             """
             
@@ -306,8 +306,8 @@ class _TMC(_TmQMRDFSubgraph):
         retrieve_bonds = """
             SELECT DISTINCT ?first ?second
             WHERE {
-                   ?first <resource://integreat/p5/atomic/structure/b> ?bnd .
-                   ?second <resource://integreat/p5/atomic/structure/b> ?bnd .
+                   ?first <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/atomic/structure/b> ?bnd .
+                   ?second <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/atomic/structure/b> ?bnd .
                    
                    FILTER (?first != ?second)
             }
@@ -349,8 +349,8 @@ class _TMC(_TmQMRDFSubgraph):
         retrieve_ligands = """
             SELECT DISTINCT ?ligand ?atom ?ligand_type
             WHERE {
-                ?ligand <resource://integreat/p5/ligand/ligand/hasAtom> ?atom .   
-                ?ligand <resource://integreat/p5/ligand/ligand/isLigand> ?ligand_type .
+                ?ligand <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/ligand/ligand/hasAtom> ?atom .   
+                ?ligand <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/ligand/ligand/isLigand> ?ligand_type .
             }
             """
             
@@ -372,8 +372,8 @@ class _TMC(_TmQMRDFSubgraph):
         retrieve_centre = """
             SELECT DISTINCT ?metal_centre ?atom ?metal_centre_type
             WHERE {
-                ?metal_centre <resource://integreat/p5/ligand/centre/hasAtom> ?atom .   
-                ?metal_centre <resource://integreat/p5/ligand/centre/isMetalCentre> ?metal_centre_type .
+                ?metal_centre <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/ligand/centre/hasAtom> ?atom .   
+                ?metal_centre <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/ligand/centre/isMetalCentre> ?metal_centre_type .
             }
             """
             
@@ -435,7 +435,7 @@ class _TMC(_TmQMRDFSubgraph):
         temp = self.query("""
             SELECT ?tmc
             WHERE {
-                ?tmc <resource://integreat/p5/complex/TMC/hasMetalCentre> ?c .
+                ?tmc <https://www.integreat.no/research/rdf/tmqm-rdf-dataset/#/complex/TMC/hasMetalCentre> ?c .
             }""")
         source = next(iter(temp)).tmc
         
