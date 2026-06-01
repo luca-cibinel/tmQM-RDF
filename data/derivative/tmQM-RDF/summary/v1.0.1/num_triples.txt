@@ -1,0 +1,5 @@
+lens_tmc: avg = 10932.13276296434, sum = 646559128
+lens_lig: avg = 418.95616275616277, sum = 14106254
+lens_cntr: avg = 4.0, sum = 120
+lens_el: avg = 7.0, sum = 308
+lens_t: avg = 28.4, sum = 710
