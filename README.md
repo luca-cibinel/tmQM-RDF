@@ -1,17 +1,28 @@
 # tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes
 ![latest version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fluca-cibinel%2FtmQM-RDF-archive%2Freleases%2Flatest&query=%24.name&label=Latest&color=green)  
 [![Download link](https://img.shields.io/badge/github-DOWNLOAD-blue?logo=github)](https://github.com/luca-cibinel/tmQM-RDF-archive/releases)  
+[![Python package](https://img.shields.io/badge/Python-tmqmrdfdata-blue?logo=python)](https://pypi.org/project/tmqmrdfdata/)
 ---
 This is the companion repository of the publication "[tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes](https://arxiv.org/abs/2602.07091)" (Cibinel et al., 2026). The knowledge graph (KG) contains data about 59,143 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
 
+> [!TIP]
+> The tmQM-RDF knowledge graph can now be acessed through the `tmqmrdfdata` Python package! Check it out on [PyPI](https://pypi.org/project/tmqmrdfdata/) and install it with
+> ```
+> pip install tmqmrdfdata
+> ```
+> With `tmqmrdfdata`, you can easily download the latest version of tmQM-RDF via
+> ```python
+> tmqmrdfdata.download_tmQM_RDF_knowledge_graph(version = "latest")
+> ```
+
 ## Release hisitory
- - `v1.0.1` - June 2026 [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/01062026)]: the June 2026 path of tmQM-RDF (following peer review) !['Latest' badge](https://img.shields.io/badge/latest-green)
+ - `v1.0.1` - June 2026 [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/01062026)]: the June 2026 patch of tmQM-RDF (following peer review) !['Latest' badge](https://img.shields.io/badge/latest-green)
    - Hapticity and denticity are explicitly added as ligand species properties.
  - `v1.0` - April 2026 [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/23042026v2)]: the first official release of tmQM-RDF. 
-   - It relies on the 2025 release of tmQM, the [v74.548k release of tmQMg](https://data.archive.sigma2.no/dataset/4f94f626-b18c-458c-946f-d7052bb05982/download/u-NatQ_graphs.zip) and the v74k release of tmQMg-L;
+   - It relies on the 2025 release of tmQM (commit ece8244), the [v74.548k release of tmQMg](https://data.archive.sigma2.no/dataset/4f94f626-b18c-458c-946f-d7052bb05982/download/u-NatQ_graphs.zip) and the v74k release of tmQMg-L;
    - URIs are resolvable and will redirect to [https://www.integreat.no/research/rdf/tmqm-rdf-dataset](https://www.integreat.no/research/rdf/tmqm-rdf-dataset).
  - `v2025dev` - September 2025 [[download](https://github.com/luca-cibinel/tmQM-RDF-archive/releases/tag/07022025)]: the development version of tmQM-RDF developed in 2025. All the experiments described in the paper are performed on this version of the dataset. !['Pre release' badge](https://img.shields.io/badge/pre--release-orange)
-   - It relies on the 2024 release of tmQM, the [v74.637k release of tmQMg](https://data.archive.sigma2.no/dataset/cc354a73-7398-487f-83f8-4166caa8cc09/download/nird/home/hanneskn/tmQMg/uNatQ_graphs.zip) and the v60k release of tmQMg-L
+   - It relies on the 2024 release of tmQM (commit bb1bc1c), the [v74.637k release of tmQMg](https://data.archive.sigma2.no/dataset/cc354a73-7398-487f-83f8-4166caa8cc09/download/nird/home/hanneskn/tmQMg/uNatQ_graphs.zip) and the v60k release of tmQMg-L
    - Non resolvable URIs.
 
 ## This repository
