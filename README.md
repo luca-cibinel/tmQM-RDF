@@ -1,5 +1,5 @@
 # tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes
-![latest version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fluca-cibinel%2FtmQM-RDF-archive%2Freleases%2Flatest&query=%24.name&label=Latest&color=green)  
+![latest version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fluca-cibinel%2FtmQM-RDF-archive%2Freleases%2Flatest&query=%24.name&style=flat&label=Latest&color=green)  
 [![Download link](https://img.shields.io/badge/github-DOWNLOAD-blue?logo=github)](https://github.com/luca-cibinel/tmQM-RDF-archive/releases)  
 [![Python package](https://img.shields.io/badge/Python-tmqmrdfdata-blue?logo=python)](https://pypi.org/project/tmqmrdfdata/)
 ---
