@@ -3,7 +3,7 @@
 [![Download link](https://img.shields.io/badge/github-DOWNLOAD-blue?logo=github)](https://github.com/luca-cibinel/tmQM-RDF-archive/releases)  
 [![Python package](https://img.shields.io/badge/Python-tmqmrdfdata-blue?logo=python)](https://pypi.org/project/tmqmrdfdata/)
 ---
-This is the companion repository of the publication "[tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes](https://arxiv.org/abs/2602.07091)" (Cibinel et al., 2026). The knowledge graph (KG) contains data about 59,143 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
+This is the companion repository of the publication "[tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes](https://doi.org/10.1021/acs.jcim.6c01281)" (Cibinel et al., 2026). The knowledge graph (KG) contains data about 59,143 transition metal complexes (TMCs), obtained by coherently synthesising the information contained in the tmQM dataset series, composed of the [tmQM](https://github.com/uiocompcat/tmQM) dataset (Balcells and Skjelstad, 2020), the [tmQMg](https://github.com/uiocompcat/tmQMg) dataset (Kneiding et al, 2023) and the [tmQMg-L](https://github.com/hkneiding/tmQMg-L/tree/main?tab=readme-ov-file) dataset (Kneiding et al, 2024).
 
 > [!TIP]
 > The tmQM-RDF knowledge graph can now be acessed through the `tmqmrdfdata` Python package! Check it out on [PyPI](https://pypi.org/project/tmqmrdfdata/) and install it with
@@ -94,7 +94,7 @@ The authors confirm that tmQM-RDF has been created using publicly available data
 This work has been conducted entirely within the scope of a PhD fellowship at the University of Oslo.
 
 # References
-- Balcells, D. and B. B. Skjelstad (2020). Tmqm dataset-quantum geometries and properties of 86k transition metal complexes. *Journal of Chemical Information and Modeling 60.*
-- Cibinel, L., T. Linjordet, J. Pensar, D. Balcells, R. De Bin, and B. Ell (2026). tmQM-RDF Dataset: a Knowledge Graph Representing Transition Metal Complexes. *arXiv preprint*,	arXiv:2602.07091.
+- Balcells, D. and B. B. Skjelstad (2020). Tmqm dataset-quantum geometries and properties of 86k transition metal complexes. *Journal of Chemical Information and Modeling 60*, 6135-6146.
+- Cibinel, L., T. Linjordet, J. Pensar, D. Balcells, R. De Bin, and B. Ell (2026). tmQM-RDF Data Set: a Knowledge Graph Representing Transition Metal Complexes. *Journal of Chemical Information and Modeling 66*, 7524-7538.
 - Kneiding, H., R. Lukin, L. Lang, S. Reine, T. B. Pedersen, R. De Bin, and D. Balcells (2023). Deep learning metal complex properties with natural quantum graphs. *Digital Discovery 2*, 618–633.
 - Kneiding, H., A. Nova, and D. Balcells (2024). Directional multiobjective optimization of metal complexes at the billion-system scale. *Nature Computational Science 4*, 263–273.
